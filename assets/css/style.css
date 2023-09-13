@@ -7802,7 +7802,7 @@ img {
     color: #dc3545 !important
 }
 
-.buy-now-btn {
+/* .buy-now-btn {
     right: 20px;
     z-index: 99;
     top: 50%;
@@ -7817,7 +7817,8 @@ img {
     -webkit-box-shadow: 0 1px 20px 1px #82b440;
     box-shadow: 0 1px 20px 1px #82b440;
     font-size: 13px;
-    font-weight: 600
+    font-weight: 600;
+    display: none;
 }
 
 .buy-now-btn img {
@@ -7832,7 +7833,7 @@ img {
 .buy-now-btn:hover {
     color: var(--whiteColor);
     background-color: #94be5d
-}
+} */
 
 .footer-area {
     background-color: #f5fbf6
