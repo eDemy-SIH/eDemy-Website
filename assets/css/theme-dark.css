@@ -4,12 +4,13 @@
     --cardColor: #0e0e0e
 }
 
-/* .switch-box {
+.switch-box {
+    display: none;
     position: fixed;
     bottom: 650px;
     right: 485px;
     z-index: 99;
-} */
+}
 
 .switch-box .slider {
     position: absolute;
