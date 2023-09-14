@@ -1,0 +1,58 @@
+/* info */
+
+.select-btn{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.select-btn .btn-text{
+    font-size: 17px;
+}
+.select-btn .arrow-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    transition: 0.3s;
+}
+.hobby-items{
+    position: relative;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+.open{
+    display: block;
+}
+.open-list .arrow-down{
+    padding-right: 40px;
+    transform: rotate(180deg);
+}
+.hobby-items .hobby{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    transition: 0.2s;
+    padding: 0 15px;
+    border-radius: 8px;
+}
+.hobby-items .hobby:hover{
+    border-radius: 8px;
+    background-color: #b2dfdb;
+}
+.check{
+    cursor: pointer;
+}
+
+.hobby .hobby-text{
+    font-size: 16px;
+}
+
+
+

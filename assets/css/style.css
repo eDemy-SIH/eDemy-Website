@@ -734,7 +734,7 @@ img {
     position: absolute;
     top: 10px;
     right: 0;
-    max-width: 300px;
+    max-width: 170px;
     margin-left: auto;
     opacity: 0;
     visibility: hidden;
@@ -816,7 +816,10 @@ img {
 }
 
 .banner-content {
-    position: relative
+    position: relative;
+    @media only screen and (min-width: 991px) {
+        margin-top: -110px;
+    }
 }
 
 .banner-content h1 {
