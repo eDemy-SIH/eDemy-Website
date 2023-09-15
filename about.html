@@ -35,6 +35,8 @@
 
 <link rel="stylesheet" href="assets/css/theme-dark.css">
 
+<link rel="stylesheet" href="assets/css/ardcss.css">
+
 <title>Zoben - Job Board & Hiring HTML Template</title>
 
 <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -376,18 +378,19 @@ Post A Job <i class="ri-briefcase-2-line"></i>
 <div class="col-lg-12">
 <div class="form-group">
 <label>Which Career do you like the most ?</label>
-<select class="form-select form-control">
-    <option data-display="Engineering">Engineering</option>
-    <option value="1">Computer Engineering </option>
-    <option value="2">Automobile Engineering </option>
-    <option value="3">Chartered Accountant</option>
-    <option value="4">Cost Accountant</option>
-    <option value="5">Doctor</option>
-    <option value="6">Fashion Designer</option>
-    <option value="7">Finance</option>
-    <option value="8">Civil Servant</option>
-    <option value="9">Law</option>    
-    <option value="10">Entrepreneurship</option>
+<select class="form-select form-control" id="primint">
+    <option disabled value="0" selected>Choose Options</option>
+    <option value="1">Engineering</option>
+    <option value="2">Computer Engineering </option>
+    <option value="3">Automobile Engineering </option>
+    <option value="4">Chartered Accountant</option>
+    <option value="5">Cost Accountant</option>
+    <option value="6">Doctor</option>
+    <option value="7">Fashion Designer</option>
+    <option value="8">Finance</option>
+    <option value="9">Civil Servant</option>
+    <option value="10">Law</option>    
+    <option value="11">Entrepreneurship</option>
 </div>
 </div>
 <div class="col-lg-6 col-md-6">
@@ -406,14 +409,15 @@ Post A Job <i class="ri-briefcase-2-line"></i>
 <div class="col-lg-6 col-md-6">
 <div class="form-group select-group">
 <label>Alternate Interests *</label>
-<select class="form-select form-control">
-<option data-display="Full Time">Event Management</option>
-<option value="1">Hotel Management </option>
-<option value="2">Home Science</option>
-<option value="3">Architecture</option>
-<option value="4">Marketing</option>
-<option value="5">Physician</option>
-<option value="6">Graphic Designer</option>
+<select class="form-select form-control" id="secint">
+<option disabled value="0" selected>Choose Options</option>
+<option data-display="Full Time" value="1">Event Management</option>
+<option value="2">Hotel Management </option>
+<option value="3">Home Science</option>
+<option value="4">Architecture</option>
+<option value="5">Marketing</option>
+<option value="6">Physician</option>
+<option value="7">Graphic Designer</option>
 </select>
 </div>
 </div>
@@ -532,8 +536,8 @@ Accept <a href="terms-condition.html">Terms & Conditions</a> And <a href="privac
 </div>
 </div>
 <div class="col-lg-12 col-md-12">
-<button type="submit" class="default-btn border-radius-5">
-Submit <i class="ri-chat-4-line"></i>
+<button id="btnard" type="submit" class="default-btn border-radius-5" onclick="getOption()">
+Submit<i class="ri-chat-4-line"></i>
 </button>
 </div>
 </div>
@@ -813,6 +817,8 @@ Featured Jobs
 <script src="assets/js/contact-form-script.js"></script>
 
 <script src="assets/js/custom.js"></script>
+
+<script src="assets/js/scriptard.js"></script>
 </body>
 
 <!-- Mirrored from templates.hibootstrap.com/zoben/default/post-job.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Sep 2023 11:42:41 GMT -->

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.app {
+    background: rgb(255, 255, 255);
+    width: 85%;
+    max-width: 580px;
+    margin: 7% auto 0;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600px;
+    font-size: 23px;
+    color: rgb(31, 0, 0);
+    border-bottom: 2px solid blue;
+    padding-bottom: 25px;
+}
+
+.decsize {
+    font-size: 19px;
+}
+
+#btn4 a {
+    color: black;
+}
+
+#btn4:hover a{
+    color: white;
+}
+
+.test h2 {
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300px;
+    color: rgb(31, 0, 0);  
+    margin-bottom: 7%;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 500;
+    background: var(--bs-body-bg);
+    color: #0a0120;
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.5s;
+}
+
+.btn:hover:not([disabled]) {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next {
+    margin-top: 30px;
+}
+
+.bar {
+    margin: 20px;
+}
+
+.correct {
+    background: rgba(0, 244, 20, 0.729);
+    transition: 0.2s;
+}
+
+.incorrect {
+    background: rgba(255, 0, 0, 0.766);
+    transition: 0.2s;
+}
