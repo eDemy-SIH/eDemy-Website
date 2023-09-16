@@ -44,97 +44,96 @@ const ques = [
             {text : "D. 4", correct : false},
         ]
     },
-    {
-        question : " Which of the following words is an antonym (opposite) of ' Eloquent '?",
-        answers : [
-            {text : "A. Inarticulate", correct : true},
-            {text : "B. Fluent", correct : false},
-            {text : "C. Voluble", correct : false},
-            {text : "D. Loquacious", correct : false},
-        ]
-    },
-    {
-        question : "  Fill in the blank : If I were you, I _____ consider the job offer seriously. ",
-        answers : [
-            {text : "A. Ought", correct : false},
-            {text : "B. Can", correct : false},
-            {text : "C. Would", correct : true},
-            {text : "D. Must", correct : false},
-        ]
-    },
-    {
-        question : " Choose the synonym for the word 'Ardent' :",
-        answers : [
-            {text : "A. Lukewarm", correct : false},
-            {text : "B. Enthusiastic", correct : true},
-            {text : "C. Apathetic", correct : false},
-            {text : "D. Indifferent", correct : false},
-        ]
-    },
-    {
-        question : " Complete the analogy: 'Ocean is to water as forest is to ______.' :",
-        answers : [
-            {text : "A. Trees", correct : true},
-            {text : "B. Leaves", correct : false},
-            {text : "C. Soil", correct : false},
-            {text : "D. Mountain", correct : false},
-        ]
-    },
-    {
-        question : " Identify the grammatically incorrect sentence :",
-        answers : [
-            {text : "A. She sings beautifully.", correct : false},
-            {text : "B. They was late for the meeting.", correct : true},
-            {text : "C. He reads books every evening.", correct : false},
-            {text : "D. We have already eaten dinner.", correct : false},
-        ]
-    },
-    {
-        question : " Choose the word that best fits in the blank : His actions spoke ______ than his words.",
-        answers : [
-            {text : "A. Lighter", correct : false},
-            {text : "B. Less", correct : true},
-            {text : "C. Louder", correct : false},
-            {text : "D. Lesser", correct : false},
-        ]
-    },
-    {
-        question : " Which of the following is NOT a renewable source of energy ?",
-        answers : [
-            {text : "A. Solar power", correct : false},
-            {text : "B. Wind power", correct : false},
-            {text : "C. Natural gas", correct : true},
-            {text : "D. Hydroelectric power", correct : false},
-        ]
-    },
-    {
-        question : " What is the chemical symbol for the element oxygen ?",
-        answers : [
-            {text : "A. O", correct : true},
-            {text : "B. Ox", correct : false},
-            {text : "C. Om", correct : false},
-            {text : "D. Oz", correct : false},
-        ]
-    },
-    {
-        question : " Who painted the famous artwork - Mona Lisa ?",
-        answers : [
-            {text : "A. Vincent van Gogh", correct : false},
-            {text : "B. Pablo Picasso", correct : false},
-            {text : "C. Leonardo da Vinci", correct : true},
-            {text : "D. Leonardo Di Caprio", correct : false},
-        ]
-    },
-    {
-        question : " Which artistic movement is known for its use of bright colors, bold shapes, and abstraction of reality ?",
-        answers : [
-            {text : "A. Impressionism", correct : true},
-            {text : "B. Cubism", correct : false},
-            {text : "C. Surrealism", correct : false},
-            {text : "D.  Abstract Expressionism", correct : false},
-        ]
-    },
-    
+    // {
+    //     question : " Which of the following words is an antonym (opposite) of ' Eloquent '?",
+    //     answers : [
+    //         {text : "A. Inarticulate", correct : true},
+    //         {text : "B. Fluent", correct : false},
+    //         {text : "C. Voluble", correct : false},
+    //         {text : "D. Loquacious", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : "  Fill in the blank : If I were you, I _____ consider the job offer seriously. ",
+    //     answers : [
+    //         {text : "A. Ought", correct : false},
+    //         {text : "B. Can", correct : false},
+    //         {text : "C. Would", correct : true},
+    //         {text : "D. Must", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : " Choose the synonym for the word 'Ardent' :",
+    //     answers : [
+    //         {text : "A. Lukewarm", correct : false},
+    //         {text : "B. Enthusiastic", correct : true},
+    //         {text : "C. Apathetic", correct : false},
+    //         {text : "D. Indifferent", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : " Complete the analogy: 'Ocean is to water as forest is to ______.' :",
+    //     answers : [
+    //         {text : "A. Trees", correct : true},
+    //         {text : "B. Leaves", correct : false},
+    //         {text : "C. Soil", correct : false},
+    //         {text : "D. Mountain", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : " Identify the grammatically incorrect sentence :",
+    //     answers : [
+    //         {text : "A. She sings beautifully.", correct : false},
+    //         {text : "B. They was late for the meeting.", correct : true},
+    //         {text : "C. He reads books every evening.", correct : false},
+    //         {text : "D. We have already eaten dinner.", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : " Choose the word that best fits in the blank : His actions spoke ______ than his words.",
+    //     answers : [
+    //         {text : "A. Lighter", correct : false},
+    //         {text : "B. Less", correct : true},
+    //         {text : "C. Louder", correct : false},
+    //         {text : "D. Lesser", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : " Which of the following is NOT a renewable source of energy ?",
+    //     answers : [
+    //         {text : "A. Solar power", correct : false},
+    //         {text : "B. Wind power", correct : false},
+    //         {text : "C. Natural gas", correct : true},
+    //         {text : "D. Hydroelectric power", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : " What is the chemical symbol for the element oxygen ?",
+    //     answers : [
+    //         {text : "A. O", correct : true},
+    //         {text : "B. Ox", correct : false},
+    //         {text : "C. Om", correct : false},
+    //         {text : "D. Oz", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : " Who painted the famous artwork - Mona Lisa ?",
+    //     answers : [
+    //         {text : "A. Vincent van Gogh", correct : false},
+    //         {text : "B. Pablo Picasso", correct : false},
+    //         {text : "C. Leonardo da Vinci", correct : true},
+    //         {text : "D. Leonardo Di Caprio", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : " Which artistic movement is known for its use of bright colors, bold shapes, and abstraction of reality ?",
+    //     answers : [
+    //         {text : "A. Impressionism", correct : true},
+    //         {text : "B. Cubism", correct : false},
+    //         {text : "C. Surrealism", correct : false},
+    //         {text : "D.  Abstract Expressionism", correct : false},
+    //     ]
+    // },    
 ];
 
 var quesele = document.getElementById("ques");
@@ -180,7 +179,11 @@ function showQuestions() {
     });
 }
 
-
+var count = 0;
+function chco(){
+    count++;
+    return count;
+}
 
 function selectans(nt){
     const selectbtn = nt.target;
@@ -188,6 +191,7 @@ function selectans(nt){
     if(itscorrect){
         selectbtn.classList.add("correct");
         corrans++;
+        chco();
     }
     else {
         selectbtn.classList.add("incorrect");
@@ -201,6 +205,7 @@ function selectans(nt){
     nextbt.style.display = "block";
 }
 
+
 function gotolink() {
     window.location = "about.html";
 }
@@ -210,12 +215,10 @@ function showMarks() {
     dontshowbefore();
     optn.style.display = "none";
     quesele.innerHTML = "Your Test's Over Proceed To Next Page And Do The Required To See Results."
-    // quesele.innerHTML = `${corrans}`;
     nextbt.innerHTML = "SUBMIT TEST";
-    nextbt.style.display = "block";
-    
+    nextbt.style.display = "block";    
+    localStorage.setItem("shit",count);
 }
-
 
 function nextBtnWorks(){
     quesno++;
@@ -228,14 +231,6 @@ function nextBtnWorks(){
     }
 }
 
-function gotolink2() {
-    window.location = "testimonials.html";
-}
-
-function getOption(){
-    gotolink2();
-}
-
 function work() {
     if(quesno < ques.length){
         nextBtnWorks();
@@ -244,16 +239,6 @@ function work() {
         gotolink();
     }   
 }
-
-
-// var chooseH = document.getElementById("chooseH");
-// var scoreard = document.getElementById("scoreard");
-
-// function changetext() {
-//     scoreard.innerHTML = `${ques.length}    ${corrans}`;
-// }
-
-// changetext();
 
 work();
 
