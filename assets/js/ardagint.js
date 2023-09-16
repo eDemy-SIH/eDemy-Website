@@ -3,7 +3,8 @@ function gotolink2() {
 }
 
 function getOption(){
-    passval()
+    passval();
+    passvall();
     gotolink2();
 }
 
