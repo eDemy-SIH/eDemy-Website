@@ -169,6 +169,13 @@ img {
     margin-left: 5px
 }
 
+.marg {
+    @media (max-width: 991px) {
+        margin-bottom: -50px;
+    }
+}
+
+
 .default-btn::before {
     content: '';
     position: absolute;
