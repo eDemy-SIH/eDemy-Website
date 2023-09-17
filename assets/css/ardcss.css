@@ -90,3 +90,12 @@ body {
     background: rgba(255, 0, 0, 0.766);
     transition: 0.2s;
 }
+
+#btn69 {
+    cursor : pointer;
+    color: black;
+}
+
+#btn69:hover {
+    color: white;
+}

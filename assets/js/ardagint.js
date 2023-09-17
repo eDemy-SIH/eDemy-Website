@@ -25,8 +25,23 @@ function passvall(){
     return true;
 }
 
-// chooseH.innerHTML = localStorage.getItem("sexy");
+
 scoreM.innerHTML = `${localStorage.getItem("shit")} / ${ques.length}`;
+
+var stfu = document.getElementById("stfu");
+var inter = document.getElementById("inter");
+var btn69 = document.getElementById("btn69");
+
+
+function primary(){
+    var primj = localStorage.getItem("sexy").split(" ").join("").toLowerCase();
+    window.location = `${primj}.html`;
+}
+
+function secondary(){
+    var secj = localStorage.getItem("sexyB").split(" ").join("").toLowerCase();
+    window.location = `${secj}.html`;
+}
 
 if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
     pf.innerHTML = "YES";
@@ -36,4 +51,17 @@ if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
 else if (localStorage.getItem("shit") < parseInt(ques.length)/2){
     pf.innerHTML = "NO";
     chooseH.innerHTML = localStorage.getItem("sexyB");
+}
+
+
+if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
+    btn69.addEventListener('click',()=>{
+        primary();
+    })
+}
+
+else if (localStorage.getItem("shit") < parseInt(ques.length)/2){
+    btn69.addEventListener('click',()=>{
+        secondary();
+    })
 }
