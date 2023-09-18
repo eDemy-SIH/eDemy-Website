@@ -18,7 +18,7 @@
 
 module.exports = (req, res) => {
   const userAgent = req.headers['user-agent'];
-  const isRequestingIndex = req.url === 'index.html';
+  const isRequestingIndex = req.url === 'https://sih-website-orpin.vercel.app/index.html';
 
   const blockedUserAgents = [
     // Add HTTrack user agents here
