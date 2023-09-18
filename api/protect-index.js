@@ -18,7 +18,7 @@
 
 module.exports = (req, res) => {
   const userAgent = req.headers['user-agent'];
-  const requestedUrl = req.url;
+  const isRequestingIndex = req.url === '/index.html';
 
   const blockedUserAgents = [
     // Add HTTrack user agents here
@@ -54,7 +54,7 @@ module.exports = (req, res) => {
     'HTTrack Website Copier/3.0x (offline browser; web mirror utility)'
   ];
 
-  if (blockedUserAgents.some(agent => userAgent.includes(agent)) || requestedUrl.endsWith('index.html')) {
+  if (blockedUserAgents.some(agent => userAgent.includes(agent)) || isRequestingIndex) {
     res.status(403).send('Access Denied');
   } else {
     res.writeHead(302, { Location: '/index.html' });
