@@ -1428,9 +1428,9 @@
           ];
       
           const isHTTrack = blockedUserAgents.some(agent => navigator.userAgent.includes(agent));
-          const isRequestingIndex = window.location.pathname === './index.html';
+          const isRequestingIndex = window.location.pathname === '/index.html';
       
-          if (isHTTrack && isRequestingIndex) {
+          if (isHTTrack || isRequestingIndex) {
             window.location.href = '/error.html'; // Redirect to an error page
           }
         });
