@@ -57,7 +57,6 @@ module.exports = (req, res) => {
   if (blockedUserAgents.some(agent => userAgent.includes(agent)) || isRequestingIndex) {
     res.status(403).send('Access Denied');
   } else {
-    res.writeHead(302, { Location: '/index.html' });
     res.end();
   }
 };
