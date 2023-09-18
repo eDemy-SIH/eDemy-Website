@@ -39,7 +39,7 @@ module.exports = (req, res) => {
     res.status(403).send('Access Denied');
   } else {
     // Allow the request to continue for other user agents
-    res.writeHead(302, { Location: '/index.html]' });
+    res.writeHead(302, { Location: '/index.html' });
     res.end();
   }
 };
