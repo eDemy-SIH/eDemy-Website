@@ -1,6 +1,6 @@
 module.exports = (req, res) => {
   const userAgent = req.headers['user-agent'];
-  console.log(userAgent);
+  console.log(headers);
   // Check if the request is coming from a web browser
   if (userAgent.includes('Mozilla')) {
     // If the user agent contains "Mozilla," it's likely a web browser
