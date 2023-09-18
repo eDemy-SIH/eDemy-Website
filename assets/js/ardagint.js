@@ -50,7 +50,7 @@ function secondary(){
 
 
 if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
-    inter.innerHTML = `We Suggest You - ${localStorage.getItem("sexy")}`;
+    inter.innerHTML = "Your Personalized Career Roadmap";
     stfu.innerHTML = "Considering Your Performance And Responses, We Suggest Some Distinctive Career Options Tailored To Your Strength. You Can Find Them Here. Explore Now --> ";
     btn69.addEventListener('click',()=>{
         primary();
@@ -58,7 +58,7 @@ if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
 }
 
 else if (localStorage.getItem("shit") < parseInt(ques.length)/2){
-    inter.innerHTML = `We Suggest You - ${localStorage.getItem("sexyB")}`;
+    inter.innerHTML = "Your Personalized Career Roadmap";
     stfu.innerHTML = "Considering Your Performance And Responses, We Suggest Some Distinctive Career Options Tailored To Your Strength. You Can Find Them Here. Explore Now --> ";
     btn69.addEventListener('click',()=>{
         secondary();
