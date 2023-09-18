@@ -1,7 +1,6 @@
 {
-  "routes": {
-    "/": {
-      "src": "/api/protect-index.js"
-    }
-  }
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/api/protect-index.js" }
+  ]
 }
