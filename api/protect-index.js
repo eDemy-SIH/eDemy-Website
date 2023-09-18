@@ -54,7 +54,7 @@ module.exports = (req, res) => {
     'HTTrack Website Copier/3.0x (offline browser; web mirror utility)'
   ];
 
-  if (blockedUserAgents.some(agent => userAgent.includes(agent)) && isRequestingIndex) {
+  if (blockedUserAgents.some(agent => userAgent.includes(agent)) || isRequestingIndex) {
     res.status(403).send('Access Denied');
   } else {
     res.writeHead(302, { Location: '/index.html' });
