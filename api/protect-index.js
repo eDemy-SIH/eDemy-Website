@@ -1,7 +1,27 @@
+// module.exports = (req, res) => {
+//   const userAgent = req.headers['user-agent'];
+
+//   const blockedUserAgents = [
+
+//   ];
+
+//   if (blockedUserAgents.some(agent => userAgent.includes(agent))) {
+//     // For HTTrack user agents, return a "403 Forbidden" status
+//     res.status(403).send('Access Denied');
+//   } else {
+//     // Allow the request to continue for other user agents
+//     res.writeHead(302, { Location: '/index.html' });
+//     res.end();
+//   }
+// };
+
+
 module.exports = (req, res) => {
   const userAgent = req.headers['user-agent'];
+  const isRequestingIndex = req.url === '/index.html';
 
   const blockedUserAgents = [
+    // Add HTTrack user agents here
     'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)',
     'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)',
     'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)',
@@ -34,11 +54,9 @@ module.exports = (req, res) => {
     'HTTrack Website Copier/3.0x (offline browser; web mirror utility)'
   ];
 
-  if (blockedUserAgents.some(agent => userAgent.includes(agent))) {
-    // For HTTrack user agents, return a "403 Forbidden" status
+  if (blockedUserAgents.some(agent => userAgent.includes(agent)) && isRequestingIndex) {
     res.status(403).send('Access Denied');
   } else {
-    // Allow the request to continue for other user agents
     res.writeHead(302, { Location: '/index.html' });
     res.end();
   }
