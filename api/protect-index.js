@@ -89,7 +89,7 @@ module.exports = (req, res) => {
   if (blockedUserAgents.some(agent => userAgent.includes(agent)) || sensitivePages.some(page => requestedUrl.endsWith(page))) {
     res.status(403).send('Access Denied');
   } else {
-    res.writeHead(302, { Location: '/' });
+    res.writeHead(302, { Location: '/index.html' });
     res.end();
   }
 };
