@@ -25,8 +25,13 @@ function passvall(){
     return true;
 }
 
+if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
+    scoreM.innerHTML = `Congrats !! You Answered ${localStorage.getItem("shit")} Questions Correctly !\n\n Your Score Is :- ${localStorage.getItem("shit")} / ${ques.length}`;
+}
 
-scoreM.innerHTML = `${localStorage.getItem("shit")} / ${ques.length}`;
+else if (localStorage.getItem("shit") < parseInt(ques.length)/2){
+    scoreM.innerHTML = `You Scored ${localStorage.getItem("shit")} Questions Correctly ! Your Score Is :-  ${localStorage.getItem("shit")} / ${ques.length}`;
+}
 
 var stfu = document.getElementById("stfu");
 var inter = document.getElementById("inter");
@@ -43,24 +48,18 @@ function secondary(){
     window.location = `${secj}.html`;
 }
 
-if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
-    pf.innerHTML = "YES";
-    chooseH.innerHTML = localStorage.getItem("sexy");
-}
-
-else if (localStorage.getItem("shit") < parseInt(ques.length)/2){
-    pf.innerHTML = "NO";
-    chooseH.innerHTML = localStorage.getItem("sexyB");
-}
-
 
 if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
+    inter.innerHTML = localStorage.getItem("sexy");
+    stfu.innerHTML = "Considering Your Performance And Responses, We Suggest Some Distinctive Career Options Tailored To Your Strength. You Can Find Them Here. Explore Now --> ";
     btn69.addEventListener('click',()=>{
         primary();
     })
 }
 
 else if (localStorage.getItem("shit") < parseInt(ques.length)/2){
+    inter.innerHTML = localStorage.getItem("sexyB");
+    stfu.innerHTML = "Considering Your Performance And Responses, We Suggest Some Distinctive Career Options Tailored To Your Strength. You Can Find Them Here. Explore Now --> ";
     btn69.addEventListener('click',()=>{
         secondary();
     })
