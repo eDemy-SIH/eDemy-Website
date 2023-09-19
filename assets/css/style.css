@@ -118,8 +118,16 @@ img {
     padding-top: 70px
 }
 
+.pt-7 {
+    padding-top: 7px
+}
+
 .pb-70 {
     padding-bottom: 70px
+}
+
+.pt-15 {
+    padding-top: 15px
 }
 
 .pt-50 {
@@ -128,6 +136,10 @@ img {
 
 .pt-45 {
     padding-top: 45px
+}
+
+.pb-15 {
+    padding-bottom: 15px
 }
 
 .pt-20 {
