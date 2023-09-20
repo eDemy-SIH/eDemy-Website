@@ -207,7 +207,7 @@ function selectans(nt){
 
 
 function gotolink() {
-    window.location = "about.html";
+    window.location = "hobbies.html";
 }
 
 

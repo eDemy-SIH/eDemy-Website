@@ -1,5 +1,5 @@
 function gotolink2() {
-    window.location = "testimonials.html";
+    window.location = "result.html";
 }
 
 function getOption(){
