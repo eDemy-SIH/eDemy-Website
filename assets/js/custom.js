@@ -282,3 +282,32 @@ lightModeIcon.onclick = () => {
         document.getElementById('slider').checked = true;
     }
 })();
+
+
+let lightModeIcon1 = document.querySelector('#lightMode-icon1');
+if (localStorage.getItem('') === 'theme-dark') {
+    lightModeIcon1.classList.add('ri-sun-line');
+}
+else {
+    lightModeIcon1.classList.add('ri-moon-fill');
+}
+lightModeIcon1.onclick = () => {
+    if (localStorage.getItem('') === 'theme-dark') {
+        setTheme('theme-light');
+        lightModeIcon1.classList.remove('ri-sun-line');
+        lightModeIcon1.classList.add('ri-moon-fill');
+    } else {
+        setTheme('theme-dark');
+        lightModeIcon1.classList.remove('ri-moon-fill');
+        lightModeIcon1.classList.add('ri-sun-line');
+    }
+}
+(function() {
+    if (localStorage.getItem('') === 'theme-dark') {
+        setTheme('theme-dark');
+        document.getElementById('slider').checked = false;
+    } else {
+        setTheme('theme-light');
+        document.getElementById('slider').checked = true;
+    }
+})();
