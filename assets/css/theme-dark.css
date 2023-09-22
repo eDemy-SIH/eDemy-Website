@@ -499,8 +499,13 @@
     background-color: var(--cardColor)
 }
 
-.theme-dark .employers-cv-bg {
+
+/* .theme-dark .employers-cv-bg {
     background-color: var(--bgColor)
+} */
+
+.theme-dark .employers-cv-bg {
+    background-color: var(--mainColor)
 }
 
 .theme-dark .employers-cv-btn .employersButton-button {
@@ -772,3 +777,16 @@
     color: var(--whiteColor);
     background-color: var(--cardColor)
 }
+
+.theme-dark .timeline li .date::after {
+    background: var(--bgColor);
+}
+
+.theme-dark .timeline li .title {
+    background: var(--bgColor);
+}
+
+.theme-dark .timeline li .descr  {
+    background: var(--bgColor);
+}
+
