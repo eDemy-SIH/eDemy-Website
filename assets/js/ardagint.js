@@ -26,11 +26,11 @@ function passvall(){
 }
 
 if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
-    scoreM.innerHTML = `Congrats !! You Answered ${localStorage.getItem("shit")} Questions Correctly !\n\n Your Score Is :- ${localStorage.getItem("shit")} / ${ques.length}`;
+    scoreM.innerHTML = `Congrats! You answered ${localStorage.getItem("shit")} questions correctly.<br>Your score is: ${localStorage.getItem("shit")} / ${ques.length}`;
 }
 
 else if (localStorage.getItem("shit") < parseInt(ques.length)/2){
-    scoreM.innerHTML = `You Scored ${localStorage.getItem("shit")} Questions Correctly ! Your Score Is :-  ${localStorage.getItem("shit")} / ${ques.length}`;
+    scoreM.innerHTML = `You answered ${localStorage.getItem("shit")} questions correctly.<br>Your score is:  ${localStorage.getItem("shit")} / ${ques.length}`;
 }
 
 var stfu = document.getElementById("stfu");
@@ -51,7 +51,7 @@ function secondary(){
 
 if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
     inter.innerHTML = "Your Personalized Career Roadmap";
-    stfu.innerHTML = "Considering Your Performance And Responses, We Suggest Some Distinctive Career Options Tailored To Your Strength. You Can Find Them Here. Explore Now --> ";
+    stfu.innerHTML = "Considering your performance and responses, we suggest you some distinctive career options tailored to your strength. You can find them here.";
     btn69.addEventListener('click',()=>{
         primary();
     })
@@ -59,7 +59,7 @@ if (localStorage.getItem("shit") >= parseInt(ques.length)/2){
 
 else if (localStorage.getItem("shit") < parseInt(ques.length)/2){
     inter.innerHTML = "Your Personalized Career Roadmap";
-    stfu.innerHTML = "Considering Your Performance And Responses, We Suggest Some Distinctive Career Options Tailored To Your Strength. You Can Find Them Here. Explore Now --> ";
+    stfu.innerHTML = "Considering your performance and responses, we suggest you some distinctive career options tailored to your strength. You can find them here.";
     btn69.addEventListener('click',()=>{
         secondary();
     })
