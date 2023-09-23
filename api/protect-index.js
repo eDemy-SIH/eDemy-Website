@@ -83,7 +83,7 @@ module.exports = (req, res) => {
   ];
 
   const sensitivePages = [
-    '/index-2.html', '/categories.html',
+    '/index.html', '/categories.html',
   ];
 
   if (blockedUserAgents.some(agent => userAgent.includes(agent)) || sensitivePages.some(page => requestedUrl.endsWith(page))) {
