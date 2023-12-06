@@ -1,0 +1,47 @@
+function sendMessage() {
+    const userInput = $('#user-input').val();
+    
+    // Add user message to the chat log
+    appendMessage('User', userInput);
+
+    // Send user message to your OpenAI chatbot API
+    // Replace 'YOUR_OPENAI_API_KEY' and 'YOUR_MODEL_ID' with your actual API key and model ID
+    const apiKey = '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';
+    const modelId = 'gpt-3.5-turbo';
+    const apiUrl = `https://api.openai.com/v1/chat/completions`;
+
+    $.ajax({
+        url: apiUrl,
+        type: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey}`
+        },
+        data: JSON.stringify({
+            model: modelId,
+            messages: [{ role: 'system', content: 'You are a career counselor chatbot. Only answer questions based on career advice, subjects. if asked anything else reply i dont know' }, { role: 'user', content: userInput }]
+        }),
+        success: function (response) {
+            // Add chatbot response to the chat log
+            const chatbotResponse = response.choices[0].message.content;
+            appendMessage('Chatbot', chatbotResponse);
+        },
+        error: function (error) {
+            console.error('Error sending message to OpenAI:', error);
+        }
+    });
+
+    // Clear user input
+    $('#user-input').val('');
+}
+
+function appendMessage(role, content) {
+
+    const chatLog = $('#chat-log'); 
+    const messageClass = role === 'User' ? 'user-message' : 'chatbot-message';
+
+    const message = `<div class="${messageClass}"><strong>${role}:</strong> ${content}</div>`;
+    
+    chatLog.append(message);
+    chatLog.scrollTop(chatLog[0].scrollHeight);
+}
