@@ -122,7 +122,7 @@
                         <div class=""><i class="" id="lightMode-icon1"></i></div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -133,7 +133,8 @@
                 <h3>Career Choices in Medicine</h3>
                 <div class="section-title">
                     <div class="bar m-auto"></div>
-                    <p class="m-auto" style="padding-top: 30px;">Here is a list of popular career choices in Medicine.</p>
+                    <p class="m-auto" style="padding-top: 30px;">Here is a list of popular career choices in Medicine.
+                    </p>
                 </div>
             </div>
         </div>
@@ -265,7 +266,7 @@
                 qualification: "Bachelor of Medicine and Bachelor of Surgery (MBBS)",
                 category: "Medicine",
                 duration: "5 - 7 Years",
-                path: "medicine/doctor.html",
+                path: "doctor",
             },
             {
                 imagePath: "assets/images/medical/s.jpg",
@@ -273,7 +274,7 @@
                 qualification: "Master of Surgery (MS)",
                 category: "Medicine",
                 duration: "8 Years",
-                path: "medicine/surgeon.html",
+                path: "surgeon",
             },
             {
                 imagePath: "assets/images/medical/p.jpg",
@@ -281,7 +282,7 @@
                 qualification: "Doctor of Medicine (MD) in Pathology",
                 category: "Medicine",
                 duration: "7 Years",
-                path: "medicine/pathology.html",
+                path: "pathology",
             },
             {
                 imagePath: "assets/images/medical/v.jpg",
@@ -289,7 +290,7 @@
                 qualification: "Bachelor of Veterinary Science and Animal Husbandry (BVSc & AH)",
                 category: "Medicine",
                 duration: "5 Years",
-                path: "medicine/veterinary.html",
+                path: "veterinary",
             },
             {
                 imagePath: "assets/images/medical/o.jpg",
@@ -297,7 +298,7 @@
                 qualification: "Master of Surgery (MS) in Orthopedics",
                 category: "Medicine",
                 duration: "8 Years",
-                path: "medicine/orthopaedic.html",
+                path: "orthopaedic",
             },
             {
                 imagePath: "assets/images/medical/op.jpg",
@@ -305,7 +306,7 @@
                 qualification: "Master of Surgery (MS) in Ophthalmology",
                 category: "Medicine",
                 duration: "8 Years",
-                path: "medicine/optha.html",
+                path: "optha",
             },
             {
                 imagePath: "assets/images/medical/nursing.jpeg",
@@ -313,7 +314,7 @@
                 qualification: "Bachelor of Science (B.Sc) in Nursing",
                 category: "Medicine",
                 duration: "3 - 4 Years",
-                path: "medicine/nursing.html",
+                path: "nursing",
             },
         ];
 
@@ -327,14 +328,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.path}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a href=${career.path}>${career.name}</a></h3>
+                    <h3><a href="careerdetails.html?careerid=${career.path}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -344,7 +345,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a href="careerdetails.html?careerid=${career.path}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;
@@ -353,7 +354,6 @@
         }
 
         loadCareerDetails();
-
 
     </script>
 

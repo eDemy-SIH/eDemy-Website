@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="zxx">
+
+<title id="head"></title>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <link rel="stylesheet" href="assets/fonts/remixicon.css">
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/css/metismenu.min.css">
+
+    <link rel="stylesheet" href="assets/css/simplebar.min.css">
+
+    <link rel="stylesheet" href="assets/css/dropzone.min.css">
+
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/table.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" href="assets/css/theme-dark.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>eDemy - ${data.title}</title>
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="navbar-area" id="nav-placeholder"></div>
+    <script>
+        $.get("nav.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+
+
+    <div class="inner-banner">
+        <div class="container">
+            <div class="inner-title text-center" id="title"></div>
+        </div>
+    </div>
+
+
+    <div class="blog-details-area pt-50 ptb-45">
+        <div class="container">
+            <div class="blog-details-content">
+                <div class="content">
+                    <ul id="dur"></ul>
+                </div>
+                <div class="blog-articel">
+                    <h3>What Makes This Career Worth Pursuing?</h3>
+
+                    <div class="bar"></div>
+                    <p id="p1_1"></p>
+                    <p id="p1_2"></p>
+                </div>
+                <!-- <blockquote class="blockquote">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim a erat sit vulputate
+                        elementum orci. Risus nec viverra ornare venenatis proin ac varius tristique ut. Vitae egestas
+                        tellus amet nulla cursus in that.
+                    </p>
+                    <span>Thomas Deltom</span>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </blockquote> -->
+            </div>
+
+            <div class="blog-preview-img ptb-45" id="img"></div>
+            <div class="blog-details-content">
+                <div class="blog-articel">
+                    <h3>Description</h3>
+
+                    <div class="bar"></div>
+                    <p id="desc"></p>
+                </div>
+                <div class="blog-portfolio">
+                    <h3>Skills You Need</h3>
+                    <div class="bar"></div>
+                </div>
+                <div class="blog-details-list-two" id="skillsList">
+                </div>
+                <div class="blog-portfolio">
+                    <h3>How To Pursue</h3>
+                    <div class="bar"></div>
+                </div>
+                <div class="blog-details-list-two" id="educationList"></div>
+                <div class="blog-details-list">
+                    <h3>Job Opportunities</h3>
+                    <div class="bar"></div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6" id="jobOpportunitiesLeft"></div>
+                        <div class="col-lg-6 col-md-6" id="jobOpportunitiesRight"></div>
+                    </div>
+                </div>
+                <div class="blog-portfolio">
+                    <h3>Top Indian Institutes</h3>
+                    <div class="bar"></div>
+                </div>
+                <div class="blog-details-list-two" id="insti"></div>
+                <div class="blog-portfolio">
+                    <h3>Pros</h3>
+                    <div class="bar"></div>
+                </div>
+                <div class="blog-details-list-two" id="pros"></div>
+                <div class="blog-portfolio">
+                    <h3>Cons</h3>
+                    <div class="bar"></div>
+                </div>
+                <div class="blog-details-list-two" id="cons"></div>
+                <div class="comments-form" style="text-align: center !important;">
+                    <div class="contact-form" onMouseOver="this.style.borderColor='#00CA99'"
+                        onMouseOut="this.style.borderColor='#c4c4c4'">
+                        <h3>Are you Confused?</h3>
+                        <h6 style="color: var(--bodyColor); font-size: 16px;" class="pb-7">Talk To Our Counsellor</h6>
+                        <form id="" action="contact.html">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <button class="default-btn border-radius-5">
+                                        Contact Us <i class="ri-chat-4-line"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer-area" id="footer">
+    </footer>
+    <script>
+        $.get("footer.html", function (data) {
+            $("#footer").replaceWith(data);
+        });
+    </script>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <script src="assets/js/odometer.min.js"></script>
+
+    <script src="assets/js/jquery.appear.min.js"></script>
+
+    <script src="assets/js/meanmenu.min.js"></script>
+
+    <script src="assets/js/metismenu.min.js"></script>
+
+    <script src="assets/js/simplebar.min.js"></script>
+
+    <script src="assets/js/dropzone.min.js"></script>
+
+    <script src="assets/js/sticky-sidebar.min.js"></script>
+
+    <script src="assets/js/tweenMax.min.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <script>
+        const careers = [
+            {
+                "careerid": "doctor",
+                "img1": "../assets/images/blog/blog-details-doctor.jpg",
+                "alt1": "AIML Image",
+                "id": "doctor",
+                "title": "Doctor",
+                "cat_dir": "../medicine.html",
+                "cat": "Medicine",
+                "duration": "5 years",
+                "p1_1": "Do you want to help people and save lives? Then, becoming a doctor is a great career path! We are all well aware of the roles of a doctor. We've interacted with many throughout our lives and we know their importance.",
+                "p1_2": "Doctors help in maintaining a pain-free life and resolving any health or medical concerns we might have. They also help in sustaining our lives by helping us function effectively. Hospital doctors diagnose and treat medical conditions, disorders, and diseases through the application of specialist medical skills and knowledge. Hospital doctors can work in several specialities, from emergency medicine to surgery. Hospital doctors treat those who have been admitted or referred to the hospital. Medical practice correctly necessitates a thorough understanding of academic subjects such as anatomy and physiology.",
+                "desc": "Doctors have one of the most respected yet stressful careers. They see several patients every day, and their job includes assessing these patients, diagnosis and assigning treatment plans. Doctors are on their toes the entire time and they are almost required to be available whenever possible. Their careers are demanding yet rewarding. With more experience, doctors are regarded higher. There are several specializations for doctors, based on which the work-life of a doctor differs. The priority of a doctor's work-life no matter which specialization they choose is the healthcare of the patient.",
+                "skills": [
+                    "Empathy: Even though the job is extremely stressful, doctors are required to be empathetic towards their patients.",
+                    "Passion: Doctors are required to be passionate about their field. They will be dealing with human lives, and thus an individual needs to be driven. Any kind of disinterest or lack of focus can prove to be problematic and even fatal in some cases.",
+                    "Responsibility: As mentioned above the doctor needs to keep in mind that they are working with human lives. Thus they need to be responsible enough to do this job. In case a doctor isn't well or has any other issues then they have to immediately refrain from performing surgery.",
+                    "Hard Working: It takes a lot of determination and perseverance to be a doctor. Individuals need to be prepared to work hard and give their best at all times as it is a demanding career.",
+                    "Emotional Strength: They have to often encounter cases that might be hard to digest. They could be emotionally overwhelming and painful. In these cases, doctors are required to stay emotionally strong.",
+                    "Patience: Doctors would be facing a range of patients. Sometimes trying to get a patient to adhere to the treatment or explain to them the kind of illness they have can be stressful, thus this requires patience."
+                ],
+                "educ": [
+                    "School: Any subject combination taking Science as the main stream.",
+                    "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+                    "Post Graduation: MD in any medical field."
+                ],
+                "opp_l": [
+                    " General Physicians",
+                    " Paediatricians",
+                    " General Surgeon",
+                    " Cardiologist",
+                    " Dentist"
+                ],
+                "opp_r": [
+                    " Dermatologists",
+                    " Gynaecologist",
+                    " ENT Specialist",
+                    " Neurologist",
+                    " Gasteroenterologist"
+                ],
+                "insti": [
+                    {
+                        "link": "https://www.aiims.edu/en.html",
+                        "name": "All India Institute of Medical Sciences (AIIMS)"
+                    },
+                    {
+                        "link": "https://www.cmch-vellore.edu/",
+                        "name": "Christian Medical College Vellore"
+                    },
+                    {
+                        "link": "https://manipal.edu/kmc-manipal.html",
+                        "name": "Kasturba Medical College Manipal"
+                    },
+                    {
+                        "link": "http://www.mmc.ac.in/mmc/",
+                        "name": "Madras Medical College"
+                    }
+                ],
+                "pros": [
+                    "The financial stability for doctors is really rewarding once the experience has been gained.",
+                    "Job satisfaction for doctors is high as they will be working for the betterment of society.",
+                    "It's an extremely respected profession."
+                ],
+                "cons": [
+                    "There's a lot of stress as any mistake in this profession could be harmful.",
+                    "The workload could be high which could lead to burnout.",
+                    "Even the process of getting through M.B.B.S could be stressful and draining."
+                ]
+            },
+        ]
+
+
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        function getCareerDetails(careerid) {
+            // const career = careers.find(c => c.careerid === careerid);
+            // if (career) {
+            //     console.log("Found career details:", career);
+            //     return career;
+            // } else {
+            //     console.error("Career not found with careerid:", careerid);
+            //     return null; // Return null or handle the absence of a matching career
+            // }
+            return career = careers.find(c => c.careerid === careerid);
+        }
+
+
+        const careerid = getQueryParam('careerid');
+        const data = getCareerDetails(careerid.replace(/["']/g, ''));
+
+        function createSkillsList() {
+            const skillsListContainer = document.getElementById('skillsList');
+            const skillsList = data.skills.map(skill => `<li>${skill}</li>`).join('');
+            skillsListContainer.innerHTML = `<ul>${skillsList}</ul>`;
+        }
+        createSkillsList()
+
+        function staticData() {
+            const descriptionContainer = document.getElementById('desc');
+            descriptionContainer.innerHTML = `${data.desc}`;
+
+            const p1_1Container = document.getElementById('p1_1');
+            p1_1Container.innerHTML = `${data.p1_1}`;
+
+            const p1_2Container = document.getElementById('p1_2');
+            p1_2Container.innerHTML = `${data.p1_2}`;
+
+            const imgContainer = document.getElementById('img');
+            imgContainer.innerHTML = `<img src=${data.img1} alt=${data.alt1}>`;
+
+            const headContainer = document.getElementById('head');
+            headContainer.innerHTML = `eDemy - ${data.title}`;
+
+            const durContainer = document.getElementById('dur');
+            durContainer.innerHTML = `
+                        <li>
+                            <i class="ri-time-line"></i> ${data.duration}
+                        </li>
+                        <li><a href=${data.cat_dir}>${data.cat}</a></li>
+                        `;
+
+            const titleContainer = document.getElementById('title');
+            titleContainer.innerHTML = `
+                <h3>${data.title}</h3>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href=${data.cat_dir}>${data.cat}</a>
+                    </li>
+                </ul>`;
+        }
+        staticData()
+
+        function createProsList() {
+            const prosListContainer = document.getElementById('pros');
+            const prosList = data.pros.map(pro => `<li>${pro}</li>`).join('');
+            prosListContainer.innerHTML = `<ul>${prosList}</ul>`;
+        }
+        createProsList()
+
+        function createConsList() {
+            const consListContainer = document.getElementById('cons');
+            const consList = data.cons.map(con => `<li>${con}</li>`).join('');
+            consListContainer.innerHTML = `<ul>${consList}</ul>`;
+        }
+        createConsList()
+
+        function createEducationList() {
+            const educationListContainer = document.getElementById('educationList');
+            const educationList = data.educ.map(education => `<li>${education}</li>`).join('');
+            educationListContainer.innerHTML = `<ul>${educationList}</ul>`;
+        }
+        createEducationList();
+
+        function createJobOpportunitiesLeft() {
+            const jobOpportunitiesLeftContainer = document.getElementById('jobOpportunitiesLeft');
+            const jobOpportunitiesLeftList = data.opp_l.map(opp => `
+                    <ul>
+                        <li><i class="ri-check-line"></i>${opp}</li>
+                    </ul>
+            `).join('');
+            jobOpportunitiesLeftContainer.innerHTML = jobOpportunitiesLeftList;
+        }
+        createJobOpportunitiesLeft();
+
+        function createInstiList() {
+            const instiListContainer = document.getElementById('insti');
+            const instiListItems = data.insti.map(inst => `
+                <ul>
+                <a class="pb-7" href="${inst.link}" target="_blank">
+                    <li>${inst.name}</li>
+                </a>
+                </ul>
+            `).join('');
+            instiListContainer.innerHTML = instiListItems;
+        }
+        createInstiList();
+
+        function createJobOpportunitiesRight() {
+            const jobOpportunitiesRightContainer = document.getElementById('jobOpportunitiesRight');
+            const jobOpportunitiesRightList = data.opp_r.map(opp => `
+                    <ul>
+                        <li><i class="ri-check-line"></i>${opp}</li>
+                    </ul>
+            `).join('');
+            jobOpportunitiesRightContainer.innerHTML = jobOpportunitiesRightList;
+        }
+        createJobOpportunitiesRight();
+
+        // Call the function to create the education list
+    </script>
+    <script src="assets/js/form-validator.min.js"></script>
+
+    <script src="assets/js/contact-form-script.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
