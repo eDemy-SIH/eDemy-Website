@@ -188,7 +188,7 @@
     <div class="post-job-area pt-150 pb-70">
         <div class="container">
             <div class="post-job-form">
-                <h2 style="font-size: 32px;">AI Chat</h2>
+                <h2 style="font-size: 32px;" id="aichat">AI Chat</h2>
                 <div class="bar"></div>
 
                 <div class="">
@@ -275,6 +275,49 @@
 
     <script src="assets/js/marks.js"></script>
 
+
+    <script>
+
+        function changeLanguage1(){
+            location.reload()
+        }
+
+        function changeLanguage(lang) {
+
+          // Your Google Cloud Translation API key
+          const apiKey = 'AIzaSyAHlrSdG-n12ij7J2W-JDxBAo1rDpdH8Y4';
+    
+          // Elements to translate;
+          const head4 = document.getElementById('aichat');
+
+
+
+    
+          // Text to translate
+
+          const head4t = head4.textContent;
+              
+          // Make API request
+          fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              q: [head4t],
+              target: lang,
+            }),
+          })
+          .then(response => response.json())
+          .then(data => {
+        console.log(data);
+            // Update content with translated text
+            
+            head4.textContent = data.data.translations[0].translatedText;
+          })
+          .catch(error => console.error('Error:', error));
+        }
+      </script>
 
 </body>
 
