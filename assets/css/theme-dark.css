@@ -790,3 +790,35 @@
     background: var(--bgColor);
 }
 
+.theme-dark .chat-container {
+    background-color: var(--cardColor);
+}
+
+.theme-dark #user-input {
+    background-color: var(--cardColor);
+    color: white;
+  }
+
+.theme-dark .imessage {
+    background-color: var(--cardColor);
+    border: 1px solid var(--cardColor);
+}
+
+.theme-dark p.from-them {
+    background-color: var(--darkColor);
+    color: #e5e5ea;
+}
+.theme-dark p.from-me{
+    color: #fff;
+}
+.theme-dark p.from-them:before {
+    border-left: 1rem solid var(--darkColor);
+}
+
+.theme-dark p.from-me::after {
+    background-color: var(--cardColor);
+}
+
+.theme-dark p.from-them::after {
+    background-color: var(--cardColor);
+}

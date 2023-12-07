@@ -1,71 +1,188 @@
-{
-    "careers": [
-        {
-            "img1": "../assets/images/blog/blog-details-doctor.jpg",
-            "alt1": "AIML Image",
-            "id": "doctor",
-            "title": "Doctor",
-            "cat_dir": "../medicine.html",
-            "cat": "Medicine",
-            "duration": "5 years",
-            "p1-1": "Do you want to help people and save lives? Then, becoming a doctor is a great career path! We are all well aware of the roles of a doctor. We've interacted with many throughout our lives and we know their importance.",
-            "p1-2": "Doctors help in maintaining a pain-free life and resolving any health or medical concerns we might have. They also help in sustaining our lives by helping us function effectively. Hospital doctors diagnose and treat medical conditions, disorders, and diseases through the application of specialist medical skills and knowledge. Hospital doctors can work in several specialities, from emergency medicine to surgery. Hospital doctors treat those who have been admitted or referred to the hospital. Medical practice correctly necessitates a thorough understanding of academic subjects such as anatomy and physiology.",
-            "desc": "Doctors have one of the most respected yet stressful careers. They see several patients every day, and their job includes assessing these patients, diagnosis and assigning treatment plans. Doctors are on their toes the entire time and they are almost required to be available whenever possible. Their careers are demanding yet rewarding. With more experience, doctors are regarded higher. There are several specializations for doctors, based on which the work-life of a doctor differs. The priority of a doctor's work-life no matter which specialization they choose is the healthcare of the patient.",
-            "skills": [
-                "Empathy: Even though the job is extremely stressful, doctors are required to be empathetic towards their patients.",
-                "Passion: Doctors are required to be passionate about their field. They will be dealing with human lives, and thus an individual needs to be driven. Any kind of disinterest or lack of focus can prove to be problematic and even fatal in some cases.",
-                "Responsibility: As mentioned above the doctor needs to keep in mind that they are working with human lives. Thus they need to be responsible enough to do this job. In case a doctor isn't well or has any other issues then they have to immediately refrain from performing surgery.",
-                "Hard Working: It takes a lot of determination and perseverance to be a doctor. Individuals need to be prepared to work hard and give their best at all times as it is a demanding career.",
-                "Emotional Strength: They have to often encounter cases that might be hard to digest. They could be emotionally overwhelming and painful. In these cases, doctors are required to stay emotionally strong.",
-                "Patience: Doctors would be facing a range of patients. Sometimes trying to get a patient to adhere to the treatment or explain to them the kind of illness they have can be stressful, thus this requires patience."
-            ],
-            "educ": [
-                "School: Any subject combination taking Science as the main stream.",
-                "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
-                "Post Graduation: MD in any medical field."
-            ],
-            "opp_l": [
-                " General Physicians",
-                " Paediatricians",
-                " General Surgeon",
-                " Cardiologist",
-                " Dentist"
-            ],
-            "opp_r": [
-                " Dermatologists",
-                " Gynaecologist",
-                " ENT Specialist",
-                " Neurologist",
-                " Gasteroenterologist"
-            ],
-            "insti": [
-                {
-                    "link": "https://www.aiims.edu/",
-                    "name": "All India Institute of Medical Sciences (AIIMS)"
-                },
-                {
-                    "link": "https://www.cmch-vellore.edu/",
-                    "name": "Christian Medical College Vellore"
-                },
-                {
-                    "link": "https://manipal.edu/kmc-manipal.html",
-                    "name": "Kasturba Medical College Manipal"
-                },
-                {
-                    "link": "http://www.mmc.ac.in/mmc/",
-                    "name": "Madras Medical College"
-                }
-            ],
-            "pros": [
-                "The financial stability for doctors is really rewarding once the experience has been gained.",
-                "Job satisfaction for doctors is high as they will be working for the betterment of society.",
-                "It's an extremely respected profession."
-            ],
-            "cons": [
-                "There's a lot of stress as any mistake in this profession could be harmful.",
-                "The workload could be high which could lead to burnout.",
-                "Even the process of getting through M.B.B.S could be stressful and draining."
-            ]
-        }
-    ]
-}
+[
+    {
+        "careerid": "doctor",
+        "img1": "assets/images/blog/blog-details-doctor.jpg",
+        "alt1": "Doctor Image",
+        "title": "Doctor",
+        "cat_dir": "medicine.html",
+        "cat": "Medicine",
+        "duration": "5 years",
+        "p1_1": "Do you want to help people and save lives? Then, becoming a doctor is a great career path! We are all well aware of the roles of a doctor. We've interacted with many throughout our lives and we know their importance.",
+        "p1_2": "Doctors help in maintaining a pain-free life and resolving any health or medical concerns we might have. They also help in sustaining our lives by helping us function effectively. Hospital doctors diagnose and treat medical conditions, disorders, and diseases through the application of specialist medical skills and knowledge. Hospital doctors can work in several specialities, from emergency medicine to surgery. Hospital doctors treat those who have been admitted or referred to the hospital. Medical practice correctly necessitates a thorough understanding of academic subjects such as anatomy and physiology.",
+        "desc": "Doctors have one of the most respected yet stressful careers. They see several patients every day, and their job includes assessing these patients, diagnosis and assigning treatment plans. Doctors are on their toes the entire time and they are almost required to be available whenever possible. Their careers are demanding yet rewarding. With more experience, doctors are regarded higher. There are several specializations for doctors, based on which the work-life of a doctor differs. The priority of a doctor's work-life no matter which specialization they choose is the healthcare of the patient.",
+        "skills": [
+            "Empathy: Even though the job is extremely stressful, doctors are required to be empathetic towards their patients.",
+            "Passion: Doctors are required to be passionate about their field. They will be dealing with human lives, and thus an individual needs to be driven. Any kind of disinterest or lack of focus can prove to be problematic and even fatal in some cases.",
+            "Responsibility: As mentioned above the doctor needs to keep in mind that they are working with human lives. Thus they need to be responsible enough to do this job. In case a doctor isn't well or has any other issues then they have to immediately refrain from performing surgery.",
+            "Hard Working: It takes a lot of determination and perseverance to be a doctor. Individuals need to be prepared to work hard and give their best at all times as it is a demanding career.",
+            "Emotional Strength: They have to often encounter cases that might be hard to digest. They could be emotionally overwhelming and painful. In these cases, doctors are required to stay emotionally strong.",
+            "Patience: Doctors would be facing a range of patients. Sometimes trying to get a patient to adhere to the treatment or explain to them the kind of illness they have can be stressful, thus this requires patience."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in any medical field."
+        ],
+        "opp_l": [
+            " General Physicians",
+            " Paediatricians",
+            " General Surgeon",
+            " Cardiologist",
+            " Dentist"
+        ],
+        "opp_r": [
+            " Dermatologists",
+            " Gynaecologist",
+            " ENT Specialist",
+            " Neurologist",
+            " Gasteroenterologist"
+        ],
+        "insti": [
+            {
+                "link": "https://www.aiims.edu/",
+                "name": "All India Institute of Medical Sciences (AIIMS)"
+            },
+            {
+                "link": "https://www.cmch-vellore.edu/",
+                "name": "Christian Medical College Vellore"
+            },
+            {
+                "link": "https://manipal.edu/kmc-manipal.html",
+                "name": "Kasturba Medical College Manipal"
+            },
+            {
+                "link": "http://www.mmc.ac.in/mmc/",
+                "name": "Madras Medical College"
+            }
+        ],
+        "pros": [
+            "The financial stability for doctors is really rewarding once the experience has been gained.",
+            "Job satisfaction for doctors is high as they will be working for the betterment of society.",
+            "It's an extremely respected profession."
+        ],
+        "cons": [
+            "There's a lot of stress as any mistake in this profession could be harmful.",
+            "The workload could be high which could lead to burnout.",
+            "Even the process of getting through M.B.B.S could be stressful and draining."
+        ]
+    },
+    {
+        "careerid": "surgeon",
+        "title": "Surgeon",
+        "cat_dir": "medicine.html",
+        "cat": "Medicine",
+        "duration": "8 years",
+        "p1_1": "Are you intrigued by the innards of a human body? Then, becoming a surgeon could be a great career path for you. Surgeons, as the name specifies, are doctors who specialize in Surgery. These surgeons perform surgery in order to fix abnormalities immediately. In most situations, surgery can be a procedure done for damage control. Thus, surgeons need to be confident in whatever they do. They usually have a team who helps them in the operation theatre.",
+        "p1_2": "Surgeons can choose to be either general surgeons or they can choose a specialization, such as orthopaedics, or neurosurgery and so on. Some general practitioners and family medicine and emergency medicine experts may undertake a restricted spectrum of minor, common, and emergency surgery. Anesthesia is frequently used in conjunction with surgery, and anesthesiologists and nurse anesthetists may be in charge of this component of the procedure.",
+        "img1": "assets/images/blog/blog-details-surgeon.jpg",
+        "alt1": "Surgeon Image",
+        "desc": "A surgeon needs to go through rigorous training before performing surgery. Naturally, because it is a complex job the stress and responsibilities are larger. A surgeon has to view the patients’ health conditions and accordingly device a plan for surgery. They must keep in mind any possible hurdles they can face in the operation theatre and must be prepared for that as well. A surgeon would also have to closely view the patient after surgery in what is known as “Post-op.” Surgeons are required to have dexterity and stamina. If they were under any influence that could compromise these two requirements it would be fatal.",
+        "skills": [
+            "Endurance Skills: It needs to be taken into account that surgeons stand for long hours in the operation theatre. It's extremely important for them to be able to do this with tiring or losing focus. Thus stamina is one of the crucial factors.",
+            "Hardworking Skills: It takes a lot of determination and perseverance to be a surgeon. Individuals need to be prepared to work hard and give it their best at all times as it is a demanding career.",
+            "Learning Skills: Surgeons are required to be passionate about their field. They will be dealing with human lives, thus an individual has to be driven and keep learning."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in General Surgery."
+        ],
+        "opp_l": [
+            " Cardiothoracic Surgery",
+            " Neurosurgery",
+            " Orthopaedic Surgery"
+        ],
+        "opp_r": [
+            " Urology",
+            " Vascular Surgery",
+            " Paediatric Surgery"
+        ],
+        "insti": [
+            {
+                "link": "https://www.aiims.edu/",
+                "name": "All India Institute of Medical Sciences (AIIMS)"
+            },
+            {
+                "link": "https://fathermuller.edu.in/medical-college/",
+                "name": "Father Muller Medical College Mangalore"
+            },
+            {
+                "link": "Kasturba Medical College Manipal",
+                "name": "Grant Medical College Mumbai"
+            }
+        ],
+        "pros": [
+            "The financial stability for doctors is really rewarding once the experience has been gained.",
+            "Job satisfaction for surgeons is high as they will be working for the betterment of society.",
+            "It's an extremely respected profession from older times till now and it will continue to be so."
+        ],
+        "cons": [
+            "The responsibility this job demands is extremely high.",
+            "Commitment required by surgeons is also really high, this could leave you having a poor social life.",
+            "Stress in the job is also quite high."
+        ]
+    },
+    {
+        "careerid": "pathology",
+        "title": "Pathology",
+        "cat_dir": "medicine.html",
+        "cat": "Medicine",
+        "duration": "7 years",
+        "p1_1": "Do you want to help diagnose various health conditions? Then pathology is a great career for you! When we go to a doctor for a particular illness we usually tend to ask them why we’ve gotten this illness. If it’s something that requires the doctor to do blood tests, urine tests then we’d have a lab test result that explains the cause of the illness.",
+        "p1_2": "This is where pathology comes into play. Pathology can be of two types, clinical pathology and anatomic pathology. Where clinical pathology deals with fields such as microbiology, immunology, haematology etc. Anatomic pathology deals with the cells and tissues. Pathology is a very important field in the health care sector. It is the most crucial part when we speak of diagnosis and also the risk factors. General pathology is largely concerned with assessing known clinical abnormalities.",
+        "img1": "assets/images/blog/blog-details-pathology.jpg",
+        "alt1": "Pathology Image",
+        "desc": "Pathologists are the ones who study the samples of various patients and then produce us with a report that helps in the diagnosis. Thus they play a crucial part in the healthcare system. It is also important in the sense that they warn of available risk factors, in case the patient has a certain aversion to a drug or another medical condition that could interfere with the treatment, it is up to a pathologist to report these things if found in a test result. They use laboratory tests to assess the condition of the patient and ascertain what’s causing the sickness.",
+        "skills": [
+            "Analytical Skills: An individual would have to be able to analyse the incoming data and new information and make the right inference.",
+            "Learning Skills: As the field is growing it requires the pathologists to have an open mind in terms of new technology.",
+            "Responsibility: As mentioned above the surgeon needs to keep in mind that they are working with human lives. Thus they need to be responsible enough to do this job. In case a surgeon isn't well or has any other issues then they have to immediately refrain from performing surgery.",
+            "Communication Skills: It is mandatory for them to communicate well with the patients when it comes to making them understand the dose of administration, when to take and how to take medicines.",
+            "Research Skills: Naturally one would have to be good at research as well to understand new problems, their potential solutions and inventions."
+
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in Pathology."
+        ],
+        "opp_l": [
+            " Chemical Pathology",
+            " Neuropathology"
+        ],
+        "opp_r": [
+            " Paediatric Pathology",
+            " Forensic Pathology"
+
+        ],
+        "insti": [
+            {
+                "link": "https://www.aiims.edu/",
+                "name": "All India Institute of Medical Sciences (AIIMS)"
+            },
+            {
+                "link": "https://www.cmch-vellore.edu/",
+                "name": "Christian Medical College Vellore"
+            },
+            {
+                "link": "https://manipal.edu/kmc-manipal.html",
+                "name": "Kasturba Medical College Manipal"
+            },
+            {
+                "link": "http://www.mmc.ac.in/mmc/",
+                "name": "Madras Medical College"
+            }
+        ],
+        "pros": [
+            "There's a large need for pathologists.",
+            "Due to the fast-paced world there's almost always something new to study about.",
+            "It provides a lot of insight to the medical community."
+        ],
+        "cons": [
+            "It can be a slow field.",
+            "The pay is not very rewarding initially.",
+            "The field requires a lot of study and hectic work."
+        ]
+    }
+
+]

@@ -23,14 +23,16 @@ function sendMessage() {
         }),
         success: function (response) {
             // Add chatbot response to the chat log
+            response.choices[0].message.content.replace(/\\n/g, '<br>');
             const chatbotResponse = response.choices[0].message.content;
-            appendMessage('Chatbot', chatbotResponse);
+            appendMessage('Chatbot', chatbotResponse.replace(/\n/g, '<br>'));
+            console.log(chatbotResponse.replace(/\n/g, '<br>'));
         },
         error: function (error) {
             console.error('Error sending message to OpenAI:', error);
         }
     });
-
+    
     // Clear user input
     $('#user-input').val('');
 }
@@ -38,9 +40,9 @@ function sendMessage() {
 function appendMessage(role, content) {
 
     const chatLog = $('#chat-log'); 
-    const messageClass = role === 'User' ? 'user-message' : 'chatbot-message';
+    const messageClass = role === 'User' ? 'from-me' : 'from-them';
 
-    const message = `<div class="${messageClass}"><strong>${role}:</strong> ${content}</div>`;
+    const message = `<p class="${messageClass}"><strong></strong> ${content}</p>`;
     
     chatLog.append(message);
     chatLog.scrollTop(chatLog[0].scrollHeight);

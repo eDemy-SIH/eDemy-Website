@@ -8331,6 +8331,70 @@ img {
     }
 }
 
+
+.chat-container {
+    
+    position: relative;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 0px solid;
+    color: black;
+    background-color: #f8f8f8;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    outline: none !important;
+  }
+
+.imessage {
+    background-color: #f8f8f8;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    margin: 0 auto 1rem;
+    /* max-width: 600px; */
+    padding: 0.5rem 1.5rem;
+  }
+  
+
+  p.from-them {
+    align-items: flex-start;
+    background-color: #e5e5ea;
+    color: #000;
+  }
+
+  p.from-them:before {
+    border-bottom-right-radius: 0.8rem 0.7rem;
+    border-left: 1rem solid #e5e5ea;
+    left: -0.35rem;
+    transform: translate(0, -0.1rem);
+  }
+
+  p.from-them::after {
+    background-color: var(--bs-body-bg);
+    border-bottom-right-radius: 0.5rem;
+    left: 20px;
+    transform: translate(-30px, -2px);
+    width: 10px;
+  }
+
+  p.from-me::after {
+    background-color: var(--bs-body-bg);
+    border-bottom-left-radius: 0.5rem;
+    right: -40px;
+    transform:translate(-30px, -2px);
+    width: 10px;
+  }
+
+  
 .dropdown-menu {
     cursor: pointer;
 }

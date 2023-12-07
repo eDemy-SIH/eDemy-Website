@@ -77,8 +77,7 @@
         </div>
     </div>
 
-    <footer class="footer-area" id="footer">
-    </footer>
+    <footer class="footer-area" id="footer"></footer>
     <script>
         $.get("footer.html", function(data){
             $("#footer").replaceWith(data);
@@ -228,23 +227,7 @@
 
 
     </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const currentMode = localStorage.getItem('mode');
-            setMode(currentMode);
-    
-            document.getElementById('lightMode-icon').addEventListener('click', function () {
-                const newMode = currentMode === 'dark' ? 'light' : 'dark';
-                localStorage.setItem('mode', newMode);
-                setMode(newMode);
-            });
-    
-            function setMode(mode) {
-                document.getElementById('lightMode-icon').classList.toggle('ri-moon-line', mode === 'dark');
-                document.getElementById('lightMode-icon').classList.toggle('ri-sun-line', mode === 'light');
-            }
-        });
-    </script>
+
 </body>
 
 </html>
