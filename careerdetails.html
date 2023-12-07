@@ -177,23 +177,6 @@
     </div>
 </div>
 
-    <!-- Your page content here -->
-
-    <script>
-        // Load navigation bar content using JavaScript
-        document.addEventListener("DOMContentLoaded", function () {
-            const navContainer = document.getElementById("nav-container");
-
-            // Fetch the navigation bar content
-            fetch("nav.html")
-                .then(response => response.text())
-                .then(data => {
-                    navContainer.innerHTML = data;
-                })
-                .catch(error => console.error("Error fetching navigation bar:", error));
-        });
-    </script>
-
 
     <div class="inner-banner">
         <div class="container">
