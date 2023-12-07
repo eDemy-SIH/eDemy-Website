@@ -180,12 +180,12 @@
     <div class="inner-banner">
         <div class="container">
             <div class="inner-title text-center">
-                <h3> E-Demy Choice Test</h3>
+                <h3 id="head1"> E-Demy Choice Test</h3>
                 <ul>
                     <li>
                         <a href="index-2.html">Home</a>
                     </li>
-                    <li> Test Yourself</li>
+                    <li id="head2"> Test Yourself</li>
                 </ul>
             </div>
         </div>
@@ -204,7 +204,7 @@
                                 <div class="row">
                                     <div class="col-lg-12 ">
                                         <div class="form-group" id="optn">
-                                            <label>Options (click on correct) (one time test) :- </label>
+                                            <label><span id="head3">Options (click on correct) (one time test) :-</span> </label>
                                         </div>
                                         <div id="ansopt">
                                             <button class="btn" id="btn">Option A</button>
@@ -271,6 +271,57 @@
 
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/scriptard.js"></script>
+
+
+    <script>
+
+        function changeLanguage1(){
+            location.reload()
+        }
+
+        function changeLanguage(lang) {
+
+          // Your Google Cloud Translation API key
+          const apiKey = 'AIzaSyAHlrSdG-n12ij7J2W-JDxBAo1rDpdH8Y4';
+    
+          // Elements to translate;
+          const head4 = document.getElementById('head1');
+          const head5 = document.getElementById('head2');
+          const head6 = document.getElementById('ques');
+          const head6a = document.getElementById('head3');
+    
+          // Text to translate
+
+          const head4t = head4.textContent;
+          const head5t = head5.textContent;
+          const head6t = head6.textContent;
+          const head6at = head6a.textContent;
+              
+          // Make API request
+          fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              q: [head4t,head5t,head6t,head6at],
+              target: lang,
+            }),
+          })
+          .then(response => response.json())
+          .then(data => {
+        console.log(data);
+            // Update content with translated text
+            
+            head4.textContent = data.data.translations[0].translatedText;
+            head5.textContent = data.data.translations[1].translatedText;
+            head6.textContent = data.data.translations[2].translatedText;
+            head6a.textContent = data.data.translations[3].translatedText;
+          })
+          .catch(error => console.error('Error:', error));
+        }
+    </script>
+
 </body>
 
 </html>
