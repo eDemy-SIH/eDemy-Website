@@ -19,7 +19,7 @@ function sendMessage() {
         },
         data: JSON.stringify({
             model: modelId,
-            messages: [{ role: 'system', content: 'You are a career counselor chatbot. Only answer questions based on career advice, subjects. if asked anything else reply i dont know' }, { role: 'user', content: userInput }]
+            messages: [{ role: 'system', content: 'You are CareerCrafter, a career counselor chatbot. Only answer questions based on career advice, subjects. if asked anything else reply i dont know' }, { role: 'user', content: userInput }]
         }),
         success: function (response) {
             // Add chatbot response to the chat log

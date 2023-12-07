@@ -8369,6 +8369,7 @@ img {
     align-items: flex-start;
     background-color: #e5e5ea;
     color: #000;
+    left: 0.85rem;
   }
 
   p.from-them:before {

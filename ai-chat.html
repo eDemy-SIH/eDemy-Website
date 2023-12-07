@@ -44,8 +44,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/ai-chat.css">
 
-    
-    
+
+
 
     <title>eDemy - Chat Bot</title>
 
@@ -79,10 +79,11 @@
 
                 <div class="">
 
-                    
+
                     <div class="chat-log imessage" id="chat-log"></div>
                     <div class="chat-input">
-                        <input  class="" id="user-input" type="text"  placeholder="Type your message">
+                        <input class="" id="user-input" type="text" placeholder="Type your message"
+                            onkeydown="handleKeyPress(event)">
                         <button onclick="sendMessage()"><i class="ri-send-plane-2-fill"></i></button>
                     </div>
 
@@ -98,24 +99,29 @@
 
     <footer class="footer-area" id="footer"></footer>
     <script>
-        $.get("footer.html", function(data){
+        $.get("footer.html", function (data) {
             $("#footer").replaceWith(data);
         });
     </script>
 
 
     <script>
-        selectBtn=document.querySelector(".select-btn")
+        function handleKeyPress(event) {
+            if (event.keyCode === 13) {
+                sendMessage();
+            }
+        }
+        selectBtn = document.querySelector(".select-btn")
         itemList = document.querySelector(".hobby-items");
-        
-        selectBtn.addEventListener("click",() =>{
+
+        selectBtn.addEventListener("click", () => {
             itemList.classList.toggle("open");
             selectBtn.classList.toggle("open-list");
 
         });
     </script>
 
-    
+
 
     <script src="assets/js/jquery.min.js"></script>
 
@@ -152,10 +158,10 @@
     <script src="assets/js/contact-form-script.js"></script>
 
     <script src="assets/js/custom.js"></script>
-    
+
     <script src="assets/js/marks.js"></script>
 
-    
+
 </body>
 
 
