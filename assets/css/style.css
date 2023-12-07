@@ -8330,3 +8330,7 @@ img {
         opacity: 0
     }
 }
+
+.dropdown-menu {
+    cursor: pointer;
+}
