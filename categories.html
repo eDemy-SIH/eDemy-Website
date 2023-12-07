@@ -52,22 +52,136 @@
     </div>
 
 
-    <div class="navbar-area" id="nav-placeholder"></div>
-    <script>
-        $.get("nav.html", function (data) {
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
+    <div class="navbar-area">
+    <div class="mobile-responsive-nav">
+        <div class="container-fluid">
+            <div class="mobile-responsive-menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                        <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="desktop-nav desktop-nav-one nav-area">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                    <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                </a>
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="categories.html" class="nav-link">
+                                Career Guides
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Languages
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage1()">
+                                        <a class="nav-link"> English </a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('bn')">
+                                        <a class="nav-link">Bengali</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('kn')">
+                                        <a class="nav-link">Kannada</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('hi')">
+                                        <a class="nav-link">Hindi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('pa')">
+                                        <a class="nav-link">Punjabi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('gu')">
+                                        <a class="nav-link">Gujrathi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('mr')">
+                                        <a class="nav-link">Marathi</a>
+                                    </button>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="others-options d-flex align-items-center">
+                        <div class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <i class="" id="lightMode-icon"></i>
+                                </a>
+                            </li>
+                            <li>&nbsp;&nbsp;&nbsp;</li>
+                        </div>
+                        <!-- <div class="optional-item">
+                                    <a href="student-info.html" class="default-btn two border-radius-5">Get Started
+                                        <i class="ri-user-3-line"></i></a>
+                                </div> -->
+                        <div class="optional-item">
+                            <a href="ai-chat.html" class="default-btn border-radius-5">AI Chat
+                                <i class="ri-user-5-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="side-nav-responsive">
+        <div class="container-max">
+            <div class="dot-menu">
+                <div class="circle-inner">
+                    <div class=""><i class="" id="lightMode-icon1"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 
     <div class="inner-banner">
         <div class="container">
             <div class="inner-title text-center">
-                <h3>Explore Careers by Categories</h3>
+                <h3 id="head1">Explore Careers by Categories</h3>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>Categories</li>
+                    <li id="head2">Categories</li>
                 </ul>
             </div>
         </div>
@@ -81,8 +195,8 @@
                     <div class="icon">
                         <i class="ri-hotel-line"></i>
                     </div>
-                    <h3><a href="management.html">Management</a></h3>
-                    <p>(5 possible opportunities)</p>
+                    <h3><a href="management.html" id="head3">Management</a></h3>
+                    <p id="head6">(5 possible opportunities)</p>
                     <a href="management.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -91,8 +205,8 @@
                     <div class="icon">
                         <i class="ri-computer-line"></i>
                     </div>
-                    <h3><a href="engineering.html">Engineering</a></h3>
-                    <p>(8 possible opportunities)</p>
+                    <h3><a href="engineering.html" id="head23">Engineering</a></h3>
+                    <p id="head24">(8 possible opportunities)</p>
                     <a href="engineering.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -101,8 +215,8 @@
                     <div class="icon">
                         <i class="ri-heart-add-line"></i>
                     </div>
-                    <h3><a href="medicine.html">Medicine</a></h3>
-                    <p>(7 possible opportunities)</p>
+                    <h3><a href="medicine.html" id="head25">Medicine</a></h3>
+                    <p id="head26">(7 possible opportunities)</p>
                     <a href="medicine.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -111,8 +225,8 @@
                     <div class="icon">
                         <i class="ri-line-chart-line"></i>
                     </div>
-                    <h3><a href="designgraphics.html">Design & Graphics</a></h3>
-                    <p>(6 possible opportunities)</p>
+                    <h3><a href="designgraphics.html" id="head27">Design & Graphics</a></h3>
+                    <p id="head28">(6 possible opportunities)</p>
                     <a href="designgraphics.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -121,8 +235,8 @@
                     <div class="icon">
                         <i class="ri-vip-crown-line"></i>
                     </div>
-                    <h3><a href="graduate.html">Graduate</a></h3>
-                    <p>(6 possible opportunities)</p>
+                    <h3><a href="graduate.html" id="head29">Graduate</a></h3>
+                    <p id="head30">(6 possible opportunities)</p>
                     <a href="graduate.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -131,8 +245,8 @@
                     <div class="icon">
                         <i class="ri-stack-line"></i>
                     </div>
-                    <h3><a href="financeandaccounts.html">Finance & Accounts</a></h3>
-                    <p>(5 possible opportunities)</p>
+                    <h3><a href="financeandaccounts.html" id="head31">Finance & Accounts</a></h3>
+                    <p id="head32">(5 possible opportunities)</p>
                     <a href="financeandaccounts.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -141,8 +255,8 @@
                     <div class="icon">
                         <i class="ri-pencil-line"></i>
                     </div>
-                    <h3><a href="educationandtraining.html">Education & Training</a></h3>
-                    <p>(4 possible opportunities)</p>
+                    <h3><a href="educationandtraining.html" id="head33">Education & Training</a></h3>
+                    <p id="head34">(4 possible opportunities)</p>
                     <a href="educationandtraining.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -151,8 +265,8 @@
                     <div class="icon">
                         <i class="ri-group-line"></i>
                     </div>
-                    <h3><a href="civilservices.html">Civil Services</a></h3>
-                    <p>(5 possible opportunities)</p>
+                    <h3><a href="civilservices.html" id="head35">Civil Services</a></h3>
+                    <p id="head36">(5 possible opportunities)</p>
                     <a href="civilservices.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -161,8 +275,8 @@
                     <div class="icon">
                         <i class="ri-movie-line"></i>
                     </div>
-                    <h3><a href="mediaandjournalism.html">Media & Journalism</a></h3>
-                    <p>(5 possible opportunities)</p>
+                    <h3><a href="mediaandjournalism.html" id="head37">Media & Journalism</a></h3>
+                    <p id="head38">(5 possible opportunities)</p>
                     <a href="mediaandjournalism.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -171,8 +285,8 @@
                     <div class="icon">
                         <i class="ri-pie-chart-line"></i>
                     </div>
-                    <h3><a href="marketing.html">Sales and Marketing</a></h3>
-                    <p>(5 possible opportunities)</p>
+                    <h3><a href="marketing.html" id="head39">Sales and Marketing</a></h3>
+                    <p id="head40">(5 possible opportunities)</p>
                     <a href="marketing.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -181,8 +295,8 @@
                     <div class="icon">
                         <i class="ri-plane-line"></i>
                     </div>
-                    <h3><a href="aviation.html">Aviation</a></h3>
-                    <p>(5 possible opportunities)</p>
+                    <h3><a href="aviation.html" id="head41">Aviation</a></h3>
+                    <p id="head42">(5 possible opportunities)</p>
                     <a href="aviation.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -191,8 +305,8 @@
                     <div class="icon">
                         <i class="ri-earth-fill"></i>
                     </div>
-                    <h3><a href="humanities.html">Humanities</a></h3>
-                    <p>(8 possible opportunities)</p>
+                    <h3><a href="humanities.html" id="head43">Humanities</a></h3>
+                    <p id="head44">(8 possible opportunities)</p>
                     <a href="humanities.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                 </div>
             </div>
@@ -268,6 +382,124 @@
     <script src="assets/js/contact-form-script.js"></script>
 
     <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        function changeLanguage1(){
+            location.reload()
+        }
+
+        function changeLanguage(lang) {
+
+          // Your Google Cloud Translation API key
+          const apiKey = 'AIzaSyAHlrSdG-n12ij7J2W-JDxBAo1rDpdH8Y4';
+    
+          // Elements to translate;
+          const head4 = document.getElementById('head1');
+          const head5 = document.getElementById('head2');
+          const head6 = document.getElementById('head3');
+          const head6a = document.getElementById('head6');
+          const head23 = document.getElementById('head23');
+          const head24 = document.getElementById('head24');
+          const head25 = document.getElementById('head25');
+          const head26 = document.getElementById('head26');
+          const head27 = document.getElementById('head27');
+          const head28 = document.getElementById('head28');
+          const head29 = document.getElementById('head29');
+          const head30 = document.getElementById('head30');
+          const head31 = document.getElementById('head31');
+          const head32 = document.getElementById('head32');
+          const head33 = document.getElementById('head33');
+          const head34 = document.getElementById('head34');
+          const head35 = document.getElementById('head35');
+          const head36 = document.getElementById('head36');
+          const head37 = document.getElementById('head37');
+          const head38 = document.getElementById('head38');
+          const head39 = document.getElementById('head39');
+          const head40 = document.getElementById('head40');
+          const head41 = document.getElementById('head41');
+          const head42 = document.getElementById('head42');
+          const head43 = document.getElementById('head43');
+          const head44 = document.getElementById('head44');
+
+    
+          // Text to translate
+
+          const head4t = head4.textContent;
+          const head5t = head5.textContent;
+          const head6t = head6.textContent;
+          const head6at = head6a.textContent;
+          const head23t = head23.textContent;
+          const head24t = head24.textContent;
+          const head25t = head25.textContent;
+          const head26t = head26.textContent;
+          const head27t = head27.textContent;
+          const head28t = head28.textContent;
+          const head29t = head29.textContent;
+          const head30t = head30.textContent;
+          const head31t = head31.textContent;
+          const head32t = head32.textContent;
+          const head33t = head33.textContent;
+          const head34t = head34.textContent;
+          const head35t = head35.textContent;
+          const head36t = head36.textContent;
+          const head37t = head37.textContent;
+          const head38t = head38.textContent;
+          const head39t = head39.textContent;
+          const head40t = head40.textContent;
+          const head41t = head41.textContent;
+          const head42t = head42.textContent;
+          const head43t = head43.textContent;
+          const head44t = head44.textContent;
+              
+          // Make API request
+          fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              q: [head4t,head5t,head6t,head6at,head23t,head24t,head25t,head26t,head27t,head28t,head29t,head30t,head31t,head32t,head33t,head34t,head35t,head36t,head37t,head38t,head39t,head40t,head41t,head42t,head43t,head44t],
+              target: lang,
+            }),
+          })
+          .then(response => response.json())
+          .then(data => {
+        console.log(data);
+            // Update content with translated text
+            
+            head4.textContent = data.data.translations[0].translatedText;
+            head5.textContent = data.data.translations[1].translatedText;
+            head6.textContent = data.data.translations[2].translatedText;
+            head6a.textContent = data.data.translations[3].translatedText;
+            head23.textContent = data.data.translations[4].translatedText;
+            head24.textContent = data.data.translations[5].translatedText;
+            head25.textContent = data.data.translations[6].translatedText;
+            head26.textContent = data.data.translations[7].translatedText;
+            head27.textContent = data.data.translations[8].translatedText;
+            head28.textContent = data.data.translations[9].translatedText;
+            head29.textContent = data.data.translations[10].translatedText;
+            head30.textContent = data.data.translations[11].translatedText;
+            head31.textContent = data.data.translations[12].translatedText;
+            head32.textContent = data.data.translations[13].translatedText;
+            head33.textContent = data.data.translations[14].translatedText;
+            head34.textContent = data.data.translations[15].translatedText;
+            head35.textContent = data.data.translations[16].translatedText;
+            head36.textContent = data.data.translations[17].translatedText;
+            head37.textContent = data.data.translations[18].translatedText;
+            head38.textContent = data.data.translations[19].translatedText;
+            head39.textContent = data.data.translations[20].translatedText;
+            head40.textContent = data.data.translations[21].translatedText;
+            head41.textContent = data.data.translations[22].translatedText;
+            head42.textContent = data.data.translations[23].translatedText;
+            head43.textContent = data.data.translations[24].translatedText;
+            head44.textContent = data.data.translations[25].translatedText;
+          })
+          .catch(error => console.error('Error:', error));
+        }
+      </script>
+
+
 </body>
 
 

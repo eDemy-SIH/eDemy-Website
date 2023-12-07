@@ -52,12 +52,126 @@
     </div>
 
 
-    <div class="navbar-area" id="nav-placeholder"></div>
-    <script>
-        $.get("nav.html", function (data) {
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
+    <div class="navbar-area">
+    <div class="mobile-responsive-nav">
+        <div class="container-fluid">
+            <div class="mobile-responsive-menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                        <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="desktop-nav desktop-nav-one nav-area">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                    <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                </a>
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="categories.html" class="nav-link">
+                                Career Guides
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Languages
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage1()">
+                                        <a class="nav-link"> English </a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('bn')">
+                                        <a class="nav-link">Bengali</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('kn')">
+                                        <a class="nav-link">Kannada</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('hi')">
+                                        <a class="nav-link">Hindi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('pa')">
+                                        <a class="nav-link">Punjabi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('gu')">
+                                        <a class="nav-link">Gujrathi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('mr')">
+                                        <a class="nav-link">Marathi</a>
+                                    </button>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="others-options d-flex align-items-center">
+                        <div class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <i class="" id="lightMode-icon"></i>
+                                </a>
+                            </li>
+                            <li>&nbsp;&nbsp;&nbsp;</li>
+                        </div>
+                        <!-- <div class="optional-item">
+                                    <a href="student-info.html" class="default-btn two border-radius-5">Get Started
+                                        <i class="ri-user-3-line"></i></a>
+                                </div> -->
+                        <div class="optional-item">
+                            <a href="ai-chat.html" class="default-btn border-radius-5">AI Chat
+                                <i class="ri-user-5-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="side-nav-responsive">
+        <div class="container-max">
+            <div class="dot-menu">
+                <div class="circle-inner">
+                    <div class=""><i class="" id="lightMode-icon1"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 
 
@@ -67,19 +181,17 @@
                 <div class="col-lg-7">
                     <div class="banner-content">
                         <h1 class="animate__animated animate__fadeInLeft" data-animate-delay="000ms"
-                            data-animate-duration="1000ms"><b>eDemy</b> - India's Best AI Powered Career Counselling
-                            Platform </h1>
+                            data-animate-duration="1000ms"><b>eDemy</b> - <span  id="toph1">India's Best AI Powered Career Counseling Platform</span></h1>
 
                         <p class="animate__animated animate__fadeInLeft" data-animate-delay="100ms"
-                            data-animate-duration="1000ms">
+                            data-animate-duration="1000ms" id="discop">
                             Discover your Path, Connect with Experts and Excel in your Journey.
                         </p>
 
                         <div class="side-nav-item animate__animated animate__fadeInLeft"
                             style="margin-top: -10px; margin-bottom: 10px">
-                            <a href="student-info.html" class="default-btn border-radius-5">
+                            <a href="student-info.html" class="default-btn border-radius-5" id="getsta">
                                 Get Started <i class="ri-briefcase-2-line "></i>
-                                <!--Taking the control to Student Info page-->
                             </a>
                         </div>
                     </div>
@@ -136,7 +248,7 @@
     <div class="browse-jobs-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Checkout Exciting Careers</h2>
+                <h2 id="chkex">Checkout Exciting Careers</h2>
                 <div class="bar m-auto"></div>
                 <!-- <p class="m-auto">144 jobs live - 20 added today.</p> -->
             </div>
@@ -146,8 +258,8 @@
                         <div class="icon">
                             <i class="ri-hotel-line"></i>
                         </div>
-                        <h3><a href="management.html">Management</a></h3>
-                        <p>(5 possible opportunities)</p>
+                        <h3><a href="management.html" id="man1">Management</a></h3>
+                        <p id="man2">(5 possible opportunities)</p>
                         <a href="management.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
@@ -156,8 +268,8 @@
                         <div class="icon">
                             <i class="ri-computer-line"></i>
                         </div>
-                        <h3><a href="engineering.html">Engineering</a></h3>
-                        <p>(8 possible opportunities)</p>
+                        <h3><a href="engineering.html" id="en1">Engineering</a></h3>
+                        <p id="en2">(8 possible opportunities)</p>
                         <a href="engineering.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
@@ -166,8 +278,8 @@
                         <div class="icon">
                             <i class="ri-heart-add-line"></i>
                         </div>
-                        <h3><a href="medicine.html">Medicine</a></h3>
-                        <p>(7 possible opportunities)</p>
+                        <h3><a href="medicine.html" id="med1">Medicine</a></h3>
+                        <p id="med2">(7 possible opportunities)</p>
                         <a href="medicine.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
@@ -176,8 +288,8 @@
                         <div class="icon">
                             <i class="ri-line-chart-line"></i>
                         </div>
-                        <h3><a href="designgraphics.html">Design & Graphics</a></h3>
-                        <p>(5 possible opportunities)</p>
+                        <h3><a href="designgraphics.html" id="de1">Design & Graphics</a></h3>
+                        <p id="de2">(5 possible opportunities)</p>
                         <a href="designgraphics.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
@@ -186,8 +298,8 @@
                         <div class="icon">
                             <i class="ri-vip-crown-line"></i>
                         </div>
-                        <h3><a href="graduate.html">Graduate</a></h3>
-                        <p>(6 possible opportunities)</p>
+                        <h3><a href="graduate.html" id="gra1">Graduate</a></h3>
+                        <p id="gra2">(6 possible opportunities)</p>
                         <a href="graduate.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
@@ -196,8 +308,8 @@
                         <div class="icon">
                             <i class="ri-stack-line"></i>
                         </div>
-                        <h3><a href="financeandaccounts.html">Finance & Accounts</a></h3>
-                        <p>(5 possible opportunities)</p>
+                        <h3><a href="financeandaccounts.html" id="fi1">Finance & Accounts</a></h3>
+                        <p id="fi2">(5 possible opportunities)</p>
                         <a href="financeandaccounts.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
@@ -206,8 +318,8 @@
                         <div class="icon">
                             <i class="ri-pencil-line"></i>
                         </div>
-                        <h3><a href="educationandtraining.html">Education & Training</a></h3>
-                        <p>(4 possible opportunities)</p>
+                        <h3><a href="educationandtraining.html" id="edu1">Education & Training</a></h3>
+                        <p id="edu2">(4 possible opportunities)</p>
                         <a href="educationandtraining.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
@@ -216,8 +328,8 @@
                         <div class="icon">
                             <i class="ri-group-line"></i>
                         </div>
-                        <h3><a href="civilservices.html">Civil Services</a></h3>
-                        <p>(5 possible opportunities)</p>
+                        <h3><a href="civilservices.html" id="c1">Civil Services</a></h3>
+                        <p id="c2">(5 possible opportunities)</p>
                         <a href="civilservices.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
@@ -226,14 +338,14 @@
                         <div class="icon">
                             <i class="ri-movie-line"></i>
                         </div>
-                        <h3><a href="mediaandjournalism.html">Media & Journalism</a></h3>
-                        <p>(5 possible opportunities)</p>
+                        <h3><a href="mediaandjournalism.html" id="m1">Media & Journalism</a></h3>
+                        <p id="m2">(5 possible opportunities)</p>
                         <a href="mediaandjournalism.html" class="more-btn"><i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-12 text-center">
                     <div class="browse-btn">
-                        <a href="categories.html"> Browse All Categories <i class="ri-arrow-right-s-line"></i></a>
+                        <a href="categories.html" id="brow"> Browse All Categories <i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
             </div>
@@ -244,7 +356,7 @@
     <div class="find-jobs-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Some Popular Careers</h2>
+                <h2 id="someh2">Some Popular Careers</h2>
                 <div class="bar m-auto"></div>
                 <!-- <p class="m-auto">144 jobs live - 20 added today.</p> -->
             </div>
@@ -262,20 +374,20 @@
                                 <li class="freelance">Freelance</li>
                                 <li class="internship">Internship</li> -->
                             </ul>
-                            <h3><a href="engineering/aiml.html">Machine Learning Engineer</a></h3>
+                            <h3><a href="engineering/aiml.html" id="mle1">Machine Learning Engineer</a></h3>
                             <ul class="content-list2">
                                 <!-- <li class="list-one"> Business Name</li> -->
-                                <li class="list-two"><i class="ri-survey-line"></i> Qualification : Bachelor of
+                                <li class="list-two" id="mle2"><i class="ri-survey-line"></i> Qualification : Bachelor of
                                     Technology (B.Tech)</li>
                             </ul>
                             <ul class="content-list3">
-                                <li><i class="ri-briefcase-line"></i> Category : <b>Engineering</b></li>
+                                <li id="mle3"><i class="ri-briefcase-line"></i> Category : <b>Engineering</b></li>
                                 <!-- <li><i class="ri-map-pin-line"></i> Location : <b>305 Hicks St Brooklyn, NY</b></li> -->
-                                <li><i class="ri-time-line"></i>Duration : <b>4 Years</b></li>
+                                <li id="mle4"><i class="ri-time-line"></i>Duration : <b>4 Years</b></li>
                             </ul>
                         </div>
                         <div class="find-jobs-btn">
-                            <a href="engineering/aiml.html" class="default-btn border-radius-5">Explore
+                            <a href="engineering/aiml.html" class="default-btn border-radius-5" id="mle5">Explore
                                 Now<i class="ri-send-plane-2-line"></i></a>
                         </div>
                         <!-- <button class="bookmark-btn"><i class="ri-bookmark-line"></i></button> -->
@@ -295,20 +407,20 @@
                                 <li class="freelance">Freelance</li>
                                 <li class="internship">Internship</li> -->
                             </ul>
-                            <h3><a href="medicine/surgeon.html">Surgeon</a></h3>
+                            <h3><a href="medicine/surgeon.html" id="sur1">Surgeon</a></h3>
                             <ul class="content-list2">
                                 <!-- <li class="list-one"> Business Name</li> -->
-                                <li class="list-two"><i class="ri-survey-line"></i> Qualification : Master of Surgery
+                                <li class="list-two"><i class="ri-survey-line" id="sur2"></i> Qualification : Master of Surgery
                                     (MS)</li>
                             </ul>
                             <ul class="content-list3">
-                                <li><i class="ri-briefcase-line"></i> Category : <b>Medicine</b></li>
+                                <li id="sur3"><i class="ri-briefcase-line"></i> Category : <b>Medicine</b></li>
                                 <!-- <li><i class="ri-map-pin-line"></i> Location : <b>305 Hicks St Brooklyn, NY</b></li> -->
-                                <li><i class="ri-time-line"></i>Duration : <b>8 Years</b></li>
+                                <li id="sur4"><i class="ri-time-line"></i>Duration : <b>8 Years</b></li>
                             </ul>
                         </div>
                         <div class="find-jobs-btn">
-                            <a href="medicine/surgeon.html" class="default-btn border-radius-5">Explore
+                            <a href="medicine/surgeon.html" class="default-btn border-radius-5" id="sur5">Explore
                                 Now<i class="ri-send-plane-2-line"></i></a>
                         </div>
                         <!-- <button class="bookmark-btn"><i class="ri-bookmark-line"></i></button> -->
@@ -328,27 +440,27 @@
                                 <li class="freelance">Freelance</li>
                                 <li class="internship">Internship</li> -->
                             </ul>
-                            <h3><a href="graduate/ent.html">Entrepreneur</a></h3>
+                            <h3><a href="graduate/ent.html" id="ent1">Entrepreneur</a></h3>
                             <ul class="content-list2">
                                 <!-- <li class="list-one"> Business Name</li> -->
-                                <li class="list-two"><i class="ri-survey-line"></i> Qualification : Any Bachelor's
+                                <li class="list-two" id="ent2"><i class="ri-survey-line"></i> Qualification : Any Bachelor's
                                     Degree</li>
                             </ul>
                             <ul class="content-list3">
-                                <li><i class="ri-briefcase-line"></i> Category : <b>Graduate</b></li>
+                                <li id="ent3"><i class="ri-briefcase-line"></i> Category : <b>Graduate</b></li>
                                 <!-- <li><i class="ri-map-pin-line"></i> Location : <b>305 Hicks St Brooklyn, NY</b></li> -->
-                                <li><i class="ri-time-line"></i>Duration : <b>2 years</b></li>
+                                <li id="ent4"><i class="ri-time-line"></i>Duration : <b>2 years</b></li>
                             </ul>
                         </div>
                         <div class="find-jobs-btn">
-                            <a href="graduate/ent.html" class="default-btn border-radius-5">Apply
+                            <a href="graduate/ent.html" id="ent5" class="default-btn border-radius-5">Explore
                                 Now<i class="ri-send-plane-2-line"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-12 text-center">
                     <div class="browse-btn">
-                        <a href="categories.html"> Load More Careers <i class="ri-arrow-right-s-line"></i></a>
+                        <a href="categories.html" id="loadtr"> Load More Careers <i class="ri-arrow-right-s-line"></i></a>
                     </div>
                 </div>
             </div>
@@ -360,28 +472,28 @@
         <div class="container">
             <div class="testimonials-widget-slider owl-carousel owl-theme">
                 <div class="testimonials-widget-item">
-                    <h3>Shristi Dutta</h3>
-                    <span>Student</span>
+                    <h3 id="n1">Shristi Dutta</h3>
+                    <span id="n11">Student</span>
                     <div class="content-img">
                         <img src="assets/images/testimonials/testimonials-img-shristi.jpg" alt="Images">
                     </div>
-                    <P>After using this AI-based career counseling tool, I feel more confident about my future. It provided valuable insights into my strengths and interests, making the decision-making process clearer.</P>
+                    <P id="n12">After using this AI-based career counseling tool, I feel more confident about my future. It provided valuable insights into my strengths and interests, making the decision-making process clearer.</P>
                 </div>
                 <div class="testimonials-widget-item">
-                    <h3>Tanmoy Mondal</h3>
-                    <span>Student</span>
+                    <h3 id="n2">Tanmoy Mondal</h3>
+                    <span id="n21">Student</span>
                     <div class="content-img">
                         <img src="assets/images/testimonials/testimonials-img-tanmoy.jpg" alt="Images">
                     </div>
-                    <P>The AI career counseling tool offered personalized insights based on my strengths. It clarified my career options, leaving me more confident in my choices. A valuable tool for students!</P>
+                    <P id="n22">The AI career counseling tool offered personalized insights based on my strengths. It clarified my career options, leaving me more confident in my choices. A valuable tool for students!</P>
                 </div>
                 <div class="testimonials-widget-item">
-                    <h3>Bilash Mallick</h3>
-                    <span>Student</span>
+                    <h3 id="n3">Bilash Mallick</h3>
+                    <span id="n31">Student</span>
                     <div class="content-img">
                         <img src="assets/images/testimonials/testimonials-img-bilash.jpg" alt="Images">
                     </div>
-                    <P>I had doubts about my career path, but this website offered clear guidance for my future. It evaluated my strengths and recommended fitting options. It's an excellent resource for students exploring their career options.</P>
+                    <P id="n32">I had doubts about my career path, but this website offered clear guidance for my future. It evaluated my strengths and recommended fitting options. It's an excellent resource for students exploring their career options.</P>
                 </div>
             </div>
         </div>
@@ -430,6 +542,189 @@
 
     <script src="assets/js/custom.js"></script>
 
+    <script>
+
+        function changeLanguage1(){
+            location.reload();
+        }
+
+        function changeLanguage(lang) {
+
+          // Your Google Cloud Translation API key
+          const apiKey = 'AIzaSyAHlrSdG-n12ij7J2W-JDxBAo1rDpdH8Y4';
+    
+          // Elements to translate
+          const titleElement = document.getElementById('toph1');
+          const discop = document.getElementById('discop');
+          const getstaa = document.getElementById('getsta');
+          const chkex = document.getElementById('chkex');
+          const man1 = document.getElementById('man1');
+          const man2 = document.getElementById('man2');
+          const en1 = document.getElementById('en1');
+          const en2 = document.getElementById('en2');
+          const med1 = document.getElementById('med1');
+          const med2 = document.getElementById('med2');
+          const de1 = document.getElementById('de1');
+          const de2 = document.getElementById('de2');
+          const gra1 = document.getElementById('gra1');
+          const gra2 = document.getElementById('gra2');
+          const fi1 = document.getElementById('fi1');
+          const fi2 = document.getElementById('fi2');
+          const edu1 = document.getElementById('edu1');
+          const edu2 = document.getElementById('edu2');
+          const c1 = document.getElementById('c1');
+          const c2 = document.getElementById('c2');
+          const m1 = document.getElementById('m1');
+          const m2 = document.getElementById('m2');
+          const brow = document.getElementById('brow');
+          const someh2 = document.getElementById('someh2');
+          const mle1 = document.getElementById('mle1');
+          const mle2 = document.getElementById('mle2');
+          const mle3 = document.getElementById('mle3');
+          const mle4 = document.getElementById('mle4');
+          const mle5 = document.getElementById('mle5');
+          const sur1 = document.getElementById('sur1');
+          const sur2 = document.getElementById('sur2');
+          const sur3 = document.getElementById('sur3');
+          const sur4 = document.getElementById('sur4');
+          const sur5 = document.getElementById('sur5');
+          const ent1 = document.getElementById('ent1');
+          const ent2 = document.getElementById('ent2');
+          const ent3 = document.getElementById('ent3');
+          const ent4 = document.getElementById('ent4');
+          const ent5 = document.getElementById('ent5');
+          const loadtr = document.getElementById('loadtr');
+          const n1 = document.getElementById('n1');
+          const n11 = document.getElementById('n11');
+          const n12 = document.getElementById('n12');
+          const n2 = document.getElementById('n2');
+          const n21 = document.getElementById('n21');
+          const n22 = document.getElementById('n22');
+          const n3 = document.getElementById('n3');
+          const n31 = document.getElementById('n31');
+          const n32 = document.getElementById('n32');
+
+    
+          // Text to translate
+          const titleText = titleElement.textContent;
+          const discopt = discop.textContent;
+          const getstaat = getstaa.textContent;
+          const chkext = chkex.textContent;
+          const man1t = man1.textContent;
+          const man2t = man2.textContent;
+          const en1t = en1.textContent;
+          const en2t = en2.textContent;
+          const med1t = med1.textContent;
+          const med2t = med2.textContent;
+          const de1t = de1.textContent;
+          const de2t = de2.textContent;
+          const gra1t = gra1.textContent;
+          const gra2t = gra2.textContent;
+          const fi1t = fi1.textContent;
+          const fi2t = fi2.textContent;
+          const edu1t = edu1.textContent;
+          const edu2t = edu2.textContent;
+          const c1t = c1.textContent;
+          const c2t = c2.textContent;
+          const m1t = m1.textContent;
+          const m2t = m2.textContent;
+          const browt = brow.textContent;
+          const someh2t = someh2.textContent;
+          const mle1t = mle1.textContent;
+          const mle2t = mle2.textContent;
+          const mle3t = mle3.textContent;
+          const mle4t = mle4.textContent;
+          const mle5t = mle5.textContent;
+          const sur1t = sur1.textContent;
+          const sur2t = sur2.textContent;
+          const sur3t = sur3.textContent;
+          const sur4t = sur4.textContent;
+          const sur5t = sur5.textContent;
+          const ent1t = ent1.textContent;
+          const ent2t = ent2.textContent;
+          const ent3t = ent3.textContent;
+          const ent4t = ent4.textContent;
+          const ent5t = ent5.textContent;
+          const loadtrt = loadtr.textContent;
+          const n1t = n1.textContent;
+          const n11t = n11.textContent;
+          const n12t = n12.textContent;
+          const n2t = n2.textContent;
+          const n21t = n21.textContent;
+          const n22t = n22.textContent;
+          const n3t = n3.textContent;
+          const n31t = n31.textContent;
+          const n32t = n32.textContent;
+
+    
+          // Make API request
+          fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              q: [titleText,discopt,getstaat,chkext,man1t,man2t,en1t,en2t,med1t,med2t,de1t,de2t,gra1t,gra2t,fi1t,fi2t,edu1t,edu2t,c1t,c2t,m1t,m2t,browt,someh2t,mle1t,mle2t,mle3t,mle4t,mle5t,sur1t,sur2t,sur3t,sur4t,sur5t,ent1t,ent2t,ent3t,ent4t,ent5t,loadtrt,n1t,n11t,n12t,n2t,n21t,n22t,n3t,n31t,n32t],
+              target: lang,
+            }),
+          })
+          .then(response => response.json())
+          .then(data => {
+        console.log(data);
+            // Update content with translated text
+            titleElement.textContent = data.data.translations[0].translatedText;
+            discop.textContent = data.data.translations[1].translatedText;
+            getstaa.textContent = data.data.translations[2].translatedText;
+            chkex.textContent = data.data.translations[3].translatedText;
+            man1.textContent = data.data.translations[4].translatedText;
+            man2.textContent = data.data.translations[5].translatedText;
+            en1.textContent = data.data.translations[6].translatedText;
+            en2.textContent = data.data.translations[7].translatedText;
+            med1.textContent = data.data.translations[8].translatedText;
+            med2.textContent = data.data.translations[9].translatedText;
+            de1.textContent = data.data.translations[10].translatedText;
+            de2.textContent = data.data.translations[11].translatedText;
+            gra1.textContent = data.data.translations[12].translatedText;
+            gra2.textContent = data.data.translations[13].translatedText;
+            fi1.textContent = data.data.translations[14].translatedText;
+            fi2.textContent = data.data.translations[15].translatedText;
+            edu1.textContent = data.data.translations[16].translatedText;
+            edu2.textContent = data.data.translations[17].translatedText;
+            c1.textContent = data.data.translations[18].translatedText;
+            c2.textContent = data.data.translations[19].translatedText;
+            m1.textContent = data.data.translations[20].translatedText;
+            m2.textContent = data.data.translations[21].translatedText;
+            brow.textContent = data.data.translations[22].translatedText;
+            someh2.textContent = data.data.translations[23].translatedText;
+            mle1.textContent = data.data.translations[24].translatedText;
+            mle2.textContent = data.data.translations[25].translatedText;
+            mle3.textContent = data.data.translations[26].translatedText;
+            mle4.textContent = data.data.translations[27].translatedText;
+            mle5.textContent = data.data.translations[28].translatedText;
+            sur1.textContent = data.data.translations[29].translatedText;
+            sur2.textContent = data.data.translations[30].translatedText;
+            sur3.textContent = data.data.translations[31].translatedText;
+            sur4.textContent = data.data.translations[32].translatedText;
+            sur5.textContent = data.data.translations[33].translatedText;
+            ent1.textContent = data.data.translations[34].translatedText;
+            ent2.textContent = data.data.translations[35].translatedText;
+            ent3.textContent = data.data.translations[36].translatedText;
+            ent4.textContent = data.data.translations[37].translatedText;
+            ent5.textContent = data.data.translations[38].translatedText;
+            loadtr.textContent = data.data.translations[39].translatedText;
+            n1.textContent = data.data.translations[40].translatedText;
+            n11.textContent = data.data.translations[41].translatedText;
+            n12.textContent = data.data.translations[42].translatedText;
+            n2.textContent = data.data.translations[43].translatedText;
+            n21.textContent = data.data.translations[44].translatedText;
+            n22.textContent = data.data.translations[45].translatedText;
+            n3.textContent = data.data.translations[46].translatedText;
+            n31.textContent = data.data.translations[47].translatedText;
+            n32.textContent = data.data.translations[48].translatedText;
+          })
+          .catch(error => console.error('Error:', error));
+        }
+      </script>
 
 </body>
 

@@ -54,23 +54,137 @@
     </div>
 
 
-    <div class="navbar-area" id="nav-placeholder"></div>
-    <script>
-        $.get("nav.html", function (data) {
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
+    <div class="navbar-area">
+        <div class="mobile-responsive-nav">
+            <div class="container-fluid">
+                <div class="mobile-responsive-menu">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                            <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="desktop-nav desktop-nav-one nav-area">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                        <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about-us.html" class="nav-link">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="categories.html" class="nav-link">
+                                    Career Guides
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    Languages
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <button class="backtr" onclick="changeLanguage1()">
+                                            <a class="nav-link"> English </a>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="backtr" onclick="changeLanguage('bn')">
+                                            <a class="nav-link">Bengali</a>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="backtr" onclick="changeLanguage('kn')">
+                                            <a class="nav-link">Kannada</a>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="backtr" onclick="changeLanguage('hi')">
+                                            <a class="nav-link">Hindi</a>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="backtr" onclick="changeLanguage('pa')">
+                                            <a class="nav-link">Punjabi</a>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="backtr" onclick="changeLanguage('gu')">
+                                            <a class="nav-link">Gujrathi</a>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="backtr" onclick="changeLanguage('mr')">
+                                            <a class="nav-link">Marathi</a>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="others-options d-flex align-items-center">
+                            <div class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <i class="" id="lightMode-icon"></i>
+                                    </a>
+                                </li>
+                                <li>&nbsp;&nbsp;&nbsp;</li>
+                            </div>
+                            <!-- <div class="optional-item">
+                                        <a href="student-info.html" class="default-btn two border-radius-5">Get Started
+                                            <i class="ri-user-3-line"></i></a>
+                                    </div> -->
+                            <div class="optional-item">
+                                <a href="ai-chat.html" class="default-btn border-radius-5">AI Chat
+                                    <i class="ri-user-5-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="side-nav-responsive">
+            <div class="container-max">
+                <div class="dot-menu">
+                    <div class="circle-inner">
+                        <div class=""><i class="" id="lightMode-icon1"></i></div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
 
 
     <div class="inner-banner">
         <div class="container">
             <div class="inner-title text-center">
-                <h3>About Us</h3>
+                <h3 id="head1">About Us</h3>
                 <ul class="none">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" id="head2">Home</a>
                     </li>
-                    <li>About Us</li>
+                    <li id="head3">About Us</li>
                 </ul>
             </div>
         </div>
@@ -99,7 +213,7 @@
                 </div>
             </div> -->
             <div class="section-title">
-                <h2 class="pb-7 text-center">How Do We Help You?</h2>
+                <h2 class="pb-7 text-center" id="head4">How Do We Help You?</h2>
                 <div class="bar m-auto"></div>
                 <!-- <p class="m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim a erat sit
                     vulputate elementum orci. Risus nec viverra ornare venenatis proin ac varius tristique
@@ -113,24 +227,24 @@
 
                 <ul class="timeline pt-50">
                     <li style="--accent-color:#00ca99">
-                        <div class="date">Personalized Assessments</div>
-                        <div class="descr">Our platform starts by gathering crucial information about you – your name, academic performance, and areas of interest. We then tailor a set of insightful questions directly related to your indicated interests. This specialized assessment helps us understand your strengths and preferences better.</div>
+                        <div class="date" id="head5">Personalized Assessments</div>
+                        <div class="descr" id="head6">Our platform starts by gathering crucial information about you – your name, academic performance, and areas of interest. We then tailor a set of insightful questions directly related to your indicated interests. This specialized assessment helps us understand your strengths and preferences better.</div>
                     </li>
                     <li style="--accent-color:#00ca99">
-                        <div class="date">Comprehensive Analysis</div>
-                        <div class="descr right">Our AI analyzes your responses to these questions, evaluating your strengths and areas that may need development. It calculates a precise score that reflects your potential in different career domains.</div>
+                        <div class="date" id="head7">Comprehensive Analysis</div>
+                        <div class="descr right" id="head8">Our AI analyzes your responses to these questions, evaluating your strengths and areas that may need development. It calculates a precise score that reflects your potential in different career domains.</div>
                     </li>
                     <li style="--accent-color:#00ca99">
-                        <div class="date">Customized Career Insights</div>
-                        <div class="descr">Based on your assessment score, we provide you with a list of potential career paths that align with your strengths and interests. This guidance is rooted in data-driven insights, helping you make informed decisions about your future.</div>
+                        <div class="date" id="head9">Customized Career Insights</div>
+                        <div class="descr" id="head10">Based on your assessment score, we provide you with a list of potential career paths that align with your strengths and interests. This guidance is rooted in data-driven insights, helping you make informed decisions about your future.</div>
                     </li>
                     <li style="--accent-color:#00ca99">
-                        <div class="date">AI-Powered Guidance</div>
-                        <div class="descr right">With our AI-powered chatbot, you can have real-time conversations about career recommendations. Ask any questions you may have about potential professions, and get instant, data-driven answers based on your unique profile and preferences.</div>
+                        <div class="date" id="head11">AI-Powered Guidance</div>
+                        <div class="descr right" id="head12">With our AI-powered chatbot, you can have real-time conversations about career recommendations. Ask any questions you may have about potential professions, and get instant, data-driven answers based on your unique profile and preferences.</div>
                     </li>
                     <li style="--accent-color:#00ca99">
-                        <div class="date">Industry Insights</div>
-                        <div class="descr">Gain invaluable insights from the very professionals who excel in your field of interest. Chat with experts in real time to receive counseling, mentorship and various other resources.
+                        <div class="date" id="head13">Industry Insights</div>
+                        <div class="descr" id="head14">Gain invaluable insights from the very professionals who excel in your field of interest. Chat with experts in real time to receive counseling, mentorship and various other resources.
                         </div>
                     </li>
                 </ul>
@@ -142,30 +256,30 @@
     <div class="services-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Offerings</h2>
+                <h2 id="head15">Our Offerings</h2>
                 <div class="bar m-auto"></div>
-                <p class="m-auto">Take a look at the services we provide.</p>
+                <p id="head16" class="m-auto">Take a look at the services we provide.</p>
             </div>
             <div class="row pt-45 justify-content-center">
                 <div class="col-lg-4 col-6">
                     <div class="services-card">
                         <i class="ri-file-cloud-line services-bg1"></i>
-                        <h3><a href="candidates-dashboard-shortlisted-job.html">Customized Tests</a></h3>
-                        <p>Our Aptitute test is designed to suit your interests.</p>
+                        <h3><a href="candidates-dashboard-shortlisted-job.html" id="head17">Customized Tests</a></h3>
+                        <p id="head18">Our Aptitute test is designed to suit your interests.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-6">
                     <div class="services-card">
                         <i class="ri-guide-fill services-bg2"></i>
-                        <h3><a href="candidates-dashboard-cv-manager.html">Personalized Guidance</a></h3>
-                        <p>Receive personalized career advice tailored to your strengths.</p>
+                        <h3><a href="candidates-dashboard-cv-manager.html" id="head19">Personalized Guidance</a></h3>
+                        <p id="head20">Receive personalized career advice tailored to your strengths.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-6">
                     <div class="services-card">
                         <i class="ri-message-2-line services-bg3"></i>
-                        <h3><a href="candidates-dashboard-shortlisted-job.html">AI Insights</a></h3>
-                        <p>Optimize career choices with precise AI insights.</p>
+                        <h3><a href="candidates-dashboard-shortlisted-job.html" id="head21">AI Insights</a></h3>
+                        <p id="head22">Optimize career choices with precise AI insights.</p>
                     </div>
                 </div>
             </div>
@@ -218,15 +332,15 @@
                 <div class="row align-items-center">
                     <div class="col-lg-8">
                         <div class="employers-cv-content">
-                            <h2>Get Personalised Career Suggestions</h2>
+                            <h2 id="head23">Get Personalised Career Suggestions</h2>
                             <div class="bar"></div>
-                            <p>Receive customized professional career recommendations tailored to your unique strengths
+                            <p id="head24">Receive customized professional career recommendations tailored to your unique strengths
                                 and interests for optimal career growth.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="employers-cv-btn">
-                            <a href="student-info.html">Get Started</a>
+                            <a href="student-info.html" id="head25">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -276,6 +390,112 @@
     <script src="assets/js/contact-form-script.js"></script>
 
     <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        function changeLanguage1(){
+            location.reload()
+        }
+
+        function changeLanguage(lang) {
+
+          // Your Google Cloud Translation API key
+          const apiKey = 'AIzaSyAHlrSdG-n12ij7J2W-JDxBAo1rDpdH8Y4';
+    
+          // Elements to translate;
+          const head4 = document.getElementById('head4');
+          const head5 = document.getElementById('head5');
+          const head6 = document.getElementById('head6');
+          const head7 = document.getElementById('head7');
+          const head8 = document.getElementById('head8');
+          const head9 = document.getElementById('head9');
+          const head10 = document.getElementById('head10');
+          const head11 = document.getElementById('head11');
+          const head12 = document.getElementById('head12');
+          const head13 = document.getElementById('head13');
+          const head14 = document.getElementById('head14');
+          const head15 = document.getElementById('head15');
+          const head16 = document.getElementById('head16');
+          const head17 = document.getElementById('head17');
+          const head18 = document.getElementById('head18');
+          const head19 = document.getElementById('head19');
+          const head20 = document.getElementById('head20');
+          const head21 = document.getElementById('head21');
+          const head22 = document.getElementById('head22');
+          const head23 = document.getElementById('head23');
+          const head24 = document.getElementById('head24');
+          const head25 = document.getElementById('head25');
+
+    
+          // Text to translate
+
+          const head4t = head4.textContent;
+          const head5t = head5.textContent;
+          const head6t = head6.textContent;
+          const head7t = head7.textContent;
+          const head8t = head8.textContent;
+          const head9t = head9.textContent;
+          const head10t = head10.textContent;
+          const head11t = head11.textContent;
+          const head12t = head12.textContent;
+          const head13t = head13.textContent;
+          const head14t = head14.textContent;
+          const head15t = head15.textContent;
+          const head16t = head16.textContent;
+          const head17t = head17.textContent;
+          const head18t = head18.textContent;
+          const head19t = head19.textContent;
+          const head20t = head20.textContent;
+          const head21t = head21.textContent;
+          const head22t = head22.textContent;
+          const head23t = head23.textContent;
+          const head24t = head24.textContent;
+          const head25t = head25.textContent;
+              
+          // Make API request
+          fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              q: [head4t,head5t,head6t,head7t,head8t,head9t,head10t,head11t,head12t,head13t,head14t,head15t,head16t,head17t,head18t,head19t,head20t,head21t,head22t,head23t,head24t,head25t],
+              target: lang,
+            }),
+          })
+          .then(response => response.json())
+          .then(data => {
+        console.log(data);
+            // Update content with translated text
+            
+            head4.textContent = data.data.translations[0].translatedText;
+            head5.textContent = data.data.translations[1].translatedText;
+            head6.textContent = data.data.translations[2].translatedText;
+            head7.textContent = data.data.translations[3].translatedText;
+            head8.textContent = data.data.translations[4].translatedText;
+            head9.textContent = data.data.translations[5].translatedText;
+            head10.textContent = data.data.translations[6].translatedText;
+            head11.textContent = data.data.translations[7].translatedText;
+            head12.textContent = data.data.translations[8].translatedText;
+            head13.textContent = data.data.translations[9].translatedText;
+            head14.textContent = data.data.translations[10].translatedText;
+            head15.textContent = data.data.translations[11].translatedText;
+            head16.textContent = data.data.translations[12].translatedText;
+            head17.textContent = data.data.translations[13].translatedText;
+            head18.textContent = data.data.translations[14].translatedText;
+            head19.textContent = data.data.translations[15].translatedText;
+            head20.textContent = data.data.translations[16].translatedText;
+            head21.textContent = data.data.translations[17].translatedText;
+            head22.textContent = data.data.translations[18].translatedText;
+            head23.textContent = data.data.translations[19].translatedText;
+            head24.textContent = data.data.translations[20].translatedText;
+            head25.textContent = data.data.translations[21].translatedText;
+          })
+          .catch(error => console.error('Error:', error));
+        }
+      </script>
+
+
 </body>
 
 </html>

@@ -250,3 +250,65 @@
     $('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
 })($);
 
+function setTheme(themeName) {
+    localStorage.setItem('', themeName);
+    document.documentElement.className = themeName;
+}
+
+let lightModeIcon = document.querySelector('#lightMode-icon');
+if (localStorage.getItem('') === 'theme-dark') {
+    lightModeIcon.classList.add('ri-sun-line');
+    console.log(lightModeIcon.classList);
+}
+else {
+    lightModeIcon.classList.add('ri-moon-fill');
+}
+lightModeIcon.onclick = () => {
+    if (localStorage.getItem('') === 'theme-dark') {
+        setTheme('theme-light');
+        lightModeIcon.classList.remove('ri-sun-line');
+        lightModeIcon.classList.add('ri-moon-fill');
+    } else {
+        setTheme('theme-dark');
+        lightModeIcon.classList.remove('ri-moon-fill');
+        lightModeIcon.classList.add('ri-sun-line');
+    }
+}
+(function () {
+    if (localStorage.getItem('') === 'theme-dark') {
+        setTheme('theme-dark');
+        document.getElementById('slider').checked = false;
+    } else {
+        setTheme('theme-light');
+        document.getElementById('slider').checked = true;
+    }
+})();
+
+
+let lightModeIcon1 = document.querySelector('#lightMode-icon1');
+if (localStorage.getItem('') === 'theme-dark') {
+    lightModeIcon1.classList.add('ri-sun-line');
+}
+else {
+    lightModeIcon1.classList.add('ri-moon-fill');
+}
+lightModeIcon1.onclick = () => {
+    if (localStorage.getItem('') === 'theme-dark') {
+        setTheme('theme-light');
+        lightModeIcon1.classList.remove('ri-sun-line');
+        lightModeIcon1.classList.add('ri-moon-fill');
+    } else {
+        setTheme('theme-dark');
+        lightModeIcon1.classList.remove('ri-moon-fill');
+        lightModeIcon1.classList.add('ri-sun-line');
+    }
+}
+(function () {
+    if (localStorage.getItem('') === 'theme-dark') {
+        setTheme('theme-dark');
+        document.getElementById('slider').checked = false;
+    } else {
+        setTheme('theme-light');
+        document.getElementById('slider').checked = true;
+    }
+})();

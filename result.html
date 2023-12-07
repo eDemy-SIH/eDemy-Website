@@ -53,24 +53,138 @@
     </div>
 
 
-    <div class="navbar-area" id="nav-placeholder"></div>
-    <script>
-        $.get("nav.html", function (data) {
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
+    <div class="navbar-area">
+    <div class="mobile-responsive-nav">
+        <div class="container-fluid">
+            <div class="mobile-responsive-menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                        <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="desktop-nav desktop-nav-one nav-area">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                    <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                </a>
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="categories.html" class="nav-link">
+                                Career Guides
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Languages
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage1()">
+                                        <a class="nav-link"> English </a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('bn')">
+                                        <a class="nav-link">Bengali</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('kn')">
+                                        <a class="nav-link">Kannada</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('hi')">
+                                        <a class="nav-link">Hindi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('pa')">
+                                        <a class="nav-link">Punjabi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('gu')">
+                                        <a class="nav-link">Gujrathi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('mr')">
+                                        <a class="nav-link">Marathi</a>
+                                    </button>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="others-options d-flex align-items-center">
+                        <div class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <i class="" id="lightMode-icon"></i>
+                                </a>
+                            </li>
+                            <li>&nbsp;&nbsp;&nbsp;</li>
+                        </div>
+                        <!-- <div class="optional-item">
+                                    <a href="student-info.html" class="default-btn two border-radius-5">Get Started
+                                        <i class="ri-user-3-line"></i></a>
+                                </div> -->
+                        <div class="optional-item">
+                            <a href="ai-chat.html" class="default-btn border-radius-5">AI Chat
+                                <i class="ri-user-5-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="side-nav-responsive">
+        <div class="container-max">
+            <div class="dot-menu">
+                <div class="circle-inner">
+                    <div class=""><i class="" id="lightMode-icon1"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 
 
     <div class="inner-banner">
         <div class="container">
             <div class="inner-title text-center">
-                <h3>Your Scorecard</h3>
+                <h3 id="head1">Your Scorecard</h3>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>Scorecard</li>
+                    <li id="head2">Scorecard</li>
                 </ul>
             </div>
         </div>
@@ -96,8 +210,8 @@
                 </div> -->
                 <div class="col-lg-4 col-6 col-md-4 pt-45" id="scoreard2">
                     <div class="counter-card" >
-                        <h3>Your Test Score</h3>
-                        <div class="bar m-auto"></div>
+                        <h3 id="head3">Your Test Score</h3>
+                        <div class="bar m-auto" id="head66"></div>
                         <h5 class="pt-45" style="opacity: 0.8;" id="scoreard"></h5>
                     </div>
                 </div>
@@ -119,7 +233,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="employers-cv-btn" id="btn69">
-                            <a>
+                            <a id="head6">
                                 Explore More</a>
                         </div>
                     </div>
@@ -174,6 +288,67 @@
     <script src="assets/js/scriptard.js"></script>
     
     <script src="assets/js/ardagint.js"></script>
+
+
+
+    <script>
+
+        function changeLanguage1(){
+            location.reload()
+        }
+
+        function changeLanguage(lang) {
+
+          // Your Google Cloud Translation API key
+          const apiKey = 'AIzaSyAHlrSdG-n12ij7J2W-JDxBAo1rDpdH8Y4';
+    
+          // Elements to translate;
+          const head4 = document.getElementById('head1');
+          const head5 = document.getElementById('head2');
+          const head6 = document.getElementById('head3');
+          const head6a = document.getElementById('inter');
+          const head23 = document.getElementById('stfu');
+          const head24 = document.getElementById('head6');
+          const head25 = document.getElementById('head66');
+    
+          // Text to translate
+
+          const head4t = head4.textContent;
+          const head5t = head5.textContent;
+          const head6t = head6.textContent;
+          const head6at = head6a.textContent;
+          const head23t = head23.textContent;
+          const head24t = head24.textContent;
+          const head25t = head25.textContent;
+              
+          // Make API request
+          fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              q: [head4t,head5t,head6t,head6at,head23t,head24t,head25t],
+              target: lang,
+            }),
+          })
+          .then(response => response.json())
+          .then(data => {
+        console.log(data);
+            // Update content with translated text
+            
+            head4.textContent = data.data.translations[0].translatedText;
+            head5.textContent = data.data.translations[1].translatedText;
+            head6.textContent = data.data.translations[2].translatedText;
+            head6a.textContent = data.data.translations[3].translatedText;
+            head23.textContent = data.data.translations[4].translatedText;
+            head24.textContent = data.data.translations[5].translatedText;
+            head25.textContent = data.data.translations[6].translatedText;
+          })
+          .catch(error => console.error('Error:', error));
+        }
+    </script>
+
 
 </body>
 

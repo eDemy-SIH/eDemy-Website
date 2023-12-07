@@ -8399,3 +8399,9 @@ img {
 .dropdown-menu {
     cursor: pointer;
 }
+
+.backtr {
+    background-color: transparent;
+    border: none;
+    margin-left: 25%;
+}
