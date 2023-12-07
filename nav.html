@@ -1,3 +1,7 @@
+
+<link rel="stylesheet" href="assets/fonts/remixicon.css">
+
+
 <div class="mobile-responsive-nav">
     <div class="container-fluid">
         <div class="mobile-responsive-menu">
@@ -73,3 +77,107 @@
 
     </div>
 </div>
+
+<script>
+
+    (function($) {
+        'use strict';
+        $('.mean-menu').meanmenu({
+            meanScreenWidth: "1199"
+        });
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 120) {
+                $('.navbar-area').addClass("is-sticky");
+            } else {
+                $('.navbar-area').removeClass("is-sticky");
+            }
+        });
+        $(function() {
+            $('[data-bs-toggle="tooltip"]').tooltip()
+        });
+        $(".side-nav-responsive .dot-menu").on("click", function() {
+            $(".side-nav-responsive .container-max .container").toggleClass("active");
+        });
+        $(function() {
+            $('#sidemenu-nav').metisMenu();
+        });
+        $('.chat-list-header .header-right .favorite').on('click', function() {
+            $(this).toggleClass('active');
+        });
+        $('.burger-menu').on('click', function() {
+            $(this).toggleClass('active');
+            $('.main-content').toggleClass('hide-sidemenu-area');
+            $('.sidemenu-area').toggleClass('toggle-sidemenu-area');
+            $('.top-navbar').toggleClass('toggle-navbar-area');
+        });
+        $('.responsive-burger-menu').on('click', function() {
+            $('.responsive-burger-menu').toggleClass('active');
+            $('.sidemenu-area').toggleClass('active-sidemenu-area');
+        });
+    })($);
+
+
+
+    function setTheme(themeName) {
+        localStorage.setItem('', themeName);
+        document.documentElement.className = themeName;
+    }
+    
+    let lightModeIcon = document.querySelector('#lightMode-icon');
+    if (localStorage.getItem('') === 'theme-dark') {
+        lightModeIcon.classList.add('ri-sun-line');
+        console.log(lightModeIcon.classList);
+    }
+    else {
+        lightModeIcon.classList.add('ri-moon-fill');
+    }
+    lightModeIcon.onclick = () => {
+        if (localStorage.getItem('') === 'theme-dark') {
+            setTheme('theme-light');
+            lightModeIcon.classList.remove('ri-sun-line');
+            lightModeIcon.classList.add('ri-moon-fill');
+        } else {
+            setTheme('theme-dark');
+            lightModeIcon.classList.remove('ri-moon-fill');
+            lightModeIcon.classList.add('ri-sun-line');
+        }
+    }
+    (function() {
+        if (localStorage.getItem('') === 'theme-dark') {
+            setTheme('theme-dark');
+            document.getElementById('slider').checked = false;
+        } else {
+            setTheme('theme-light');
+            document.getElementById('slider').checked = true;
+        }
+    })();
+    
+    
+    let lightModeIcon1 = document.querySelector('#lightMode-icon1');
+    if (localStorage.getItem('') === 'theme-dark') {
+        lightModeIcon1.classList.add('ri-sun-line');
+    }
+    else {
+        lightModeIcon1.classList.add('ri-moon-fill');
+    }
+    lightModeIcon1.onclick = () => {
+        if (localStorage.getItem('') === 'theme-dark') {
+            setTheme('theme-light');
+            lightModeIcon1.classList.remove('ri-sun-line');
+            lightModeIcon1.classList.add('ri-moon-fill');
+        } else {
+            setTheme('theme-dark');
+            lightModeIcon1.classList.remove('ri-moon-fill');
+            lightModeIcon1.classList.add('ri-sun-line');
+        }
+    }
+    (function() {
+        if (localStorage.getItem('') === 'theme-dark') {
+            setTheme('theme-dark');
+            document.getElementById('slider').checked = false;
+        } else {
+            setTheme('theme-light');
+            document.getElementById('slider').checked = true;
+        }
+    })();
+</script>
