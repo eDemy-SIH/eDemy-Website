@@ -177,7 +177,7 @@
     <div class="inner-banner">
         <div class="container">
             <div class="inner-title text-center">
-                <h3>404 Error Page</h3>
+                <h3 id="head1">404 Error Page</h3>
                 <ul>
                     <li>
                         <a href="index-2.html">Home</a>
@@ -194,10 +194,10 @@
             <div class="d-table-cell">
                 <div class="error-content">
                     <h1>4 <span>0</span> 4</h1>
-                    <h3>Oops! Page Not Found</h3>
-                    <p>The page you are looking for might have been removed had its name changed or is temporarily
+                    <h3 id="head2">Oops! Page Not Found</h3>
+                    <p id="head6">The page you are looking for might have been removed had its name changed or is temporarily
                         unavailable.</p>
-                    <a href="index.html" class="default-btn">
+                    <a href="index.html" class="default-btn" id="head3">
                         Return To Home Page
                     </a>
                 </div>
@@ -212,15 +212,15 @@
                 <div class="row align-items-center">
                     <div class="col-lg-8">
                         <div class="employers-cv-content">
-                            <h2>Get Personalised Career Suggestions</h2>
+                            <h2 id="head23">Get Personalised Career Suggestions</h2>
                             <div class="bar"></div>
-                            <p>Receive customized professional career recommendations tailored to your unique strengths and interests for optimal career growth.</p>
+                            <p id="head24">Receive customized professional career recommendations tailored to your unique strengths and interests for optimal career growth.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="employers-cv-btn">
                             <a
-                                href="student-info.html">Get Started</a>
+                                href="student-info.html" id="head25">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -270,6 +270,66 @@
     <script src="assets/js/contact-form-script.js"></script>
 
     <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        function changeLanguage1(){
+            location.reload()
+        }
+
+        function changeLanguage(lang) {
+
+          // Your Google Cloud Translation API key
+          const apiKey = 'AIzaSyAHlrSdG-n12ij7J2W-JDxBAo1rDpdH8Y4';
+    
+          // Elements to translate;
+          const head4 = document.getElementById('head1');
+          const head5 = document.getElementById('head2');
+          const head6 = document.getElementById('head3');
+          const head6a = document.getElementById('head6');
+          const head23 = document.getElementById('head23');
+          const head24 = document.getElementById('head24');
+          const head25 = document.getElementById('head25');
+
+    
+          // Text to translate
+
+          const head4t = head4.textContent;
+          const head5t = head5.textContent;
+          const head6t = head6.textContent;
+          const head6at = head6a.textContent;
+          const head23t = head23.textContent;
+          const head24t = head24.textContent;
+          const head25t = head25.textContent;
+              
+          // Make API request
+          fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              q: [head4t,head5t,head6t,head6at,head23t,head24t,head25t],
+              target: lang,
+            }),
+          })
+          .then(response => response.json())
+          .then(data => {
+        console.log(data);
+            // Update content with translated text
+            
+            head4.textContent = data.data.translations[0].translatedText;
+            head5.textContent = data.data.translations[1].translatedText;
+            head6.textContent = data.data.translations[2].translatedText;
+            head6at.textContent = data.data.translations[3].translatedText;
+            head23.textContent = data.data.translations[4].translatedText;
+            head24.textContent = data.data.translations[5].translatedText;
+            head25.textContent = data.data.translations[6].translatedText;
+          })
+          .catch(error => console.error('Error:', error));
+        }
+      </script>
+
 </body>
 
 </html>
