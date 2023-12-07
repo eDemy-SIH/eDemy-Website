@@ -183,6 +183,802 @@
             "The pay is not very rewarding initially.",
             "The field requires a lot of study and hectic work."
         ]
+    },
+    {
+        "careerid": "nursing",
+        "img1": "../assets/images/blog/blog-details-nursing.jpg",
+        "alt1": "AIML Image",
+        "id": "nursing",
+        "title": "Nursing",
+        "cat_dir": "../medicine.html",
+        "cat": "Medicine",
+        "duration": "4 years",
+        "p1_1": "Do you want to treat people and do noble jobs? Then, nursing is a great profession for you. Nurses are required to take a preliminary screening of the patient and to also keep a day to day check on the progress of the patient. All this has to be documented by the nurses. The medicines are given, the time at which they were given, any complications, etc, all of this has to be observed and documented by the nurses.",
+        "p1_2": "In some cases, nurses can also choose to be part of schools and their healthcare awareness programs. It also has to be noted that nurses usually communicate every day with the family, thus they also are trained to be sensitive in handling volatile situations. They have to keep the doctors updated and also keep up with the treatment plan and schedule of each patient.",
+        "desc": "A candidate interested in being a nurse is required to have the motivation and the drive to do so. But more importantly, the individual needs to be patient. Whichever area he/she specialises in, there is a large requirement of patience that the nurses have to deliver. The job can get repetitive and mundane. A nurse would also be interacting with patients and their families more closely than the doctors themselves. They thus have to be warm and good with their communication. They could also have long working hours and odd working hours.",
+        "skills": [
+            "Empathy: Even though the job is extremely stressful, nurses are required to be empathetic towards their patients.",
+            "Responsibility: They need to be responsible enough to do this job. In case a nurse isn't well or has any other issues then they have to immediately refrain from interacting with patients as this might affect them.",
+            "Hard Working: It takes a lot of determination and perseverance to be a nurse. Individuals need to be prepared to work hard and give their best at all times as it is a demanding career.",
+            "Emotional Strength: They have to often encounter cases that might be hard to digest. They could be emotionally overwhelming and painful. In these cases, nurses are required to stay emotionally strong.",
+            "Patience: Nurses would be facing a range of patients. Sometimes trying to get a patient to adhere to the treatment or explain to them the kind of illness they have can be stressful, thus this requires patience."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science in Nursing / Bachelor of Science Honours in Nursing.",
+            "Post Graduation: Master of Science in Nursing."
+        ],
+        "opp_l": [
+            " Oncological Nursing",
+            " Nephrological Nursing",
+            " Critical Care Nursing Surgeon",
+            " Psychiatric Nursing"
+        ],
+        "opp_r": [
+            " Craniological/CTVS Nursing",
+            " Neurosciences Nursing",
+            " Paediatric Nursing",
+            " Private Nursing"
+        ],
+        "insti": [
+            {
+                "link": "https://tmc.gov.in/index.php/en/academics/admission-process",
+                "name": "Tata Memorial Hospital Mumbai"
+            },
+            {
+                "link": "https://www.cmch-vellore.edu/",
+                "name": "Christian Medical College Vellore"
+            },
+            {
+                "link": "http://apollohospitalseducation.com/College/index.html",
+                "name": "Apollo College of Nursing Chennai"
+            },
+            {
+                "link": "https://www.hindujahospital.com/",
+                "name": "Hinduja Hospital Mumbai"
+            }
+        ],
+        "pros": [
+            "Due to the growing field of medical science, and the growing need for more hospitals, naturally the need for nurses is also increasing. Thus the job market has a high demand.",
+            "The income in this field is stable and provides good job satisfaction.",
+            "If the candidate likes helping people, then it's the perfect field to work in."
+        ],
+        "cons": [
+            "As mentioned earlier an individual is required to have a lot of patience in this field of work.",
+            "Rules must be strictly followed as it's a matter of healthcare.",
+            "It can become tiring and rigorous."
+        ]
+    },
+    {
+        "careerid": "veterinary",
+        "title": "Veterinary",
+        "cat_dir": "../medicine.html",
+        "cat": "Medicine",
+        "duration": "5 years",
+        "p1_1": "Are you an animal lover and love taking care of them? Then, this is the perfect field for you. Veterinarians, commonly known as vets, are individuals who treat animals. A veterinary clinic is the place you take your pets, injured animals of all kinds to for treatment. This position falls into the category of animal healthcare. ",
+        "p1_2": "These individuals are trained specifically to take care of the needs of animals as doctors in general take care of human beings. It is a field under medicine that focuses on the healthcare necessary for animals, both domestic and wild, in reference to the vets who are present in wildlife sanctuaries that help conserve the animals in that region. Veterinarians can work for private hospitals, government hospitals, Shelters and NGOs as well. They also need to be able to effectively communicate their understanding of the symptoms and the diagnosis.",
+        "img1": "../assets/images/blog/blog-details-vet.jpg",
+        "alt1": "AIML Image",
+        "desc": "Just like human beings, animals tend to fall ill and are at risk for diseases that human beings are not and therefore require medical care at various points, this is where the vet comes in to take care of the animals. Whether it is, vaccinating your pets, ensuring that they are free of disease, treating their infections or tending to the wounds of injured animals, they take care of the needs of these animals. Every animal, just like any other human being is tested and diagnosed by the vet who then after assessing the problem offers specialised and specific treatment for the animal.",
+        "skills": [
+            "Communication Skills: They also need to be able to effectively communicate their understanding of the symptoms and the diagnosis. They also have to consider the emotions of owners of the pets.",
+            "Analytical Skills: As this field puts theory into use, using logic and reasoning becomes important to solve the problems and to come to a conclusion.",
+            "Learning Skills: You need to be aware of upcoming findings and studies conducted and keep up with the recent developments in this field.",
+            "Acceptance Skills: As the medical field is growing it requires them to have an open mind in terms of new technology."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Veterinary Science (BVSc) / Bachelor of Veterinary Medicine and Surgery (BVMS).",
+            "Post Graduation: MD in Veterinary Sciences."
+        ],
+        "opp_l": [
+            "Government Hospitals",
+            "NGOs",
+            "Clinics"
+        ],
+        "opp_r": [
+            "Wildlife Parks",
+            "Conservation Parks"
+        ],
+        "insti": [
+            {
+                "link": "http://www.ivri.nic.in/",
+                "name": "Indian Veterinary Research Institute"
+            },
+            {
+                "link": "http://www.tanuvas.ac.in/",
+                "name": "Tamil Nadu Veterinary and Animal Sciences University"
+            },
+            {
+                "link": "https://svvu.edu.in/",
+                "name": "Sri Venkateswara Veterinary University"
+            },
+            {
+                "link": "http://www.mafsu.in/",
+                "name": "Maharashtra Animal & Fishery Sciences University"
+            }
+        ],
+        "pros": [
+            "This is considered as a noble profession.",
+            "This is a fun job role for anyone who loves animals, as one gets to spend a lot of time with them.",
+            "The job is quite versatile, as if you start your own practice, you also get to manage staff, etc."
+        ],
+        "cons": [
+            "The training for becoming a vet, like any doctor, is very lengthy.",
+            "Not a very highly paid profession, unless one works at a huge hospital, or their practice becomes well reputed.",
+            "Often the vet may have to euthanize the pet (put them down, due to very poor health), which can be very stressful."
+        ]
+    },
+    {
+        "careerid": "orthopaedic",
+        "title": "Orthopaedic",
+        "cat_dir": "../medicine.html",
+        "cat": "Medicine",
+        "duration": "8 years",
+        "p1_1": "Do you want to study bones, muscles, joints, ligaments, tendons or nerves and the probable injuries? If you think you have the right healing touch in your hands and can treat these injuries, and want to help such people, then being an orthopedist might be the right job for you.",
+        "p1_2": "Orthopaedic surgery, often known as orthopaedics, is a discipline of surgery that deals with musculoskeletal problems. Orthopaedic surgeons treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, cancers, and congenital problems with both surgical and nonsurgical methods. Modern orthopedic surgery and musculoskeletal research have aimed to make surgery less invasive while also improving and extending the life of implanted components.",
+        "img1": "../assets/images/blog/blog-details-ortho.jpg",
+        "alt1": "AIML Image",
+        "desc": "Any orthopaedic professional, surgical or not, is qualified to analyze, diagnose, and treat your orthopaedic condition with non-invasive procedures. It's also worth noting that just because orthopaedic surgeons are qualified to perform surgery doesn't mean they would. Reputable orthopaedic doctors who are supported by strong healthcare systems are more likely to restore lives through innovative non-surgical techniques, such as minimally invasive procedures, computer-assisted treatments, and the harvesting and development of your own cells for cartilage regeneration.",
+        "skills": [
+            "Communication Skills: They also need to be able to effectively communicate their understanding of the symptoms and the diagnosis.",
+            "Analytical Skills: As this field puts theory into use, using logic and reasoning becomes important to solve the problems and to come to a conclusion.",
+            "Learning Skills: You need to be aware of upcoming findings and studies conducted and keep up with the recent developments in this field.",
+            "Acceptance Skills: As the medical field is growing it requires them to have an open mind in terms of new technology."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in Orthopaedics."
+        ],
+        "opp_l": [
+            "Hospitals",
+            "Private Clinics"
+        ],
+        "opp_r": [
+            "Sports"
+        ],
+        "insti": [
+            {
+                "link": "https://www.aiims.edu/",
+                "name": "All India Institute of Medical Sciences (AIIMS)"
+            },
+            {
+                "link": "https://fathermuller.edu.in/medical-college/",
+                "name": "Father Muller Medical College Mangalore"
+            },
+            {
+                "link": "https://manipal.edu/kmc-manipal.html",
+                "name": "Kasturba Medical College Manipal"
+            },
+            {
+                "link": "https://ggmcjjh.com/",
+                "name": "Grant Medical College Mumbai"
+            }
+        ],
+        "pros": [
+            "They have great job stability and is well respected in the community.",
+            "The pay as well is rewarding and stable.",
+            "Flexible work hours and room for growth and variety."
+        ],
+        "cons": [
+            "They need to study a lot.",
+            "Sometimes the work can be draining and repetitive.",
+            "MBBS can be a very hectic course."
+        ]
+    },
+    {
+        "careerid": "optha",
+        "title": "Ophthalmology",
+        "cat_dir": "../medicine.html",
+        "cat": "Medicine",
+        "duration": "8 years",
+        "p1_1": "Do you want to study eyes and vision? Then, ophthalmology is the right career. Ophthalmology is a discipline of medicine which deals with the physiology, anatomy and diseases of the eye. The area of ophthalmology requires a lot of expertise due to the speciality's complexity. This field included surgical, medical, and patient care skills ranging from paediatric to geriatric. ",
+        "p1_2": "Ophthalmology is a speciality medicine field with plenty of career prospects. The students have job opportunities in private and government hospitals, health departments, health centres, and NGOs. While all ophthalmologists are educated to treat all types of eye disorders and conditions, some specialize in a specific area of medical or surgical eye care. This individual is referred to as a subspecialist. To rectify visual difficulties, an ophthalmologist diagnoses and treats all eye disorders, conducts eye surgery, and prescribes and fits eyeglasses and contact lenses.",
+        "img1": "../assets/images/blog/blog-details-optha.jpg",
+        "alt1": "AIML Image",
+        "desc": "Ophthalmologists are those people who help in the treatment of eye problems. This can range from a power problem to something serious that might require surgery. They are required to assess the problem and devise a treatment plan. As the population of our planet rises every day, the need for ophthalmologists will grow and there will always be employment opportunities. People who have completed their residency training can continue to pursue fellowship training in Subspecialties of Ophthalmology. Aspirants seeking to become licensed medical practitioners must hold a degree in medicine and complete a residency.",
+        "skills": [
+            "Analytical Skills: An individual would have to be able to analyse the incoming data and new information and make the right inference",
+            "Learning Skills: As the field is growing it requires them to have an open mind in terms of new technology.",
+            "Technical Skills: They must be equipped with enough knowledge about the equipment as well as various health conditions.",
+            "Research Skills: Naturally one would have to be good at research as well to understand new problems, their potential solutions and inventions."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in Ophthamology."
+        ],
+        "opp_l": [
+            "Hospitals",
+            "Health Centres",
+            "Paediatric Ophthalmology"
+        ],
+        "opp_r": [
+            "NGOs",
+            "Academic Institutes"
+        ],
+        "insti": [
+            {
+                "link": "https://www.kem.edu/",
+                "name": "King Edward Memorial Hospital and College Mumbai"
+            },
+            {
+                "link": "https://fathermuller.edu.in/medical-college/",
+                "name": "Father Muller Medical College Mangalore"
+            },
+            {
+                "link": "https://manipal.edu/kmc-manipal.html",
+                "name": "Kasturba Medical College Manipal"
+            },
+            {
+                "link": "https://ggmcjjh.com/",
+                "name": "Grant Medical College Mumbai"
+            }
+        ],
+        "pros": [
+            "The financial stability for doctors is really rewarding once the experience has been gained.",
+            "Job satisfaction for doctors is high as they will be working for the betterment of society.",
+            "It's an extremely respected profession."
+        ],
+        "cons": [
+            "There's a lot of stress as any mistake in this profession could be harmful.",
+            "The workload could be high which could lead to burnout.",
+            "Even the process of getting through M.B.B.S could be stressful and draining."
+        ]
+    },
+    {
+        "careerid": "cse",
+        "title": "Computer Science & Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated by computers and technology? If so, then you should seriously consider pursuing a career in Computer Science & Engineering. This field of engineering utilizes elements of both computer science and electronics to create computer systems. ",
+        "p1_2": "Computer engineers are involved in tasks ranging from designing microcontrollers, personal computers, and supercomputers to working on circuit design. They deal with various aspects of hardware and software in computing. Beyond understanding the inner workings of computer systems, this field also emphasizes how they fit into the broader landscape of different industries. By merging electrical engineering with computer science, computer engineers are able to develop innovative computer hardware and software. They often work in roles as software and hardware engineers.",
+        "img1": "../assets/images/blog/blog-details-cse.jpg",
+        "alt1": "CSE Image",
+        "desc": "Computer engineers are tasked with the design, creation, and evaluation of computer systems and their integral parts, encompassing processors, circuit boards, memory units, networks, and routers. They hold the responsibility for a wide spectrum of tasks, ranging from software development, system and network establishment, to algorithm implementation and safeguarding system security for sensitive information. Furthermore, computer engineers are frequently relied upon to offer technical support to non-technical colleagues, including board members. Their scope of work encompasses both hardware and software, ensuring seamless integration and optimal functionality.",
+        "skills": [
+            "Technical Skills: The professionals must have solid basic knowledge in science. They must have strong maths skills as math is required for both for the construction of hardware and the programming of software.",
+            "Communication Skills: Computer engineers work in a team and usually require communicating with others regarding their job.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: This is the basic description of the job of a computer engineer. Even the tiny error will enable the programme to run.",
+            "Learning Skills: Learning new skills and technology is a life long process for computer engineers to stay in the market."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Computer Science & Engineering / B.Tech in Software Engineering / B.Tech in Information Technology.",
+            "Post Graduation: M.Tech in Computer Science & Engineering."
+        ],
+        "opp_l": [
+            "Software Developer",
+            "Machine Learning Engineer",
+            "Data Analyst",
+            "DevOps Engineer",
+            "Cybersecurity Analyst"
+        ],
+        "opp_r": [
+            "Database Administrator",
+            "Network Engineer",
+            "Embedded Systems Engineer",
+            "Hardware Engineer",
+            "System Designer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay packages are very good, so would account for a comfortable life.",
+            "The work environment is positive and allows the individual to thrive.",
+            "There is a high possibility of progress, with experience."
+        ],
+        "cons": [
+            "It can be a stressful job with work load and tight deadlines.",
+            "Regular updating of knowledge because of the ever-evolving technology.",
+            "Long sitting hours in front of the computer may have negative health effects."
+        ]
+    },
+    {
+        "careerid": "aiml",
+        "title": "Artificial Intelligence & Machine Learning",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated by the potential of machines to learn and make intelligent decisions? If so, a career in Artificial Intelligence (AI) and Machine Learning (ML) could be the perfect fit for you. This dynamic field revolves around the development of systems that can perform tasks requiring human-like intelligence.",
+        "p1_2": "Artificial Intelligence and Machine Learning professionals utilize advanced algorithms, data analysis, and pattern recognition techniques to enable computers to learn from data and make predictions or decisions. They work on a diverse range of applications, from natural language processing and computer vision to robotics and autonomous systems. This field not only delves into the technical intricacies of AI and ML but also explores how they can revolutionize industries across the spectrum. By merging principles from computer science, mathematics, and cognitive sciences, AI and ML engineers pave the way for groundbreaking advancements in technology.",
+        "img1": "../assets/images/blog/blog-details-aiml.jpg",
+        "alt1": "AIML Image",
+        "desc": "Professionals in Artificial Intelligence and Machine Learning are at the forefront of creating intelligent systems capable of learning and making decisions. They specialize in developing algorithms and models that enable computers to process and understand complex data, allowing them to perform tasks traditionally requiring human intelligence. This involves designing neural networks, fine-tuning algorithms, and optimizing models for various applications. Additionally, AI and Machine Learning experts work on enhancing system security to safeguard sensitive information. They also play a vital role in translating technical concepts for non-technical stakeholders, providing valuable support to the board of directors and colleagues less familiar with these advanced technologies. Their work spans both software and hardware, ensuring seamless integration for optimal performance.",
+        "skills": [
+            "Technical Skills: The professionals must have solid basic knowledge in science. They must have strong maths skills as math is required for both for the construction of hardware and the programming of software.",
+            "Communication Skills: Computer engineers work in a team and usually require communicating with others regarding their job.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It isvery necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: This is the basic description of the job of a computer engineer. Even the tiny error will enable the programme to run.",
+            "Learning Skills: Learning new skills and technology is a life long process for computerengineers to stay in the market."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Artificial Intelligence & Machine Learning / B.Tech in Computer Science & Engineering / B.Tech in Data Science.",
+            "Post Graduation: M.Tech in Artificial Intelligence & Machine Learning."
+        ],
+        "opp_l": [
+            "Computer Vision Engineer",
+            "Machine Learning Engineer",
+            "Data Analyst",
+            "DevOps Engineer",
+            "Natural Language Processing (NLP) Engineer"
+        ],
+        "opp_r": [
+            "AI Ethics and Bias Analyst",
+            "AI Solutions Architect",
+            "Data Scientist",
+            "Robotics Engineer",
+            "AI Automation Designer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay packages are very good, so would account for a comfortable life.",
+            "The work environment is positive and allows the individual to thrive.",
+            "There is a high possibility of progress, with experience."
+        ],
+        "cons": [
+            "It can be a stressful job with work load and tight deadlines.",
+            "Regular updating of knowledge because of the ever-evolving technology.",
+            "Long sitting hours in front of the computer may have negative health effects."
+        ]
+    },
+    {
+        "careerid": "ece",
+        "title": "Electronics & Communications Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Do you possess a keen interest in electronics, telecommunications, and their wide-ranging applications? If so, Electronics and Communications Engineering might be the perfect fit for you! This field of engineering delves into the study, design, and application of devices, systems, and equipment that harness the power of electronics, telecommunications, and electromagnetism. ",
+        "p1_2": "Electronics and Communications Engineering encompasses various specialized areas such as signal processing, telecommunication systems, microelectronics, and more. It combines a strong technical foundation in circuit theory with essential managerial skills. This discipline is a blend of pure science and practical application, offering abundant professional opportunities. Engineers with additional management qualifications can explore administrative roles and venture into the corporate sector, further expanding their career horizons.",
+        "img1": "../assets/images/blog/blog-details-ece.jpg",
+        "alt1": "ECE Image",
+        "desc": "Electronics and Communications Engineers leverage their expertise in the principles of electronics, telecommunications, and signal processing to design and innovate electronic devices and communication systems. They tackle challenges, develop cutting-edge solutions, and rigorously test equipment. In the modern era, Electronics and Communications Engineers employ Computer-Aided Design (CAD) tools to create intricate schematics and circuit layouts. Their projects span a wide spectrum, encompassing areas like wireless communication systems, satellite technology, digital signal processors, integrated circuits, and more. These engineers find themselves in diverse roles including design, research, manufacturing, and supervision within the field of Electronics and Communications Engineering.",
+        "skills": [
+            "Technical Skills: Engineers should have basic circuit knowledge as in large scale projects design can get very complex. Thorough knowledge of maths and physics is also necessary.",
+            "Communication Skills: In every job communication skill is necessary. Professionals should know how to keep their solutions and demands in front of the supervisor or- in front of their clients.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: The job of an engineer is practical. It is a job where theory gets converted into practical application. They have to think logically and revisit the concepts to solve the problem as every problem will be unique.",
+            "Learning Skills: Engineering is a very practical job where new challenges will come and the only way to overcome them is to keep learning.",
+            "Thinking Skills: To solve the unique problems, critical thinking will come into the picture. The ability to approach things differently with innovative techniques will make a difference."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Electronics & Communication Engineering / B.Tech in Electronics & Instrumentation Engineering / B.Tech in Electrical Engineering.",
+            "Post Graduation: M.Tech in Electronics & Communication Engineering."
+        ],
+        "opp_l": [
+            "Broadcasting Engineer",
+            "CAD Technician",
+            "Control & Instrumental Engineer",
+            "Network Engineer",
+            "Embedded Systems Engineer"
+        ],
+        "opp_r": [
+            "Telecommunications Engineer",
+            "Signal Processing Engineer",
+            "Automotive Electronics Engineer",
+            "Control Systems Engineer",
+            "Radio Frequency Engineer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay scale is very good, which accounts for a comfortable lifestyle.",
+            "The work hours are slightly more flexible than other fields, which results in job flexibility as well.",
+            "The field offers a wide range of opporunities."
+        ],
+        "cons": [
+            "The occupation is risky, as it deals with electricity.",
+            "The growth potential is very limited here.",
+            "There is a lot of hard work involved, as well as tight deadlines."
+        ]
+    },
+    {
+        "careerid": "ee",
+        "title": "Electrical Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated by the realm of electricity and its diverse applications? If so, electrical engineering could be the perfect fit for you! This branch of engineering revolves around the exploration, design, and implementation of devices, systems, and assorted equipment that harness the power of electricity, electronics, and electromagnetism.",
+        "p1_2": "Within electrical engineering, there are specialized domains such as power engineering, control engineering, electronic engineering, and instrumentation engineering. It encompasses a broad spectrum of knowledge, encompassing technical aspects like circuit theory, alongside crucial managerial skills. With a substantial professional scope, electrical engineering is a field rooted in pure science. Engineers equipped with a management background have the opportunity to venture into administrative roles and potentially explore the corporate sector, thereby broadening their career horizons.",
+        "img1": "../assets/images/blog/blog-details-ee.jpg",
+        "alt1": "EE Image",
+        "desc": "Electrical engineers leverage their understanding of the principles of electricity, electromagnetism, and electronics, backed by a foundation in physics and mathematics, to conceive and innovate electrical equipment and systems. They address challenges, conduct equipment testing, and employ Computer-Aided Design (CAD) for tasks like schematic creation and circuit layout. In contemporary practice, electrical engineers are engaged in a diverse array of projects spanning from robotics and mobile devices to navigation systems, radars, computers, and more. They contribute their expertise across various domains, including design, manufacturing, supervision, and beyond.",
+        "skills": [
+            "Technical Skills: Engineers should have basic circuit knowledge as in large scale projects design can get very complex. Thorough knowledge of maths and physics is also necessary.",
+            "Communication Skills: In every job communication skill is necessary. Professionals should know how to keep their solutions and demands in front of the supervisor or- in front of their clients.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: The job of an engineer is practical. It is a job where theory gets converted into practical application. They have to think logically and revisit the concepts to solve the problem as every problem will be unique.",
+            "Learning Skills: Engineering is a very practical job where new challenges will come and the only way to overcome them is to keep learning.",
+            "Thinking Skills: To solve the unique problems, critical thinking will come into the picture. The ability to approach things differently with innovative techniques will make a difference."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Electrical Engineering / B.Tech in Electronics & Instrumentation Engineering / B.Tech in Electrical & Electronics Engineering.",
+            "Post Graduation: M.Tech in Electrical Engineering."
+        ],
+        "opp_l": [
+            "Electrical Engineer",
+            "CAD Technician",
+            "Control & Instrumental Engineer",
+            "Network Engineer",
+            "Embedded Systems Engineer"
+        ],
+        "opp_r": [
+            "Telecommunications Engineer",
+            "Electronics Design Engineer",
+            "Automotive Electronics Engineer",
+            "Control Systems Engineer",
+            "Instrumentation Engineer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay scale is very good, which accounts for a comfortable lifestyle.",
+            "The work hours are slightly more flexible than other fields, which results in job flexibility as well.",
+            "The field offers a wide range of opporunities."
+        ],
+        "cons": [
+            "The occupation is risky, as it deals with electricity.",
+            "The growth potential is very limited here.",
+            "There is a lot of hard work involved, as well as tight deadlines."
+        ]
+    },
+    {
+        "careerid": "eie",
+        "title": "Electrical & Instrumentation Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you intrigued by the intricate interplay of instruments and systems in various applications? If so, Electrical & Instrumentation Engineering might be the ideal path for you! This discipline is closely linked to the study, development, and utilization of devices, systems, and specialized equipment that involve electricity, electronics, and instrumentation. ",
+        "p1_2": "Within Electrical & Instrumentation Engineering, there are diverse subfields, including process control systems, industrial automation, and measurement technologies. It encompasses both theoretical understanding, such as signal processing, and practical applications, making it a well-rounded field. Professionals in this domain often find themselves at the intersection of technical expertise and management skills. Moreover, Electrical & Instrumentation Engineering offers a dynamic professional landscape, with opportunities for those interested in administrative roles and corporate sectors to further enhance their career prospects.",
+        "img1": "../assets/images/blog/blog-details-eie.jpg",
+        "alt1": "EIE Image",
+        "desc": "Electrical and Instrumentation Engineers leverage their expertise in electrical systems, instrumentation, and control technologies to conceive, design, and advance sophisticated equipment and systems. They employ principles of electricity, electronics, and control theory to tackle complex challenges, as well as to validate and fine-tune equipment. In today's technological landscape, Electrical and Instrumentation Engineers proficiently utilize Computer-Aided Design (CAD) tools to craft detailed schematics and circuit layouts. Their scope of projects spans a wide spectrum, encompassing endeavors like refining industrial automation processes, optimizing power distribution networks, and enhancing instrumentation systems for precise control and monitoring. These engineers find opportunities in diverse domains, including design, manufacturing, supervision, and more, contributing significantly to sectors ranging from energy production to process control and beyond.",
+        "skills": [
+            "Skills: Engineers should have basic circuit knowledge as in large scale projects design can get very complex. Thorough knowledge of maths and physics is also necessary.",
+            "Communication Skills: In every job communication skill is necessary. Professionals should know how to keep their solutions and demands in front of the supervisor or- in front of their clients.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: The job of an engineer is practical. It is a job where theory gets converted into practical application. They have to think logically and revisit the concepts to solve the problem as every problem will be unique.",
+            "Learning Skills: Engineering is a very practical job where new challenges will come and the only way to overcome them is to keep learning.",
+            "Thinking Skills: To solve the unique problems, critical thinking will come into the picture. The ability to approach things differently with innovative techniques will make a difference."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Electronics & Instrumentation Engineering / B.Tech in Electrical & Electronics Engineering / B.Tech in Electrical Engineering.",
+            "Post Graduation: M.Tech in Electronics & Instrumentation Engineering."
+        ],
+        "opp_l": [
+            "Automation Engineer",
+            "Robotics Engineer",
+            "Control & Instrumental Engineer",
+            "Network Engineer",
+            "Embedded Systems Engineer"
+        ],
+        "opp_r": [
+            "Telecommunications Engineer",
+            "Electronics Design Engineer",
+            "Automotive Electronics Engineer",
+            "Control Systems Engineer",
+            "Instrumentation Engineer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay scale is very good, which accounts for a comfortable lifestyle.",
+            "The work hours are slightly more flexible than other fields, which results in job flexibility as well.",
+            "The field offers a wide range of opporunities."
+        ],
+        "cons": [
+            "The occupation is risky, as it deals with electricity.",
+            "The growth potential is very limited here.",
+            "There is a lot of hard work involved, as well as tight deadlines."
+        ]
+    },
+    {
+        "careerid": "aero",
+        "title": "Aerospace Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated with aircrafts and spacecrafts? If the answer is yes, then aerospace engineering is the perfect choice for you. It is an engineering field which focuses on the science of aircrafts and spacecrafts. ",
+        "p1_2": "It has two specialized fields, namely: aeronautical engineering and astronautical engineering. It involves studying various conditions like atmospheric pressure, temperature etc. and making use of aerodynamics, fluid dynamics propulsion and other such fields, in order to design the perfect aircraft/spacecraft for those conditions. This includes aircrafts, rockets and other spacecrafts as well, built according to the conditions of stratosphere or outer space. The field involves various aspects of science and mathematics. It covers two aspects of engineering: Aeronautical and Astronomical.",
+        "img1": "../assets/images/blog/blog-details-aero.jpg",
+        "alt1": "EIE Image",
+        "desc": "Aerospace engineers are involved in designing, construction, and testing aircraft, missiles, and spacecraft. Professionals can either make them from scratch or they can work on testing and improving the aircraft design. They need to take care of each aspect, be it the radar cross-section used to measure distance or be it fluid dynamics, which helps an aircraft fly with an appropriate speed, without much turbulence. Mistakes in this field cost enormously and can even cost human life hence, professionals spend months working on a single project to eliminate mistakes. This field requires individuals to apply theory to practice.",
+        "skills": [
+            "Technical Skills: Aerospace Engineering is a true field of science and requires the individual to put the theoretical knowledge into practice. It is necessary to have knowledge about fluid and aerodynamics, physics, mathematics, aeronautics, etc.",
+            "Reading And Writing Skills: Majority of the work is done theoretically to eliminate huge losses of resources.",
+            "Communication Skills: Engineers must collaborate with others and express objectives, issues, and requirements.",
+            "Problem Solving Skills: They have to be updated about new technologies, different advancements in the field, etc. Engineer’s day involves solving client problems. Aerospace engineering is often figuring out how to make Aerospace or thermal devices work better, more efficiently or have different capabilities."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Aerospace Engineering.",
+            "Post Graduation: M.Tech in Aerospace Engineering."
+        ],
+        "opp_l": [
+            "Flight Technician",
+            "Aerospace Engineer",
+            "Technical Communicators"
+        ],
+        "opp_r": [
+            "Aerospace Scientist"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "http://flytechaviation.aero/",
+                "name": "Flytech Aviation Academy"
+            },
+            {
+                "link": "http://www.agragamiinstitutions.com/Home/AME",
+                "name": "V.S.M. Institute of Aerospace Engineering and Technology"
+            },
+            {
+                "link": "https://iiaeit.org/",
+                "name": "Indian Institute for Aeronautical Engineering and Information Technology"
+            },
+            {
+                "link": "https://iiaedehradun.org/",
+                "name": "Indian Institute for Aeronautical Engineering"
+            }
+        ],
+        "pros": [
+            "High job satisfaction as the professionals get to do what they are passionate about.",
+            "Job security and good working conditions.",
+            "Experience of helping the community gives the sense of involvement."
+        ],
+        "cons": [
+            "Difficult to get into this field as it requires a lot of studying.",
+            "Highly stressful jobs and working hours are unpredictable.",
+            "Constant learning as the job grows. Professionals have to update about the latest improvements."
+        ]
+    },
+    {
+        "careerid": "mech",
+        "title": "Mechanical Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you interested in the fusion of engineering principles, material science, and mathematical concepts to design, analyze, manufacture, and maintain mechanical systems? If so, then the field of mechanical engineering may be the perfect fit for you. ",
+        "p1_2": "Mechanical engineering revolves around the study of moving systems and objects, exerting a profound influence on virtually every aspect of modern life, including the intricate machinery within the human body. It stands as one of the oldest and most multifaceted branches of engineering, seamlessly integrating elements from aerospace, electrical, civil, chemical, materials science, and even bio-engineering, all underpinned by a strong foundation in physics and mathematics. Additionally, mechanical engineers excel in the creation and testing of technical prototypes, bringing innovative ideas and products to life.",
+        "img1": "../assets/images/blog/blog-details-mech.jpg",
+        "alt1": "EIE Image",
+        "desc": "Mechanical engineers design, manufacture, and assess a variety of mechanical and thermal devices, ranging from tools and engines to machinery. They oversee the production of diverse items, including medical instruments and innovative batteries. Mechanical engineers analyze issues to ascertain if mechanical and thermal systems can offer solutions and oversee the manufacturing process. They employ analytical techniques and utilize computer-aided design for the creation or modification of mechanical and thermal apparatus. Daily responsibilities may involve assessing and diagnosing mechanical and thermal equipment, devising solutions, and conducting necessary repairs.",
+        "skills": [
+            "Creativity Skills: Mechanical engineers are frequently involved in the development and design of goods. Creativity is required when it comes to conceptualizing, creating, and designing whole new things.",
+            "Scientific Skills: Mechanical engineers, like any other profession of engineering, must have a good understanding of the science essential in their field.",
+            "Communication Skills: Engineers must collaborate with others and express objectives, issues, and requirements.",
+            "Problem Solving Skills: Engineer’s day involves solving client problems. Mechanical engineering is often figuring out how to make mechanical or thermal devices work better, more efficiently or have different capabilities."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Mechanical Engineering / B.Tech in Automobile Engineering.",
+            "Post Graduation: M.Tech in Mechanical Engineering."
+        ],
+        "opp_l": [
+            "Robotics Engineer",
+            "Mechanical Design Engineer",
+            "Manufacturing Engineer"
+        ],
+        "opp_r": [
+            "HVAC Engineer",
+            "Mechatronics Engineer",
+            "Control Systems Engineer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "It involves a lot of practical work.",
+            "Extensive learning opportunities.",
+            "It is an interesting subject to study."
+        ],
+        "cons": [
+            "It is a difficult subject to study.",
+            "There is a low pay initially.",
+            "Constantly updated knowledge of latest technology."
+        ]
+    },
+    {
+        "careerid": "civil",
+        "title": "Civil Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you always fascinated by different types of buildings and constructions? If yes then, civil engineering is the way to go. Civil engineering is a branch of engineering that deals with the design, development, and maintenance of the physical and naturally constructed environment, such as highways, bridges, canals, dams, airports, sewerage systems, pipes, building structural components, and railways. ",
+        "p1_2": "It is the broadest of the engineering fields and one of the oldest and broadest engineering disciplines. Civil engineers are responsible for the construction of the world's infrastructure. They silently mold the past of nations all over the world in this way.",
+        "img1": "../assets/images/blog/blog-details-civil.jpg",
+        "alt1": "EIE Image",
+        "desc": "Civil engineers analyze survey reports, maps, and other data to plan projects. They consider construction costs, government regulations, potential environmental hazards, and other factors in planning stages and risk analysis. Engineers use design software to plan and design transportation systems, hydraulic systems, and structures in line with industry and government standards. They perform or oversee, surveying operations to establish reference points, grades, and elevations to guide construction. They also manage the repair, maintenance, and replacement of public and private infrastructure.",
+        "skills": [
+            "Mathematical Skills: Engineering students need to have a thorough understanding of algebra, calculus, trigonometry, and geometry. Knowledge of statistics is the cherry on the top.",
+            "Thinking Skills: Computer engineers work in a team and usually require communication with others regarding their job.",
+            "Leadership Skills: Engineers should have leadership skills because their job requires them to oversee planners, technicians, technologists, surveyors, and contractors.",
+            "Problem Solving Skills: Engineers will experience a variety of variables during the various stages of a project, such as planning and construction, that will affect the outcome or stymie progress.",
+            "Decision Making Skills: While working as a leader and manager of a project, a civil engineer will need to consider the available information, conflicting goals from different parties involved, professional ethics, financial responsibilities, and safety concerns when making decisions."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Civil Engineering.",
+            "Post Graduation: M.Tech in Civil Engineering."
+        ],
+        "opp_l": [
+            "Transport Engineer",
+            "Construction Engineer",
+            "Structural Engineer"
+        ],
+        "opp_r": [
+            "Geotechnical Engineer",
+            "Environmental Engineer",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology and Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "https://www.iitism.ac.in/",
+                "name": "Indian School of Mines"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VITs)"
+            }
+        ],
+        "pros": [
+            "This job offers a high salary package and perks.",
+            "There’s always high demand for civil engineers",
+            "Opportunity to travel to different parts of the world"
+        ],
+        "cons": [
+            "There are tight deadlines and schedules.",
+            "The job is very stressful.",
+            "Involvement of third party for approval of designs."
+        ]
     }
+    
+        
+
+
 
 ]
