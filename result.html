@@ -179,12 +179,12 @@
     <div class="inner-banner">
         <div class="container">
             <div class="inner-title text-center">
-                <h3>Your Scorecard</h3>
+                <h3 id="head1">Your Scorecard</h3>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>Scorecard</li>
+                    <li id="head2">Scorecard</li>
                 </ul>
             </div>
         </div>
@@ -210,8 +210,8 @@
                 </div> -->
                 <div class="col-lg-4 col-6 col-md-4 pt-45" id="scoreard2">
                     <div class="counter-card" >
-                        <h3>Your Test Score</h3>
-                        <div class="bar m-auto"></div>
+                        <h3 id="head3">Your Test Score</h3>
+                        <div class="bar m-auto" id="head66"></div>
                         <h5 class="pt-45" style="opacity: 0.8;" id="scoreard"></h5>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="employers-cv-btn" id="btn69">
-                            <a>
+                            <a id="head6">
                                 Explore More</a>
                         </div>
                     </div>
@@ -288,6 +288,67 @@
     <script src="assets/js/scriptard.js"></script>
     
     <script src="assets/js/ardagint.js"></script>
+
+
+
+    <script>
+
+        function changeLanguage1(){
+            location.reload()
+        }
+
+        function changeLanguage(lang) {
+
+          // Your Google Cloud Translation API key
+          const apiKey = 'AIzaSyAHlrSdG-n12ij7J2W-JDxBAo1rDpdH8Y4';
+    
+          // Elements to translate;
+          const head4 = document.getElementById('head1');
+          const head5 = document.getElementById('head2');
+          const head6 = document.getElementById('head3');
+          const head6a = document.getElementById('inter');
+          const head23 = document.getElementById('stfu');
+          const head24 = document.getElementById('head6');
+          const head25 = document.getElementById('head66');
+    
+          // Text to translate
+
+          const head4t = head4.textContent;
+          const head5t = head5.textContent;
+          const head6t = head6.textContent;
+          const head6at = head6a.textContent;
+          const head23t = head23.textContent;
+          const head24t = head24.textContent;
+          const head25t = head25.textContent;
+              
+          // Make API request
+          fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              q: [head4t,head5t,head6t,head6at,head23t,head24t,head25t],
+              target: lang,
+            }),
+          })
+          .then(response => response.json())
+          .then(data => {
+        console.log(data);
+            // Update content with translated text
+            
+            head4.textContent = data.data.translations[0].translatedText;
+            head5.textContent = data.data.translations[1].translatedText;
+            head6.textContent = data.data.translations[2].translatedText;
+            head6a.textContent = data.data.translations[3].translatedText;
+            head23.textContent = data.data.translations[4].translatedText;
+            head24.textContent = data.data.translations[5].translatedText;
+            head25.textContent = data.data.translations[6].translatedText;
+          })
+          .catch(error => console.error('Error:', error));
+        }
+    </script>
+
 
 </body>
 
