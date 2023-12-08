@@ -1,147 +1,314 @@
 const ques = [
     {
-        question : " A bank offers 5% compound interest calculated on half-yearly basis. A customer deposits Rs. 1600 each on 1st January and 1st July of a year. At the end of the year, the amount he would have gained by way of interest is : ",
+        question : "I like to build things - ",
         answers : [
-            {text : "A. 121", correct : false},
-            {text : "B. 122", correct : true},
-            {text : "C. 123", correct : false},
-            {text : "D. 124", correct : false},
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
         ]
     },
     {
-        question : " The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Re. 1. The sum (in Rs.) is : ",
+        question : "I like to take care of animals - ",
         answers : [
-            {text : "A. 625", correct : true},
-            {text : "B. 630", correct : false},
-            {text : "C. 640", correct : false},
-            {text : "D. 659", correct : false},
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},                      
         ]
     },
     {
-        question : " There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate ?",
+        question : "I like putting things together or assembling things - ",
         answers : [
-            {text : "A. 2160", correct : false},
-            {text : "B. 3120", correct : false},
-            {text : "C. 3972", correct : true},
-            {text : "D. 6240", correct : false},
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},        
         ]
     },  
     {
-        question : " What is the difference between the compound interests on Rs. 5000 for 1 years at 4% per annum compounded yearly and half-yearly ?",
+        question : "I like putting things together or assembling things - ",
         answers : [
-            {text : "A. Rs. 2.04", correct : true},
-            {text : "B. Rs. 3.06", correct : false},
-            {text : "C. Rs. 4.80", correct : false},
-            {text : "D. Rs. 8.30", correct : false},
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},        
+        ]
+    },  
+    {
+        question : "I like to cook - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
         ]
     },
     {
-        question : " The compound interest on Rs. 30,000 at 7% per annum is Rs. 4347. The period (in years) is :",
+        question : "I am a practical person - ",
         answers : [
-            {text : "A. 2", correct : true},
-            {text : "B. 2.5", correct : false},
-            {text : "C. 3", correct : false},
-            {text : "D. 4", correct : false},
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
         ]
     },
-    {
-        question : " Which of the following words is an antonym (opposite) of ' Eloquent '?",
-        answers : [
-            {text : "A. Inarticulate", correct : true},
-            {text : "B. Fluent", correct : false},
-            {text : "C. Voluble", correct : false},
-            {text : "D. Loquacious", correct : false},
-        ]
-    },
-    {
-        question : "  Fill in the blank : If I were you, I _____ consider the job offer seriously. ",
-        answers : [
-            {text : "A. Ought", correct : false},
-            {text : "B. Can", correct : false},
-            {text : "C. Would", correct : true},
-            {text : "D. Must", correct : false},
-        ]
-    },
-    {
-        question : " Choose the synonym for the word 'Ardent' :",
-        answers : [
-            {text : "A. Lukewarm", correct : false},
-            {text : "B. Enthusiastic", correct : true},
-            {text : "C. Apathetic", correct : false},
-            {text : "D. Indifferent", correct : false},
-        ]
-    },
-    {
-        question : " Complete the analogy: 'Ocean is to water as forest is to ______.' :",
-        answers : [
-            {text : "A. Trees", correct : true},
-            {text : "B. Leaves", correct : false},
-            {text : "C. Soil", correct : false},
-            {text : "D. Mountain", correct : false},
-        ]
-    },
-    {
-        question : " Identify the grammatically incorrect sentence :",
-        answers : [
-            {text : "A. She sings beautifully.", correct : false},
-            {text : "B. They was late for the meeting.", correct : true},
-            {text : "C. He reads books every evening.", correct : false},
-            {text : "D. We have already eaten dinner.", correct : false},
-        ]
-    },
-    {
-        question : " Choose the word that best fits in the blank : His actions spoke ______ than his words.",
-        answers : [
-            {text : "A. Lighter", correct : false},
-            {text : "B. Less", correct : true},
-            {text : "C. Louder", correct : false},
-            {text : "D. Lesser", correct : false},
-        ]
-    },
-    {
-        question : " Which of the following is NOT a renewable source of energy ?",
-        answers : [
-            {text : "A. Solar power", correct : false},
-            {text : "B. Wind power", correct : false},
-            {text : "C. Natural gas", correct : true},
-            {text : "D. Hydroelectric power", correct : false},
-        ]
-    },
-    {
-        question : " What is the chemical symbol for the element oxygen ?",
-        answers : [
-            {text : "A. O", correct : true},
-            {text : "B. Ox", correct : false},
-            {text : "C. Om", correct : false},
-            {text : "D. Oz", correct : false},
-        ]
-    },
-    {
-        question : " Who painted the famous artwork - Mona Lisa ?",
-        answers : [
-            {text : "A. Vincent van Gogh", correct : false},
-            {text : "B. Pablo Picasso", correct : false},
-            {text : "C. Leonardo da Vinci", correct : true},
-            {text : "D. Leonardo Di Caprio", correct : false},
-        ]
-    },
-    {
-        question : " Which artistic movement is known for its use of bright colors, bold shapes, and abstraction of reality ?",
-        answers : [
-            {text : "A. Impressionism", correct : true},
-            {text : "B. Cubism", correct : false},
-            {text : "C. Surrealism", correct : false},
-            {text : "D.  Abstract Expressionism", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I like working outdoors - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : "I like to do puzzles - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : "I like to do experiments - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : "I enjoy science - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : "I enjoy trying to figure out how things work - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false}, 
+    //     ]
+    // },
+    // {
+    //     question : "I like to analyze things (problems / situations) - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : "I like working with numbers or charts - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : "I am good at maths - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : "I am good at working independently - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
+    // {
+    //     question : "I like to read about art and music - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I enjoy creative writing - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I am a creative person - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to play instruments or sing - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like acting in plays - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to draw - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to work in teams - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to teach or train people - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like trying to help people solve their problems - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I am interested in healing people - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I enjoy learning about other cultures - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to get into discussions about issues - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like helping people - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I am an ambitious person - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I set goals for myself - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to try to influence or persuade people - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like selling things - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I am quick to take on new responsibilities - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I would like to start my own business - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to lead - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to give speeches - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to organize things (files, desks, offices) - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to have clear instructions to follow - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I wouldnâ€™t mind working 8 hours per day in an office - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I pay attention to details - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I like to do filing or typing - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I am good at keeping records of my work - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
+    // {
+    //     question : "I would like to work in an office - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
 ];
 
 var quesele = document.getElementById("ques");
 var answerbtn = document.getElementById("ansopt");
 var nextbt = document.getElementById("next");
 var optn = document.getElementById("optn");
+var optnC = document.getElementById("head3");
 
-
+console.log(ques.length);
 
 var quesno = 0;
 let corrans = 0;
@@ -160,23 +327,48 @@ function dontshowbefore(){
     }
 }
 
+var midq = parseInt((ques.length) / 2);
+
+function popupques(){
+    window.scrollTo(0,0);
+    nextbt.style.display = "block";
+    nextbt.innerHTML = "CONTINUE";
+    quesele.innerHTML = "You Are Doing Great ! Just A Few More Questions !";
+    optnC.innerHTML = "";    
+    return;
+}
+
+var flag = 0;
+
 function showQuestions() {
     dontshowbefore();
+    optnC.innerHTML = "Options (click one accordingly) :-"
     let nowques = ques[quesno];
     let quesnum = quesno + 1;
-    quesele.innerHTML = quesnum + " .  " + nowques.question;
-    
-    nowques.answers.forEach(answer => {
-        const button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("btn");
-        answerbtn.appendChild(button);
-        
-        if (answer.correct){
-            button.dataset.correct = answer.correct;
+    if (quesnum != midq + 1){
+        if (quesnum == midq + 2 && flag == 0){
+            quesnum--;
+            flag = 1;
         }
-        button.addEventListener("click",selectans);
-    });
+        console.log(flag);
+        nextbt.innerHTML = "Next";
+        quesele.innerHTML = quesnum + " .  " + nowques.question;
+        nowques.answers.forEach(answer => {
+            const button = document.createElement("button");
+            button.innerHTML = answer.text;
+            button.classList.add("btn");
+            answerbtn.appendChild(button);
+            
+            if (answer.correct){
+                button.dataset.correct = answer.correct;
+            }
+            button.addEventListener("click",selectans);
+        });
+    }
+    else {
+        popupques();
+        return;
+    }
 }
 
 var count = 0;
@@ -185,6 +377,8 @@ function chco(){
     return count;
 }
 
+var myarr = []
+
 function selectans(nt){
     const selectbtn = nt.target;
     const itscorrect = selectbtn.dataset.correct === "true";
@@ -192,14 +386,17 @@ function selectans(nt){
         selectbtn.classList.add("correct");
         corrans++;
         chco();
+        myarr.push(1);
+        console.log(myarr);
+        console.log(myarr.length);
     }
     else {
         selectbtn.classList.add("incorrect");
+        myarr.push(0);
+        console.log(myarr);
+        console.log(myarr.length);
     }
     Array.from(answerbtn.children).forEach(button => {
-        if (button.dataset.correct === "true"){
-            button.classList.add("correct");
-        }
         button.disabled = true;
     });
     nextbt.style.display = "block";
@@ -218,6 +415,7 @@ function showMarks() {
     nextbt.innerHTML = "SUBMIT TEST";
     nextbt.style.display = "block";    
     localStorage.setItem("shit",count);
+    console.log(myarr);
 }
 
 function nextBtnWorks(){
