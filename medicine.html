@@ -175,10 +175,10 @@
     <div class="inner-banner">
         <div class="container">
             <div class="inner-title text-center">
-                <h3>Career Choices in Medicine</h3>
+                <h3 id="qw1">Career Choices in Medicine</h3>
                 <div class="section-title">
                     <div class="bar m-auto"></div>
-                    <p class="m-auto" style="padding-top: 30px;">Here is a list of popular career choices in Medicine.
+                    <p id="qw2" class="m-auto" style="padding-top: 30px;">Here is a list of popular career choices in Medicine.
                     </p>
                 </div>
             </div>
@@ -245,6 +245,7 @@
                 category: "Medicine",
                 duration: "5 - 7 Years",
                 careerid: "doctor",
+                index: 1,
             },
             {
                 imagePath: "assets/images/medical/s.jpg",
@@ -253,6 +254,7 @@
                 category: "Medicine",
                 duration: "8 Years",
                 careerid: "surgeon",
+                index: 2,
             },
             {
                 imagePath: "assets/images/medical/p.jpg",
@@ -261,6 +263,7 @@
                 category: "Medicine",
                 duration: "7 Years",
                 careerid: "pathology",
+                index: 3,
             },
             {
                 imagePath: "assets/images/medical/v.jpg",
@@ -269,6 +272,7 @@
                 category: "Medicine",
                 duration: "5 Years",
                 careerid: "veterinary",
+                index: 4,
             },
             {
                 imagePath: "assets/images/medical/o.jpg",
@@ -277,6 +281,7 @@
                 category: "Medicine",
                 duration: "8 Years",
                 careerid: "orthopaedic",
+                index: 5,
             },
             {
                 imagePath: "assets/images/medical/op.jpg",
@@ -285,6 +290,7 @@
                 category: "Medicine",
                 duration: "8 Years",
                 careerid: "optha",
+                index: 6,
             },
             {
                 imagePath: "assets/images/medical/nursing.jpeg",
@@ -293,6 +299,7 @@
                 category: "Medicine",
                 duration: "3 - 4 Years",
                 careerid: "nursing",
+                index: 7,
             },
         ];
 
@@ -306,33 +313,147 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href="careerdetails.html?careerid=${career.careerid}">
+                    <a href=${career.path}>
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
+                    <h3><a id="qw3_${career.index}" href=${career.path}>${career.name}</a></h3>
                     <ul class="content-list2">
-                        <li class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
+                        <li id="qw4_${career.index}" class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
                     <ul class="content-list3">
-                        <li><i class="ri-briefcase-line"></i> Category : <b>${career.category}</b></li>
-                        <li><i class="ri-time-line"></i> Duration : <b>${career.duration}</b></li>
+                        <li id="qw5_${career.index}"><i class="ri-briefcase-line"></i> Category : <b>${career.category}</b></li>
+                        <li id="qw6_${career.index}"><i class="ri-time-line"></i> Duration : <b>${career.duration}</b></li>
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a id="qw7_${career.index}" href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;
+
                 careersContainer.appendChild(careerCard);
             });
         }
 
         loadCareerDetails();
 
+        function changeLanguage1() {
+            location.reload()
+        }
+
+        function changeLanguage(lang) {
+
+            // Your Google Cloud Translation API key
+            const apiKey = 'AIzaSyB47ykDTJPP1QwBzSD_xiK5-BVdt6OZWyc';
+
+            // Elements to translate;
+            const head8 = document.getElementById('qw1');
+            const head9 = document.getElementById('qw2');
+            const head6_1 = document.getElementById('qw3_1');
+            const head6_2 = document.getElementById('qw3_2');
+            const head6_3 = document.getElementById('qw3_3');
+            const head6_4 = document.getElementById('qw3_4');
+            const head6_5 = document.getElementById('qw3_5');
+            const head6a_1 = document.getElementById('qw4_1');
+            const head6a_2 = document.getElementById('qw4_2');
+            const head6a_3 = document.getElementById('qw4_3');
+            const head6a_4 = document.getElementById('qw4_4');
+            const head6a_5 = document.getElementById('qw4_5');
+            const head23_1 = document.getElementById('qw5_1');
+            const head23_2 = document.getElementById('qw5_2');
+            const head23_3 = document.getElementById('qw5_3');
+            const head23_4 = document.getElementById('qw5_4');
+            const head23_5 = document.getElementById('qw5_5');
+            const head24_1 = document.getElementById('qw6_1');
+            const head24_2 = document.getElementById('qw6_2');
+            const head24_3 = document.getElementById('qw6_3');
+            const head24_4 = document.getElementById('qw6_4');
+            const head24_5 = document.getElementById('qw6_5');
+            const head25_1 = document.getElementById('qw7_1');
+            const head25_2 = document.getElementById('qw7_2');
+            const head25_3 = document.getElementById('qw7_3');
+            const head25_4 = document.getElementById('qw7_4');
+            const head25_5 = document.getElementById('qw7_5');
+
+            const head8t = head8.textContent;
+            const head9t = head9.textContent;
+            const head6_1t = head6_1.textContent;
+            const head6_2t = head6_2.textContent;
+            const head6_3t = head6_3.textContent;
+            const head6_4t = head6_4.textContent;
+            const head6_5t = head6_5.textContent;
+            const head6a_1t = head6a_1.textContent;
+            const head6a_2t = head6a_2.textContent;
+            const head6a_3t = head6a_3.textContent;
+            const head6a_4t = head6a_4.textContent;
+            const head6a_5t = head6a_5.textContent;
+            const head23_1t = head23_1.textContent;
+            const head23_2t = head23_2.textContent;
+            const head23_3t = head23_3.textContent;
+            const head23_4t = head23_4.textContent;
+            const head23_5t = head23_5.textContent;
+            const head24_1t = head24_1.textContent;
+            const head24_2t = head24_2.textContent;
+            const head24_3t = head24_3.textContent;
+            const head24_4t = head24_4.textContent;
+            const head24_5t = head24_5.textContent;
+            const head25_1t = head25_1.textContent;
+            const head25_2t = head25_2.textContent;
+            const head25_3t = head25_3.textContent;
+            const head25_4t = head25_4.textContent;
+            const head25_5t = head25_5.textContent;
+
+            // Make API request
+            fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    q: [head8t, head9t, head6_1t, head6_2t, head6_3t, head6_4t, head6_5t, head6a_1t, head6a_2t, head6a_3t, head6a_4t, head6a_5t, head23_1t, head23_2t, head23_3t, head23_4t, head23_5t, head24_1t, head24_2t, head24_3t, head24_4t, head24_5t, head25_1t, head25_2t, head25_3t, head25_4t, head25_5t],
+                    target: lang,
+                }),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    // Update content with translated text
+
+                    head8.textContent = data.data.translations[0].translatedText;
+                    head9.textContent = data.data.translations[1].translatedText;
+                    head6_1.textContent = data.data.translations[2].translatedText;
+                    head6_2.textContent = data.data.translations[3].translatedText;
+                    head6_3.textContent = data.data.translations[4].translatedText;
+                    head6_4.textContent = data.data.translations[5].translatedText;
+                    head6_5.textContent = data.data.translations[6].translatedText;
+                    head6a_1.textContent = data.data.translations[7].translatedText;
+                    head6a_2.textContent = data.data.translations[8].translatedText;
+                    head6a_3.textContent = data.data.translations[9].translatedText;
+                    head6a_4.textContent = data.data.translations[10].translatedText;
+                    head6a_5.textContent = data.data.translations[11].translatedText;
+                    head23_1.textContent = data.data.translations[12].translatedText;
+                    head23_2.textContent = data.data.translations[13].translatedText;
+                    head23_3.textContent = data.data.translations[14].translatedText;
+                    head23_4.textContent = data.data.translations[15].translatedText;
+                    head23_5.textContent = data.data.translations[16].translatedText;
+                    head24_1.textContent = data.data.translations[17].translatedText;
+                    head24_2.textContent = data.data.translations[18].translatedText;
+                    head24_3.textContent = data.data.translations[19].translatedText;
+                    head24_4.textContent = data.data.translations[20].translatedText;
+                    head24_5.textContent = data.data.translations[21].translatedText;
+                    head25_1.textContent = data.data.translations[22].translatedText;
+                    head25_2.textContent = data.data.translations[23].translatedText;
+                    head25_3.textContent = data.data.translations[24].translatedText;
+                    head25_4.textContent = data.data.translations[25].translatedText;
+                    head25_5.textContent = data.data.translations[26].translatedText;
+
+                })
+                .catch(error => console.error('Error:', error));
+        }
     </script>
 
 </body>
