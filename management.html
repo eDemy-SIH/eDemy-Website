@@ -244,7 +244,7 @@
                 qualification: "Bachelor of Business Administration (BBA)",
                 category: "Management",
                 duration: "3 Years",
-                path: "management/businessadministration.html",
+                careerid: "businessadministration",
             },
             {
                 imagePath: "assets/images/management/mba.jpeg",
@@ -252,7 +252,7 @@
                 qualification: "Bachelor of Arts (BA)",
                 category: "Management",
                 duration: "2 - 4 Years",
-                path: "management/sportmanagement.html",
+                careerid: "sportmanagement",
             },
             {
                 imagePath: "assets/images/management/projectmanagement.jpeg",
@@ -260,7 +260,7 @@
                 qualification: "Master of Business Administration (MBA)",
                 category: "Management",
                 duration: "3-4 Years",
-                path: "management/projectm.html",
+                careerid: "projectm",
             },
             {
                 imagePath: "assets/images/management/itconsulting.jpeg",
@@ -268,7 +268,7 @@
                 qualification: "Bachelor of Business Administration (BBA)",
                 category: "Management",
                 duration: "3 Years",
-                path: "management/eventm.html",
+                careerid: "eventm",
             },
             {
                 imagePath: "assets/images/management/hotelmanagement.jpeg",
@@ -276,7 +276,7 @@
                 qualification: "Bachelor of Business Administration (BBA)",
                 category: "Management",
                 duration: "3 - 4 Years",
-                path: "management/fash.html",
+                careerid: "fash",
             },
         ];
 
@@ -290,14 +290,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href=careerdetails.html?careerid=${career.careerid}>
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a href=${career.path}>${career.name}</a></h3>
+                    <h3><a href=careerdetails.html?careerid=${career.careerid}>${career.name}</a></h3>
                     <ul class="content-list2">
                         <li class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -307,7 +307,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a href=careerdetails.html?careerid=${career.careerid} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;

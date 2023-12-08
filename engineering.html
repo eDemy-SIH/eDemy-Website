@@ -242,7 +242,7 @@
                 qualification: "Bachelor of Technology",
                 category: "Engineering",
                 duration: "4 Years",
-                path: "engineering/cse.html",
+                careerid: "cse",
             },
             {
                 imagePath: "assets/images/engineering/aiml.jpg",
@@ -250,7 +250,7 @@
                 qualification: "Bachelor of Technology",
                 category: "Engineering",
                 duration: "4 Years",
-                path: "engineering/aiml.html",
+                careerid: "aiml",
             },
             {
                 imagePath: "assets/images/engineering/ece.jpeg",
@@ -258,7 +258,7 @@
                 qualification: "Bachelor of Technology",
                 category: "Engineering",
                 duration: "4 Years",
-                path: "engineering/ece.html",
+                careerid: "ece",
             },
             {
                 imagePath: "assets/images/engineering/electrical.jpeg",
@@ -266,15 +266,15 @@
                 qualification: "Bachelor of Technology",
                 category: "Engineering",
                 duration: "4 Years",
-                path: "engineering/ee.html",
+                careerid: "ee",
             },
             {
                 imagePath: "assets/images/engineering/electrical_instrumentation.jpeg",
-                name: "Electrical and Instrumentation engineering",
+                name: "Electrical and Instrumentation Engineering",
                 qualification: "Bachelor of Technology",
                 category: "Engineering",
                 duration: "4 Years",
-                path: "engineering/eie.html",
+                careerid: "eie",
             },
             {
                 imagePath: "assets/images/engineering/aerospace.jpeg",
@@ -282,7 +282,7 @@
                 qualification: "Bachelor of Technology",
                 category: "Engineering",
                 duration: "4 Years",
-                path: "engineering/aero.html",
+                careerid: "aero",
             },
             {
                 imagePath: "assets/images/engineering/mechanical.jpeg",
@@ -290,7 +290,7 @@
                 qualification: "Bachelor of Technology",
                 category: "Engineering",
                 duration: "4 Years",
-                path: "engineering/mech.html",
+                careerid: "mech",
             },
             {
                 imagePath: "assets/images/engineering/civil.jpeg",
@@ -298,7 +298,7 @@
                 qualification: "Bachelor of Technology",
                 category: "Engineering",
                 duration: "4 Years",
-                path: "engineering/civil.html",
+                careerid: "civil",
             },
         ];
 
@@ -312,14 +312,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href=careerdetails.html?careerid=${career.careerid}>
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a href=${career.path}>${career.name}</a></h3>
+                    <h3><a href=careerdetails.html?careerid=${career.careerid}>${career.name}</a></h3>
                     <ul class="content-list2">
                         <li class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -329,7 +329,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a href=careerdetails.html?careerid=${career.careerid} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;
