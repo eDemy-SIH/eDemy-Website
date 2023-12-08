@@ -348,7 +348,7 @@ function showQuestions() {
         }
         console.log(flag);
         nextbt.innerHTML = "Next";
-        if(quesno >= midq + 1)
+        if (quesno >= midq + 1)
         quesele.innerHTML = (quesnum - 1) + " .  " + nowques.question;
         else
         quesele.innerHTML = quesnum + " .  " + nowques.question;
@@ -386,14 +386,10 @@ function selectans(nt){
         corrans++;
         chco();
         myarr.push(1);
-        console.log(myarr);
-        console.log(myarr.length);
     }
     else {
         selectbtn.classList.add("incorrect");
         myarr.push(0);
-        console.log(myarr);
-        console.log(myarr.length);
     }
     Array.from(answerbtn.children).forEach(button => {
         button.disabled = true;
