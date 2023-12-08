@@ -21,13 +21,6 @@ const ques = [
         ]
     },  
     {
-        question : "I like putting things together or assembling things - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},        
-        ]
-    },  
-    {
         question : "I like to cook - ",
         answers : [
             {text : "A. YES", correct : true},
@@ -41,265 +34,268 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },
-    // {
-    //     question : "I like working outdoors - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },
-    // {
-    //     question : "I like to do puzzles - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },
-    // {
-    //     question : "I like to do experiments - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },
-    // {
-    //     question : "I enjoy science - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },
-    // {
-    //     question : "I enjoy trying to figure out how things work - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false}, 
-    //     ]
-    // },
-    // {
-    //     question : "I like to analyze things (problems / situations) - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },
-    // {
-    //     question : "I like working with numbers or charts - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },
-    // {
-    //     question : "I am good at maths - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },
-    // {
-    //     question : "I am good at working independently - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },
-    // {
-    //     question : "I like to read about art and music - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I enjoy creative writing - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I am a creative person - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to play instruments or sing - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like acting in plays - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to draw - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to work in teams - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to teach or train people - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like trying to help people solve their problems - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I am interested in healing people - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I enjoy learning about other cultures - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to get into discussions about issues - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like helping people - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I am an ambitious person - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I set goals for myself - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to try to influence or persuade people - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like selling things - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I am quick to take on new responsibilities - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I would like to start my own business - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to lead - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to give speeches - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to organize things (files, desks, offices) - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to have clear instructions to follow - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I wouldnâ€™t mind working 8 hours per day in an office - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I pay attention to details - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I like to do filing or typing - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I am good at keeping records of my work - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
-    // {
-    //     question : "I would like to work in an office - ",
-    //     answers : [
-    //         {text : "A. YES", correct : true},
-    //         {text : "B. NO", correct : false},
-    //     ]
-    // },    
+    {
+        question : "I like working outdoors - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },
+    {
+        question : "I like to do puzzles - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },
+    {
+        question : "I like to do experiments - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },
+    {
+        question : "I enjoy science - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },
+    {
+        question : "I enjoy trying to figure out how things work - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false}, 
+        ]
+    },
+    {
+        question : "I like to analyze things (problems / situations) - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },
+    {
+        question : "I like working with numbers or charts - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },
+    {
+        question : "I am good at maths - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },
+    {
+        question : "I am good at working independently - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },
+    {
+        question : "I like to read about art and music - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I enjoy creative writing - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I am a creative person - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to play instruments or sing - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like acting in plays - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to draw - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    // // DUMMY QUESTION FOR QUESNUM FIX  -- COPY DOWN -> parseInt(ques.length/2) and make the upper one dummy and lower one 
+    // as the real question .... for any amout of question.
+    {
+        question : "",
+        answers : [
+            {text : "", correct : null},
+            {text : "", correct : null},
+        ]
+    },    
+    // // 
+    {
+        question : "I like to work in teams - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to teach or train people - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like trying to help people solve their problems - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I am interested in healing people - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I enjoy learning about other cultures - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to get into discussions about issues - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like helping people - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I am an ambitious person and I set goals for myself - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },      
+    {
+        question : "I like to try to influence or persuade people - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like selling things - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I am quick to take on new responsibilities - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I would like to start my own business - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to lead - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to give speeches - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to organize things (files, desks, offices) - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to have clear instructions to follow - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I would'nt mind working 8 hours per day in an office - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I pay attention to details - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to do filing or typing - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I am good at keeping records of my work - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I would like to work in an office - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
 ];
 
 var quesele = document.getElementById("ques");
@@ -307,8 +303,6 @@ var answerbtn = document.getElementById("ansopt");
 var nextbt = document.getElementById("next");
 var optn = document.getElementById("optn");
 var optnC = document.getElementById("head3");
-
-console.log(ques.length);
 
 var quesno = 0;
 let corrans = 0;
@@ -327,7 +321,7 @@ function dontshowbefore(){
     }
 }
 
-var midq = parseInt((ques.length) / 2);
+var midq = (parseInt((ques.length) / 2) - 1);
 
 function popupques(){
     window.scrollTo(0,0);
@@ -339,19 +333,23 @@ function popupques(){
 }
 
 var flag = 0;
+var quesnum = 0;
 
 function showQuestions() {
     dontshowbefore();
     optnC.innerHTML = "Options (click one accordingly) :-"
     let nowques = ques[quesno];
-    let quesnum = quesno + 1;
-    if (quesnum != midq + 1){
+    quesnum = quesno + 1;
+    if (quesno != midq){
+        quesnum = quesno + 1;
         if (quesnum == midq + 2 && flag == 0){
-            quesnum--;
             flag = 1;
         }
         console.log(flag);
         nextbt.innerHTML = "Next";
+        if(quesno >= midq + 1)
+        quesele.innerHTML = (quesnum - 1) + " .  " + nowques.question;
+        else
         quesele.innerHTML = quesnum + " .  " + nowques.question;
         nowques.answers.forEach(answer => {
             const button = document.createElement("button");
@@ -387,14 +385,10 @@ function selectans(nt){
         corrans++;
         chco();
         myarr.push(1);
-        console.log(myarr);
-        console.log(myarr.length);
     }
     else {
         selectbtn.classList.add("incorrect");
         myarr.push(0);
-        console.log(myarr);
-        console.log(myarr.length);
     }
     Array.from(answerbtn.children).forEach(button => {
         button.disabled = true;
@@ -402,11 +396,9 @@ function selectans(nt){
     nextbt.style.display = "block";
 }
 
-
 function gotolink() {
     window.location = "hobbies.html";
 }
-
 
 function showMarks() {
     dontshowbefore();
