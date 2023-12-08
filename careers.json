@@ -975,6 +975,312 @@
             "The job is very stressful.",
             "Involvement of third party for approval of designs."
         ]
+    },
+    {
+        "careerid": "businessadministration",
+        "title": "Business Administration",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "3 years",
+        "p1_1": "Do you want to learn about the inner workings of a business enterprise? Then, business administration can be a great field for you! The management of a commercial enterprise is referred to as business administration.",
+        "p1_2": "It entails overseeing and supervising all parts of business operations. From the point of view of management and leadership, it also covers fields that include office building administration, accounting, finance, designing, development, quality assurance, data analysis, sales, project management, information technology management, research and development, and marketing. The execution or management of business operations and decision-making, as well as the effective organization of people and other resources to steer activities toward common goals and objectives, are all part of business administration.",
+        "img1": "../assets/images/blog/blog-details-ba.jpg",
+        "alt1": "EE Image",
+        "desc": "Overseeing and evaluating financial operations, approving purchases and expenditures, mediating between staff and other executives, choosing heads of departments, marketing and promoting the firm, and arranging training programs are all responsibilities of the business administrator. They are expected to drive and supervise positive business growth, detect wastage and improve efficiency, oversee day-to-day business activities, introduce and implement innovative short and long-term business goals, liaise and consult with clients, staff, and suppliers, evaluate and enhance employee performance, improve business programs, technologies, etc.",
+        "skills": [
+            "Communication Skills: These are essential as they need to interact with clients as well as investors/shareholders.",
+            "Writing Skills: These are important for written communication as well as paperwork.",
+            "Time Management Skills: These are essential to be able to run a business smoothly."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: B.Com / BBA Courses should be done.",
+            "Post Graduation: MBA should be done."
+        ],
+        "opp_l": [
+            "Business Analyst",
+            "Finance Manager",
+            "Business Conultant"
+        ],
+        "opp_r": [
+            "Strategic Business Head",
+            "Business Development Manager",
+            "Business Administrator"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iima.ac.in/",
+                "name": "Indian Institute of Management (IIMs)"
+            },
+            {
+                "link": "http://www.fms.edu/",
+                "name": "Faculty of Management Studies"
+            },
+            {
+                "link": "https://www.nibs.org/",
+                "name": "National Institute of Business Studies"
+            }
+        ],
+        "pros": [
+            "The pay scale is very good.",
+            "There is a great opportunity of being able to interact with people and make connections.",
+            "There is a lot of scope, in terms of growth."
+        ],
+        "cons": [
+            "The administration of a business enterprise can be very demanding.",
+            "You may not get good job opportunities, without post-graduation.",
+            "Bachelor’s in Business Administration is a very generalized course, making specialization essential."
+        ]
+    },
+    {
+        "careerid": "sportmanagement",
+        "title": "Sports Management",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "4 years",
+        "p1_1": "Do you love sports and want to be the ones managing them? Then a career in Sports Management just for you. Sports management is a multidisciplinary field that incorporates marketing, legal, finance, and business concepts. Sports management consists of being involved in the administration and working of sporting entities such as leagues, teams or sporting organisations. It is a highly rewarding profession for those who love sports and want to be a part of the events coming as successes.",
+        "p1_2": "The front office system in professional sports, college sports managers, recreational sport managers, sports marketing, event management, facilities management, sports economics, sports finance, and sports information are only a few examples of sport managers. As one is involved in the management of entities, they need to be able to communicate well enough with others that they manage or negotiate with.",
+        "img1": "../assets/images/blog/blog-details-sport.jpg",
+        "alt1": "EE Image",
+        "desc": "A career in Sports Management includes working with the business aspect of the sporting industry. Those working in this field are responsible for overseeing the business and promotion of the entity that they manage. They monitor finances, negotiate upon contracts with the athletes and/or teams and also manage events that may fall into their jurisdiction. This is a booming profession and the opportunities in it are bound to increase. People who want to combine their passion for sports with business skills and pursue a successful career in this industry should pursue a Sports Management degree.",
+        "skills": [
+            "Communication Skills: As one is involved in the management of entities, they need to be able to communicate well enough with others that they manage or negotiate with.",
+            "Organisation Skills: At the end of the day, you are in the management of the industry and are primarily responsible for everything functioning efficiently, making organisational skills very important.",
+            "Time Management Skills: In the business of this industry, time can play a very important role in deciding the financial environment, making time management very important.",
+            "Analytical Skills: Since one needs to monitor finances, they need to have good analytical skills.",
+            "Decision Making Skills: One needs to be able to make decisions correctly and under pressure to work well-enough in this field."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: BA. in Sports Management / BBA in Sports Management",
+            "MBA in Sports Management/PG Diploma in Sports Management   "
+        ],
+        "opp_l": [
+            "Sport Manager",
+            "Facility Manager"
+        ],
+        "opp_r": [
+            "Sport Making Specialist",
+            "Sport Federations"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iismworld.com/",
+                "name": "International Institute of Sports Management"
+            },
+            {
+                "link": "https://www.nasm.edu.in/",
+                "name": "National Academy of Sports Management"
+            },
+            {
+                "link": "https://www.georgecollege.org/george-college",
+                "name": "George College"
+            },
+            {
+                "link": "https://tnpesu.org/",
+                "name": "Tamil Nadu Physical Education And Sports University"
+            }
+        ],
+        "pros": [
+            "With sports growing financially more and more, this field has a very bright scope.",
+            "It allows you to work independently and with all the creativity that you want to.",
+            "It also allows you to work with big athletes and brands."
+        ],
+        "cons": [
+            "It is not a job of fixed working hours and you may rarely get leaves.",
+            "You will have to be ever-present and at sporting events and manage the whole events.",
+            "It is a highly competitive field."
+        ]
+    },
+    {
+        "careerid": "projectm",
+        "title": "Project Management",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "4 years",
+        "p1_1": "Do you think you are the one for a managerial position, then a course in management, and a career in the same sounds right for you? A manager is the position of power that acts as the little cogs that run the machine called the organization. ",
+        "p1_2": "It’s a position that carries many responsibilities and importance. The coordination and administration of tasks to attain a goal are referred to as management. Setting the organization's strategy and organizing employee efforts to achieve these objectives through the application of available resources are examples of administrative activities. Managers in all tiers within a company are together responsible for its smooth functioning as an efficient and successful business entity. Management jobs pay well and have an upward curve for promotions, based on your experience.",
+        "img1": "../assets/images/blog/blog-details-proj.jpg",
+        "alt1": "EE Image",
+        "desc": "Managers must often make decisions about things. The manager is responsible for overseeing and leading the work of a group of people in many instances. The manager is also responsible for planning and maintaining work systems, procedures, and policies that enable and encourage the optimum performance of its people and other resources within a business unit. Organizations offer a wide range of managerial positions, ranging from front-line supervisory positions (Sales Manager, R&D Executive, General Manager, etc.) to the top executive level such as CEO, COO, and CTO.",
+        "skills": [
+            "Negotiation Skills: As a manager, you'll have to work out budgets, timetables, and expectations with clients. You'll also need to collaborate with a group of people who share your objectives.",
+            "Analytical Skills: As previously stated, analyzing the market, trends, patterns, etc. is very crucial for smooth functioning and monitoring of outputs.",
+            "Communication Skills: They are a must in this job because you will be dealing with a variety of clientele. as well as employees."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: BBA Courses should be done.",
+            "Post Graduation: MBA in any field."
+        ],
+        "opp_l": [
+            "Marketing Management",
+            "Finance Manager",
+            "Human Resource Management"
+        ],
+        "opp_r": [
+            "Retail Manager",
+            "Business Manager"
+        ],
+        "insti": [
+            {
+                "link": "https://www.spjimr.org/",
+                "name": "SP Jain Institute of Management and Research"
+            },
+            {
+                "link": "https://liba.edu/",
+                "name": "Loyola Institute of Business Administration"
+            },
+            {
+                "link": "https://www.iima.ac.in/",
+                "name": "Indian Institute Of Management (IIMs)"
+            },
+            {
+                "link": "https://xlri.ac.in/",
+                "name": "Xavier Labor Relations Institute"
+            },
+            {
+                "link": "https://www.isb.edu/en.html",
+                "name": "Indian School of Business"
+            }
+        ],
+        "pros": [
+            "The pay scale is really rewarding in this field.",
+            "The demand and scope is large.",
+            "One gets to be involved in the decision making process."
+        ],
+        "cons": [
+            "Long and hectic working hours.",
+            "Busy and tight schedules due to stringent deadlines.",
+            "Analysing and reviewing performance can be difficult."
+        ]
+    },
+    {
+        "careerid": "eventm",
+        "title": "Event Management",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "3 years",
+        "p1_1": "Do you want to plan and organize events? If yes, then you should consider event management as a career path for yourself. The use of project management techniques in the design and implementation of various large-scale events such as festivals, gatherings, ceremonies, weddings, formal parties, concerts, or conventions is known as event management. ",
+        "p1_2": "Humans live in communities and enjoy organizing activities and social gatherings, so the process of preparing and arranging the event is critical. From the Olympics to corporate breakfast meetings, the events sector now covers events of all sizes. Budgeting, scheduling, site selection, obtaining necessary permits, coordinating transportation and parking, arranging for speakers or entertainers, arranging decor, event security, catering, coordinating with third-party vendors, and emergency plans are all examples of the process of planning and coordinating the event.",
+        "img1": "../assets/images/blog/blog-details-event.jpg",
+        "alt1": "EE Image",
+        "desc": "An event manager is required to take care of the design, set-up, and execution of events that bring people together. The size of the events varies and the manager has to adjust according to that. Managing events is always a people-centric endeavour. The goal is to ensure people get the most from a given event. The jobs are very unpredictable as the plan never runs along so the professionals are more like spontaneous creatures. Networking is the main part of the job to get new assignments and to maintain old ones. The event manager is the person in charge of planning and executing the event, including the creative, technical, and logistical aspects.",
+        "skills": [
+            "People Skills: This is one of the most important skills as an event manager has to connect with their clients along with the people who are working with them to get the task done.",
+            "Management Skills: Organising an event is a multi-task. To ensure the smoothness of the process to achieve a successful event, the manager must have a sort out plan marking all possible changes.",
+            "Communication Skills: This is the most important part of the job. Event managers are also the leader of a team that works together to build an event. Proper communication is the key to perfection.",
+            "Decision Making Skills: Managing an event is not an easy task. Managers have to make quick and spontaneous decisions of the available options and resources."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: Diploma in Event Management / Any graduation course",
+            "Post Graduation: PG Diploma in in Event Management/MBA or MA in PR"
+        ],
+        "opp_l": [
+            "Freelancer",
+            "Entertainment"
+        ],
+        "opp_r": [
+            "Event Manager",
+            "PR Firms"
+        ],
+        "insti": [
+            {
+                "link": "https://www.niemindia.com/",
+                "name": "National Institute of Event Management"
+            },
+            {
+                "link": "https://www.naemd.com/",
+                "name": "National Academy of Event Management & Development"
+            },
+            {
+                "link": "https://institute-of-event-management.com/",
+                "name": "International Institute of Event Management"
+            },
+            {
+                "link": "http://www.coemindia.com/",
+                "name": "College of Events & Media"
+            },
+            {
+                "link": "https://iiemdelhi.in/",
+                "name": "Impact Institute of Event Management"
+            }
+        ],
+        "pros": [
+            "High work satisfaction as it is a creative field.",
+            "Gains a different perspective as one gets to be on the other side of the event.",
+            "Increases network as one travels to different locations related to work."
+        ],
+        "cons": [
+            "No fixed time as the professionals have to be on their toes till the time event ends.",
+            "Patience and openness to criticism is required as the clients spend a lot of money on an event as expects something in return.",
+            "Event managers also have to deal with difficult people at many times ( e.g.: rude, arrogant)."
+        ]
+    },
+    {
+        "careerid": "fash",
+        "title": "Fashion Business Management",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "4 years",
+        "p1_1": "Do you want to learn the mechanics of managing a fashion brand? Then, fashion business management is just the profession for you! Fashion Business Management entails assuming roles like sales, marketing, product development, retail management, etc. within the merchandising industry. ",
+        "p1_2": "The world of fashion and luxury brands is complex and dynamic, thus allowing for a lot of scope. This is a very creative job and requires people to have a great knowledge of fashion along with a good understanding of business and management concepts. One requires a fairly good understanding of the theoretical, practical, and ethical processes involved in textile and clothing design, production, distribution, and consumption. They must also successfully communicate material supply, pricing, and schedules with their teams and manufacturers.",
+        "img1": "../assets/images/blog/blog-details-fashm.jpg",
+        "alt1": "EE Image",
+        "desc": "A fashion manager is in charge of developing fresh and unique marketing techniques for a certain product to improve market demand. As a result, fashion management entails conducting extensive research and analysis of current fashion trends to forecast the success and popularity of a specific product among consumers based on its pricing and usefulness. As a result, fashion managers must have a keen eye for detail, excellent communication skills, and a thorough understanding of current industry trends. The field entails deals with using media and marketing to increase and maintain a product's brand value and awareness.",
+        "skills": [
+            "Communication Skills: Designers and merchandisers, in particular, must master the art of pitching, which necessitates the correct balance of precision, confidence, and succinctness.",
+            "Business Skills: To keep within budget and advertise their products, a great fashion designer has excellent business skills.",
+            "Creativity Skills: Designers must always come up with new and innovative ways to differentiate the apparel they create.",
+            "Computer Skills: Fashion designers should be conversant with computer-aided design (CAD) applications and any graphic editing software that might assist them better their designs.",
+            "Decision-Making Skills: It'll be crucial to your success if you know how to make the proper design alterations and decisions."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: BA. (Hons.) Fashion & Lifestyle Business Management / Diploma in Fashion Retail Management.",
+            "Post Graduation: Masters in Fashion Design Management / PG Diploma in Retail Management."
+        ],
+        "opp_l": [
+            "Apparel Brands",
+            "Boutiques"
+        ],
+        "opp_r": [
+            "PR Manager",
+            "Fashion Marketing Manager"
+        ],
+        "insti": [
+            {
+                "link": "https://www.nift.ac.in/",
+                "name": "National Institute of Fashion Technology"
+            },
+            {
+                "link": "https://www.fddiindia.com/",
+                "name": "Footwear Design and Development Institute"
+            },
+            {
+                "link": "https://www.voguefashioninstitute.com/",
+                "name": "Vogue Fashion Institute"
+            },
+            {
+                "link": "https://www.isdi.in/",
+                "name": "Indian School of Design and Innovation"
+            },
+            {
+                "link": "https:/www.mitid.edu.in",
+                "name": "MIT Institute of Design"
+            }
+        ],
+        "pros": [
+            "It's a new field with a lot of room for advancement.",
+            "You will get the chance to travel and interact with others.",
+            "You will master commercial strategies, and you will not be required to be creative because this is not a hard-core design sector."
+        ],
+        "cons": [
+            "It's difficult to make a name for yourself in the community.",
+            "You will be expected to work irregular hours.",
+            "You'd have to be up to date on the newest fashion and business trends."
+        ]
     }
     
         
