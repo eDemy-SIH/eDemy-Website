@@ -225,7 +225,7 @@
                 <div class="blog-details-list-two" id="skillsList">
                 </div>
                 <div class="blog-portfolio">
-                    <h3 id="head6">How To Pursue</h3>
+                    <h3 id="head4">How To Pursue</h3>
                     <div class="bar"></div>
                 </div>
                 <div class="blog-details-list-two" id="educationList"></div>
@@ -256,12 +256,12 @@
                     <div class="contact-form" onMouseOver="this.style.borderColor='#00CA99'"
                         onMouseOut="this.style.borderColor='#c4c4c4'">
                         <h3 id="head27">Are you Confused?</h3>
-                        <h6 id="head29" style="color: var(--bodyColor); font-size: 16px;" class="pb-7">Talk To Our Counsellor</h6>
-                        <form id="" action="contact.html">
+                        <h6 id="head29" style="color: var(--bodyColor); font-size: 16px;" class="pb-7">Talk To Our AI Counsellor</h6>
+                        <form id="" action="ai-chat.html">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12">
                                     <button class="default-btn border-radius-5" id="head28">
-                                        Contact Us <i class="ri-chat-4-line"></i>
+                                        Chat Here <i class="ri-chat-4-line"></i>
                                     </button>
                                 </div>
                             </div>
@@ -331,7 +331,6 @@
             const careers = await fetchJson();
 
             // Handle the 'careers' variable as needed
-            console.log(careers);
 
             function getQueryParam(name) {
                 const urlParams = new URLSearchParams(window.location.search);
@@ -356,7 +355,7 @@
 
             function createSkillsList() {
                 const skillsListContainer = document.getElementById('skillsList');
-                const skillsList = data.skills.map(skill => `<li>${skill}</li>`).join('');
+                const skillsList = data.skills.map((skill, index) => `<li id="qw1_${index + 1}">${skill}</li>`).join('');
                 skillsListContainer.innerHTML = `<ul>${skillsList}</ul>`;
             }
             createSkillsList()
@@ -380,9 +379,9 @@
                 const durContainer = document.getElementById('dur');
                 durContainer.innerHTML = `
                         <li>
-                            <i class="ri-time-line"></i> ${data.duration}
+                            <i class="ri-time-line"></i> <span id="dur1">${data.duration}</span>
                         </li>
-                        <li><a href=${data.cat_dir}>${data.cat}</a></li>
+                        <li><a href=${data.cat_dir} id="dur2">${data.cat}</a></li>
                         `;
 
                 const titleContainer = document.getElementById('title');
@@ -393,7 +392,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href=${data.cat_dir}>${data.cat}</a>
+                        <a href=${data.cat_dir} id="tit1">${data.cat}</a>
                     </li>
                 </ul>`;
             }
@@ -455,21 +454,7 @@
             }
             createJobOpportunitiesRight();
 
-            // Now you can call other functions that use 'careers'
-            // Example: myFunction(careers);
         })();
-
-
-
-        // Call the function to create the education list
-    </script>
-    <script src="assets/js/form-validator.min.js"></script>
-
-    <script src="assets/js/contact-form-script.js"></script>
-
-    <script src="assets/js/custom.js"></script>
-
-    <script>
 
         function changeLanguage1(){
             location.reload()
@@ -481,10 +466,10 @@
           const apiKey = 'AIzaSyB47ykDTJPP1QwBzSD_xiK5-BVdt6OZWyc';
     
           // Elements to translate;
-          const head4 = document.getElementById('head1');
-          const head5 = document.getElementById('head2');
-          const head6 = document.getElementById('head3');
-          const head6a = document.getElementById('head6');
+          const head1 = document.getElementById('head1');
+          const head2 = document.getElementById('head2');
+          const head3 = document.getElementById('head3');
+          const head4 = document.getElementById('head4');
           const head23 = document.getElementById('head23');
           const head24 = document.getElementById('head24');
           const head25 = document.getElementById('head25');
@@ -492,13 +477,19 @@
           const head27 = document.getElementById('head27');
           const head28 = document.getElementById('head28');
           const head29 = document.getElementById('head29');
+          const p1_1 = document.getElementById('p1_1');
+          const p1_2 = document.getElementById('p1_2');
+          const desc = document.getElementById('desc');
+          const dur1 = document.getElementById('dur1');
+          const dur2 = document.getElementById('dur2');
+          const tit1 = document.getElementById('tit1');
     
           // Text to translate
 
+          const head1t = head1.textContent;
+          const head2t = head2.textContent;
+          const head3t = head3.textContent;
           const head4t = head4.textContent;
-          const head5t = head5.textContent;
-          const head6t = head6.textContent;
-          const head6at = head6a.textContent;
           const head23t = head23.textContent;
           const head24t = head24.textContent;
           const head25t = head25.textContent;
@@ -506,6 +497,12 @@
           const head27t = head27.textContent;
           const head28t = head28.textContent;
           const head29t = head29.textContent;
+          const p1_1t = p1_1.textContent;
+          const p1_2t = p1_2.textContent;
+          const desct = desc.textContent;
+          const dur1t = dur1.textContent;
+          const dur2t = dur2.textContent;
+          const tit1t = tit1.textContent;
               
           // Make API request
           fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
@@ -514,7 +511,7 @@
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-              q: [head4t,head5t,head6t,head6at,head23t,head24t,head25t,head26t,head27t,head28t,head29t],
+              q: [head1t,head2t,head3t,head4t,head23t,head24t,head25t,head26t,head27t,head28t,head29t,,p1_1t,p1_2t,desct,dur1t,dur2t,tit1t],
               target: lang,
             }),
           })
@@ -523,10 +520,10 @@
         console.log(data);
             // Update content with translated text
             
-            head4.textContent = data.data.translations[0].translatedText;
-            head5.textContent = data.data.translations[1].translatedText;
-            head6.textContent = data.data.translations[2].translatedText;
-            head6a.textContent = data.data.translations[3].translatedText;
+            head1.textContent = data.data.translations[0].translatedText;
+            head2.textContent = data.data.translations[1].translatedText;
+            head3.textContent = data.data.translations[2].translatedText;
+            head4.textContent = data.data.translations[3].translatedText;
             head23.textContent = data.data.translations[4].translatedText;
             head24.textContent = data.data.translations[5].translatedText;
             head25.textContent = data.data.translations[6].translatedText;
@@ -534,10 +531,23 @@
             head27.textContent = data.data.translations[8].translatedText;
             head28.textContent = data.data.translations[9].translatedText;
             head29.textContent = data.data.translations[10].translatedText;
+            p1_1.textContent = data.data.translations[11].translatedText;
+            p1_2.textContent = data.data.translations[12].translatedText;
+            desc.textContent = data.data.translations[13].translatedText;
+            dur1.textContent = data.data.translations[14].translatedText;
+            dur2.textContent = data.data.translations[15].translatedText;
+            tit1.textContent = data.data.translations[16].translatedText;
           })
           .catch(error => console.error('Error:', error));
         }
     </script>
+
+    <script src="assets/js/form-validator.min.js"></script>
+
+    <script src="assets/js/contact-form-script.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+
 
 </body>
 
