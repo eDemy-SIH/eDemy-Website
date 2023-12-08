@@ -82,12 +82,12 @@ body {
 }
 
 .correct {
-    background: rgba(0, 244, 20, 0.729);
+    background: rgb(69, 235, 83);
     transition: 0.2s;
 }
 
 .incorrect {
-    background: rgba(255, 0, 0, 0.766);
+    background: rgb(69, 235, 83);
     transition: 0.2s;
 }
 
