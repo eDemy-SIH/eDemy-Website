@@ -139,14 +139,8 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I like to work in teams - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
-    // DUMMY QUESTION OF NO USE
+    // // DUMMY QUESTION FOR QUESNUM FIX  -- COPY DOWN -> parseInt(ques.length/2) and make the upper one dummy and lower one 
+    // as the real question .... for any amout of question.
     {
         question : "",
         answers : [
@@ -155,6 +149,13 @@ const ques = [
         ]
     },    
     // // 
+    {
+        question : "I like to work in teams - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
     {
         question : "I like to teach or train people - ",
         answers : [
@@ -303,8 +304,6 @@ var nextbt = document.getElementById("next");
 var optn = document.getElementById("optn");
 var optnC = document.getElementById("head3");
 
-console.log(ques.length);
-
 var quesno = 0;
 let corrans = 0;
 
@@ -348,7 +347,7 @@ function showQuestions() {
         }
         console.log(flag);
         nextbt.innerHTML = "Next";
-        if (quesno >= midq + 1)
+        if(quesno >= midq + 1)
         quesele.innerHTML = (quesnum - 1) + " .  " + nowques.question;
         else
         quesele.innerHTML = quesnum + " .  " + nowques.question;
@@ -397,11 +396,9 @@ function selectans(nt){
     nextbt.style.display = "block";
 }
 
-
 function gotolink() {
     window.location = "hobbies.html";
 }
-
 
 function showMarks() {
     dontshowbefore();
