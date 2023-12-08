@@ -1281,8 +1281,1002 @@
             "You will be expected to work irregular hours.",
             "You'd have to be up to date on the newest fashion and business trends."
         ]
+    },
+    {
+        "careerid": "zoo",
+        "title": "Zoology",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Haven't we all been amazed when we saw wild animals on TV? If you could never get over your fascination for wild animals and everything else to do with them, then zoology is probably an apt choice for you. Zoology deals with the study of the animal kingdom. Zoology studies the behaviour, characteristics, evolutionary trends of the different species of animals. It also studies the changing environment and its impact on these species and vice versa.",
+        "p1_2": "Zoology helps us study animals and their habitat from a closer lens. Those people who specialise in this field are known as zoologists. The study of animals has largely moved on to deal with form and function, adaptations, relationships between groups, behaviour and ecology.",
+        "img1": "../assets/images/blog/blog-details-zoo.jpg",
+        "alt1": "EE Image",
+        "desc": "The career of a zoologist mainly includes a lot of responsibility towards the animal kingdom. Whatever work a zoologist does is to keep us informed about the ways in which the animal kingdom works, thus increasing our awareness. And hopefully, we can live in harmony with them by using the knowledge zoologists give to our world. Zoologists would have to have a great amount of organic knowledge in order to push themselves in this career. They might also have to travel a lot in case they want to study a particular species in a specific region. Systematics is the study of the diversification of living forms, the evolutionary history of a group is known as its phylogeny.",
+        "skills": [
+            "Determination Skills:The syllabus is vast and sometimes crushing. There is a lot of hard work to be done and social life may come to a standstill.",
+            "Research Skills: Naturally one would have to be good at research as well to understand new problems, their potential solutions and inventions.",
+            "Analytical Skills: You would have to have that drive to push yourself in this career in order to achieve highest potential and satisfaction.",
+            "Reading Skills: You need to be aware of upcoming findings and studies conducted and keep up with the recent developments in this field."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science in Zoology / Bachelor of Science in Biotechnology,Zoology / Bachelor of Science in Zoology,Chemistry.",
+            "Post Graduation: Masters of Science in Marine Zoology / Medical Microbiology"
+        ],
+        "opp_l": [
+            "Taxonomist",
+            "Wildlife services",
+            "Conservationist",
+            "Museums"
+        ],
+        "opp_r": [
+            "Researcher",
+            "TV presenter",
+            "Laboratories"
+        ],
+        "insti": [
+            {
+                "link": "http://www.bethunecollege.ac.in/",
+                "name": "Bethune University"
+            },
+            {
+                "link": "https://iiaedehradun.org/",
+                "name": "Periyar University"
+            },
+            {
+                "link": "https://b-u.ac.in/",
+                "name": "Bharathiar University"
+            },
+            {
+                "link": "https://www.sjc.ac.in/",
+                "name": "St. Joseph's College (autonomous)"
+            },
+            {
+                "link": "https://www.christuniversity.in/",
+                "name": "Christ College"
+            }
+        ],
+        "pros": [
+            "The job satisfaction in this field is quite high if you are really driven.",
+            "There are a large number of opportunities as well as options in this field.",
+            "This field offers a consistent set of jobs which will be stable throughout."
+        ],
+        "cons": [
+            "In India the pay is not as rewarding unless you push yourself to reach the top.",
+            "If passion for this career is missing then it will not give you a high pay or job satisfaction.",
+            "If an individual is going into this field for a good pay grade, then it will not serve the purpose because the main factor in this field is to contribute to the existing pool of knowledge and also spread awareness."
+        ]
+    },
+    {
+        "careerid": "botany",
+        "title": "Botany",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Are you intrigued by plants? Then you can consider botany as a profession! Botany is the study of plant life, its mechanisms, etc. It is one of the branches of biology as a larger subject. Botany deals with plant life and its interaction with the environment. Furthermore, it studies the fundamental aspects of plants and focuses on understanding plant life mechanisms. It is very important since plants do photosynthesis and produce glucose, which is a simple sugar as well as oxygen.",
+        "p1_2": "Botany is one of the oldest fields of science, having begun as herbalism with early humans' efforts to identify, and later produce edible, medicinal, and toxic plants. Botany in the modern era is a vast, multidisciplinary subject that incorporates elements from various fields of science and technology.",
+        "img1": "../assets/images/blog/blog-details-bot.jpg",
+        "alt1": "EE Image",
+        "desc": "A botanist would majorly be involved in a lot of research work at the highest level. The main aim should be to contribute to our existing knowledge of plant life. Botanists also study the impact of plant life on other living organisms, including the human species and animal life. It also helps in understanding the impact of different kinds of environments on plant life. These studies are important to build our knowledge and understand the impact we create on plant life and vice versa. Botanists also teach at colleges and help when it comes to agricultural growth.",
+        "skills": [
+            "Analytical Skills: An individual would have to be able to analyse the incoming data and new information and make the right inference.",
+            "Learning Skills: You need to be aware of upcoming findings and studies conducted and keep up with the recent developments in this field.",
+            "Research Skills: Naturally one would have to be good at research as well to understand new problems, their potential solutions and inventions."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science in Botany.",
+            "Post Graduation: Masters of Science in Botany."
+        ],
+        "opp_l": [
+            "Plant Explorer",
+            "Conservationist",
+            "Ecologist",
+            "Environment Consultant"
+        ],
+        "opp_r": [
+            "Plant Biochemist",
+            "Molecular Biologist",
+            "Academia"
+        ],
+        "insti": [
+            {
+                "link": "https://www.nagarjunauniversity.ac.in/",
+                "name": "Acharya Nagarjuna University"
+            },
+            {
+                "link": "http://www.andc.ac.in/",
+                "name": "Acharya Narendra Deo College of Pharmacy"
+            },
+            {
+                "link": "https://khalsacollege.edu.in/",
+                "name": "Khalsa College"
+            },
+            {
+                "link": "https://abnscollege.org/",
+                "name": "A.B.N. Seal College"
+            },
+            {
+                "link": "https://www.ethames.ac.in/",
+                "name": "EThames Degree College"
+            }
+        ],
+        "pros": [
+            "One of the pros is that a career as a botanist in India is well paid initially as well.",
+            "Job opportunities are vast because studying botany can be used in so many jobs.",
+            "It is a very intriguing field and has various applications."
+        ],
+        "cons": [
+            "You might feel stagnated after a point because you will be working based on one subject you’ve studied the entire time.",
+            "It's not a highly acclaimed career even though there are so many job opportunities.",
+            "It can be very hectic, due to the heavy amount of studying required."
+        ]
+    },
+    {
+        "careerid": "phyhon",
+        "title": "Physics Honours",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Are you intrigued by the various phenomena in the world of physics? If yes, then you should pursue a career in it. Physics is natural science and probably one of the oldest academic disciplines. It focuses on the study of matter, its motion and behaviour through space and time, and the related entities of energy and force. Physics is one of the most basic scientific disciplines, with the aim of understanding how the world works.",
+        "p1_2": "It is concerned with the nature of matter and the relations between the observable universe's fundamental constituents. Physics advances frequently pave the way for new technologies. Advances in electromagnetism, solid-state physics, and nuclear physics, for example, led directly to the development of new products that have dramatically transformed modern-day society, such as television, computers, domestic appliances, and nuclear weapons.",
+        "img1": "../assets/images/blog/blog-details-phy.jpg",
+        "alt1": "EE Image",
+        "desc": "The physicist has to deal with all aspects related to matter and energy. A physicist studies the effects of forces, systems, and processes on the natural world. This job entails conducting extensive research in order to generate reports and technical papers that benefit the industry as a whole, as well as lecturing and educating students about physics laws. As a part of the analysis and evaluation of data, physicists perform complex calculations using computers. Their studies include the motion and properties of physical objects both large and small, the properties of waves, the properties of states of matter and the fundamental properties of matter and energy.",
+        "skills": [
+            "Technical Skills: Being a physicist is an academic field thus, the clear concepts of science and the passion for science is required.",
+            "Problem Solving Skills: Candidates should be able to identify complex problems and review related information to develop and evaluate options and implement solutions.",
+            "Thinking Skills: Professionals need to use logic and reasoning to find solutions and to reach conclusions.",
+            "Reading Skills: Professionals have to deal with a lot of documents so regular reading becomes an efficient skill.",
+            "Mathematics Skills: Physicists perform complex calculations which require clear concepts and interest in mathematics."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science Honours in Physics or Applied Physics.",
+            "Post Graduation: Masters of Science in Physics "
+        ],
+        "opp_l": [
+            "Healthcare",
+            "Research"
+        ],
+        "opp_r": [
+            "Teaching"
+        ],
+        "insti": [
+            {
+                "link": "https://iisc.ac.in/",
+                "name": "Indian Institute of Science"
+            },
+            {
+                "link": "https://www.iiserpune.ac.in/",
+                "name": "Indian Institute of Science Education and Research"
+            },
+            {
+                "link": "https://www.iist.ac.in/",
+                "name": "Indian Institute of Space Science and Technology"
+            },
+            {
+                "link": "https://www.bhu.ac.in/Site/Home/1_2_16_Main-Site",
+                "name": "Banaras Hindu University"
+            }
+        ],
+        "pros": [
+            "There are various job opportunities ranging from the field of industrial sector to educational sector.",
+            "Job satisfaction as professionals usually spend their day figuring out how the universe works.",
+            "There are lots of scholarships available for studying physics."
+        ],
+        "cons": [
+            "It takes a lot of time, experience and knowledge to become a physicist.",
+            "Professionals have to work for long hours which can make their work boring.",
+            "Others may not have the level of understanding of a physicist so it becomes frustrating to explain others."
+        ]
+    },
+    {
+        "careerid": "chemhon",
+        "title": "Chemistry Honours",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Are you fascinated by the subject of chemistry and love to learn about various phenomena? If yes, then you should think of making a career in chemistry. Chemistry is the scientific field that involves elements and compounds composed of atoms, molecules and ions. This field aims to study their composition, structure, properties, behaviour and the changes they undergo during a reaction with other substances.",
+        "p1_2": "Chemistry is everywhere, even our bodies are made up of chemical compounds. Our daily life activities are also a result of chemical reactions like cooking, fermenting milk to form a curd, lighting matches, making ice, etc. Chemistry helps us to understand our surroundings better by providing us with reasons.",
+        "img1": "../assets/images/blog/blog-details-chem.jpg",
+        "alt1": "EE Image",
+        "desc": "Chemists are required to be creative, careful, and productive, furthermore, they need to think about the future. Chemistry is an academic field that requires experts to observe the basic properties of materials, conduct experiments and test their experimental limits. They do this to find the matter’s usage and application to make a product. Their duties involve modelling, analysis, synthesis, research, limited fieldwork, or even sales and information management. They measure proportions and reaction rates to understand unfamiliar substances and how they behave, or to create new compounds for use in a variety of practical applications.",
+        "skills": [
+            "Reading Skills: Professionals have to deal with a lot of documents so regular reading becomes an efficient skill.",
+            "Critical Thinking Skills: Professionals need to use logic and reasoning to find solutions and to reach conclusions.",
+            "Problem Solving Skills: Candidates should be able to identify complex problems and review related information to develop and evaluate options and implement solutions.",
+            "Technical Skills: Being a chemist is an academic field thus, the clear concepts of science and the passion for science is required."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science Honours in Chemistry or Biochemistry.",
+            "Post Graduation: Masters of Science in Chemistry / Post Graduate Diploma in Chemistry or Biochemistry or Chemical Engineering "
+        ],
+        "opp_l": [
+            "Healthcare",
+            "Academia"
+        ],
+        "opp_r": [
+            "Consultant",
+            "Pharmaceuticals"
+        ],
+        "insti": [
+            {
+                "link": "https://www.du.ac.in/",
+                "name": "University of Delhi"
+            },
+            {
+                "link": "https://www.loyolacollege.edu/",
+                "name": "Loyola College"
+            },
+            {
+                "link": "https://www.christuniversity.in/",
+                "name": "Christ University"
+            },
+            {
+                "link": "https://www.fergusson.edu/",
+                "name": "Fergusson College"
+            },
+            {
+                "link": "https://xaviers.ac/",
+                "name": "St. Xavier's College"
+            }
+        ],
+        "pros": [
+            "Availability of lots of employers makes it a secure job option.",
+            "High pay for experienced professionals.",
+            "Job satisfaction as it is interesting and intellectually stimulating for interested people."
+        ],
+        "cons": [
+            "It is a long and difficult path to become a professional.",
+            "The job is hazardous as professionals deal with lots of harmful chemicals.",
+            "Long and irregular working hours with tight deadlines."
+        ]
+    },
+    {
+        "careerid": "rj",
+        "title": "Video/Radio Jockey",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Do you like chatting and have a lot of energy? Then you should think about being a radio jockey. A radio jockey is an individual who provides entertainment to radio listeners. They broadcast music, deliver news, interact with listeners, run competitions, and interview guests. On commercial music television stations, a video jockey is an announcer who presents and plays videos.",
+        "p1_2": "The only difference between a radio and a video jockey is that a radio jockey does not appear on the screen, while a video jockey does. The field has seen some major changes, since its inception. The main job of an RJ and a VJ is to communicate with the audience. A prospective candidate should have excellent communication skills. They introduce music videos on Television and also give some background information about the music being played. They bridge the gap between the audience and the musician.",
+        "img1": "../assets/images/blog/blog-details-rj.jpg",
+        "alt1": "EE Image",
+        "desc": "Radio jockeys are in high demand in the private sector since the opening of the airwaves. They will collaborate with a variety of top FM stations as well as private radio projects. Video jockey is becoming an exciting career option for the music-obsessed generation, thanks to the availability of various music channels on television. The VJs' main task is to present the majority of the host music-related shows and music videos on television. Producers of music shows, music networks, and film-based programs are the most common employers of video jockeys. The need for these practitioners is growing all the time.",
+        "skills": [
+            "Vocal Skills: This does not mean that the candidate should have a loud harsh voice instead, it means that they should have a soothing and impactful voice.",
+            "Creative Skills: RJs and VJs sometimes have to be spontaneous. Their articulation should be creative enough to impress the listener.",
+            "Communication Skills: The main job of an RJ and a VJ is to communicate with the audience. A prospective candidate should have excellent communication skills."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelors in Journalism / Mass Communication /Bachelor of Arts Honours. (English/Mass Communication) /Diploma or Certification in Radio/Video.",
+            "Post Graduation: Diploma in Radio Jockey."
+        ],
+        "opp_l": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "opp_r": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "https://www.isdi.in/",
+                "name": "Indian School of Design and Innovation"
+            },
+            {
+                "link": "https://www.sirjjschoolofart.in/",
+                "name": "Sir JJ School of Art"
+            },
+            {
+                "link": "http://www.voguefashioninstitute.com/",
+                "name": "Vogue Fashion Institute"
+            },
+            {
+                "link": "https://cept.ac.in/",
+                "name": "Centre for Environmental Planning and Technology"
+            }
+        ],
+        "pros": [
+            "Job satisfaction is immense as one gets to be creative on duty.",
+            "It is a high paying job once the basic cost is covered.",
+            "Diverse job as one gets to experiment."
+        ],
+        "cons": [
+            "Difficult to start a career because of the competition.",
+            "Long working hours as the deadlines are tight.",
+            "Flexibility according to the client needed."
+        ]
+    },
+    {
+        "careerid": "ent",
+        "title": "Entrepreneurship",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Do you want to do something of your own and be your boss? Then being an entrepreneur is just for you. Entrepreneurship is defined as the capacity and willingness to create, organize, and run a firm, including all of its risks, to make a profit. The most visible form of entrepreneurship is the establishment of new firms. It revolves around designing and pursuing a business idea and often starting a new business. Although there are no educational requirements for being an entrepreneur, a strong educational background allows you to be a better entrepreneur with you already knowing how to run a business.",
+        "p1_2": "It can be defined as the creation or extraction of value. Entrepreneurs serve as managers, overseeing the start-up and growth of a business. Entrepreneurship is the process through which an individual or a group recognizes a business opportunity and obtains and deploys the resources needed to pursue it.",
+        "img1": "../assets/images/blog/blog-details-ent.jpg",
+        "alt1": "EE Image",
+        "desc": "To be a successful entrepreneur, one needs to have an innovative yet sustainable idea for a business and be extremely dedicated to their cause. It needs a lot of persistence, hard work, and time to often succeed. One often has to take risks and take challenging roads to be a successful entrepreneur. Being an entrepreneur entails having a business idea and putting it into action. Once a business idea is conceived, an entrepreneur must carry out several tasks to make it a reality. It involves market research to investigate competitors (if any) and determine the target audience to professional recruitment, financial management, and overall administration.",
+        "skills": [
+            "Creativity Skills: One needs to be creative to give their product an edge over that of their competitors.",
+            "Leadership Skills: As you are effectively the leader of your business, you need to have good leadership skills.",
+            "Hardworking: Running a business is not easy and one needs to be willing in to put the extra dedication to succeed.",
+            "Networking Skills: One needs to have a strong network to get the big push for their product into the markets.",
+            "Persistence: Successful businesses are not established in a day and one needs to be willing to persevere for success."
+        ],
+        "educ": [
+            "School: School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Business Administration / Bachelor of Commerce",
+            "Post Graduation: Masters of Business Administration in Entrepreneurship /Finances "
+        ],
+        "opp_l": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "opp_r": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "https://www.iimb.ac.in/home",
+                "name": "Indian Institute of Management"
+            },
+            {
+                "link": "https://www.isb.edu/en.html",
+                "name": "Indian School of Business"
+            },
+            {
+                "link": "https://xlri.ac.in/",
+                "name": "Xavier School of Management"
+            },
+            {
+                "link": "https://www.spjimr.org/",
+                "name": "S.P. Jain Institute of Management and Research"
+            }
+        ],
+        "pros": [
+            "You get to create something of your own.",
+            "You get to decide your work hours and thus get flexibility.",
+            "You can also decide what field you work in."
+        ],
+        "cons": [
+            "Starting a new business is a risky venture.",
+            "One may have to work much harder to get the big break.",
+            "One has to take a lot of responsibility and it can often be stressful."
+        ]
+    },
+    {
+        "careerid": "civils",
+        "title": "Civil Services",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Do you want to be a part of the governance system and help in the progress of the country? Then a career in Civil Services is just for you. Civil Servants are career bureaucrats hired based on their merits rather than election or appointment. They work under the direction of the government and form the political executive concerned with enforcing the policies of the state. ",
+        "p1_2": "The Union Public Service Commission conducts a countrywide competitive examination in India for recruitment to several Civil Services of the Government of India, including the Indian Administrative Service, Indian Foreign Service, and Indian Police Service. They are hired on the basis of professional merit rather than being appointed or elected, and their institutional tenure often outlasts changes in political leadership.",
+        "img1": "../assets/images/blog/blog-details-cv.jpg",
+        "alt1": "EE Image",
+        "desc": "Civil Servants are primarily involved in governance and formulation of policies of the government. They can also be assigned various administrative or representative tasks depending on the branch of the Service they work in. It is a highly prestigious career and particularly fulfilling for those who want to serve their country. To be a Civil Servant, however, one has to pass the crucial and extremely difficult exams conducted by Union Public Services Commission. The civil service is a word that refers to a government sector that is mostly made up of career civil employees. ",
+        "skills": [
+            "Learning Skills: A Civil Servant has to be hungry for knowledge as they are required to keep up with the various happenings of the world for better governance and formulation of policies.",
+            "Teamwork Skills: Public Departments are run by groups of Civil Servants rather than individual people bearing the load, making the ability to work with others important.",
+            "Analytical Skills: As a Civil Servant, one may often need to analyse complex information and data, making analytical skills very important.",
+            "Management Skills: As a Civil Servant, one has the responsibility to manage a lot of things on limited resources and sometimes in very tight situations, making resourcefulness very important.",
+            "Communication Skills: A Civil Servant must be able to fluently and eloquently put forward their ideas and perspectives."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Any Graduate programme.",
+            "Post Graduation: UPSC Entrance Exams."
+        ],
+        "opp_l": [
+            "Indian Administrative Service.",
+            "Indian Police Service"
+        ],
+        "opp_r": [
+            "Indian Foreign Service",
+            "Indian Postal Services"
+        ],
+        "insti": [
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            }
+        ],
+        "pros": [
+            "One gets to contribute to society fruitfully.",
+            "It is a very secure job with perks going well into post-retirement.",
+            "It is also a highly respectable profession."
+        ],
+        "cons": [
+            "It is a highly stressful job with a lot of pressure on one at all times.",
+            "One may often have to work in remote areas or be transferred.",
+            "It may put undue stress on their personal life."
+        ]
+    },
+    {
+        "careerid": "rails",
+        "title": "Railway Services",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Pursuing a career in Railway Services in India offers a multitude of compelling reasons. Firstly, it provides an opportunity to contribute significantly to the nation's infrastructure development and connectivity, as the Indian Railways is one of the largest and most extensive railway networks in the world. Secondly, it offers job security and stability, along with competitive salaries and benefits. ",
+        "p1_2": "Railway Services also offer a diverse range of job profiles, catering to various skill sets and qualifications, including engineering, management, and technical roles. Moreover, working in the Indian Railways allows individuals to experience the cultural diversity of the country, as it connects people from all corners of India. Lastly, it presents ample opportunities for career advancement and professional growth. Overall, a career in Railway Services in India not only promises a fulfilling job but also plays a crucial role in the nation's development and progress.",
+        "img1": "../assets/images/blog/blog-details-rails.jpg",
+        "alt1": "EE Image",
+        "desc": "A career in Railway Services in India offers diverse opportunities for those with relevant educational qualifications. This field includes technical roles for engineers, management positions, and various other roles in railway operations. It plays a pivotal role in India's infrastructure development, promising job security, benefits, and a clear path for career progression. Pursuing studies for Railway Services typically involves qualifying competitive examinations conducted by UPSC or RRB, depending on the specific role of interest.",
+        "skills": [
+            "Technical Problem Solving Skills : The ability to analyze and solve technical issues related to railway infrastructure, signaling systems, or rolling stock is crucial.",
+            "Decision-Making Skills : Making informed decisions based on data and operational considerations is vital.",
+            "Team Leadership Skills : Many roles require leading teams of railway employees, so leadership skills are valuable.",
+            "Project Management: For engineering and infrastructure development roles, project management skills are crucial for completing projects on time and within budget.",
+            "Communication Skills: In this field, you are responsible for being the bridge between ideas and their implementation, making communication skills very important."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science.",
+            "Graduation: Bachelor's in any Engineering Role.",
+            "Post Graduation: Not mandatory But MBA is considered."
+        ],
+        "opp_l": [
+            "Locomotive Engineer",
+            "Civil Engineer "
+        ],
+        "opp_r": [
+            "Railway Station Master",
+            "Traffic Controller"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institutes of Technology (IITs)"
+            },
+            {
+                "link": "https://nitdgp.ac.in/",
+                "name": "National Institutes of Technology (NITs)"
+            },
+            {
+                "link": "https://www.irimee.in/",
+                "name": "Indian Railways Institute of Mechanical and Electrical Engineering (IRIMEE)"
+            }
+        ],
+        "pros": [
+            "It is a highly respected field.",
+            "Railway Officers serve the nation.",
+            "It is a high paying methods."
+        ],
+        "cons": [
+            "No particular time schedule.",
+            "It can be a stressful job.",
+            "One needs to be under a lot of responsibility at all times."
+        ]
+    },
+    {
+        "careerid": "ces",
+        "title": "Customs And Excise Services",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Have you ever been intrigued by the import and export of goods? Then, customs and excise would be a great field for you! We have all had objects ordered or seen being ordered from outside our country.",
+        "p1_2": "Have you ever wondered how people deal with the customs of these objects? Customs, Goods & Services Tax, Central Excise, Service Tax, and Narcotics are all administered by the Central Board of Indirect Taxes and Customs, which is India's main national agency. Customs is a government entity or agency in charge of collecting customs and controlling the movement of commodities into and out of a country, including animals, transportation, personal effects, and dangerous materials. But once this exam has been cleared, there’s amazing job security, constant salary and amazing privileges.",
+        "img1": "../assets/images/blog/blog-details-ces.jpg",
+        "alt1": "EE Image",
+        "desc": "A Customs Officer is an agent who, on behalf of the government, enforces custom law. Customs Officers have to deal with the prevention of illegal goods such as drugs, tobacco, alcohol. They have to have a hawkeye to prevent smuggling in India. They are placed at International airports or ports so that they can govern the import and export of goods. They work in groups to prevent such fraudulent activities. The path to being a customs officer is very tough. The candidate has to prepare and give an exam (UPSC) for this job. Not only is its course tough, but also there are many phases to it. ",
+        "skills": [
+            "Decision Making Skills: One often has to make difficult decisions regarding what the best step to take is after assessing risks, making decision-making skills important.",
+            "Teamwork Skills: In this profession, one is often working with teams in analysing information and assessing options, making teamwork very important.",
+            "Communication Skills: One needs to be a very good communicator in order to work with teams of such skilful people."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor's in any stream",
+            "Post Graduation: UPSC Entrance Exams."
+        ],
+        "opp_l": [
+            "Inspector Of Customs And Central Excise.",
+            "Preventive Officer",
+            "",
+            "",
+            ""
+        ],
+        "opp_r": [
+            "Examiner Of Indian Customs",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            }
+        ],
+        "pros": [
+            "It is an extremely high-paying job.",
+            "Job security in this field is relatively high.",
+            "This is a very interesting field."
+        ],
+        "cons": [
+            "The way to this career is very arduous.",
+            "The selection procedure is quite tough.",
+            "You have to sacrifice a lot of your life to study for this job."
+        ]
+    },
+    {
+        "careerid": "its",
+        "title": "Income Tax Services",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Do you have an interest in taxes? Then you can make a career in income tax. An income tax is a tax levied on individuals or businesses based on their earnings or profits. In most cases, income tax is calculated as the product of a tax rate and taxable income.",
+        "p1_2": "Tax rates may differ depending on the taxpayer's kind or qualities, as well as the sort of income. Total income less income producing expenses and other deductions is generally taxable income for taxpayers who live in the jurisdiction. In most cases, income only includes the net gain from the sale of property, including things held for sale. Distributions of earnings from a business are normally included in the income of a firm's shareholders. Total income less income producing expenses and other deductions is generally taxable income for taxpayers who live in the jurisdiction. ",
+        "img1": "../assets/images/blog/blog-details-it.jpg",
+        "alt1": "EE Image",
+        "desc": "Work linked to desk job specifics that come with the title of Income Tax Inspector is included in a job in the assessment part. You will be in charge of determining how much income tax persons, businesses, and partnership firms owe. You will also be responsible for refund requests and TDS (Tax Deduction at Source) questions. Inspectors in this non-assessment division may be a part of the raiding team's fast response team. ITIs who are assigned non-assessment tasks are typically limited to clerical work. Their responsibilities are limited to filing formal documentation and accompanying raid teams on occasion.",
+        "skills": [
+            "Mathematical Skills: It is essential as they need to be able to calculate taxes on income and assets.",
+            "Analytical Skills: They need to be able to analyze numerical data.",
+            "Communication Skills: To make the world of finance accessible to clients who may or may not have financial backgrounds, top experts must have all of the same communication skills — both written and spoken."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor In Any Field.",
+            "Post Graduation: SSC CGL / UPSC Exams."
+        ],
+        "opp_l": [
+            "Assessing Department."
+        ],
+        "opp_r": [
+            "Non Assessing Department."
+        ],
+        "insti": [
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            }
+        ],
+        "pros": [
+            "The salary is quite good.  ",
+            "The job comes with many perks, alongside monetary benefits.",
+            "The working hours are fixed."
+        ],
+        "cons": [
+            "The job entails a lot of calculation and numerical work.",
+            "During an economic crisis, your job may be at stake.",
+            "The schedule is exhaustive."
+        ]
+    },
+    {
+        "careerid": "iess",
+        "title": "Indian Economic System",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Want to contribute to the nation's economic development? Then, an alluring career is awaiting you. A service introduced by Prime Minister Jawaharlal Nehru for formulating and implementing economic policies and programs in India is one of the prestigious job opportunities of the Central Civil Services of the executive branch of the Government of India categorized under Group A.",
+        "p1_2": "The Engineering Services Examination is conducted by the Union Public Service Commission to recruit officers for the services which cater to the technical functions of the Government of India. It is a three-stage competitive examination comprising objective, subjective and personality tests. After being selected, they are assigned to the position of Assistant Executive Engineer or Assistant Director.",
+        "img1": "../assets/images/blog/blog-details-iess.jpg",
+        "alt1": "EE Image",
+        "desc": "IES officers' roles can be categorized in terms of economic administration, implementation of various policies of development, working for the sake of economic reforms followed by price fixation, evaluation and monitoring. In addition to purely economic services, these officials make a critical contribution to policy development in social sectors. They would provide ongoing advice to the relevant ministries/ departments on all the policies influencing domestic and external economic management and facilitating reforms in the relevant fields. Roads, railways, manufacturing, defence, construction, telecommunications, and other technical fields are all covered by an IES Officer. ",
+        "skills": [
+            "Analytical Skills: As an Economist your foremost job is to analyse the patterns of activities and review them, making analytical skills very important.",
+            "Critical Thinking Skills: One needs to be able to assess various factors critically and go in deep depths to draw fruitful conclusions, making this skill very important.",
+            "Communication Skills: In this field, you are responsible for being the bridge between ideas and their implementation, making communication skills very important."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor's in any stream",
+            "Post Graduation: UPSC Entrance Exams."
+        ],
+        "opp_l": [
+            "IES Officer.",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "opp_r": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "https://www.loyolacollege.edu/",
+                "name": "Loyola College"
+            },
+            {
+                "link": "https://www.fergusson.edu/",
+                "name": "Fergusson College"
+            },
+            {
+                "link": "http://econdse.org/",
+                "name": "Delhi School Of Economics"
+            },
+            {
+                "link": "https://www.presiuniv.ac.in/web/",
+                "name": "Presidency University"
+            },
+            {
+                "link": "https://www.mirandahouse.ac.in/",
+                "name": "Miranda House"
+            }
+        ],
+        "pros": [
+            "It is a highly respected field.",
+            "IES Officers serve the nation.",
+            "It is a high-paying field."
+        ],
+        "cons": [
+            "You need to keep studying to keep up with the course of changes in the Economic world.",
+            "It can be a stressful job.",
+            "One needs to be under a lot of responsibility at all times."
+        ]
+    },
+    {
+        "careerid": "mascom",
+        "title": "Mass Communication",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "3 years",
+        "p1_1": "The process of imparting and distributing knowledge to wide parts of the public via mass media is known as mass communication. It is the process of developing, sending, receiving, and analyzing vocal and textual messages for big audiences. It's a broad area that covers not just how and why a message is developed, but also how and why it's delivered. Broadcast television, radio, social media, and print are examples of communication channels. The message is usually provided by a professional communicator who frequently represents an organization. Mass communication is multi-disciplinary, incorporating elements of related fields such as strategic communication, health communication, political communication, integrated marketing communications, journalism, and more.",
+        "p1_2": "",
+        "img1": "../assets/images/mediajournalism/masco.jpg",
+        "alt1": "AIML Image",
+        "desc": "The variety of mass media formats and communication methods provides for professional choices that are both creative and flexible. To design, share, and analyze effective messages to broad, targeted audiences, mass communication experts employ their knowledge of rhetorical principles and strategic media methods. Public relations specialists, journalists, broadcast professionals, advertisers, content writers, graphic designers and illustrators, and other media professionals can use these strategies to create and launch calculated communication plans across nearly every industry, from broadcast news to online marketing campaigns.",
+        "skills": [
+            "Hardworking Skills : Mass communication is a very demanding industry which favours only hard-working people. One has to dedicate exceptionally long hours to succeed in this field",
+            "Learning Skills: One has to have proper knowledge and understanding regarding media ethics. One should be aware of the thin line between responsible journalism and invading the privacy of a person.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Communication Skills: This skill will help one to get good projects and build a rapport among their clients and colleagues."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: Bachelors in Journalism/Bachelors in Mass Communication/BA. Hons. (English/Mass Communication)",
+            "Post Graduation:Masters in Mass Communication/Masters in Journalism"
+        ],
+        "opp_l": [
+            "Journalist",
+            "News Media Director",
+            "Teacher"
+        ],
+        "opp_r": [
+            "Content Specialist & Web Producer",
+            "Marketing Director",
+            "Public Relations Specialist"
+        ],
+        "insti": [
+            {
+                "link": "https://manipal.edu/soc.html",
+                "name": "Manipal School of Communication, Manipal"
+            },
+            {
+                "link": "https://www.christuniversity.in/",
+                "name": "Christ University, Bangalore"
+            },
+            {
+                "link": "https://scmc.edu.in/",
+                "name": "Symbiosis Centre of Media & Communication, Pune"
+            },
+            {
+                "link": "https://www.xaviercomm.org/",
+                "name": "Xavier Institute of Communications, Mumba"
+            }
+        ],
+        "pros": [
+            "One gets to work with well-educated people.",
+            "The scope of this field is very wide.",
+            "One gets recognition, fame and money, as well as opportunity to travel"
+        ],
+        "cons": [
+            "It can be a stressful job with work load and tight deadlines.",
+            "Regular updating of knowledge because of the ever-evolving technology.",
+            "There is a lot of field work involved"
+        ]
+    },
+    {
+        "careerid": "mediaandjournalism.html",
+        "title": "Public Relation ",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "4 years",
+        "p1_1": "Do you want to have the capacity to change/improve the reputation of an organization? If yes, then PR is the right job for you. The art of actively managing the spread of knowledge between a person or an entity and the general public is known as public relations. An organization or person can use public relations to gain attention to their audiences by using topics of public interest and news articles that do not require payment. Most multinational corporations have a public relations department that is in charge of all media relations. The public relations specialist is in charge of community outreach and volunteer services. They establish connections with potential investors. They also appear on a cable television news show to answer difficult questions. A good PR director not only knows which platform to use for what but has the skills to use each platform to its fullest potential.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Public Relation.jpg",
+        "alt1": "AIML Image",
+        "desc": "Performance in public relations necessitates a thorough understanding of each of the client's multiple publics' desires and concerns. The most important weapon in the PR trade is publicity, and the public relations professional must know how to effectively answer such concerns. In certain cases, the primary responsibility of a public relations professional is to write news releases that are sent to specific members of the media. However, limiting the concept of public relations to only publicity would be an underestimation of PR's increasing power and reach.",
+        "skills": [
+            "Communication Skills: A publicist needs to write captivating content for clients, from press releases to magazine articles to blog posts. The text must not only communicate the client’s message compellingly and engagingly, but it must also serve the needs of the publisher",
+            "Social Media Skills PR practitioners must be familiar with all forms of social media currently in use — a list that is constantly changing. A good PR director not only knows which platform to use for what but has the skills to use each platform to its fullest potential.",
+            "Research Skills: Public relations practitioners work with many kinds of clients in a wide variety of fields. To serve each client well, the practitioner must be able to get “up to speed” with the client’s brand, industry, and the market as quickly as possible.",
+            "Time Management Skills Public relations specialists must be able to juggle multiple clients and projects, all of whom expect to be considered important and need their work to be completed as soon as possible. Mastering deadlines and prioritizing tasks are a must"
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: Bachelors in Journalism/Bachelors in Mass Communication/BA. Hons. (English/Mass Communication)",
+            "Post Graduation:Masters in Journalism and Mass Communication/Diploma in Mass communication and Journalism"
+        ],
+        "opp_l": [
+            "Media Relations Manager",
+            "Government PR Departments",
+            "Self Employed"
+        ],
+        "opp_r": [
+            "Director",
+            "Marketing Director",
+            "Public Relations Specialist"
+        ],
+        "insti": [
+            {
+                "link": "https://www.bvbdelhi.org/",
+                "name": "Bhartiya Vidya Bhawan, New Delhi"
+            },
+            {
+                "link": "http://iimc.nic.in/",
+                "name": "Indian Institute of Mass Communication, Pune"
+            },
+            {
+                "link": "https://www.newdelhiymca.in/imsit/",
+                "name": "YMCA Institute for Media Studies & Information Technology, New Delhi"
+            },
+            {
+                "link": "https://www.xaviercomm.org/",
+                "name": "Xavier Institute of Communications, Mumbai"
+            }
+        ],
+        "pros": [
+            "Credibility as the position is of responsibility.",
+            "High demand because of the increase in social media.",
+            "Greater readership as the work gets recognised"
+        ],
+        "cons": [
+            "Repetition as it is the same job to be done every day.",
+            "Message distortion as reception of a message is subjective",
+            "Stressful job because of its need to work on perception of people"
+        ]
+    },
+    {
+        "careerid": "writer",
+        "title": "Writer Editor Copywriter",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "4 years",
+        "p1_1": "Do you love writing? If yes, becoming a writer can be a great career path for you! Copywriters, authors, novelists, blog writers, and editors are only a few examples of various styles of writers. Writing professionals work in a variety of fields, including academia, business, journalism, and entertainment. Since the majority of authors are self-employed, it is a special profession. Along with superior writing skills, authors are often required to conduct extensive research while writing, so they must also possess superior research skills. Content has become a vital way for brands to support and endorse their company and goods in today's fast-paced internet era. This necessitates the recruiting of workers with strong writing skills and a broad knowledge base. They can revise or rewrite sections with the assistance of editors, looking for the best arrangement and phrasing.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Editor.jpg",
+        "alt1": "AIML Image",
+        "desc": "Writers and writers create written content for books, magazines, and online publications, such as stories and advertising. Strong research and the use of appropriate sources and citations are required for writers to build their reputation with editors and readers. Writers and writers choose the content they want to use and then communicate it to their readers. They were able to do this with the assistance of editors. Several authors work as freelancers, earning their living by selling their written material to book and magazine publishers, news media, advertising agencies, and film, theatre, and television producers.",
+        "skills": [
+            "Research Skills: Good research is key for good content writing – it adds credibility and, most importantly, value",
+            "SEO Skills : It’s important to know how to craft SEO-friendly titles and descriptions, use keywords effectively and keep up with Google’s latest algorithm changes",
+            "Organizational Skills Turning an assignment late sends a bad message to your customers and often won’t give the editors as much time to prove your article, thus maintaining a deadline is important.",
+            "Writing Skills Articles should be engaging and grammatically correct."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: Bachelors in Journalism/Bachelors in Mass Communication/BA. Hons. (English/Mass Communication)",
+            "Post Graduation:Masters in Journalism and Mass Communication"
+        ],
+        "opp_l": [
+            "Journalist",
+            "Freelancer",
+            "Managing Editor",
+            "Copy Editor",
+            "Editor Assistants"
+        ],
+        "opp_r": [
+            "Content Specialist & Web Producer",
+            "Broadcast Journalist",
+            "Investigate Journalist"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iijnm.org/",
+                "name": "Indian Institute of Journalism and New Media, Bangalore"
+            },
+            {
+                "link": "http://www.timesmediastudies.com/",
+                "name": "Times School of Journalism, New Delhi"
+            },
+            {
+                "link": "http://www.du.ac.in/",
+                "name": "University of Delhi, New Delhi"
+            },
+            {
+                "link": "https://www.knc.edu.in/",
+                "name": "University of Delhi, New Delhi"
+            }
+        ],
+        "pros": [
+            "Able to make an impact on readers.",
+            "Job satisfaction is there since it is a creative field.",
+            "There are no age limits."
+        ],
+        "cons": [
+            "Criticism is a major part of the job",
+            "No guaranteed job stability.",
+            "The job offers a low pay."
+        ]
+    },
+    {
+        "careerid": "Broadcasting",
+        "title": "Broadcasting ",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "4 years",
+        "p1_1": "Do you want to learn media and communication? Then, broadcasting may interest you! Broadcasting is the one-to-many distribution of audio or video content to a dispersed audience by any electronic mass communications media, but most commonly one that uses the electromagnetic spectrum. Over-the-air broadcasting is primarily linked with radio and television, while cable has lately begun to distribute both radio and television signals (cable television). The signal can be received by anyone with the necessary receiving technology and equipment (e.g., a radio or television set); the point is that anyone with the appropriate receiving technology and equipment can receive it. Later on, it came to be used to describe the mass dissemination of knowledge via printed materials or the telegraph.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Broadcasting.jpg",
+        "alt1": "AIML Image",
+        "desc": "The majority of personnel in this business work in broadcast stations and studios that are clean and comfortable. Some personnel are involved in show creation and broadcasting, while others are involved in advertising, sales, promotions, and marketing. On electronic newsgathering trucks, broadcast personnel must ensure that the antenna on the mobile device is properly positioned for best transmission quality and to avoid electrocution from power lines. Field service engineers work on outdoor transmitting equipment and may be required to climb poles or antenna towers in a variety of weather conditions",
+        "skills": [
+            "Technical Skills : Technical knowledge enables one to respond effectively to instructions from the production team. They must be familiar with studio equipment and editing techniques to edit the program material.",
+            "Interview Skills : While covering a news story, a broadcast journalist may interview eyewitnesses or experts.",
+            "Reading Skills: This is required to be able to comprehend written sentences and paragraphs, in work-related materials",
+            "Decision-Making Skills Considering the relative costs and benefits of many options to select the best one"
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: BSc. in Broadcasting/BA. in Broadcasting/BA. in Political Science/BA. (Hons) in Journalism",
+            "Post Graduation:MSc. in Broadcasting/MA. in Broadcasting/MA. in Journalism"
+        ],
+        "opp_l": [
+            "Journalists",
+            "Operator",
+            "Meteorologists"
+        ],
+        "opp_r": [
+            "Broadcaster",
+            "Sports Commentator"
+        ],
+        "insti": [
+            {
+                "link": "http://www.sbc.ac.in/",
+                "name": "School of Broadcasting and Communication, Mumbai"
+            },
+            {
+                "link": "http://iimc.nic.in/",
+                "name": "Indian Institute of Mass Communication, Multiple Locations"
+            },
+            {
+                "link": "http://www.du.ac.in/",
+                "name": "Delhi University, New Delhi"
+            },
+            {
+                "link": "https://www.xaviercomm.org/",
+                "name": "Xavier Institute of Communications, Mumbai"
+            }
+        ],
+        "pros": [
+            "Interviewing public figures and spending time with them.",
+            "Professionals challenge themselves every day",
+            "It is a highly respected job."
+        ],
+        "cons": [
+            "Risky jobs as professionals may have to go to dangerous places for reporting.",
+            "Long and hectic work hours",
+            "Affects one’s social and personal life."
+        ]
+    },
+    {
+        "careerid": "journalism",
+        "title": "Journalism",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "4 years",
+        "p1_1": "Are you passionate about reporting the news and happenings? If yes, then journalism is a great career option for you. Journalism is the process of creating and disseminating event reports. Gathering, evaluating, producing, and presenting news and information is what it is all about. Print, television, radio, the Internet, and, in the past, newsreels are examples of journalistic media. It is unique because it is a one-way message, or story, from the journalist to the audience. It is most unique because the message isn't the journalist's personal story or subjective thoughts. The story comes first, and journalists do whatever it takes to make it accurate and thought-provoking. News organizations face a difficult task in properly monetizing their digital arm while also improvising on the context in which they publish in print",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Journalism.jpg",
+        "alt1": "AIML Image",
+        "desc": "Journalism helps to explain the events that impact our lives and is developed in several forms and styles. Each journalistic form and style uses different techniques and writes for different purposes and audiences. Beyond fact-checking, interviews, proofreads and contacts, a journalist is expected to be on the edge of their culture. No two days for a journalist are ever the same. Finding the best material for a story could mean attending a press conference, holding an interview over the phone, trawling through professional contacts, or hammering out paragraphs.",
+        "skills": [
+            "Creativity Skills: Journalists have to come up with their new content, generating ideas and the means of realising them",
+            "Adaptability Skills: Professional life of a journalist is unpredictable. They should be able to adjust to new projects and work environments.",
+            "Communication Skills: It is a necessary skill as a journalist to interview various people regularly to get information for their story.",
+            "Social Skills: Without social skills, a journalist cannot get far in their career as on a day to day basis they have to meet people because it is their story that they publish."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: Bachelors in Journalism/Bachelors in Mass Communication/BA. Hons. (English/Mass Communication)",
+            "Post Graduation:Bachelors/Diploma in Journalism/Mass Communication"
+        ],
+        "opp_l": [
+            "Journalist",
+            "Foreign Correspondent",
+            "Newspaper Reporter",
+            "Freelance Writer",
+            "Broadcast Journalist"
+        ],
+        "opp_r": [
+            "Content Specialist & Web Producer",
+            "Broadcast Journalist",
+            "Investigate Journalist"
+        ],
+        "insti": [
+            {
+                "link": "https://lsr.edu.in/",
+                "name": "Lady Shri Ram College, New Delhi"
+            },
+            {
+                "link": "http://dcac.du.ac.in/",
+                "name": "Delhi College of Arts & Commerce, New Delhi"
+            },
+            {
+                "link": "https://www.christuniversity.in/",
+                "name": "Christ University, Bangalore"
+            },
+            {
+                "link": "https://www.knc.edu.in/",
+                "name": "Kamala Nehru College, New Delhi"
+            }
+        ],
+        "pros": [
+            "Interviewing public figures and spending time with them.",
+            "Professionals challenge themselves every day.",
+            "Highly respected job"
+        ],
+        "cons": [
+            "Risky jobs as professionals may have to go to dangerous places for reporting.",
+            "Long and hectic work hours.",
+            "Affects one’s social and personal life."
+        ]
     }
-    
         
 
 
