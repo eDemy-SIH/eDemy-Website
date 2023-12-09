@@ -258,7 +258,7 @@ function setTheme(themeName) {
 let lightModeIcon = document.querySelector('#lightMode-icon');
 if (localStorage.getItem('') === 'theme-dark') {
     lightModeIcon.classList.add('ri-sun-line');
-    console.log(lightModeIcon.classList);
+    // console.log(lightModeIcon.classList);
 }
 else {
     lightModeIcon.classList.add('ri-moon-fill');
