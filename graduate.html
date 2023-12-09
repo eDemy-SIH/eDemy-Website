@@ -243,7 +243,7 @@
                 qualification: "Bachelor of Science (B.Sc)",
                 category: "Graduate",
                 duration: "3 Years",
-                path: "graduate/zoo.html",
+                careerid: "zoo",
                 index: 1,
             },
             {
@@ -252,7 +252,7 @@
                 qualification: "Bachelor of Science (B.Sc)",
                 category: "Graduate",
                 duration: "3 Years",
-                path: "graduate/botany.html",
+                careerid: "botany",
                 index: 2,
             },
             {
@@ -261,7 +261,7 @@
                 qualification: "Bachelor of Science (B.Sc)",
                 category: "Graduate",
                 duration: "3 Years",
-                path: "graduate/phyhon.html",
+                careerid: "phyhon",
                 index: 3,
             },
             {
@@ -270,7 +270,7 @@
                 qualification: "Bachelor of Science (B.Sc)",
                 category: "Graduate",
                 duration: "3 Years",
-                path: "graduate/chemhon.html",
+                careerid: "chemhon",
                 index: 4,
             },
             {
@@ -279,7 +279,7 @@
                 qualification: "Any Bachelor's Degree",
                 category: "Graduate",
                 duration: "3 Years",
-                path: "graduate/rj.html",
+                careerid: "rj",
                 index: 5,
             },
             {
@@ -288,7 +288,7 @@
                 qualification: "Any Bachelor's Degree",
                 category: "Graduate",
                 duration: "2 Years",
-                path: "graduate/ent.html",
+                careerid: "ent",
                 index: 6,
             },
         ];
@@ -303,14 +303,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.careerid}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a id="qw3_${career.index}" href=${career.path}>${career.name}</a></h3>
+                    <h3><a id="qw3_${career.index}" href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li id="qw4_${career.index}" class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -320,7 +320,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a id="qw7_${career.index}" href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a id="qw7_${career.index}" href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;

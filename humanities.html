@@ -243,7 +243,7 @@
                 qualification: "Bachelor's degree in Archaeology",
                 category: "Humanities",
                 duration: "3 Years",
-                path: "Humanities/arch.html",
+                careerid: "arch",
                 index: 1,
             },
             {
@@ -252,7 +252,7 @@
                 qualification: "Bachelor Degree In Public Admministration",
                 category: "Humanities",
                 duration: "3 Year",
-                path: "Humanities/PA.html",
+                careerid: "PA",
                 index: 2,
             },
             {
@@ -261,7 +261,7 @@
                 qualification: "Bachelor Degree In Home Science",
                 ategory: "Humanities",
                 duration: "3 Yesrs",
-                path: "Humanities/HomeSc.html",
+                careerid: "HomeSc",
                 index: 3,
             },
             {
@@ -270,7 +270,7 @@
                 qualification: "Bachelor's degree in Geography",
                 category: "Humanities",
                 duration: "3 Years",
-                path: "Humanities/Geo.html",
+                careerid: "Geo",
                 index: 4,
           },
             {
@@ -279,7 +279,7 @@
                 qualification: "Bachelor Degree In Political Science",
                 category: "Humanities",
                 duration: "3 Year",
-                path: "Humanities/PoliSc.html",
+                careerid: "PoliSc",
                 index: 5,
             },
             {
@@ -288,7 +288,7 @@
                 qualification: "Bachelor Of Arts (BA)",
                 category: "Humanities",
                 duration: "3 Year",
-                path: "Humanities/lang.html",
+                careerid: "lang",
                 index: 6,
            },
             {
@@ -297,7 +297,7 @@
                 qualification: "Bachelor Degree In Sociology",
                 category: "Humanities",
                 duration: "3 Year",
-                path: "Humanities/sociology.html",
+                careerid: "sociology",
                 index: 7,
           },
             {
@@ -306,7 +306,7 @@
                 qualification: "Bachelor Degree In International Relation",
                 category: "Humanities",
                 duration: "3 Year",
-                path: "Humanities/intreln.html",
+                careerid: "intreln",
                 index: 8,
            },
         ];
@@ -321,14 +321,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.careerid}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a href=${career.path}>${career.name}</a></h3>
+                    <h3><a href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -338,7 +338,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;

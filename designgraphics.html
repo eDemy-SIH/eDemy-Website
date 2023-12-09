@@ -244,7 +244,7 @@
                 qualification: "Bachelor of Design (B.Des)",
                 category: "Design & Graphics",
                 duration: "3 - 4 Years",
-                path: "design&graphics/fashiondesigner.html",
+                careerid: "fashiondesigner",
                 index: 1,
             },
             {
@@ -253,7 +253,7 @@
                 qualification: "Bachelor of Computer Application",
                 category: "Design & Graphics",
                 duration: "2 - 4 Years",
-                path: "design&graphics/uiux.html",
+                careerid: "uiux",
                 index: 2,
             },
             {
@@ -262,7 +262,7 @@
                 qualification: "Bachelor of Design (B.Des)",
                 category: "Design & Graphics",
                 duration: "2 - 4 Years",
-                path: "design&graphics/graphic.html",
+                careerid: "graphic",
                 index: 3,
             },
             {
@@ -271,7 +271,7 @@
                 qualification: "Bachelor of Design (B.Des)",
                 category: "Design & Graphics",
                 duration: "2 - 4 Years",
-                path: "design&graphics/interior.html",
+                careerid: "interior",
                 index: 4,
             },
             {
@@ -280,7 +280,7 @@
                 qualification: "Bachelor of Design (B.Des) in Jewellery Retail and Export Management",
                 category: "Design & Graphics",
                 duration: "2 - 4 Years",
-                path: "design&graphics/jewellery.html",
+                careerid: "jewellery",
                 index: 5,
             },
         ];
@@ -296,14 +296,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.careerid}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a id="qw3_${career.index}" href=${career.path}>${career.name}</a></h3>
+                    <h3><a id="qw3_${career.index}" href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li id="qw4_${career.index}" class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -313,7 +313,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a id="qw7_${career.index}" href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a id="qw7_${career.index}" href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;

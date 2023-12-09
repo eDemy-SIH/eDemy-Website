@@ -244,7 +244,7 @@
                 qualification: "Chartered Accountancy (CA)",
                 category: "Finance And Accounts",
                 duration: "3 - 5 Years",
-                path: "finance&accounts/ca.html",
+                careerid: "ca",
                 index: 1,
             },
             {
@@ -253,7 +253,7 @@
                 qualification: "Bachelor of Commerce in Finance",
                 category: "Finance And Accounts",
                 duration: "1 - 3 Years",
-                path: "finance&accounts/cmt.html",
+                careerid: "cmt",
                 index: 2,
             },
             {
@@ -262,7 +262,7 @@
                 qualification: "Bachelor of Commerce in Finance",
                 category: "Finance And Accounts",
                 duration: "3 - 4 Years",
-                path: "finance&accounts/cfa.html",
+                careerid: "cfa",
                 index: 3,
             },
             {
@@ -271,7 +271,7 @@
                 qualification: "Intermediate course of Cost Accountancy (ICA)",
                 category: "Finance And Accounts",
                 duration: "3 - 4 Years",
-                path: "finance&accounts/coa.html",
+                careerid: "coa",
                 index: 4,
             },
             {
@@ -280,7 +280,7 @@
                 qualification: "Bachelor of Commerce in Finance",
                 category: "Finance And Accounts",
                 duration: "3 - 5 Years",
-                path: "finance&accounts/cpa.html",
+                careerid: "cpa",
                 index: 5,
             },
         ];
@@ -295,14 +295,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.careerid}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a id="qw3_${career.index}" href=${career.path}>${career.name}</a></h3>
+                    <h3><a id="qw3_${career.index}" href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li id="qw4_${career.index}" class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -312,7 +312,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a id="qw7_${career.index}" href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a id="qw7_${career.index}" href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;

@@ -231,7 +231,7 @@
                 <div class="blog-details-list-two" id="educationList"></div>
                 <div class="blog-details-list">
                     <h3 id="head23">Job Opportunities</h3>
-                    <div class="bar"></div>
+                    <div class="bar" id="head23_bar"></div>
                     <div class="row">
                         <div class="col-lg-6 col-md-6" id="jobOpportunitiesLeft"></div>
                         <div class="col-lg-6 col-md-6" id="jobOpportunitiesRight"></div>
@@ -239,7 +239,7 @@
                 </div>
                 <div class="blog-portfolio">
                     <h3 id="head24">Top Indian Institutes</h3>
-                    <div class="bar"></div>
+                    <div class="bar" id="head24_bar"></div>
                 </div>
                 <div class="blog-details-list-two" id="insti"></div>
                 <div class="blog-portfolio">
@@ -421,26 +421,43 @@
             createEducationList();
 
             function createJobOpportunitiesLeft() {
-                const jobOpportunitiesLeftContainer = document.getElementById('jobOpportunitiesLeft');
-                const jobOpportunitiesLeftList = data.opp_l.map((opp, index) => `
+
+                if (data.opp_l.length == 0) {
+                    const instiTitle = document.getElementById("head23");
+                    instiTitle.textContent = "";
+                    const instibar = document.getElementById("head23_bar");
+                    instibar.classList.remove("bar");
+                }
+                else {
+                    const jobOpportunitiesLeftContainer = document.getElementById('jobOpportunitiesLeft');
+                    const jobOpportunitiesLeftList = data.opp_l.map((opp, index) => `
                     <ul>
                         <li><i class="ri-check-line"></i><span id="qw3_${index + 1}">${opp}</span></li>
                     </ul>
             `).join('');
-                jobOpportunitiesLeftContainer.innerHTML = jobOpportunitiesLeftList;
+                    jobOpportunitiesLeftContainer.innerHTML = jobOpportunitiesLeftList;
+                }
             }
             createJobOpportunitiesLeft();
 
             function createInstiList() {
-                const instiListContainer = document.getElementById('insti');
-                const instiListItems = data.insti.map((inst, index) => `
+                if (data.insti.length == 0) {
+                    const instiTitle = document.getElementById("head24");
+                    instiTitle.textContent = "";
+                    const instibar = document.getElementById("head24_bar");
+                    instibar.classList.remove("bar");
+                }
+                else {
+                    const instiListContainer = document.getElementById('insti');
+                    const instiListItems = data.insti.map((inst, index) => `
                 <ul>
                 <a class="pb-7" href="${inst.link}" target="_blank">
                     <li id="qw5_${index + 1}">${inst.name}</li>
                 </a>
                 </ul>
             `).join('');
-                instiListContainer.innerHTML = instiListItems;
+                    instiListContainer.innerHTML = instiListItems;
+                }
             }
             createInstiList();
 
@@ -535,14 +552,14 @@
                             target: lang,
                         }),
                     })
-                    .then(response => response.json())
-                    .then(data => {
-                        // console.log(data);
+                        .then(response => response.json())
+                        .then(data => {
+                            // console.log(data);
 
-                        // Update content with translated text
-                        element.textContent = data.data.translations[0].translatedText;
-                    })
-                    .catch(error => console.error('Error:', error));
+                            // Update content with translated text
+                            element.textContent = data.data.translations[0].translatedText;
+                        })
+                        .catch(error => console.error('Error:', error));
                 }
             });
         }

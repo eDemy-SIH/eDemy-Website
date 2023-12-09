@@ -243,7 +243,7 @@
                 qualification: "Bachelor of Arts in Psychology",
                 category: "Education And Training",
                 duration: "4 - 5 Years",
-                path: "education&training/counsellor.html",
+                careerid: "counsellor",
                 index: 1,
             },
             {
@@ -252,7 +252,7 @@
                 qualification: "Bachelor of Education (B.Ed)",
                 category: "Education And Training",
                 duration: "4 - 5 Years",
-                path: "education&training/teacher.html",
+                careerid: "teacher",
                 index: 2,
             },
             {
@@ -261,7 +261,7 @@
                 qualification: "Bachelor of Education in Special Education",
                 category: "Education And Training",
                 duration: "4 - 5 Years",
-                path: "education&training/speced.html",
+                careerid: "speced",
                 index: 3,
             },
             {
@@ -270,7 +270,7 @@
                 qualification: "Doctor of Philosophy (Ph.D)",
                 category: "Education And Training",
                 duration: "5 - 7 Years",
-                path: "education&training/prof.html",
+                careerid: "prof",
                 index: 4,
             },
         ];
@@ -285,14 +285,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.careerid}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a id="qw3_${career.index}" href=${career.path}>${career.name}</a></h3>
+                    <h3><a id="qw3_${career.index}" href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li id="qw4_${career.index}" class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -302,7 +302,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a id="qw7_${career.index}" href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a id="qw7_${career.index}" href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;

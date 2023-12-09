@@ -243,7 +243,7 @@
                 qualification: " Bachelor Of Arts",
                 category: "Media & Journalism",
                 duration: "3 Years",
-                path: "Media&Journalism/mascom.html",
+                careerid: "mascom",
                 index: 1,
             },
             {
@@ -252,16 +252,16 @@
                 qualification: "Bachelor Of Arts",
                 category: "Media & Journalism",
                 duration: "3-4 Year",
-                path: "Media&Journalism/pr.html",
+                careerid: "pr",
                 index: 2,
             },
             {
                 imagePath: "assets/images/mediajournalism/w.jpg",
-                name: "Writer Editor Copywriter",
+                name: "Writer, Editor, Copywriter",
                 qualification: "Bachelor Of Arts",
                 ategory: "Media & Journalism",
                 duration: "3-4 Yesrs",
-                path: "Media&Journalism/writer.html",
+                careerid: "writer",
                 index: 3,
             },
             {
@@ -270,7 +270,7 @@
                 qualification: "Bachelor Of Arts",
                 category: "Media & Journalism",
                 duration: "1 Year",
-                path: "Media&Journalism/Broadcasting.html",     
+                careerid: "Broadcasting",     
                 index: 4,
             },
             {
@@ -279,7 +279,7 @@
                 qualification: "Bachelor Of Arts",
                 category: "Media & Journalism",
                 duration: "3 Year",
-                path: "Media&Journalism/journalism.html",   
+                careerid: "journalism",   
                 index: 5, 
             },
 
@@ -295,14 +295,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.careerid}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a id="qw3_${career.index}" href=${career.path}>${career.name}</a></h3>
+                    <h3><a id="qw3_${career.index}" href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li id="qw4_${career.index}" class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -312,7 +312,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a id="qw7_${career.index}" href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a id="qw7_${career.index}" href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;
