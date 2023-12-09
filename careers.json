@@ -2276,6 +2276,846 @@
             "Long and hectic work hours.",
             "Affects one’s social and personal life."
         ]
+    },
+    {
+        "careerid": "fashiondesigner",
+        "title": "Fashion Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "4 years",
+        "p1_1": "Have you always had an interest in clothes and accessories? If yes, then fashion designing is a potential career option for you. Fashion design is one of the most popular creative courses among students.",
+        "p1_2": "Fashion design is a humanities specialisation that encompasses the vast range of fabrics, designs, patterns, colours, and trends that characterize a given era's fashion. The art of applying style, aesthetics, and natural beauty to clothing and accessories is known as fashion design. Within a decade, the apparel industry has advanced by leaps and bounds. Manufacturers employ their unique designs. The essence of a designer's role is to interpret trends; however, there is variation within this that is determined by the buying and merchandising approach, as well as product quality; for example, budget retailers will use inexpensive fabrics to interpret trends, whereas high-end retailers will use the best available fabrics.",
+        "img1": "../assets/images/blog/blog-details-fashd.jpg",
+        "alt1": "EE Image",
+        "desc": "Designers study fashion trends and translate them for their target audience. The purchasing and merchandising strategy, as well as product quality, decide the difference within this; for example, budget retailers will use cheap fabrics to interpret patterns, while high-end retailers will use the best available fabrics. Fashion designers generally work on wearable garments and try to make them aesthetically pleasing. Designers work within a wide range of materials, colours, patterns and styles, and choose the best option according to the client’s taste. Designers study fashion trends and interpret them for their target audience.",
+        "skills": [
+            "Creativity Skills: It is the main essence of the job. Only highly creative people can sustain this job.",
+            "Artistic Skills: Fashion designing is about applying art to fabrics thus, it requires artistic thinking.",
+            "Competition Skills: Fashion designing is a very competitive field as it is ever-changing and there is the constant addition of new talent in the field. Thus, to sustain in the field, one has to be very competitive.",
+            "Communication Skills: Designers are in direct contact with the clients. They need to understand the demands of the clients to deliver the expected product.",
+            "Drawing Skills: Designers first make the sketches before working on the project.",
+            ""
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Science in Fashion Design / Bachelor of Design (Fashion Design).",
+            "Post Graduation: Master of Science in Fashion Design / Master of Design (Fashion Design)."
+        ],
+        "opp_l": [
+            "Self-employed",
+            "Retail Brands",
+            "Expert Houses"
+        ],
+        "opp_r": [
+            "Television and Film Industry",
+            "Academia"
+        ],
+        "insti": [
+            {
+                "link": "https://srishti.ac.in/",
+                "name": "Srishti Institute of Art, Design and Technology"
+            },
+            {
+                "link": "https://nift.ac.in/",
+                "name": "National Institute of Fashion Technology"
+            },
+            {
+                "link": "https://sid.edu.in/",
+                "name": "Symbiosis Institute of Design"
+            },
+            {
+                "link": "https://www.mitid.edu.in/",
+                "name": "MIT Institute of Design"
+            },
+            {
+                "link": "https://jdinstitute.co/",
+                "name": "JD Institute of Fashion design"
+            }
+        ],
+        "pros": [
+            "Satisfaction and sense of achievement as one gets to be creative.",
+            "Travel opportunities to meet potential customers or for business meetings.",
+            "Higher pay possibilities after covering the invested amount."
+        ],
+        "cons": [
+            "Tight deadlines as the clients expect delivery on time and the work depends on clients which restrict the creative ability of the designer.",
+            "High competition because of the incentives in this fields.",
+            "Need a lot of time, patience and hard work to sustain and create a name for themselves in the field."
+        ]
+    },
+    {
+        "careerid": "uiux",
+        "title": "UI/UX Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "",
+        "p1_1": "Do you want to be a digital expert and influence the brands? If yes, then you should consider UI/UX Design as a career option. The design of user interfaces for equipment and software, such as computers, home appliances, mobile devices, and other electronic devices, to optimize usability and the user experience, is known as user interface design or user interface engineering.",
+        "p1_2": "User interface design (UI) is the design of user interfaces used for machines and software with the focus on maximizing usability and the User Experience (UX). The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing goals. UI/UX Designers have to work on various software’s. They have to design facilitators and conductors who rapidly conduct research.",
+        "img1": "../assets/images/blog/blog-details-uiux.jpg",
+        "alt1": "EE Image",
+        "desc": "UI/UX Designing is a technical job. The job of a UI/UX designer is to design all the screens through which a user will move and to create the visual elements—and their interactive properties—that facilitate this movement. Designers are responsible for the technical aspect of the product. Their work attracts customers and they make products convenient for the users. They do not work on the product as a physical entity instead, they work on the websites which help the product to sell and build its brand name. A UI/UX Designer requires specialized training as this position needs the elements of programming, psychology and digital design.",
+        "skills": [
+            "Communication Skills: Along with vocal communication, designers need to communicate visually. As a storyteller, they have to be convincing to make customers buy products.",
+            "Software Skills: UI/UX Designers have to work on various software’s. They have to design facilitators and conductors who rapidly conduct research.",
+            "Reading and Writing Skills: Majority of the work is done theoretically to eliminate huge losses of resources.",
+            "Business Skills: Designers help to build a business and in need to do so, they should themselves have business skills.",
+            "Revising Skills: Designers do not always build from scratch instead; the majority of their time is spent in improving the previous designs using the feedback."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Computer Application / Bacheor of Science (Computer Science) / Graduation in any Stream.",
+            "Post Graduation: Certifications in UI/UX Designing."
+        ],
+        "opp_l": [
+            "Freelancer",
+            "Web Designer",
+            "Usability Analyst"
+        ],
+        "opp_r": [
+            "Mobile App Designer",
+            "Information Architect",
+            "User Researcher"
+        ],
+        "insti": [
+            {
+                "link": "http://du.ac.in/",
+                "name": "University of Delhi"
+            },
+            {
+                "link": "https://www.nid.edu/",
+                "name": "National Institute of Design"
+            },
+            {
+                "link": "https://sid.edu.in/",
+                "name": "Symbiosis Institute of Design"
+            },
+            {
+                "link": "https://www.mitid.edu.in/",
+                "name": "MIT Institute of Design"
+            },
+            {
+                "link": "https://www.loyolacollege.edu/",
+                "name": "Loyola College"
+            }
+        ],
+        "pros": [
+            "As new products launch every single day the demand for designers is increasing.",
+            "Designers get to make a lasting impact on the company and customers.",
+            "It is a very creative job."
+        ],
+        "cons": [
+            "The working hours can be long according to the deadline.",
+            "Because of attractive incentives, there is high competition in this sector.",
+            "There is a lot of editing and improvement required, so might seem redundant."
+        ]
+    },
+    {
+        "careerid": "graphic",
+        "title": "Graphic Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "4 years",
+        "p1_1": "Are you interested in digital designs and digital art? If yes, then you should consider graphic designing as a career option. Graphic design is the method of using typography, photography, and illustration to communicate visually and solve problems.",
+        "p1_2": "A graphic designer is a person who works in the graphic design and graphic arts industry and creates designs by combining photographs, typography, and motion graphics. They use photographs and the style of websites and printed pages to convey ideas by combining art and technology. On projects, often graphic designers partner with colleagues or clients. Designers generally take up more than one project and work on them simultaneously. Graphic design as a field of application encompasses a wide range of skills centered on any visual communication system. It can be used in advertising campaigns or in the aviation industry, for example.",
+        "img1": "../assets/images/blog/blog-details-graphic.jpg",
+        "alt1": "EE Image",
+        "desc": "Graphic design is an integral part of promoting and selling goods, as well as brochures and logos. Graphic designers, also known as graphic artists or communication designers, often collaborate with people in the advertising, public relations, and marketing fields. Graphic designers typically work in studios with drawing tables, computers, and the internet. Graphic designers usually work in studios with computers, and the tools they required to make their designs. Despite the fact that many graphic designers work alone, those who work for specialized graphic design firms are often part of a design team.",
+        "skills": [
+            "Creative Skills: Any designer should have this skill as this is the basic and necessary skill for them.",
+            "Analytical Skills: Designers should be able to understand the demand of the clients and make it reach to the consumers.<",
+            "Computer Skills: Earlier designers used to illustrate on the paper but now the illustrations are done on computers. Designers must have the software.",
+            "Communication Skills: In every job communication is very important. A designer must know how to communicate with clients, consumers, etc to ensure the desired results.",
+            "Time Management Skills: There are deadlines for almost all the projects. Designers must know how they manage their time in order to deliver projects on time."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Design (Graphics) / Diploma in Graphic Design.",
+            "Post Graduation: Masters of Design (Graphics) / PG Diploma in Graphic Design."
+        ],
+        "opp_l": [
+            "Art Directors",
+            "Desktop Publishers"
+        ],
+        "opp_r": [
+            "Industrial Designers",
+            "Animators & Multimedia Artists"
+        ],
+        "insti": [
+            {
+                "link": "https://www.nid.edu/",
+                "name": "National Institute of Design"
+            },
+            {
+                "link": "https://nift.ac.in/",
+                "name": "National Institute of Fashion Technology"
+            },
+            {
+                "link": "https://iiaedehradun.org/",
+                "name": "National Institute of Design and Innovation"
+            },
+            {
+                "link": "https://pearlacademy.com/",
+                "name": "Pearl Academy"
+            },
+            {
+                "link": "http://www.idc.iitb.ac.in/",
+                "name": "IDC School of Design"
+            }
+        ],
+        "pros": [
+            "Opportunity to become a freelancer.",
+            "Steady demand for designers who can work with technology.",
+            "The field offers interchangeable career options."
+        ],
+        "cons": [
+            "Competitive job, since it attracts a lot of people.",
+            "Clients can ask for untimely edits, multitasking and tight deadlines.",
+            "Constant updates in the technology and design keeps one on foot."
+        ]
+    },
+    {
+        "careerid": "interior",
+        "title": "Interior Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated by interiors? If yes, then you should look into interior designing as a career option. Interior design is the art and science of improving a building's interior to make it cleaner and more aesthetically appealing for the people who use it.",
+        "p1_2": "Interior design is all about how we interact with our surroundings. Designers use a diverse range of skills and technological expertise to create environments that anticipate our desires and cater to our emotions. The world of interior design has evolved dramatically since the early 20th century when it was just beginning to emerge as a profession. Interior designers must be able to read blueprints and be familiar with building codes and inspection requirements. Most interior designers use computer-aided design (CAD) software, even though some sketches or drawings are done freehand.",
+        "img1": "../assets/images/blog/blog-details-interior.jpg",
+        "alt1": "EE Image",
+        "desc": "An interior designer is a professional who designs, researches, coordinates, and manages certain improvements. To decide how interior spaces can act, look, and be furnished, interior designers collaborate closely with architects, structural engineers, mechanical engineers, and builders. They determine space specifications and pick decoration to make interior spaces usable, safe, and beautiful. They determine space specifications and choose decorative objects such as colours, lighting, and materials to make interior spaces usable, safe, and beautiful.",
+        "skills": [
+            "Imagination Skills: Interior designers should have the imagination to visualize what the spaces could be.",
+            "Flexibility: Working hours are not fixed and designers have to shift their schedule according to the convenience of the client.",
+            "Creativity: Any designing job demands creativity. it is important to know the trends and blend according to them.",
+            "Communication Skills: Designers are in direct contact with the clients. They need to understand the demands of the client and communicate effectively to get the desired results."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Design (Interior Design) / Diploma in Interior Designing.",
+            "Post Graduation: Masters of Design (Interior Design) / PG Diploma in Interior Designing."
+        ],
+        "opp_l": [
+            "Self-employed",
+            "Design Studios",
+            "Town & City Planning Bureaus"
+        ],
+        "opp_r": [
+            "Architect Firms",
+            "Real Estate Companies"
+        ],
+        "insti": [
+            {
+                "link": "https://www.isdi.in/",
+                "name": "Indian School of Design and Innovation"
+            },
+            {
+                "link": "http://www.voguefashioninstitute.com/",
+                "name": "Vogue Fashion Institute"
+            },
+            {
+                "link": "https://www.sirjjschoolofart.in/",
+                "name": "Sir JJ School of Art"
+            },
+            {
+                "link": "https://cept.ac.in/",
+                "name": "Centre for Environmental Planning and Technology"
+            }
+        ],
+        "pros": [
+            "Job satisfaction is immense as one gets to be creative on duty.",
+            "It is a high paying job once the basic cost is covered.",
+            "Diverse job as one gets to experiment."
+        ],
+        "cons": [
+            "Difficult to start a career because of the competition.",
+            "Long working hours as the deadlines are tight.",
+            "Flexibility according to the client needed."
+        ]
+    },
+    {
+        "careerid": "jewellery",
+        "title": "Jewellery Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "4 years",
+        "p1_1": "Do you want to work on jewellery for a living? If yes, jewellery designing is an attractive field for you. Jewellery is the amalgamation of the creative skills of a designer and the accuracy of skilled artisans. The jewellery doesn't need to be made of precious stone; ornaments worn by the early humans can also be categorized as jewellery. Earlier artisans were also the designers of the jewellery and the market was in the hands of few but now the field of jewellery making has opened its doors to everyone.",
+        "p1_2": "Jewellery designing can be proven as a flourishing career if the candidate is creative enough. In the Indian economy, jewelry is a key source of investment and has a significant economic impact. Jewelry designers create wearable works of art using precious metals, diamonds, beads, and gemstones.",
+        "img1": "../assets/images/blog/blog-details-jewellery.jpg",
+        "alt1": "EE Image",
+        "desc": "Making jewellery does not limit itself to designing but it progresses to manufacturing and then trade. Although most of the professionals stick to the designing part it is important to have knowledge of the stone and their cutting, polishing and testing. The knowledge of stone is necessary for the designer to envision the capacity, lustre and life of the stone. They need to make a practical design to ensure that the stone fits in the design. Computers play a significant role in today’s market. Designers must update themselves with the newly available software.",
+        "skills": [
+            "Creativity Skills: It is the main essence of the job. Only highly creative people can sustain this job.",
+            "Artistic Skills: Jewellery designing is about applying art to accessories thus, it requires artistic thinking.",
+            "Communication Skills: Designers are in direct contact with the clients. They need to understand the demands of the clients to deliver the expected product.",
+            "Drawing Skills: Designers first make the sketches before working on the project."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: BSc. Fashion Designing / B.Des. Accessory Design / B.Des. Jewellery Retail and Export Management / Diploma in Jewellery Designing.",
+            "Post Graduation: Masters in Fashion Design / M.Des. Accessory Design / Advanced Diploma in Jewellery Designing."
+        ],
+        "opp_l": [
+            "Jewellery Designer",
+            "Lapidary",
+            "Manufacturer"
+        ],
+        "opp_r": [
+            "Fashion Jewellery",
+            "Repair Person"
+        ],
+        "insti": [
+            {
+                "link": "https://iigj.org/",
+                "name": "Indian Institute of Gems & Jewellery"
+            },
+            {
+                "link": "https://nift.ac.in/",
+                "name": "National Institute of Fashion Technology"
+            },
+            {
+                "link": "http://www.iijd.co.in/",
+                "name": "Indian Institute of Jewellery Design"
+            },
+            {
+                "link": "https://pearlacademy.com/",
+                "name": "Pearl Academy"
+            },
+            {
+                "link": "https://www.mitid.edu.in/",
+                "name": "MIT Institute of Design"
+            },
+            {
+                "link": "https://jdinstitute.co/",
+                "name": "JD Institute of Fashion design"
+            }
+        ],
+        "pros": [
+            "It is an evergreen path and is highly rewarding.",
+            "High in demand and has a scope for growth.",
+            "Ideal to start a business."
+        ],
+        "cons": [
+            "It is difficult to find a job.",
+            "High cost of setting business.",
+            "Takes time to get skilled."
+        ]
+    },
+    {
+        "careerid": "ca",
+        "title": "Chartered Accountant",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "5 years",
+        "p1_1": "Are you interested in numbers and finances? Then you can consider accountancy as a career! Auditing, accounting, administrative, and general management are all areas of business and finance where chartered accountants work. Some work in public practice, while others work in the private sector, and still others work for government agencies.",
+        "p1_2": "The CA (Chartered Accountant) is a prestigious and demanding profession. The ICAI (Institute of Chartered Accountants of India) runs the chartered accountant program in India (Indian Chartered Accountants Institute). They are members of the Institute of Chartered Accountants of India (ICAI). The membership may be renewed by paying the prescribed fees or paying an annual charge.",
+        "img1": "../assets/images/blog/blog-details-ca.jpg",
+        "alt1": "EE Image",
+        "desc": "Chartered accountants manage financial systems and budgets, and undertake financial audits. They liaise with clients and provide financial information and advice. They advise clients on business transactions, such as mergers and acquisitions and also counsel clients on areas of business improvement, or dealing with insolvency. They help to detect and prevent fraud. They prepare financial statements, including monthly and annual accounts arranging financial management reports, including financial planning and forecasting. They advise on tax and treasury issues and also negotiate terms with suppliers.",
+        "skills": [
+            "Mathematical Skills: Accuracy and speed in general mathematics help hugely.",
+            "Analytical Skills: They obtain technical qualifications and improve analytical skills when working on practical examples during their articles.",
+            "Communication Skills: During the internship, the applicant may interact with clients from various industries and provide customized services tailored to their needs."
+        ],
+        "educ": [
+            "School: Any subject combination taking Commerce as the main stream.",
+            "Graduation: Bachelor of Commerce in Finance.",
+            "Post Graduation: Master of Commerce / Master of Business Administration."
+        ],
+        "opp_l": [
+            "Public/Private Practice",
+            "Government Organizations",
+            "Banking and Insurance Sector"
+        ],
+        "opp_r": [
+            "Corporate Finance",
+            "NGOs",
+            "Law Firms"
+        ],
+        "insti": [
+            {
+                "link": "https://www.icai.org/",
+                "name": "Institute of Chartered Accountants of India"
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            }
+        ],
+        "pros": [
+            "Good salary as they deal with many clients simultaneously.",
+            "Social status as this is a respectable job.",
+            "High demand as the business culture is growing."
+        ],
+        "cons": [
+            "Requires hard work as the exams are difficult to pass.",
+            "Long working hours especially during the end of the financial year.",
+            "Takes time to build a career as experience is required."
+        ]
+    },
+    {
+        "careerid": "cmt",
+        "title": "Chartered Market Technician",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "3 years",
+        "p1_1": "Do you hold a keen interest in finances and stocks? Then chartered market technician might be the right career path for you. The CMT Association certifies that an individual is equipped in conducting technical analysis, via the Chartered Market Technician designation. They look for patterns in prices and past trends in price movement to identify key indicators on the basis of market psychology.",
+        "p1_2": "Professionals who achieve this designation have vast knowledge related to investment risk in portfolio management. Essentially, a CMT designation is a very prestigious designation in the technical analysis field. The Financial Industry Regulatory Authority recognized Chartered Market Technician Designation establishes credibility for those seeking new employment prospects in the financial services industry.",
+        "img1": "../assets/images/blog/blog-details-cmt.jpg",
+        "alt1": "EE Image",
+        "desc": "The Market Technicians Association has given the duty of checking the proficiency of an analyst in technical analysis, to the CMT Association. Employers who commonly hire CMT-designated analysts include stock brokerage firms, investment banks, mutual fund companies, and so on. To forecast the performance and market action of a stock, a business sector, or the economy, these analysts often employ a holistic approach to securities analysis that combines both fundamental and technical methods. On the basis of their analysis, these analysts make buy-and-sell recommendations for the company's exclusive portfolio or for customers of the particular firm.",
+        "skills": [
+            "Excel Modelling Skills: MTA charter holders, work on a lot of Excel sheet and also the models.",
+            "Analytical Skills: It gives them the ability to visualize, articulate, conceptualize or solve both complex and uncomplicated problems by making decisions that are sensible given the available information.",
+            "Communication Skills: They have to communicate with clients, investors, stockbrokers and many others.",
+            "Computer Skills: They may have to learn new software to create portfolios, analyse financial data, see trends, and make forecasts.",
+            "Mathematics Skills: MTA designation uses mathematical skills when estimating the value of financial securities."
+        ],
+        "educ": [
+            "School: Any subject combination taking Sience or Commerce or Humanities.",
+            "Graduation: Any Graduation Course / Bachelor of Commerce in Finance.",
+            "Post Graduation: 3 Level CMT Examination."
+        ],
+        "opp_l": [
+            "Portfolio Manager",
+            "Risk Managers"
+        ],
+        "opp_r": [
+            "Quantitative Financial Research and Trading"
+        ],
+        "insti": [
+            {
+                "link": "https://cmtassociation.org/",
+                "name": "CMT Association"
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            }
+        ],
+        "pros": [
+            "Payout is good and you can work in different roles.",
+            "There is role flexibility as you can work with a team and/or independently.",
+            "There are different kinds of work settings available, so you can explore."
+        ],
+        "cons": [
+            "Some employers may require master's degrees.",
+            "Extensive financial knowledge required.",
+            "A lot of technicians work over 40 hours each week in tensed environments."
+        ]
+    },
+    {
+        "careerid": "cfa",
+        "title": "Chartered Financial Analyst",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "4 years",
+        "p1_1": "Do you have a keen interest in finance and its technicalities? Then CFA might be the perfect role for you! The Chartered Financial Analyst (CFA) Program is a postgraduate professional certification provided to investment and financial professionals worldwide by the American-based CFA Institute (formerly the Association for Investment Management and Research, or AIMR). Candidates must pass three levels of exams. These include topics like accounting, economics, ethics, financial management, and security analysis.",
+        "p1_2": "The CFA charter is generally regarded as the gold standard in the field of investment research and is one of the most prestigious designations in finance. The CFA designation is meant to show that you have a solid foundation in advanced investment analysis and portfolio management, as well as a strong commitment to ethical behaviour.",
+        "img1": "../assets/images/blog/blog-details-cfa.jpg",
+        "alt1": "EE Image",
+        "desc": "Any work that involves large-scale wealth management, financial analysis, or complex accounting is likely to be held by a Chartered Financial Analyst (CFA). A financial analyst is in charge of collecting data, arranging information, analyzing historical results, forecasting and projecting future results, making suggestions, and creating Excel models and presentations. Depending on the company they work for, the sector they work in, and their level of seniority, analysts have a wide range of duties and responsibilities. The role encompasses relationship and asset management, credit analysis, trading, accounting and auditing, financial planning, etc.",
+        "skills": [
+            "Excel Modelling Skills: CFA charter holders deal with a lot of Excel sheets and templates.",
+            "Analytical Skills: They can visualize, articulate, conceptualize, or solve both complicated and basic problems by making rational decisions based on the information they have.",
+            "Communication Skills: They must interact with a variety of people, including customers, investors, stockbrokers, and others.",
+            "Computer Skills: To build portfolios, analyze financial data, spot patterns, and make predictions, they will need to learn new technologies.",
+            "Mathematics Skills: When calculating the value of financial instruments, the CFA classification employs mathematical skills."
+        ],
+        "educ": [
+            "School: Any subject combination taking Commerce as the main stream.",
+            "Graduation: Bachelor of Commerce in Finance.<",
+            "Post Graduation: CFA Program."
+        ],
+        "opp_l": [
+            "Investment Banking",
+            "Hedge Funds"
+        ],
+        "opp_r": [
+            "Research Analyst",
+            "Financial Advisor / Consultant"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iibms.org/",
+                "name": "Indian institute of Business Management and Studies"
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            }
+        ],
+        "pros": [
+            "The curriculum covers many aspects of the financial/investment industry and can be done at one’s own pace.",
+            "The field has international brand recognition.",
+            "It yields respect from peers and there is a high demand for it."
+        ],
+        "cons": [
+            "It requires a lot of time and commitment.",
+            "It's not an academic degree.",
+            "It is a very time-consuming course."
+        ]
+    },
+    {
+        "careerid": "coa",
+        "title": "Cost Accountant",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "4 years",
+        "p1_1": "Do you have a flair for numbers and management, and are ready to put in your hours sincerely? Then, cost accounting is the right job for you! Cost accounting is a type of managerial accounting that tries to capture a company's entire cost of production by measuring both variable and fixed costs, such as a leasing fee. It is a job that involves reviewing costs in a company. It requires utmost sincerity and precision. Any risks, any potential business, you need to be wary of.",
+        "p1_2": "A cost accountant is a job that is very taxing and very risky, but the rewards are often very ample and fulfilling. Cost accounting offers managers the complete cost data they need to manage present operations and plan for the future. Cost accounting, unlike financial accounting, which gives information to external financial statement consumers, is not bound by set standards and can be flexible to match management's needs.",
+        "img1": "../assets/images/blog/blog-details-coa.jpg",
+        "alt1": "EE Image",
+        "desc": "As a cost accountant, you’ll be required to analyze and improve the cost control of a company. You will be required to plan budgets for the organization you’ll be working for. You’ll be asked to measure the performance based on the success of the company. The job is tailored to suit the needs of the agency or the company you’re working in. Basically, accounting for every last task in the company is your job. Its final purpose is to advise management on how to optimize corporate practices and procedures based on cost efficiency and capabilities. It is often considered a subset of managerial accounting.",
+        "skills": [
+            "Technical Skills: They must have the knowledge and skills required for cost accounting analysis.",
+            "Analytical Skills: Because a cost accountant's job is to look for new and unusual ways to increase profitability by decreasing expenses, having a strong analytical mind is a must.",
+            "Communication Skills: Cost accountants must collaborate and communicate with large groups, external vendor partners, stakeholders, financial accountants, risk managers, and other professionals. That is why it is critical to have a firm grasp on your corporate communication abilities and depiction tactics.",
+            "Computer Skills: Cost accountants need to be computer savvy because they are required to use a variety of accounting software and tools."
+        ],
+        "educ": [
+            "School: Any subject combination taking Sience or Commerce or Humanities.",
+            "Graduation: Bachelor of Business Administration.",
+            "Post Graduation: Master of Business Administration."
+        ],
+        "opp_l": [
+            "Accounting and auditing clerk",
+            "Chief Accounting Officer",
+            "Investment Analyst"
+        ],
+        "opp_r": [
+            "Economic Officer",
+            "Banking Manager"
+        ],
+        "insti": [
+            {
+                "link": "https://www.cuchd.in/",
+                "name": "Chandigarh University"
+            },
+            {
+                "link": "http://ignou.ac.in/",
+                "name": "Indira Gandhi National Open University"
+            },
+            {
+                "link": "https://www.drmgrdu.ac.in/",
+                "name": "Dr. M.G.R. Educational and Research Institute"
+            }
+        ],
+        "pros": [
+            "You will be in charge of the profits and losses of a company.",
+            "It is a very rewarding job, there’s a lot of money in it.",
+            "It is a highly demanded job role."
+        ],
+        "cons": [
+            "It’s a very tasking job, you will be at the receiving end of a lot of pressure.",
+            "You need to be very precise in your calculations, a small mistake can be very punishing.",
+            "Plenty of experience is required, to be able to gain a good repute."
+        ]
+    },
+    {
+        "careerid": "cpa",
+        "title": "Certified Public Accountant",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "5 years",
+        "p1_1": "Are you intrigued by accountancy and similar fields? Then, CPA can be a great profession for you! Certified public accountants provide their services to public organizations. If you think you have a flair for accounts and want to serve the community, for the betterment of the community, then the work of a CPA might be the best job for you.",
+        "p1_2": "Certified Public Accountant is a designation given to certified accountants in many English-speaking countries. In other English-speaking nations, it is roughly equal to the title of a chartered accountant. The CPA is a license that allows you to conduct public accounting services in the United States. State licensing standards vary, but the Uniform Certified Public Accountant Examination, 150 semester units of college education, and one year of accounting-related work are the minimum requirements.",
+        "img1": "../assets/images/blog/blog-details-cpa.jpg",
+        "alt1": "EE Image",
+        "desc": "Certified Public Accountant or CPA provides accounting services to the public and organizations. They are primarily involved in auditing and attestation procedures. They should be well versed with accounting principles, business and financial concepts, tax, etc. CPAs are hired by organizations in the role of finance manager, financial analyst, chief financial officer, etc. They are usually hired by NGOs. As needed, organizing and updating accounting records (digital and physical) Creating and evaluating transaction reports. Conducting rigorous audits on a regular basis to check the accuracy of financial documentation, expenditures, and investments.",
+        "skills": [
+            "Excel Modelling Skills: CPAs have to deal with a lot of Excel sheets and templates.",
+            "Analytical Skills: They can visualize, articulate, conceptualize, or solve both complicated and basic problems by making rational decisions based on the information they have.",
+            "Communication Skills: They must interact with a variety of people, including customers, investors, stockbrokers, and others.",
+            "Mathematical Skills: When calculating the value of financial instruments, they need to employ mathematical skills."
+        ],
+        "educ": [
+            "School: Any subject combination taking Commerce as the main stream.",
+            "Graduation: Bachelor of Commerce in Finance / Bachelor of Commerce in (Hons.) / Bachelor of Business Administration.",
+            "Post Graduation: Master of Business Administration in Finance / Chartered Accountant / Company Secretary."
+        ],
+        "opp_l": [
+            "Public Accountant",
+            "Management Accountant"
+        ],
+        "opp_r": [
+            "Financial Analyst",
+            "Corporate Accounting"
+        ],
+        "insti": [
+            {
+                "link": "http://www.iimkashipur.ac.in/",
+                "name": "Indian Institute Of Management"
+            },
+            {
+                "link": "http://www.iift.edu/",
+                "name": "Indian Institute of Foreign Trade"
+            },
+            {
+                "link": "https://www.xlri.ac.in/",
+                "name": "Xavier Labor Relations Institute"
+            }
+        ],
+        "pros": [
+            "CPAs can work in a plethora of industries.",
+            "Excellent opportunity for CA/ ICWA/CS/ Law/MBA (Finance), M.Com and Commerce Graduates who aspire for an International Certification.",
+            "It yields respect from peers and there is a high demand for it."
+        ],
+        "cons": [
+            "It requires a lot of time and commitment.",
+            "The work and the level of responsibility is very stressful.",
+            "You may have to work for long hours."
+        ]
+    },
+    {
+        "careerid": "counsellor",
+        "title": "Counsellor",
+        "cat_dir": "../educationandtraining.html",
+        "cat": "Education And Training",
+        "duration": "5 years",
+        "p1_1": "Do you think your heart is a gem and you can devote to the service of your society? Then, being a counsellor is the right career path for you. A counsellor understands the troubles of their clients, emotional, mental, psychological, career oriented etc. and helps them solve it. Their job is to provide guidance to people who require it, particularly on personal issues. Children who have suffered in this way should seek help from a bereavement counselor.",
+        "p1_2": "Professional counseling is a type of professional interaction that helps individuals, families, and groups achieve their mental health, wellness, education, and career goals. Counselors operate in a number of community settings to provide counseling, rehabilitation, and support services to people. Their responsibilities differ significantly based on their expertise, which is defined by the environment in which they work.",
+        "img1": "../assets/images/blog/blog-details-couns.jpg",
+        "alt1": "EE Image",
+        "desc": "A counsellor gets to know people and solve any trouble they’re having mentally. They’re supposed to build trust with their clients. They help them resolve their feelings. They let people rise above themselves and become better versions of themselves. They let people watch things from a new perspective and let them heal their minds. They have to assist clients in reaching their optimal level of psychosocial functioning through resolving negative patterns. They help them in rehabilitation and improving their quality of life. Counsellors must be aware of these difficulties in order to provide proper therapy and assistance to their clients.",
+        "skills": [
+            "Communication Skills: To effectively communicate with a variety of people, you must have great verbal communication abilities. Counselors will frequently be asked to question clients and conduct interviews, and they must be skilled in doing so so as not to upset or stress clients further.",
+            "Interpersonal Skills: Counselors must be able to communicate successfully with a variety of people, including clients and coworkers.",
+            "Compassion Skills: You should want to help people, be compassionate, and be able to empathize with their sorrow and other issues. You must be able to put your patients at ease and make them feel at ease in your presence."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Science / Bachelor of Arts  in Psychology or Sociology.",
+            "Post Graduation: Masters of Science / Masters of Arts  in Psychology or Sociology."
+        ],
+        "opp_l": [
+            "Career Counsellor",
+            "Rehabilitation Counsellor"
+        ],
+        "opp_r": [
+            "Mental Health Counsellor",
+            "Marriage Counsellor"
+        ],
+        "insti": [
+            {
+                "link": "https://www.jmi.ac.in/",
+                "name": "Jamia Millia Islamia"
+            },
+            {
+                "link": "https://sxca.edu.in/",
+                "name": "St. Xavier’s College"
+            },
+            {
+                "link": "https://aud.ac.in/",
+                "name": "Ambedkar University"
+            },
+            {
+                "link": "https://www.knc.edu.in/",
+                "name": "Kamala Nehru College"
+            },
+            {
+                "link": "https://www.fergusson.edu/",
+                "name": "Fergusson College"
+            }
+        ],
+        "pros": [
+            "It offers great job satisfaction.",
+            "It can be emotionally demanding.",
+            "It provides multiple employment opportunities."
+        ],
+        "cons": [
+            "It can be emotionally demanding.",
+            "It takes time and hard work.",
+            "Constant learning as the job grows."
+        ]
+    },
+    {
+        "careerid": "teacher",
+        "title": "Teacher",
+        "cat_dir": "../educationandtraining.html",
+        "cat": "Education And Training",
+        "duration": "",
+        "p1_1": "Do you love to share your knowledge and help others improve? If so, then a career in Teaching is just for you. Teachers are responsible for imparting knowledge and educating younger generations of people. They are responsible for the mental development of students at one of their most crucial stages of life and can have a lifelong impact on their students.",
+        "p1_2": "Teachers are, without a doubt, the most important people in our society. They provide children with a sense of purpose, prepare them for success as global citizens, and instil in them a desire to do well and thrive in life. A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
+        "img1": "../assets/images/blog/blog-details-tec.jpg",
+        "alt1": "EE Image",
+        "desc": "Working as a teacher can be a very rewarding job. They are responsible for assessing their students, taking into account their strengths and weaknesses and creating ways to impart education on their basis. Beyond simply teaching, they are also responsible for encouraging positive behaviours and discourage misbehaviour. A teacher thus gets the opportunity to help in the overall betterment of their pupils. They must design successful lessons, grade student classwork and provide them feedback, manage classroom materials, navigate the curriculum effectively, and communicate with other staff to accomplish this.",
+        "skills": [
+            "Communication Skills: A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
+            "Compassion Skills: One needs to be very empathetic to the needs of their students and show care for them.",
+            "Creativity Skills: One may need to devise creative ways to impart education to increase the amount of what the students understand and retain.",
+            "Organization Skills: As one is responsible for the creation of various modules, they need to show organisational ability."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor course in any field / Bachelor of Elementary Education.",
+            "Post Graduation: Master of Education."
+        ],
+        "opp_l": [
+            "School Teachers",
+            "Playschool Teachers"
+        ],
+        "opp_r": [
+            "Institutes"
+        ],
+        "insti": [
+            {
+                "link": "https://www.du.ac.in/",
+                "name": "University of Delhi"
+            },
+            {
+                "link": "https://sxca.edu.in/",
+                "name": "St. Xavier’s College"
+            },
+            {
+                "link": "https://www.bhu.ac.in/Site/Home/1_2_16_Main-Site",
+                "name": "Banaras Hindu University"
+            }
+        ],
+        "pros": [
+            "One gets to have an impact on developing minds for the better.",
+            "It also allows you to get leaves on school holidays.",
+            "You get to impart to students the gift of knowledge."
+        ],
+        "cons": [
+            "One needs to have a lot of patience to deal with some children.",
+            "It can get a bit monotonous after some time.",
+            "It can be hectic, to grade so many papers and assignments."
+        ]
+    },
+    {
+        "careerid": "speced",
+        "title": "Special Educator",
+        "cat_dir": "../educationandtraining.html",
+        "cat": "Education And Training",
+        "duration": "4 years",
+        "p1_1": "Do you want to help children who have trouble learning at a regular pace in classes? Then, being a special educator can be a great career path for you! We have all watched the movie ‘Taare Zameen Par’. There are a lot of kids out there with such disabilities, an inability to read, write or even understand. If you feel that you want to help by teaching them, then being a special educator might be the right task for you. It involves helping such children grow, and overcome their troubles.",
+        "p1_2": "Learning disabilities (such as dyslexia), communication disorders, emotional and behavioral disorders (such as ADHD), physical disabilities (such as osteogenesis imperfecta, cerebral palsy, muscular dystrophy, spina bifida, and Friedreich's ataxia), and developmental disabilities (such as autistic spectrum disorders) are all addressed in special education.",
+        "img1": "../assets/images/blog/blog-details-spec.jpg",
+        "alt1": "EE Image",
+        "desc": "A career in special education is for those who have an incredible passion for teaching and attachment and concern for children with special needs. Special education means personalised schooling given to children with different disabilities both physical and mental. Children with such disabilities need special training and instruction by well-trained professionals in the field of special education. Special education offers different career opportunities including teaching, instruction and curriculum development for children with special needs and adults. The major responsibility of any special educator is to teach and interact with children who have a variety of disabilities.",
+        "skills": [
+            "Communication Skills: A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
+            "Compassion Skills: One needs to be very empathetic to the needs of their students and show care for them.",
+            "Creativity Skills: One may need to devise creative ways to impart education to increase the amount of what the students understand and retain.",
+            "Organization Skills: As one is responsible for the creation of various modules, they need to show organisational ability."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor course in any field / Bachelor of Elementary Education / Bachelor of Education in Special Education",
+            "Post Graduation: Post Graduate Diploma in Special Education"
+        ],
+        "opp_l": [
+            "Special Educator for Early/ Pre-KG to Class 12",
+            "Special Educator in College/ University",
+            "Special Educator for Low-Incidence Disabilities/ Sensory Development"
+        ],
+        "opp_r": [
+            "Special Educator for High-Incidence Disabilities",
+            "Special Educator for Emotional or Behavioural Disorders",
+            "Special Educator for Autism Spectrum Disorders"
+        ],
+        "insti": [
+            {
+                "link": "https://www.bpmarineacademy.in/",
+                "name": "B.P. Marine Academy"
+            },
+            {
+                "link": "https://nsnis.org/",
+                "name": "Netaji Subhas National Institute of Sports"
+            },
+            {
+                "link": "https://www.imeindia.in/",
+                "name": "Institution Of Mechanical Engineers"
+            }
+        ],
+        "pros": [
+            "The hours for a special educator are chosen by the teachers themselves.",
+            "There’s a lot of freedom for these teachers.",
+            "You get a satisfaction when the children you teach grow to be successful."
+        ],
+        "cons": [
+            "One needs to have a lot of patience to deal with some children.",
+            "The salary paid to special educators is quite less.",
+            "There is less scope for promotion."
+        ]
+    },
+    {
+        "careerid": "prof",
+        "title": "Professor",
+        "cat_dir": "../educationandtraining.html",
+        "cat": "Education And Training",
+        "duration": "7 years",
+        "p1_1": "Do you love to share your knowledge and help others improve? If so, then a career in Teaching is just for you. Teachers are responsible for imparting knowledge and educating younger generations of people. They are responsible for the mental development of students at one of their most crucial stages of life and can have a lifelong impact on their students. Teachers are, without a doubt, the most important people in our society. They provide children with a sense of purpose, prepare them for success as global citizens, and instil in them a desire to do well and thrive in life.",
+        "p1_2": "They supervise the performance of the faculties in the university and ensure student discipline on the campus. Professors are typically specialists in their fields and top-tier educators. Full professors have prominent management positions at many institutions, including directing departments, research teams, and institutes, as well as serving as president, principal, or vice-chancellor.",
+        "img1": "../assets/images/blog/blog-details-prof.jpg",
+        "alt1": "EE Image",
+        "desc": "Professors often carry out original research and give regular teachings to undergraduate, vocational, or postgraduate courses in their fields of expertise. In universities and institutions, they instruct and supervise students while conducting their research. Besides, they have several other duties to perform such as supervising the academic progress of the departments & students, monitoring the functions of Class Advisor’s I & II, Test Coordinators, Assessment Coordinators, holding the responsibility of approving the Internal Assessment marks for all students in all classes of both UG & PG.",
+        "skills": [
+            "Communication Skills: A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
+            "Compassion Skills: One needs to be very empathetic to the needs of their students and show care for them.",
+            "Creativity Skills: One may need to devise creative ways to impart education to increase the amount of what the students understand and retain.",
+            "Organization Skills: As one is responsible for the creation of various modules, they need to show organisational ability."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor course in any field",
+            "Post Graduation: Masters course in any field."
+        ],
+        "opp_l": [
+            "Technical Education Teacher"
+        ],
+        "opp_r": [
+            "Instructional Coordinator"
+        ],
+        "insti": [
+            {
+                "link": "https://www.du.ac.in/",
+                "name": "University of Delhi"
+            },
+            {
+                "link": "https://sxca.edu.in/",
+                "name": "St. Xavier’s College"
+            },
+            {
+                "link": "https://www.bhu.ac.in/Site/Home/1_2_16_Main-Site",
+                "name": "Banaras Hindu University"
+            }
+        ],
+        "pros": [
+            "One gets to have an impact on developing minds for the better.",
+            "It also allows you to get leaves on school holidays.",
+            "You get to impart to students the gift of knowledge."
+        ],
+        "cons": [
+            "One needs to have a lot of patience to deal with some students.",
+            "It can get a bit monotonous after some time.",
+            "It can be hectic, to grade so many papers and assignments."
+        ]
     }
         
 
