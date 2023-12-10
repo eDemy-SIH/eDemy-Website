@@ -17,4 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 api_arr = localStorage.getItem("api_arr").replaceAll("'","").split(",");
+
 export default api_arr;
