@@ -234,6 +234,14 @@
     <script src="assets/js/contact-form-script.js"></script>
 
     <script src="assets/js/custom.js"></script>
+    
+    <script type="module">
+        import TRANSLATION_API_KEY from './assets/js/apikeys.js'
+        const api = TRANSLATION_API_KEY;
+        localStorage.setItem("tr_api", api[0]);
+
+    </script>
+
 
     <script>
         const careerData = [
@@ -322,6 +330,8 @@
 
         loadCareerDetails();
 
+        const trnsl_api = String(localStorage.getItem("tr_api"));
+
         function changeLanguage1() {
             location.reload()
         }
@@ -329,7 +339,7 @@
         function changeLanguage(lang) {
 
             // Your Google Cloud Translation API key
-            const apiKey = 'AIzaSyB47ykDTJPP1QwBzSD_xiK5-BVdt6OZWyc';
+            const apiKey = trnsl_api;
 
             // Elements to translate;
             const head8 = document.getElementById('qw1');

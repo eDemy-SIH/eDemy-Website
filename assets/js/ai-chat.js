@@ -1,3 +1,6 @@
+const ai_api = String(localStorage.getItem("ai_api"));
+// console.log(ai_api);
+
 function sendMessage() {
     const userInput = $('#user-input').val();
     
@@ -6,7 +9,7 @@ function sendMessage() {
 
     // Send user message to your OpenAI chatbot API
     // Replace 'YOUR_OPENAI_API_KEY' and 'YOUR_MODEL_ID' with your actual API key and model ID
-    const apiKey = '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';
+    const apiKey = ai_api;
     const modelId = 'gpt-3.5-turbo';
     const apiUrl = `https://api.openai.com/v1/chat/completions`;
 

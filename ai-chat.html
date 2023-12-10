@@ -251,6 +251,15 @@
 
     <script src="assets/js/metismenu.min.js"></script>
 
+
+    <script type="module">
+        import OPEN_API_KEY from './assets/js/apikeys.js'
+        const api = OPEN_API_KEY;
+        localStorage.setItem("ai_api", api[1]);
+
+    </script>
+
+
     <script src="assets/js/ai-chat.js"></script>
 
     <script src="assets/js/simplebar.min.js"></script>
