@@ -243,7 +243,7 @@
                 qualification: "Bachelor of Technology (B.Tech)",
                 category: "Aviation",
                 duration: "4 Years",
-                path: "aviation/atc.html",
+                careerid: "atc",
                 index: 1,
             },
             {
@@ -252,7 +252,7 @@
                 qualification: "Bachelor Of Technology (BTech)",
                 category: "Aviation",
                 duration: "4 Years",
-                path: "aviation/ame.html",
+                careerid: "ame",
                 index: 2,
             },
             {
@@ -261,7 +261,7 @@
                 qualification: "Engineering Diploma (Diploma)",
                 category: "Aviation",
                 duration: "3 Years",
-                path: "aviation/cc.html",
+                careerid: "cc",
                 index: 3,
             },
             {
@@ -270,7 +270,7 @@
                 qualification: "Undergrad Degree In Aviation",
                 category: "Aviation",
                 duration: "4 Years",
-                path: "aviation/fa.html",
+                careerid: "fa",
                 index: 4,
             },
             {
@@ -279,7 +279,7 @@
                 qualification: "High School Diploma",
                 category: "Aviation",
                 duration: "3 - 4 Years",
-                path: "aviation/pilot.html",
+                careerid: "pilot",
                 index: 5,
             },
         ];
@@ -294,14 +294,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.careerid}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a id="qw3_${career.index}" href=${career.path}>${career.name}</a></h3>
+                    <h3><a id="qw3_${career.index}" href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li id="qw4_${career.index}" class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -311,7 +311,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a id="qw7_${career.index}" href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a id="qw7_${career.index}" href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;

@@ -244,7 +244,7 @@
                 qualification: "Any Bachelor's Degree",
                 category: "Education And Training",
                 duration: "1 - 2 Years",
-                path: "civil_service/civils.html",
+                careerid: "civils",
                 index: 1,
             },
             {
@@ -253,7 +253,7 @@
                 qualification: "Any Bachelor's Degree",
                 category: "Education And Training",
                 duration: "1 - 2 Years",
-                path: "civil_service/rails.html",
+                careerid: "rails",
                 index: 2,
             },
             {
@@ -262,7 +262,7 @@
                 qualification: "Any Bachelor's Degree",
                 category: "Education And Training",
                 duration: "1 - 2 Years",
-                path: "civil_service/ces.html",
+                careerid: "ces",
                 index: 3,
             },
             {
@@ -271,7 +271,7 @@
                 qualification: "Any Bachelor's Degree",
                 category: "Education And Training",
                 duration: "1 - 2 Years",
-                path: "civil_service/its.html",
+                careerid: "its",
                 index: 4,
             },
             {
@@ -280,7 +280,7 @@
                 qualification: "Master of Science (M.Sc) in Economics",
                 category: "Education And Training",
                 duration: "1 - 2 Years",
-                path: "civil_service/iess.html",
+                careerid: "iess",
                 index: 5,
             },
         ];
@@ -295,14 +295,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.careerid}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a id="qw3_${career.index}" href=${career.path}>${career.name}</a></h3>
+                    <h3><a id="qw3_${career.index}" href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li id="qw4_${career.index}" class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -312,7 +312,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a id="qw7_${career.index}" href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a id="qw7_${career.index}" href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;

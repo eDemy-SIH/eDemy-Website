@@ -938,10 +938,7 @@
         ],
         "opp_r": [
             "Geotechnical Engineer",
-            "Environmental Engineer",
-            "",
-            "",
-            ""
+            "Environmental Engineer"
         ],
         "insti": [
             {
@@ -1557,18 +1554,8 @@
             "Post Graduation: Diploma in Radio Jockey."
         ],
         "opp_l": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "opp_r": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "insti": [
             {
@@ -1623,18 +1610,8 @@
             "Post Graduation: Masters of Business Administration in Entrepreneurship /Finances "
         ],
         "opp_l": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "opp_r": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "insti": [
             {
@@ -1697,22 +1674,6 @@
             "Indian Postal Services"
         ],
         "insti": [
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            }
         ],
         "pros": [
             "One gets to contribute to society fruitfully.",
@@ -1804,35 +1765,12 @@
         ],
         "opp_l": [
             "Inspector Of Customs And Central Excise.",
-            "Preventive Officer",
-            "",
-            "",
-            ""
+            "Preventive Officer"
         ],
         "opp_r": [
-            "Examiner Of Indian Customs",
-            "",
-            "",
-            "",
-            ""
+            "Examiner Of Indian Customs"
         ],
         "insti": [
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            }
         ],
         "pros": [
             "It is an extremely high-paying job.",
@@ -1873,22 +1811,6 @@
             "Non Assessing Department."
         ],
         "insti": [
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            }
         ],
         "pros": [
             "The salary is quite good.  ",
@@ -1923,18 +1845,9 @@
             "Post Graduation: UPSC Entrance Exams."
         ],
         "opp_l": [
-            "IES Officer.",
-            "",
-            "",
-            "",
-            ""
+            "IES Officer"
         ],
         "opp_r": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "insti": [
             {
@@ -2031,14 +1944,14 @@
         ]
     },
     {
-        "careerid": "mediaandjournalism.html",
+        "careerid": "pr",
         "title": "Public Relation ",
         "cat_dir": "../mediaandjournalism.html",
         "cat": "Media and Journalism",
         "duration": "4 years",
         "p1_1": "Do you want to have the capacity to change/improve the reputation of an organization? If yes, then PR is the right job for you. The art of actively managing the spread of knowledge between a person or an entity and the general public is known as public relations. An organization or person can use public relations to gain attention to their audiences by using topics of public interest and news articles that do not require payment. Most multinational corporations have a public relations department that is in charge of all media relations. The public relations specialist is in charge of community outreach and volunteer services. They establish connections with potential investors. They also appear on a cable television news show to answer difficult questions. A good PR director not only knows which platform to use for what but has the skills to use each platform to its fullest potential.",
         "p1_2": "",
-        "img1": "../assets/images/humanities2/Public Relation.jpg",
+        "img1": "../assets/images/humanities2/Public%20Relation.jpg",
         "alt1": "AIML Image",
         "desc": "Performance in public relations necessitates a thorough understanding of each of the client's multiple publics' desires and concerns. The most important weapon in the PR trade is publicity, and the public relations professional must know how to effectively answer such concerns. In certain cases, the primary responsibility of a public relations professional is to write news releases that are sent to specific members of the media. However, limiting the concept of public relations to only publicity would be an underestimation of PR's increasing power and reach.",
         "skills": [
@@ -2093,7 +2006,7 @@
     },
     {
         "careerid": "writer",
-        "title": "Writer Editor Copywriter",
+        "title": "Writer, Editor, Copywriter",
         "cat_dir": "../mediaandjournalism.html",
         "cat": "Media and Journalism",
         "duration": "4 years",
@@ -2293,8 +2206,7 @@
             "Artistic Skills: Fashion designing is about applying art to fabrics thus, it requires artistic thinking.",
             "Competition Skills: Fashion designing is a very competitive field as it is ever-changing and there is the constant addition of new talent in the field. Thus, to sustain in the field, one has to be very competitive.",
             "Communication Skills: Designers are in direct contact with the clients. They need to understand the demands of the clients to deliver the expected product.",
-            "Drawing Skills: Designers first make the sketches before working on the project.",
-            ""
+            "Drawing Skills: Designers first make the sketches before working on the project."
         ],
         "educ": [
             "School: Any subject combination taking Science or Commerce or Humanities.",
@@ -2348,7 +2260,7 @@
         "title": "UI/UX Designer",
         "cat_dir": "../designgraphics.html",
         "cat": "Design & Graphics",
-        "duration": "",
+        "duration": "4 years",
         "p1_1": "Do you want to be a digital expert and influence the brands? If yes, then you should consider UI/UX Design as a career option. The design of user interfaces for equipment and software, such as computers, home appliances, mobile devices, and other electronic devices, to optimize usability and the user experience, is known as user interface design or user interface engineering.",
         "p1_2": "User interface design (UI) is the design of user interfaces used for machines and software with the focus on maximizing usability and the User Experience (UX). The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing goals. UI/UX Designers have to work on various software’s. They have to design facilitators and conductors who rapidly conduct research.",
         "img1": "../assets/images/blog/blog-details-uiux.jpg",
@@ -2636,18 +2548,6 @@
             {
                 "link": "https://www.icai.org/",
                 "name": "Institute of Chartered Accountants of India"
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
             }
         ],
         "pros": [
@@ -2695,18 +2595,6 @@
             {
                 "link": "https://cmtassociation.org/",
                 "name": "CMT Association"
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
             }
         ],
         "pros": [
@@ -2755,18 +2643,6 @@
             {
                 "link": "https://www.iibms.org/",
                 "name": "Indian institute of Business Management and Studies"
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
             }
         ],
         "pros": [
@@ -2958,7 +2834,7 @@
         "title": "Teacher",
         "cat_dir": "../educationandtraining.html",
         "cat": "Education And Training",
-        "duration": "",
+        "duration": "6 years",
         "p1_1": "Do you love to share your knowledge and help others improve? If so, then a career in Teaching is just for you. Teachers are responsible for imparting knowledge and educating younger generations of people. They are responsible for the mental development of students at one of their most crucial stages of life and can have a lifelong impact on their students.",
         "p1_2": "Teachers are, without a doubt, the most important people in our society. They provide children with a sense of purpose, prepare them for success as global citizens, and instil in them a desire to do well and thrive in life. A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
         "img1": "../assets/images/blog/blog-details-tec.jpg",

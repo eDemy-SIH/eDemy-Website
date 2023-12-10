@@ -243,7 +243,7 @@
                 qualification: "Bachelor Degree In Any Field",
                 category: "Sales And Marketing",
                 duration: "1 Years",
-                path: "salesmarketing/digi.html",
+                careerid: "digi",
                 index: 1,
             },
             {
@@ -252,7 +252,7 @@
                 qualification: "Bachelor In Any Field",
                 category: "Sales And Marketing",
                 duration: "1 Year",
-                path: "salesmarketing/ad.html",
+                careerid: "ad",
                 index: 2,
             },
             {
@@ -261,7 +261,7 @@
                 qualification: "Bachelor Of Business Administration (BBA)",
                 ategory: "Sales And Marketing",
                 duration: "3-4 Yesrs",
-                path: "salesmarketing/sales.html",
+                careerid: "sales",
                 index: 3,
             },
             {
@@ -270,7 +270,7 @@
                 qualification: "Bachelor's Degree in Industrial Design, Manufacturing",
                 category: "Sales And Marketing",
                 duration: "4 Years",
-                path: "salesmarketing/prod.html",
+                careerid: "prod",
                 index: 4,
             },
             {
@@ -279,7 +279,7 @@
                 qualification: "Bachelor Of Business Administration (BBA)",
                 category: "Sales And Marketing",
                 duration: "1 Year",
-                path: "salesmarketing/mark.html",
+                careerid: "mark",
                 index: 5,
             },
         ];
@@ -293,14 +293,14 @@
             <div class="find-jobs-card d-flex align-items-center">
                 <!-- Add other HTML elements and use career properties -->
                 <div class="find-jobs-img">
-                    <a href=${career.path}>
+                    <a href="careerdetails.html?careerid=${career.careerid}">
                         <img src="${career.imagePath}" alt="Images" height="150px" width="150px" style="border-radius: 5px;">
                     </a>
                 </div>
                 <div class="content">
                     <ul class="content-list">
                     </ul>
-                    <h3><a id="qw3_${career.index}" href=${career.path}>${career.name}</a></h3>
+                    <h3><a id="qw3_${career.index}" href="careerdetails.html?careerid=${career.careerid}">${career.name}</a></h3>
                     <ul class="content-list2">
                         <li id="qw4_${career.index}" class="list-two"><i class="ri-survey-line"></i> Qualification : ${career.qualification}</li>
                     </ul>
@@ -310,7 +310,7 @@
                     </ul>
                 </div>
                 <div class="find-jobs-btn">
-                    <a id="qw7_${career.index}" href=${career.path} class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
+                    <a id="qw7_${career.index}" href="careerdetails.html?careerid=${career.careerid}" class="default-btn border-radius-5">Explore Now<i class="ri-send-plane-2-line"></i></a>
                 </div>
             </div>
         `;
