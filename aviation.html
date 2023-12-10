@@ -223,7 +223,7 @@
 
     <script src="assets/js/tweenMax.min.js"></script>
 
-    
+
     <script src="assets/js/owl.carousel.min.js"></script>
 
     <script src="assets/js/wow.min.js"></script>
@@ -240,6 +240,7 @@
         import TRANSLATION_API_KEY from './assets/js/apikeys.js'
         const api = TRANSLATION_API_KEY;
         localStorage.setItem("tr_api", api[0]);
+        console.log(api,api[0]);
 
     </script>
 
@@ -332,6 +333,7 @@
         loadCareerDetails();
 
         const trnsl_api = String(localStorage.getItem("tr_api"));
+        console.log(trnsl_api);
 
         function changeLanguage1() {
             location.reload()
