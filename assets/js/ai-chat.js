@@ -1,5 +1,4 @@
 const ai_api = String(localStorage.getItem("ai_api"));
-// console.log(ai_api);
 
 function sendMessage() {
     const userInput = $('#user-input').val();
