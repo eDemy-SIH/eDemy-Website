@@ -240,7 +240,7 @@
         import TRANSLATION_API_KEY from './assets/js/api_key.js'
         const api = TRANSLATION_API_KEY;
         localStorage.setItem("tr_api", api[0]);
-        console.log("Fetching from server: ", api, api[0]);
+        // console.log("Fetching from server: ", api, api[0]);
 
     </script>
 
@@ -333,7 +333,7 @@
         loadCareerDetails();
 
         const trnsl_api = String(localStorage.getItem("tr_api"));
-        console.log("Fetching from server: ", trnsl_api);
+        // console.log("Fetching from server: ", trnsl_api);
 
         function changeLanguage1() {
             location.reload()
