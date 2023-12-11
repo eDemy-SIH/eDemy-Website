@@ -235,7 +235,7 @@
     <script src="assets/js/contact-form-script.js"></script>
 
     <script src="assets/js/custom.js"></script>
-    
+
     <script type="module">
         import TRANSLATION_API_KEY from './assets/js/api_key.js'
         const api = TRANSLATION_API_KEY;
@@ -339,11 +339,9 @@
             location.reload()
         }
 
-        function changeLanguage(lang) {
 
-            // Your Google Cloud Translation API key
-            const apiKey = trnsl_api;
-            // Elements to translate;
+        // Function to fetch translations from the server
+        function changeLanguage(lang) {
             const head8 = document.getElementById('qw1');
             const head9 = document.getElementById('qw2');
             const head6_1 = document.getElementById('qw3_1');
@@ -400,53 +398,106 @@
             const head25_4t = head25_4.textContent;
             const head25_5t = head25_5.textContent;
 
+            const textsToTranslate = [head8t, head9t, head6_1t, head6_2t, head6_3t, head6_4t, head6_5t, head6a_1t, head6a_2t, head6a_3t, head6a_4t, head6a_5t, head23_1t, head23_2t, head23_3t, head23_4t, head23_5t, head24_1t, head24_2t, head24_3t, head24_4t, head24_5t, head25_1t, head25_2t, head25_3t, head25_4t, head25_5t];
+
+            const textString = textsToTranslate.join(',');
+
             // Make API request
-            fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    q: [head8t, head9t, head6_1t, head6_2t, head6_3t, head6_4t, head6_5t, head6a_1t, head6a_2t, head6a_3t, head6a_4t, head6a_5t, head23_1t, head23_2t, head23_3t, head23_4t, head23_5t, head24_1t, head24_2t, head24_3t, head24_4t, head24_5t, head25_1t, head25_2t, head25_3t, head25_4t, head25_5t],
-                    target: lang,
-                }),
-            })
+            fetch(`https://translation-api-server.onrender.com/Weather/translate?texts=${textString}&lang=${lang}`)
                 .then(response => response.json())
                 .then(data => {
-                    // console.log(data);
-                    // Update content with translated text
+                    console.log(data);
 
-                    head8.textContent = data.data.translations[0].translatedText;
-                    head9.textContent = data.data.translations[1].translatedText;
-                    head6_1.textContent = data.data.translations[2].translatedText;
-                    head6_2.textContent = data.data.translations[3].translatedText;
-                    head6_3.textContent = data.data.translations[4].translatedText;
-                    head6_4.textContent = data.data.translations[5].translatedText;
-                    head6_5.textContent = data.data.translations[6].translatedText;
-                    head6a_1.textContent = data.data.translations[7].translatedText;
-                    head6a_2.textContent = data.data.translations[8].translatedText;
-                    head6a_3.textContent = data.data.translations[9].translatedText;
-                    head6a_4.textContent = data.data.translations[10].translatedText;
-                    head6a_5.textContent = data.data.translations[11].translatedText;
-                    head23_1.textContent = data.data.translations[12].translatedText;
-                    head23_2.textContent = data.data.translations[13].translatedText;
-                    head23_3.textContent = data.data.translations[14].translatedText;
-                    head23_4.textContent = data.data.translations[15].translatedText;
-                    head23_5.textContent = data.data.translations[16].translatedText;
-                    head24_1.textContent = data.data.translations[17].translatedText;
-                    head24_2.textContent = data.data.translations[18].translatedText;
-                    head24_3.textContent = data.data.translations[19].translatedText;
-                    head24_4.textContent = data.data.translations[20].translatedText;
-                    head24_5.textContent = data.data.translations[21].translatedText;
-                    head25_1.textContent = data.data.translations[22].translatedText;
-                    head25_2.textContent = data.data.translations[23].translatedText;
-                    head25_3.textContent = data.data.translations[24].translatedText;
-                    head25_4.textContent = data.data.translations[25].translatedText;
-                    head25_5.textContent = data.data.translations[26].translatedText;
+                    // Update content with translated texts
+                    const translatedTexts = data.translations;
 
+                    // Assuming the texts are in the same order as the original array
+                    translatedTexts.forEach((translatedText, index) => {
+                        head8.textContent = translatedTexts[0];
+                        head9.textContent = translatedTexts[1];
+                        head6_1.textContent = translatedTexts[2];
+                        head6_2.textContent = translatedTexts[3];
+                        head6_3.textContent = translatedTexts[4];
+                        head6_4.textContent = translatedTexts[5];
+                        head6_5.textContent = translatedTexts[6];
+                        head6a_1.textContent = translatedTexts[7];
+                        head6a_2.textContent = translatedTexts[8];
+                        head6a_3.textContent = translatedTexts[9];
+                        head6a_4.textContent = translatedTexts[10];
+                        head6a_5.textContent = translatedTexts[11];
+                        head23_1.textContent = translatedTexts[12];
+                        head23_2.textContent = translatedTexts[13];
+                        head23_3.textContent = translatedTexts[14];
+                        head23_4.textContent = translatedTexts[15];
+                        head23_5.textContent = translatedTexts[16];
+                        head24_1.textContent = translatedTexts[17];
+                        head24_2.textContent = translatedTexts[18];
+                        head24_3.textContent = translatedTexts[19];
+                        head24_4.textContent = translatedTexts[20];
+                        head24_5.textContent = translatedTexts[21];
+                        head25_1.textContent = translatedTexts[22];
+                        head25_2.textContent = translatedTexts[23];
+                        head25_3.textContent = translatedTexts[24];
+                        head25_4.textContent = translatedTexts[25];
+                        head25_5.textContent = translatedTexts[26];
+                        // If you want to append the translations, use head4.textContent += translatedText + ' ';
+                    });
                 })
                 .catch(error => console.error('Error:', error));
         }
+
+
+
+        // function changeLanguage(lang) {
+        //     const apiKey = trnsl_api;
+        //     // Make API request
+        //     fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+        //         method: 'POST',
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //         },
+        //         body: JSON.stringify({
+        //             q: [head8t, head9t, head6_1t, head6_2t, head6_3t, head6_4t, head6_5t, head6a_1t, head6a_2t, head6a_3t, head6a_4t, head6a_5t, head23_1t, head23_2t, head23_3t, head23_4t, head23_5t, head24_1t, head24_2t, head24_3t, head24_4t, head24_5t, head25_1t, head25_2t, head25_3t, head25_4t, head25_5t],
+        //             target: lang,
+        //         }),
+        //     })
+        //         .then(response => response.json())
+        //         .then(data => {
+        //             // console.log(data);
+        //             // Update content with translated text
+
+        //             head8.textContent = data.data.translations[0].translatedText;
+        //             head9.textContent = data.data.translations[1].translatedText;
+        //             head6_1.textContent = data.data.translations[2].translatedText;
+        //             head6_2.textContent = data.data.translations[3].translatedText;
+        //             head6_3.textContent = data.data.translations[4].translatedText;
+        //             head6_4.textContent = data.data.translations[5].translatedText;
+        //             head6_5.textContent = data.data.translations[6].translatedText;
+        //             head6a_1.textContent = data.data.translations[7].translatedText;
+        //             head6a_2.textContent = data.data.translations[8].translatedText;
+        //             head6a_3.textContent = data.data.translations[9].translatedText;
+        //             head6a_4.textContent = data.data.translations[10].translatedText;
+        //             head6a_5.textContent = data.data.translations[11].translatedText;
+        //             head23_1.textContent = data.data.translations[12].translatedText;
+        //             head23_2.textContent = data.data.translations[13].translatedText;
+        //             head23_3.textContent = data.data.translations[14].translatedText;
+        //             head23_4.textContent = data.data.translations[15].translatedText;
+        //             head23_5.textContent = data.data.translations[16].translatedText;
+        //             head24_1.textContent = data.data.translations[17].translatedText;
+        //             head24_2.textContent = data.data.translations[18].translatedText;
+        //             head24_3.textContent = data.data.translations[19].translatedText;
+        //             head24_4.textContent = data.data.translations[20].translatedText;
+        //             head24_5.textContent = data.data.translations[21].translatedText;
+        //             head25_1.textContent = data.data.translations[22].translatedText;
+        //             head25_2.textContent = data.data.translations[23].translatedText;
+        //             head25_3.textContent = data.data.translations[24].translatedText;
+        //             head25_4.textContent = data.data.translations[25].translatedText;
+        //             head25_5.textContent = data.data.translations[26].translatedText;
+
+        //         })
+        //         .catch(error => console.error('Error:', error));
+        // }
+
     </script>
 
 </body>
