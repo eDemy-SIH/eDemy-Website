@@ -403,7 +403,8 @@ function gotolink() {
 function showMarks() {
     dontshowbefore();
     optn.style.display = "none";
-    quesele.innerHTML = "Your Test's Over Proceed To Next Page And Do The Required To See Results."
+    quesele.innerHTML = "Your Choice Test's Over ! Now It's Time To Choose Your Interests.";
+    quesele.style.fontSize = "x-large";
     nextbt.innerHTML = "SUBMIT TEST";
     nextbt.style.display = "block";    
     localStorage.setItem("shit",count);

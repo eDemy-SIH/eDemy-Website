@@ -107,3 +107,22 @@ body {
 #ques1 {
     font-size: 25px;
 }
+
+#or {
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#span2 {
+    font-weight: bolder;
+}
+
+#btn1 {
+    text-align: center;
+}
+
+#btn2 {
+    text-align: center;
+}
