@@ -397,7 +397,7 @@ function selectans(nt){
 }
 
 function gotolink() {
-    window.location = "hobbies.html";
+    window.location = "RIASEC.html";
 }
 
 function showMarks() {
