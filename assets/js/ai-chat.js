@@ -9,6 +9,7 @@ function sendMessage() {
     // Send user message to your OpenAI chatbot API
     // Replace 'YOUR_OPENAI_API_KEY' and 'YOUR_MODEL_ID' with your actual API key and model ID
     const apiKey = ai_api;
+    console.log("Fetching API from server: ", apiKey);
     const modelId = 'gpt-3.5-turbo';
     const apiUrl = `https://api.openai.com/v1/chat/completions`;
 
