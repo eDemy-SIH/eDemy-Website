@@ -1,4 +1,3 @@
-const ai_api = String(localStorage.getItem("ai_api"));
 
 function sendMessage() {
     const userInput = $('#user-input').val();
@@ -6,39 +5,27 @@ function sendMessage() {
     // Add user message to the chat log
     appendMessage('User', userInput);
 
-    // Send user message to your OpenAI chatbot API
-    // Replace 'YOUR_OPENAI_API_KEY' and 'YOUR_MODEL_ID' with your actual API key and model ID
-    const apiKey = ai_api;
-    // console.log("Fetching API from server: ", apiKey);
-    const modelId = 'gpt-3.5-turbo';
-    const apiUrl = `https://api.openai.com/v1/chat/completions`;
-
+    // Call your server to fetch AI-generated message
     $.ajax({
-        url: apiUrl,
-        type: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`
-        },
-        data: JSON.stringify({
-            model: modelId,
-            messages: [{ role: 'system', content: 'You are CareerCrafter, a career counselor chatbot. Only answer questions based on career advice, subjects. if asked anything else reply i dont know' }, { role: 'user', content: userInput }]
-        }),
+        url: `https://openai-api-server-3r7r.onrender.com/Weather/${encodeURIComponent(userInput)}`, // Update with your actual server endpoint
+        type: 'GET',
         success: function (response) {
-            // Add chatbot response to the chat log
-            response.choices[0].message.content.replace(/\\n/g, '<br>');
-            const chatbotResponse = response.choices[0].message.content;
-            appendMessage('Chatbot', chatbotResponse.replace(/\n/g, '<br>'));
-            console.log(chatbotResponse.replace(/\n/g, '<br>'));
+            if (response.success) {
+                // Add chatbot response to the chat log
+                appendMessage('Chatbot', response.message.replace(/\n/g, '<br>'));
+            } else {
+                console.error('Error from server:', response.error);
+            }
         },
         error: function (error) {
-            console.error('Error sending message to OpenAI:', error);
+            console.error('Error sending message to server:', error);
         }
     });
     
     // Clear user input
     $('#user-input').val('');
 }
+
 
 function appendMessage(role, content) {
 
