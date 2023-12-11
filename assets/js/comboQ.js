@@ -53,7 +53,7 @@ if (comb == 'E'){
 
 if (comb == 'C'){
     arr = C;
-    val = 10;
+    val = 3;
 }
 
 // MAKING ALL POSSIBLE 2 SET COMBINATION ARRAY INSIDE AN ARRAY ACCORING TO RISHI'S OUTPUT FROM RIASEC
