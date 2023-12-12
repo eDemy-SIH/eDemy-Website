@@ -69,6 +69,124 @@ function combinations(arr) {
 }
 const combos = combinations(arr);
 
+// FINDING TOP THREE MODES OF AN ARRAY AND RETURNING AS AN ARRAY FOR OUR OUTPUT
+
+function findMode(arr) {
+    if (arr.length === 0) {
+      return null;
+    }
+    const occurrences = {};
+    for (const element of arr) {
+      if (!occurrences.hasOwnProperty(element)) {
+        occurrences[element] = 0;
+      }
+      occurrences[element]++;
+    }
+    let mode = null;
+    let highestOccurrence = 0;
+  
+    for (const element in occurrences) {
+      if (occurrences[element] > highestOccurrence) {
+        mode = element;
+        highestOccurrence = occurrences[element];
+      }
+    }
+    return mode;
+}
+
+function removeItem(array, item) {
+    var i = array.length;  
+    while (i--) {
+      if (array[i] === item) {
+        array.splice(i, 1);
+      }
+    }
+}
+
+let Farr = [];
+
+function topmodeA(arr,y){
+    for (let i = 0; i < y; ++i){
+        var x = findMode(arr);
+        Farr.push(parseInt(x));
+        removeItem(arr,parseInt(x));
+    }
+    return Farr;
+}
+
+// DICTIONARY OF ALL UNIQUE CAREERS AND THEIR VALUES TO FIND MODE
+
+var dict = {
+  "Business Administration":'businessadministration',
+  "Sports Management":"sportmanagement",
+  "Project Management":"projectm",
+  "Event Management":"eventm",
+  "Fashion Business Management":"fash",
+  "Computer Science and Engineering":"cse",
+  "Artificial Intelligence & Machine Learning":"aiml",
+  "Electronics and communication Engineering":"ece",
+  "Electrical Engineering":"ee",
+  "Electrical and Instrumentation engineering":"eie",
+  "Aerospace Engineering":"aero",
+  "Mechanical engineering":"mech",
+  "Civil Engineering":"civil",
+  "Doctor":"doctor",
+  "Surgeon":"surgeon",
+  "Pathology":"pathology",
+  "Veterinary":"veterinary",
+  "Orthopaedic":"orthopaedic",
+  "Ophthalmology":"optha",
+  "Nursing":"nursing",
+  "Fashion Designer":"fashiondesigner",
+  "UI/UX Designer":"uiux",
+  "Graphic Designer":"graphic",
+  "Interior Designer":"interior",
+  "Jewellery Designer":"jewellery",
+  "Zoology":"zoo",
+  "Botany":"botany",
+  "Physics Hons.":"phyhon",
+  "Chemistry Hons.":"chemhon",
+  "Radio Jockey":"rj",
+  "Entrepreneurship":"ent",
+  "Chartered Accountant":"ca",
+  "Chartered Market Technician":"cmt",
+  "Chartered Financial Analyst":"cfa",
+  "Cost Accountant":"coa",
+  "Certified Public Accountant":"cpa",
+  "Counsellor":"counsellor",
+  "Teacher":"teacher",
+  "Special Educator":"speced",
+  "Professor":"prof",
+  "Civil Services":"civils",
+  "Railway Services":"rails",
+  "Customs And Excises":"ces",
+  "Income Tax Service":"its",
+  "Indian Economic System":"iess",
+  "Mass Communication":"mascom",
+  "Public Relations":"pr",
+  "Writer Editor Copywriter":"writer",
+  "Broadcasting, Journalism":"Broadcasting",
+  "Journalism" : "journalism",
+  "Digital Marketing":"digi",
+  "Advertisement":"ad",
+  "Sales":"sales",
+  "Product Designer":"prod",
+  "Marketing":"mark",
+  "Air Traffic Controller":"atc",
+  "Aircraft Maintanence Engineer": "ame",
+  "Cabin Crew": "cc",
+  "Flight Attendant" : "fa",
+  "Pilot" : "pilot",
+  "Archaeology":"arch",
+  "Public Administration": "PA",
+  "Home Science": "HomeSc",
+  "Geography": "Geo",
+  "Political Science": "PoliSc",
+  "Language": "lang",
+  "Sociology": "sociology",
+  "International Relation": "intreln",
+}
+
 // GETTING RANDOM INDEX WITHIN A VARIABLE RANGE
 
 function getRandom (min,max) {

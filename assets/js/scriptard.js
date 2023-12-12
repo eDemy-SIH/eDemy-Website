@@ -400,6 +400,27 @@ function gotolink() {
     window.location = "RIASEC.html";
 }
 
+async function postData(r) {
+
+    const searchtext = r;
+    
+    try {
+      const response = await fetch(`https://translation-api-server.onrender.com/Weather/post?searchtext=${searchtext}`, {
+        method: 'GET',
+      });
+
+      const data = await response.json();
+      console.log(data.message);
+
+    } catch (error) {
+      console.error('Error:', error.message);
+
+      // Display an error message in the HTML
+      const responseMessageElement = document.getElementById('responseMessage');
+      responseMessageElement.innerHTML = `<p>Error posting string</p>`;
+    }
+}
+
 function showMarks() {
     dontshowbefore();
     optn.style.display = "none";
@@ -409,7 +430,12 @@ function showMarks() {
     nextbt.style.display = "block";    
     localStorage.setItem("shit",count);
     console.log(myarr);
+    let text = myarr.toString();
+    var r = text.replaceAll(",", "");
+    console.log(r);
+    postData(r)
 }
+
 
 function nextBtnWorks(){
     quesno++;
