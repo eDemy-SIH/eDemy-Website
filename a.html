@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Prediction</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<h1>Binary Prediction</h1>
+
+<label for="binaryInput">Enter Binary String:</label>
+<input type="text" id="binaryInput" placeholder="Enter 0s and 1s">
+<button onclick="predict()">Predict</button>
+
+<p id="predictionResult"></p>
+
+<script>
+function predict() {
+    var binaryString = document.getElementById("binaryInput").value;
+
+    // Make an AJAX request to the Flask server
+    $.ajax({
+        url: "https://model-server-mxrg.onrender.com/" + binaryString,
+        type: "GET",
+        success: function(response) {
+            // Update the HTML content with the prediction result
+            document.getElementById("predictionResult").innerText = "Prediction Result: " + response.prediction;
+        },
+        error: function(error) {
+            console.error("Error:", error);
+            // Handle errors if needed
+        }
+    });
+}
+</script>
+
+</body>
+</html>
