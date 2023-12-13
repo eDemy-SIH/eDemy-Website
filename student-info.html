@@ -209,35 +209,37 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <label><span id="head23">Full Name*</span></label>
+                                    <label><span id="head23">Full Name *</span></label>
                                     <input  class="form-control" type="text" name="Name" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <label><span id="head24">Email ID*</span></label>
+                                    <label><span id="head24">Email ID *</span></label>
                                     <input type="email" class="form-control" name="Email" required>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group select-group">
-                                    <label><span id="head25">Gender*</span></label>
-                                    <select class="form-select form-control">
-                                        <option data-display="0">Male</option>
-                                        <option value="1">Female</option>
-                                        <option value="2">Other</option>
-                                    </select>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <label><span id="head26">State *</span></label>
+                                        <input type="text" class="form-control" name="Mobile" required>
+                                    </div>
                                 </div>
-                            </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <label><span id="head26">Mobile No*</span></label>
+                                    <label><span id="head27">Mobile No *</span></label>
                                     <input type="number" class="form-control" name="Mobile" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
-                                    <label><span id="head26">Date Of Birth*</span></label>
+                                    <label><span id="head28">City / District *</span></label>
+                                    <input type="text" class="form-control" name="Mobile" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <label><span id="head29">Date Of Birth *</span></label>
                                     <input type="date" name="msg_subject" id="msg_subject" class="form-control" 
                                         data-error="Please Enter Date" placeholder="01/01/2021" required>
                                 </div>
@@ -248,54 +250,6 @@
                 
                     <br>
                 
-                    <h3 id="head27">Education Information</h3>
-                    
-                    <form id="contactForm re" action="questions.html">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group select-group">
-                                    <label><span id="head28">School Boards*</span></label>
-                                    <select class="form-select form-control">
-                                        <option data-display="0">CBSE</option>
-                                        <option value="1">ICSE</option>
-                                        <option value="2">State Board</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <label><span id="head29">Percentage Obtained*</span></label>
-                                    <input class="form-control" type="number" name="Percentage" placeholder="0-100" required id="perc">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <label><span id="head30">Marks in Science*</span></label>
-                                    <input class="form-control" type="number" name="Science" placeholder="0-100" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <label><span id="head31">Marks in Maths*</span></label>
-                                    <input class="form-control" type="number" name="Maths" placeholder="0-100" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <label><span id="head32">Marks in Humanities*</span></label>
-                                    <input class="form-control" type="number" name="Humanities" placeholder="0-100" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group select-group">
-                                    <label><span id="head33">Stream of Interest*</span></label>
-                                    <select class="form-select form-control">
-                                        <option data-display="0">Science</option>
-                                        <option value="1">Commerce</option>
-                                        <option value="2">Humanities</option>
-                                    </select>
-                                </div>
-                            </div>
                             <div class="col-lg-12 col-md-12 pt-20">
                                 <div class="agree-label">
                                     <input type="checkbox" id="chb1">
@@ -398,15 +352,10 @@
           const head6a = document.getElementById('head6');
           const head23 = document.getElementById('head23');
           const head24 = document.getElementById('head24');
-          const head25 = document.getElementById('head25');
           const head26 = document.getElementById('head26');
           const head27 = document.getElementById('head27');
           const head28 = document.getElementById('head28');
           const head29 = document.getElementById('head29');
-          const head30 = document.getElementById('head30');
-          const head31 = document.getElementById('head31');
-          const head32 = document.getElementById('head32');
-          const head33 = document.getElementById('head33');
           const head34 = document.getElementById('head34');
           const head35 = document.getElementById('head35');
           const head36 = document.getElementById('head36');
@@ -421,15 +370,10 @@
           const head6at = head6a.textContent;
           const head23t = head23.textContent;
           const head24t = head24.textContent;
-          const head25t = head25.textContent;
           const head26t = head26.textContent;
           const head27t = head27.textContent;
           const head28t = head28.textContent;
           const head29t = head29.textContent;
-          const head30t = head30.textContent;
-          const head31t = head31.textContent;
-          const head32t = head32.textContent;
-          const head33t = head33.textContent;
           const head34t = head34.textContent;
           const head35t = head35.textContent;
           const head36t = head36.textContent;
@@ -443,7 +387,7 @@
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-              q: [head4t,head5t,head6t,head6at,head23t,head24t,head25t,head26t,head27t,head28t,head29t,head30t,head31t,head32t,head33t,head34t,head35t,head36t,head37t,head38t],
+              q: [head4t,head5t,head6t,head6at,head23t,head24t,head26t,head27t,head28t,head29t,head34t,head35t,head36t,head37t,head38t],
               target: lang,
             }),
           })
@@ -458,20 +402,15 @@
             head6a.textContent = data.data.translations[3].translatedText;
             head23.textContent = data.data.translations[4].translatedText;
             head24.textContent = data.data.translations[5].translatedText;
-            head25.textContent = data.data.translations[6].translatedText;
-            head26.textContent = data.data.translations[7].translatedText;
-            head27.textContent = data.data.translations[8].translatedText;
-            head28.textContent = data.data.translations[9].translatedText;
-            head29.textContent = data.data.translations[10].translatedText;
-            head30.textContent = data.data.translations[11].translatedText;
-            head31.textContent = data.data.translations[12].translatedText;
-            head32.textContent = data.data.translations[13].translatedText;
-            head33.textContent = data.data.translations[14].translatedText;
-            head34.textContent = data.data.translations[15].translatedText;
-            head35.textContent = data.data.translations[16].translatedText;
-            head36.textContent = data.data.translations[17].translatedText;
-            head37.textContent = data.data.translations[18].translatedText;
-            head38.textContent = data.data.translations[19].translatedText;
+            head26.textContent = data.data.translations[6].translatedText;
+            head27.textContent = data.data.translations[7].translatedText;
+            head28.textContent = data.data.translations[8].translatedText;
+            head29.textContent = data.data.translations[9].translatedText;
+            head34.textContent = data.data.translations[10].translatedText;
+            head35.textContent = data.data.translations[11].translatedText;
+            head36.textContent = data.data.translations[12].translatedText;
+            head37.textContent = data.data.translations[13].translatedText;
+            head38.textContent = data.data.translations[14].translatedText;
           })
           .catch(error => console.error('Error:', error));
         }
