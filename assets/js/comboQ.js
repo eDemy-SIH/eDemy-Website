@@ -17,10 +17,13 @@ var S = ["Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil 
 var btn1 = document.getElementById("btn1");
 var btn2 = document.getElementById("btn2");
 var or = document.getElementById("or");
+var next1 = document.getElementById("next1");
+var ques1 = document.getElementById("ques1");
+var head31 = document.getElementById("head31");
 
 // COMB IS RISHI'S OUTPUT AND SUBARRAY FROM RIASEC
 
-let comb = "I";
+let comb = localStorage.getItem("finalO");
 let arr;
 let val;
 
@@ -205,29 +208,65 @@ function choose(){
     (changeMin = changeMin + val);
     return rand1;
 }
+
+// QUESTIONS ARRAY 
+
+var finalA = [];
+
+var optn = [];
+
+for (var u = 1; u <= 15; ++u){
+  var t = choose();
+  optn.push(t);
+}
+
+function initialize(){
+  btn1.innerHTML = optn[0][0];
+  btn2.innerHTML = optn[0][1];
+  next1.style.display = "none";
+}
+
+function pageEnd(){
+  btn1.style.display = "none";
+  btn2.style.display = "none";
+  or.style.display = "none";
+  ques1.innerHTML = "We have analysed your personality and have listed following careers for you - ";
+  head31.innerHTML = "Press 'CONTINUE'";
+  next1.style.display = "block";
+}
+
+function nextbt11(){
+  window.location = "output.html";
+}
+
+var i = 0;
+
 function workRiasec(){
 
-    var t = choose();
-    
-    while (p.includes(t)){
-        var t = choose();
-    }
+  if (optn[i][0] in dict){
+    finalA.push(dict[optn[i][0]]);
+    console.log(finalA);
+  }
 
-    p.push(t);
+  i = i + 1;
 
-    console.log(t[0]);
-    console.log(t[1]);
-    
-    btn1.innerHTML = t[0];
-    btn2.innerHTML = t[1];
- 
-    btn1.style.display = "block";
-    btn2.style.display = "block";
-    or.style.display = "block";
+  btn1.innerHTML = optn[i][0];
+  btn2.innerHTML = optn[i][1];
+}
 
-    next1.style.display = "none";
+function workRiasecc(){
+
+  if (optn[i][1] in dict){
+    finalA.push(dict[optn[i][1]]);
+    console.log(finalA);
+  }
+
+  i = i + 1;
+
+  btn1.innerHTML = optn[i][0];
+  btn2.innerHTML = optn[i][1];
 }
 
 // CALLING FUNCTIONS
 
-workRiasec();
+initialize();

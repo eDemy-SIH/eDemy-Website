@@ -41,13 +41,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },
-    {
-        question : "I like to do puzzles - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },
+    // {
+    //     question : "I like to do puzzles - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
     {
         question : "I like to do experiments - ",
         answers : [
@@ -62,13 +62,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },
-    {
-        question : "I enjoy trying to figure out how things work - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false}, 
-        ]
-    },
+    // {
+    //     question : "I enjoy trying to figure out how things work - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false}, 
+    //     ]
+    // },
     {
         question : "I like to analyze things (problems / situations) - ",
         answers : [
@@ -90,13 +90,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },
-    {
-        question : "I am good at working independently - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },
+    // {
+    //     question : "I am good at working independently - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
     {
         question : "I like to read about art and music - ",
         answers : [
@@ -111,29 +111,15 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I am a creative person - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I am a creative person - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like to play instruments or sing - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
-    {
-        question : "I like acting in plays - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
-    {
-        question : "I like to draw - ",
         answers : [
             {text : "A. YES", correct : true},
             {text : "B. NO", correct : false},
@@ -149,6 +135,20 @@ const ques = [
         ]
     },    
     // // 
+    {
+        question : "I like acting in plays - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
+    {
+        question : "I like to draw - ",
+        answers : [
+            {text : "A. YES", correct : true},
+            {text : "B. NO", correct : false},
+        ]
+    },    
     {
         question : "I like to work in teams - ",
         answers : [
@@ -177,13 +177,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I enjoy learning about other cultures - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I enjoy learning about other cultures - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like to get into discussions about issues - ",
         answers : [
@@ -198,20 +198,20 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I am an ambitious person and I set goals for myself - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },      
-    {
-        question : "I like to try to influence or persuade people - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I am an ambitious person and I set goals for myself - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },      
+    // {
+    //     question : "I like to try to influence or persuade people - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like selling things - ",
         answers : [
@@ -219,13 +219,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I am quick to take on new responsibilities - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I am quick to take on new responsibilities - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I would like to start my own business - ",
         answers : [
@@ -247,13 +247,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I like to organize things (files, desks, offices) - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I like to organize things (files, desks, offices) - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like to have clear instructions to follow - ",
         answers : [
@@ -268,13 +268,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I pay attention to details - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I pay attention to details - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like to do filing or typing - ",
         answers : [
@@ -282,13 +282,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I am good at keeping records of my work - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I am good at keeping records of my work - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I would like to work in an office - ",
         answers : [
@@ -400,25 +400,22 @@ function gotolink() {
     window.location = "RIASEC.html";
 }
 
-async function postData(r) {
+function predict(r) {
 
-    const searchtext = r;
-    
-    try {
-      const response = await fetch(`https://translation-api-server.onrender.com/Weather/post?searchtext=${searchtext}`, {
-        method: 'GET',
-      });
+    const mystr = r;
+    var binaryString = mystr;
 
-      const data = await response.json();
-      console.log(data.message);
-
-    } catch (error) {
-      console.error('Error:', error.message);
-
-      // Display an error message in the HTML
-      const responseMessageElement = document.getElementById('responseMessage');
-      responseMessageElement.innerHTML = `<p>Error posting string</p>`;
-    }
+    $.ajax({
+        url: "https://model-server-mxrg.onrender.com/" + binaryString,
+        type: "GET",
+        success: function(response) {
+            console.log(response.prediction);
+            localStorage.setItem("finalO",response.prediction);
+        },
+        error: function(error) {
+            console.error("Error:", error);
+        }
+    });
 }
 
 function showMarks() {
@@ -431,11 +428,10 @@ function showMarks() {
     localStorage.setItem("shit",count);
     console.log(myarr);
     let text = myarr.toString();
-    var r = text.replaceAll(",", "");
-    console.log(r);
-    postData(r)
+    var rESULT = text.replaceAll(",", "");
+    console.log(rESULT);
+    predict(rESULT);
 }
-
 
 function nextBtnWorks(){
     quesno++;
