@@ -246,7 +246,7 @@
         <div class="container">
             <div class="contact-form">
                 <h3 id="head25">Leave A Message</h3>
-                <form id="contactForm" action="https://formsubmit.co/iamarunavadutta1000@gmail.com" method="POST">
+                <form id="contactForm" onsubmit="emailSend(); reset(); return false;">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
@@ -264,22 +264,6 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <label id="head28">Phone Number <span style="color: #ea1a23;">*</span></label>
-                                <input type="text" name="phone_number" id="phone_number" required
-                                    data-error="Please Enter Your number" class="form-control">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <label id="head29">Your Subject <span style="color: #ea1a23;">*</span></label>
-                                <input type="text" name="msg_subject" id="msg_subject" class="form-control" required
-                                    data-error="Please Enter Your Subject">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
                         <div class="col-lg-12 col-md-12">
                             <div class="form-group">
                                 <label id="head30">Your Message <span style="color: #ea1a23;">*</span></label>
@@ -288,21 +272,12 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12">
-                            <div class="agree-label">
-                                <input type="checkbox" id="chb1">
-                                <label for="chb1"><span id="head69">Accept </span>
-                                    <a id="head31" href="terms-condition.html">Terms & Conditions</a> <span id="head70">And</span> <a id="head36"
-                                        href="privacy-policy.html">Privacy Policy.</a>
-                                </label>
-                            </div>
-                        </div>
+
                         <div class="col-lg-12 col-md-12">
                             <button type="submit" class="default-btn border-radius-5" id="head32">
                                 Send Message <i class="ri-chat-4-line"></i>
                             </button>
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                            <div class="clearfix"></div>
+
                         </div>
                     </div>
                 </form>
@@ -451,7 +426,39 @@
           .catch(error => console.error('Error:', error));
         }
     </script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
 
+
+    <script>
+        function emailSend(){
+            var userName = document.getElementById('name').value;
+            var message = document.getElementById('message').value;
+            var email = document.getElementById('email').value;
+        
+            var messageBody = "Name " + userName +
+            "<br> Message " + message + 
+            "<br/> Email " + email;
+            Email.send({
+            Host : "smtp.gmail.com",
+            Username : "",
+            Password : "",
+            To : 'edemycounsellor@gmail.com',
+            From : email,
+            Subject : "From Edemy User",
+            Body : messageBody,
+        }).then(
+          message => {
+              if(message=='OK'){
+                  swal("Secussful", "You clicked the button!", "success");
+              }
+              else{
+                  swal("Error", "You clicked the button!", "error");
+              }
+          }
+        );
+        }
+    </script>
 </body>
 
 </html>
