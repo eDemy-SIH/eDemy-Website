@@ -252,7 +252,7 @@ function nextbt11(){
 
 var i = 0;
 var c_q = 1;
-var iop = 4;
+var iop = 5;
 
 function workRiasec(){
   
