@@ -246,7 +246,7 @@
         <div class="container">
             <div class="contact-form">
                 <h3 id="head25">Leave A Message</h3>
-                <form id="contactForm" onsubmit="emailSend(); reset(); return false;">
+                <form  onsubmit="emailSend(); reset(); return false;">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
@@ -432,28 +432,30 @@
 
     <script>
         function emailSend(){
+
             var userName = document.getElementById('name').value;
-            var message = document.getElementById('message').value;
             var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
         
             var messageBody = "Name " + userName +
-            "<br> Message " + message + 
+            "<br/> message " + message +
             "<br/> Email " + email;
             Email.send({
+            //Host : "smtp.elasticemail.com",
             Host : "smtp.gmail.com",
-            Username : "",
-            Password : "",
-            To : 'edemycounsellor@gmail.com',
+            Username : "edemycounselling@gmail.com",
+            Password : "48AEE3B3DAD9866919CA79D06887DCA2D38D",
+            To : 'edemycounselling@gmail.com',
             From : email,
-            Subject : "From Edemy User",
-            Body : messageBody,
+            Subject : "This is the subject",
+            Body : messageBody
         }).then(
           message => {
-              if(message=='OK'){
-                  swal("Secussful", "You clicked the button!", "success");
+              if(message =='OK'){
+                  swal("Successful", "Message Sent", "success");
               }
               else{
-                  swal("Error", "You clicked the button!", "error");
+                  swal("Error", "Error Sending Message!", "error");
               }
           }
         );
