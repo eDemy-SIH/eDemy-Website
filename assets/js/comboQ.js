@@ -1,16 +1,16 @@
 // RIASEC
 
-var A = ["Graphic Designer", "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", "UI/UX Designer", "Writer Editor Copywriter", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Digital Marketing', 'Archaeology', 'Home Science']
+var A = ["Graphic Designer", "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Digital Marketing', 'Archaeology', 'Home Science']
 
 var C = ['Customs and Excises', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service']
 
-var E = ['Business Administration', 'Project Management', 'Event Management', 'Entrepreneurship', 'Sales', 'Marketing', 'Digital Marketing', 'Customs and Excises', 'Civil Services', "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", 'Indian Economic System', "Railway Services", "Pilot", 'Teacher', 'Public Relations', 'Cabin Crew/Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management']
+var E = ['Business Administration', 'Project Management', 'Event Management', 'Entrepreneurship', 'Sales', 'Marketing', 'Digital Marketing', 'Customs and Excises', 'Civil Services', "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", 'Indian Economic System', "Railway Services", "Pilot", 'Teacher', 'Public Relations', 'Cabin Crew', 'Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management']
 
-var I = ["Artificial Intelligence & Machine Learning", "Pathology", "Ophthalmology", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer Editor Copywriter", "Product Designer", 'Archaeology', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Indian Economic System', 'Computer Science and Engineering', 'Surgeon', 'Orthopaedic', 'Geography', 'Doctor', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"]
+var I = ["Artificial Intelligence & Machine Learning", "Pathology", "Ophthalmology", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Indian Economic System', 'Computer Science and Engineering', 'Surgeon', 'Orthopaedic', 'Geography', 'Doctor', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"]
 
 var R = ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Surgeon', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering", "Railway Services", "Pilot", "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"]
 
-var S = ["Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil Services', 'Doctor', 'Veterinary', 'Professor', 'Nursing', 'Counselor', 'Special Educator', 'Sociology', 'Home Science', 'Teacher', 'Public Relations', 'Cabin Crew/Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management']
+var S = ["Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil Services', 'Doctor', 'Veterinary', 'Professor', 'Nursing', 'Counselor', 'Special Educator', 'Sociology', 'Home Science', 'Teacher', 'Public Relations', 'Cabin Crew', 'Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management']
 
 // GETELEMENTS
 
@@ -62,13 +62,22 @@ if (comb == 'C'){
 // MAKING ALL POSSIBLE 2 SET COMBINATION ARRAY INSIDE AN ARRAY ACCORING TO RISHI'S OUTPUT FROM RIASEC
 
 function combinations(arr) {
-    const results = [];
-    for (let i = 0; i < arr.length; i++) {
-      for (let j = i + 1; j < arr.length; j++) {
-        results.push([arr[i], arr[j]]);
-      }
+  const results = [];
+  
+  // Generate unique pairs
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      results.push([arr[i], arr[j]]);
     }
-    return results;
+  }
+
+  // Fisher-Yates shuffle
+  for (let i = results.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [results[i], results[j]] = [results[j], results[i]];
+  }
+
+  return results;
 }
 const combos = combinations(arr);
 
@@ -127,11 +136,11 @@ var dict = {
   "Fashion Business Management":"fash",
   "Computer Science and Engineering":"cse",
   "Artificial Intelligence & Machine Learning":"aiml",
-  "Electronics and communication Engineering":"ece",
+  "Electronics and Communication Engineering":"ece",
   "Electrical Engineering":"ee",
-  "Electrical and Instrumentation engineering":"eie",
+  "Electrical and Instrumentation Engineering":"eie",
   "Aerospace Engineering":"aero",
-  "Mechanical engineering":"mech",
+  "Mechanical Engineering":"mech",
   "Civil Engineering":"civil",
   "Doctor":"doctor",
   "Surgeon":"surgeon",
@@ -162,13 +171,13 @@ var dict = {
   "Professor":"prof",
   "Civil Services":"civils",
   "Railway Services":"rails",
-  "Customs And Excises":"ces",
+  "Customs and Excises":"ces",
   "Income Tax Service":"its",
   "Indian Economic System":"iess",
   "Mass Communication":"mascom",
   "Public Relations":"pr",
-  "Writer Editor Copywriter":"writer",
-  "Broadcasting, Journalism":"Broadcasting",
+  "Writer, Editor, Copywriter":"writer",
+  "Broadcasting":"Broadcasting",
   "Journalism" : "journalism",
   "Digital Marketing":"digi",
   "Advertisement":"ad",
@@ -187,7 +196,7 @@ var dict = {
   "Political Science": "PoliSc",
   "Language": "lang",
   "Sociology": "sociology",
-  "International Relation": "intreln",
+  "International Relations": "intreln",
 }
 
 // GETTING RANDOM INDEX WITHIN A VARIABLE RANGE
@@ -215,7 +224,7 @@ var finalA = [];
 
 var optn = [];
 
-for (var u = 1; u <= 15; ++u){
+for (var u = 1; u <= 20; ++u){
   var t = choose();
   optn.push(t);
 }
@@ -240,8 +249,14 @@ function nextbt11(){
 }
 
 var i = 0;
+var c_q = 1;
 
 function workRiasec(){
+  
+  if (finalA.length >= 15){
+    pageEnd();
+    return;
+  }
 
   if (optn[i][0] in dict){
     finalA.push(dict[optn[i][0]]);
@@ -252,9 +267,16 @@ function workRiasec(){
 
   btn1.innerHTML = optn[i][0];
   btn2.innerHTML = optn[i][1];
+
+  c_q = c_q + 1;
 }
 
 function workRiasecc(){
+
+  if (finalA.length >= 15){
+    pageEnd();
+    return;
+  }
 
   if (optn[i][1] in dict){
     finalA.push(dict[optn[i][1]]);
@@ -265,8 +287,11 @@ function workRiasecc(){
 
   btn1.innerHTML = optn[i][0];
   btn2.innerHTML = optn[i][1];
+  
+  c_q = c_q + 1;
 }
 
 // CALLING FUNCTIONS
+
 
 initialize();
