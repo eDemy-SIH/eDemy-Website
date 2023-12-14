@@ -254,14 +254,16 @@
                                 <div class="form-group select-group">
                                     <label><span id="head85">Disability *</span></label>
                                     <select class="form-select form-control" id="disab">
-                                        <option value="1">None</option>
-                                        <option value="2">abc</option>
-                                        <option value="3">def</option>
+                                        <option value="1" id="dis1">None</option>
+                                        <option value="2" id="dis2">Hearing Impairment</option>
+                                        <option value="3" id="dis3">Visual Impairment</option>
+                                        <option value="4" id="dis4">Mobility Impairment</option>
+                                        <option value="5" id="dis5">Cognitive Disabilities</option>
+                                        <option value="6" id="dis6">Speech Impairment</option>
                                     </select>
                                 </div>
                             </div>
-                        </div>
- 
+                        </div> 
                     </form>
                 
                     <br>
@@ -377,6 +379,13 @@
           const head36 = document.getElementById('head36');
           const head37 = document.getElementById('head37');
           const head38 = document.getElementById('head38');
+          const head85 = document.getElementById('head85');
+          const dis1 = document.getElementById('dis1');
+          const dis2 = document.getElementById('dis2');
+          const dis3 = document.getElementById('dis3');
+          const dis4 = document.getElementById('dis4');
+          const dis5 = document.getElementById('dis5');
+          const dis6 = document.getElementById('dis6');
     
           // Text to translate
 
@@ -396,6 +405,13 @@
           const head37t = head37.textContent;
           const head38t = head38.textContent;
           const head77t = head77.textContent;
+          const head85t = head85.textContent;
+          const dis1t = dis1.textContent;
+          const dis2t = dis2.textContent;
+          const dis3t = dis3.textContent;
+          const dis4t = dis4.textContent;
+          const dis5t = dis5.textContent;
+          const dis6t = dis6.textContent;
               
           // Make API request
           fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
@@ -404,7 +420,7 @@
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-              q: [head4t,head5t,head6t,head6at,head23t,head24t,head26t,head27t,head28t,head29t,head34t,head35t,head36t,head37t,head38t,head77t],
+              q: [head4t,head5t,head6t,head6at,head23t,head24t,head26t,head27t,head28t,head29t,head34t,head35t,head36t,head37t,head38t,head77t,head85t,dis1t,dis2t,dis3t,dis4t,dis5t,dis6t],
               target: lang,
             }),
           })
@@ -429,6 +445,13 @@
             head37.textContent = data.data.translations[13].translatedText;
             head38.textContent = data.data.translations[14].translatedText;
             head77.textContent = data.data.translations[15].translatedText;
+            head85.textContent = data.data.translations[16].translatedText;
+            dis1.textContent = data.data.translations[17].translatedText;
+            dis2.textContent = data.data.translations[18].translatedText;
+            dis3.textContent = data.data.translations[19].translatedText;
+            dis4.textContent = data.data.translations[20].translatedText;
+            dis5.textContent = data.data.translations[21].translatedText;
+            dis6.textContent = data.data.translations[22].translatedText;
           })
           .catch(error => console.error('Error:', error));
         }

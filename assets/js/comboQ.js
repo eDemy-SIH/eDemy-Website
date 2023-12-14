@@ -12,6 +12,10 @@ var R = ['Artificial Intelligence & Machine Learning', 'Computer Science and Eng
 
 var S = ["Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil Services', 'Doctor', 'Veterinary', 'Professor', 'Nursing', 'Counselor', 'Special Educator', 'Sociology', 'Home Science', 'Teacher', 'Public Relations', 'Cabin Crew', 'Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management']
 
+var SpremA = ['Artificial Intelligence & Machine Learning','Computer Science and Engineering','Doctor',"Aerospace Engineering","Electronics and Communication Engineering",'Chartered Accountant',"Air Traffic Controller",'Surgeon','International Relations','Orthopaedic','Civil Services']
+
+var disabA = []
+
 // GETELEMENTS
 
 var btn1 = document.getElementById("btn1");
@@ -31,34 +35,47 @@ let val;
 
 // SETTING ARRAY ACCORDING TO RISHI'S OUTPUT
 
-if (comb == 'R'){
-    arr = R;
-    val = 5;
+if (parseInt(disab) != 1){
+  arr = disabA;
+  val = 2;
 }
 
-if (comb == 'I'){
-    arr = I;
-    val = 4;
-}
+else {
+  if (marks > 95){
+    arr = SpremA;
+    val = 2;
+  }
+  else {
+    if (comb == 'R'){
+        arr = R;
+        val = 5;
+    }
 
-if (comb == 'A'){
-    arr = A;
-    val = 3;
-}
+    if (comb == 'I'){
+        arr = I;
+        val = 4;
+    }
 
-if (comb == 'S'){
-    arr = S;
-    val = 3;
-}
+    if (comb == 'A'){
+        arr = A;
+        val = 3;
+    }
 
-if (comb == 'E'){
-    arr = E;
-    val = 5;
-}
+    if (comb == 'S'){
+        arr = S;
+        val = 3;
+    }
 
-if (comb == 'C'){
-    arr = C;
-    val = 3;
+    if (comb == 'E'){
+        arr = E;
+        val = 5;
+    }
+
+    if (comb == 'C'){
+        arr = C;
+        val = 3;
+    }
+  }
 }
 
 // MAKING ALL POSSIBLE 2 SET COMBINATION ARRAY INSIDE AN ARRAY ACCORING TO RISHI'S OUTPUT FROM RIASEC
