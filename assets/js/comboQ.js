@@ -24,6 +24,8 @@ var head31 = document.getElementById("head31");
 // COMB IS RISHI'S OUTPUT AND SUBARRAY FROM RIASEC
 
 let comb = localStorage.getItem("finalO");
+let marks = localStorage.getItem("marks");
+let disab = localStorage.getItem("disab"); // 1 -> none
 let arr;
 let val;
 
@@ -31,12 +33,12 @@ let val;
 
 if (comb == 'R'){
     arr = R;
-    val = 10;
+    val = 5;
 }
 
 if (comb == 'I'){
     arr = I;
-    val = 10;
+    val = 4;
 }
 
 if (comb == 'A'){
@@ -237,7 +239,7 @@ function initialize(){
   next1.style.display = "none";
 }
 
-function pageEnd(arr){
+function pageEnd(){
   btn1.style.display = "none";
   btn2.style.display = "none";
   or.style.display = "none";

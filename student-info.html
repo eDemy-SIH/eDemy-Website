@@ -210,7 +210,7 @@
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
                                     <label><span id="head23">Full Name *</span></label>
-                                    <input  class="form-control" type="text" name="Name" required>
+                                    <input id="name33" class="form-control" type="text" name="Name" required>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
@@ -233,6 +233,12 @@
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
+                                    <label><span id="head77">Boards Percentage *</span></label>
+                                    <input type="number" class="form-control" name="Mobile" id="perc" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
                                     <label><span id="head28">City / District *</span></label>
                                     <input type="text" class="form-control" name="Mobile" required>
                                 </div>
@@ -242,6 +248,16 @@
                                     <label><span id="head29">Date Of Birth *</span></label>
                                     <input type="date" name="msg_subject" id="msg_subject" class="form-control" 
                                         data-error="Please Enter Date" placeholder="01/01/2021" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group select-group">
+                                    <label><span id="head85">Disability *</span></label>
+                                    <select class="form-select form-control" id="disab">
+                                        <option value="1">None</option>
+                                        <option value="2">abc</option>
+                                        <option value="3">def</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
@@ -379,6 +395,7 @@
           const head36t = head36.textContent;
           const head37t = head37.textContent;
           const head38t = head38.textContent;
+          const head77t = head77.textContent;
               
           // Make API request
           fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
@@ -387,7 +404,7 @@
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-              q: [head4t,head5t,head6t,head6at,head23t,head24t,head26t,head27t,head28t,head29t,head34t,head35t,head36t,head37t,head38t],
+              q: [head4t,head5t,head6t,head6at,head23t,head24t,head26t,head27t,head28t,head29t,head34t,head35t,head36t,head37t,head38t,head77t],
               target: lang,
             }),
           })
@@ -411,6 +428,7 @@
             head36.textContent = data.data.translations[12].translatedText;
             head37.textContent = data.data.translations[13].translatedText;
             head38.textContent = data.data.translations[14].translatedText;
+            head77.textContent = data.data.translations[15].translatedText;
           })
           .catch(error => console.error('Error:', error));
         }
