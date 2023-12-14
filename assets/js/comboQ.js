@@ -226,7 +226,7 @@ var finalA = [];
 
 var optn = [];
 
-var lenvar = 20;
+var lenvar = combos.length;
 
 for (var u = 1; u <= lenvar; ++u){
   var t = choose();

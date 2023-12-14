@@ -198,20 +198,19 @@
                         onMouseOut="this.style.borderColor='#c4c4c4'">
                         <h3 id="head27">Download Your Test Report</h3>
                         <h6 id="head29" style="color: var(--bodyColor); font-size: 16px;" class="pb-7">Are you Confused?
-                            Talk To Our AI
-                            Counsellor</h6>
-                        <form id="" action="ai-chat.html">
+                            Talk To Our AI Counsellor</h6>
+                        <!-- <form id="" action="ai-chat.html"> -->
                             <div class="row">
                                 <div class="col-lg-12 col-md-12">
-                                    <button class="default-btn border-radius-5" id="head28" type="submit" formaction="">
+                                    <button class="default-btn border-radius-5" id="submitBtn">
                                         Test Report <i class="ri-chat-4-line"></i>
-                                    </button><a href="ai-chat.html"></a>
-                                    <button class="default-btn border-radius-5" id="head30" style="margin-left: 7px;">
+                                    </button>
+                                    <button class="default-btn border-radius-5" onclick="location.href = 'ai-chat.html';" id="head30" style="margin-left: 7px;">
                                         Chat Here <i class="ri-chat-4-line"></i>
                                     </button>
                                 </div>
                             </div>
-                        </form>
+                        <!-- </form> -->
                     </div>
                 </div>
             </div>
@@ -826,7 +825,7 @@
         const selectedCareers = careerData
             .filter(career => selectedCareerIds.includes(career.careerid))
             .map((career, index) => ({ ...career, index: index + 1 })).sort((a, b) => selectedCareerIds.indexOf(a.careerid) - selectedCareerIds.indexOf(b.careerid));
-        
+
         console.log(selectedCareers);
 
         function loadCareerDetails() {
@@ -905,7 +904,7 @@
             const head25_4 = document.getElementById('qw7_4');
             const head25_5 = document.getElementById('qw7_5');
             const head27 = document.getElementById('head27');
-            const head28 = document.getElementById('head28');
+            const head28 = document.getElementById('submitBtn');
             const head29 = document.getElementById('head29');
             const head30 = document.getElementById('head30');
 
@@ -995,12 +994,11 @@
 
     </script>
 
-    <script>
-        var t34 = localStorage.getItem("name");
-        console.log(t34);
-        var ee = localStorage.getItem("finalO");;
-        console.log(ee);
-    </script>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="assets/js/FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="assets/js/certificate.js"></script>
+
 
 </body>
 
