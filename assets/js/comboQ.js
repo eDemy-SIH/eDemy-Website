@@ -120,8 +120,8 @@ let Farr = [];
 function topmodeA(arr,y){
     for (let i = 0; i < y; ++i){
         var x = findMode(arr);
-        Farr.push(parseInt(x));
-        removeItem(arr,parseInt(x));
+        Farr.push(x);
+        removeItem(arr,x);
     }
     return Farr;
 }
@@ -224,7 +224,9 @@ var finalA = [];
 
 var optn = [];
 
-for (var u = 1; u <= 20; ++u){
+var lenvar = 20;
+
+for (var u = 1; u <= lenvar; ++u){
   var t = choose();
   optn.push(t);
 }
@@ -235,7 +237,7 @@ function initialize(){
   next1.style.display = "none";
 }
 
-function pageEnd(){
+function pageEnd(arr){
   btn1.style.display = "none";
   btn2.style.display = "none";
   or.style.display = "none";
@@ -250,10 +252,17 @@ function nextbt11(){
 
 var i = 0;
 var c_q = 1;
+var iop = 4;
 
 function workRiasec(){
   
-  if (finalA.length >= 15){
+  if (finalA.length >= (lenvar - 5)){
+    if (optn[i][0] in dict){
+      finalA.push(dict[optn[i][0]]);
+    }
+    console.log(finalA);
+    var rrt = topmodeA(finalA,iop);
+    localStorage.setItem("finalQ", rrt);
     pageEnd();
     return;
   }
@@ -273,7 +282,13 @@ function workRiasec(){
 
 function workRiasecc(){
 
-  if (finalA.length >= 15){
+  if (finalA.length >= (lenvar - 5)){
+    if (optn[i][1] in dict){
+      finalA.push(dict[optn[i][1]]);
+    }
+    console.log(finalA);
+    var rrt = topmodeA(finalA,iop);
+    localStorage.setItem("finalQ", rrt);
     pageEnd();
     return;
   }
