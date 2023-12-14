@@ -80,7 +80,7 @@ const generatePDF = async (name) => {
 
   // Serialize the PDFDocument to bytes (a Uint8Array)
   const pdfBytes = await pdfDoc.save();
-  console.log("Done creating");
+  // console.log("Done creating");
 
   // this was for creating uri and showing in iframe
 

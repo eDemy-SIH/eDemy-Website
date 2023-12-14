@@ -258,7 +258,7 @@ var iop = 5;
 
 function workRiasec(){
   
-  if (finalA.length >= (lenvar - 5)){
+  if (finalA.length >= 15){
     if (optn[i][0] in dict){
       finalA.push(dict[optn[i][0]]);
     }
@@ -284,7 +284,7 @@ function workRiasec(){
 
 function workRiasecc(){
 
-  if (finalA.length >= (lenvar - 5)){
+  if (finalA.length >= 15){
     if (optn[i][1] in dict){
       finalA.push(dict[optn[i][1]]);
     }
