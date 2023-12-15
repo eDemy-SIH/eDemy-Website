@@ -833,7 +833,13 @@
         ];
 
 
-        const selectedCareerIds = localStorage.getItem("finalQ");;
+        const selectedCareerId = localStorage.getItem("finalQ");;
+        console.log(selectedCareerId);
+        console.log(typeof(selectedCareerId));
+        
+        const selectedCareerIds = selectedCareerId.split(",");
+        
+        console.log(selectedCareerIds);
 
         const selectedCareers = careerData
             .filter(career => selectedCareerIds.includes(career.careerid))

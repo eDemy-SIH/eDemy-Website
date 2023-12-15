@@ -33,7 +33,8 @@ var head31 = document.getElementById("head31");
 
 // COMB IS RISHI'S OUTPUT AND SUBARRAY FROM RIASEC
 
-let comb = localStorage.getItem("finalO");
+// let comb = localStorage.getItem("finalO");
+let comb = "A";
 let marks = localStorage.getItem("marks");
 let disab = localStorage.getItem("disab"); // 1 -> none
 let arr;
@@ -77,7 +78,7 @@ else {
 
     else if (comb == 'I'){
         arr = I;
-        val = 4;
+        val = 5;
     }
 
     else if (comb == 'A'){
@@ -87,12 +88,12 @@ else {
 
     else if (comb == 'S'){
         arr = S;
-        val = 3;
+        val = 5;
     }
 
     else if (comb == 'E'){
         arr = E;
-        val = 5;
+        val = 4;
     }
 
     else if (comb == 'C'){
@@ -123,6 +124,7 @@ function combinations(arr) {
   return results;
 }
 const combos = combinations(arr);
+
 
 // FINDING TOP THREE MODES OF AN ARRAY AND RETURNING AS AN ARRAY FOR OUR OUTPUT
 
@@ -168,6 +170,31 @@ function topmodeA(arr,y){
     }
     return Farr;
 }
+
+function countOccur(arr, element) {
+  let count = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === element) {
+      count++;
+    }
+  }
+  return count;
+}
+
+function getobj(obj, value) {
+  return Object.keys(obj).find(key => obj[key] === value);
+}
+
+function JugaduAdaptive(x){
+  var yy = [];
+  for (var g = 0; g < optn.length; ++g){
+    if (optn[g][0] != getobj(dict,x) && optn[g][1] != getobj(dict,x)){
+      yy.push(optn[g]);
+    }
+  }
+  optn = yy;
+}
+
 
 // DICTIONARY OF ALL UNIQUE CAREERS AND THEIR VALUES TO FIND MODE
 
@@ -256,7 +283,7 @@ var p = [];
 
 
 function choose(){
-    var rand1 = combos[getRandom(changeMin,(arr.length - 1))];
+    var rand1 = combos[getRandom(changeMin,(combos.length - 1))];
     (changeMin = changeMin + val);
     return rand1;
 }
@@ -265,14 +292,18 @@ function choose(){
 
 var finalA = [];
 
-var optn = [];
+var optn = combos;
 
-var lenvar = combos.length;
+// var lenvar = combos.length;
 
-for (var u = 1; u <= lenvar; ++u){
-  var t = choose();
-  optn.push(t);
-}
+var curr = [];
+
+// for (var u = 1; u <= lenvar; ++u){
+//   var t = choose();
+//   console.log(t);
+//   optn.push(t);
+// }
+
 
 function initialize(){
   btn1.innerHTML = optn[0][0];
@@ -296,49 +327,60 @@ function nextbt11(){
 var i = 0;
 var c_q = 1;
 var iop = 5;
+var u = [];
+var max = 4;
 
 function workRiasec(){
-  
-  if (finalA.length >= 15){
-    if (optn[i][0] in dict){
-      finalA.push(dict[optn[i][0]]);
-    }
-    console.log(finalA);
-    var rrt = topmodeA(finalA,iop);
-    localStorage.setItem("finalQ", rrt);
-    pageEnd();
-    return;
-  }
 
   if (optn[i][0] in dict){
     finalA.push(dict[optn[i][0]]);
     console.log(finalA);
   }
 
+  for (var h = 0; h < finalA.length; h++){
+    if (countOccur(finalA,finalA[h]) >= max){
+      u.push(finalA[h]);
+      removeItem(finalA,finalA[h]);
+      JugaduAdaptive(finalA[h]);
+    }
+  }
+
+  if (u.length == 4){
+    pageEnd();
+    console.log(u);
+    localStorage.setItem("finalQ",u);
+    return;
+  }
+
   i = i + 1;
 
   btn1.innerHTML = optn[i][0];
   btn2.innerHTML = optn[i][1];
 
   c_q = c_q + 1;
+  console.log(max);
 }
 
 function workRiasecc(){
 
-  if (finalA.length >= 15){
-    if (optn[i][1] in dict){
-      finalA.push(dict[optn[i][1]]);
-    }
-    console.log(finalA);
-    var rrt = topmodeA(finalA,iop);
-    localStorage.setItem("finalQ", rrt);
-    pageEnd();
-    return;
-  }
-
   if (optn[i][1] in dict){
     finalA.push(dict[optn[i][1]]);
     console.log(finalA);
+  }
+
+  for (var h = 0; h < finalA.length; h++){
+    if (countOccur(finalA,finalA[h]) >= max){
+      u.push(finalA[h]);
+      removeItem(finalA,finalA[h]);
+      JugaduAdaptive(finalA[h]);
+    }
+  }
+
+  if (u.length == 4){
+    pageEnd();
+    console.log(u);
+    localStorage.setItem("finalQ",u);
+    return;
   }
 
   i = i + 1;
@@ -347,9 +389,9 @@ function workRiasecc(){
   btn2.innerHTML = optn[i][1];
   
   c_q = c_q + 1;
+  console.log(max);
 }
 
 // CALLING FUNCTIONS
-
 
 initialize();
