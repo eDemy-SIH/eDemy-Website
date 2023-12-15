@@ -17,7 +17,7 @@ body {
     line-height: 1.6;
     font-weight: 400;
     font-size: var(--fontSize);
-    font-family: var(--bodyFonts)
+    font-family: var(--bodyFonts);
 }
 
 p {
