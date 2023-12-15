@@ -1108,81 +1108,81 @@
         padding: 25px 20px
     }
 
-    .blog-card .blog-img .tag {
+    .career-card .career-img .tag {
         padding: 6px 14px;
         font-size: 12px;
         left: 10px
     }
 
-    .blog-card .content {
+    .career-card .content {
         padding-left: 10px
     }
 
-    .blog-card .content ul li {
+    .career-card .content ul li {
         font-size: 14px
     }
 
-    .blog-card .content h3 {
+    .career-card .content h3 {
         font-size: 22px
     }
 
-    .blog-details-content h1 {
+    .career-details-content h1 {
         font-size: 28px
     }
 
-    .blog-details-content h2 {
+    .career-details-content h2 {
         font-size: 26px
     }
 
-    .blog-details-content h3 {
+    .career-details-content h3 {
         font-size: 23px
     }
 
-    .blog-details-content h4 {
+    .career-details-content h4 {
         font-size: 21px
     }
 
-    .blog-details-content h5 {
+    .career-details-content h5 {
         font-size: 20px
     }
 
-    .blog-details-content .content ul li {
+    .career-details-content .content ul li {
         margin-right: 20px;
         font-size: 14px
     }
 
-    .blog-details-content .content ul li.images {
+    .career-details-content .content ul li.images {
         margin-right: 5px
     }
 
-    .blog-details-content .content ul li.images img {
+    .career-details-content .content ul li.images img {
         width: 30px;
         height: 30px
     }
 
-    .blog-details-content .content ul li a {
+    .career-details-content .content ul li a {
         padding: 6px 14px;
         font-size: 12px
     }
 
-    .blog-details-content .blockquote {
+    .career-details-content .blockquote {
         padding: 30px 20px
     }
 
-    .blog-details-content .blockquote .line1 {
+    .career-details-content .blockquote .line1 {
         bottom: 30px
     }
 
-    .blog-details-content .blockquote .line2 {
+    .career-details-content .blockquote .line2 {
         bottom: 30px
     }
 
-    .blog-details-content .blog-details-list ul li {
+    .career-details-content .career-details-list ul li {
         font-size: 15px;
         padding-left: 30px
     }
 
-    .blog-details-content .blog-details-list ul li i {
+    .career-details-content .career-details-list ul li i {
         width: 20px;
         height: 20px;
         line-height: 20px;
@@ -1190,44 +1190,44 @@
         top: 5px
     }
 
-    .blog-details-content .blog-portfolio .blog-portfolio-img {
+    .career-details-content .career-portfolio .career-portfolio-img {
         margin-top: 0
     }
 
-    .blog-details-content .article-share-area {
+    .career-details-content .article-share-area {
         padding: 12px 10px
     }
 
-    .blog-details-content .article-share-area .article-social-icon {
+    .career-details-content .article-share-area .article-social-icon {
         margin-bottom: 10px
     }
 
-    .blog-details-content .article-share-area .article-social-icon .social-icon li {
+    .career-details-content .article-share-area .article-social-icon .social-icon li {
         margin-right: 5px
     }
 
-    .blog-details-content .article-share-area .article-social-icon .social-icon li.title {
+    .career-details-content .article-share-area .article-social-icon .social-icon li.title {
         font-size: 16px
     }
 
-    .blog-details-content .article-share-area .article-social-icon .social-icon li a {
+    .career-details-content .article-share-area .article-social-icon .social-icon li a {
         display: inline-block;
         border: none
     }
 
-    .blog-details-content .article-share-area .article-social-icon .social-icon li a i {
+    .career-details-content .article-share-area .article-social-icon .social-icon li a i {
         width: 30px;
         height: 30px;
         line-height: 30px;
         font-size: 16px
     }
 
-    .blog-details-content .article-share-area .tag {
+    .career-details-content .article-share-area .tag {
         float: none;
         margin-bottom: 5px
     }
 
-    .blog-details-content .article-share-area .tag a {
+    .career-details-content .article-share-area .tag a {
         padding: 5px 14px;
         font-size: 13px
     }
@@ -1663,15 +1663,15 @@
         display: inline-block
     }
 
-    .blog-details-content .article-share-area {
+    .career-details-content .article-share-area {
         padding: 12px 10px
     }
 
-    .blog-details-content .article-share-area .article-social-icon {
+    .career-details-content .article-share-area .article-social-icon {
         margin-bottom: 0
     }
 
-    .blog-details-content .article-share-area .tag {
+    .career-details-content .article-share-area .tag {
         float: right;
         margin-bottom: 0
     }
@@ -2619,85 +2619,85 @@
         margin-top: 15px
     }
 
-    .blog-area .section-title {
+    .career-area .section-title {
         margin-bottom: 10px
     }
 
-    .blog-card .blog-img .tag {
+    .career-card .career-img .tag {
         padding: 6px 14px;
         font-size: 12px;
         left: 10px
     }
 
-    .blog-card .content {
+    .career-card .content {
         padding-left: 10px
     }
 
-    .blog-card .content ul li {
+    .career-card .content ul li {
         font-size: 14px
     }
 
-    .blog-card .content h3 {
+    .career-card .content h3 {
         font-size: 20px
     }
 
-    .blog-details-content h1 {
+    .career-details-content h1 {
         font-size: 28px
     }
 
-    .blog-details-content h2 {
+    .career-details-content h2 {
         font-size: 26px
     }
 
-    .blog-details-content h3 {
+    .career-details-content h3 {
         font-size: 23px
     }
 
-    .blog-details-content h4 {
+    .career-details-content h4 {
         font-size: 21px
     }
 
-    .blog-details-content h5 {
+    .career-details-content h5 {
         font-size: 20px
     }
 
-    .blog-details-content .content ul li {
+    .career-details-content .content ul li {
         margin-right: 20px;
         font-size: 14px
     }
 
-    .blog-details-content .content ul li.images {
+    .career-details-content .content ul li.images {
         margin-right: 5px
     }
 
-    .blog-details-content .content ul li.images img {
+    .career-details-content .content ul li.images img {
         width: 30px;
         height: 30px
     }
 
-    .blog-details-content .content ul li a {
+    .career-details-content .content ul li a {
         padding: 6px 14px;
         font-size: 12px
     }
 
-    .blog-details-content .blockquote {
+    .career-details-content .blockquote {
         padding: 30px 20px
     }
 
-    .blog-details-content .blockquote .line1 {
+    .career-details-content .blockquote .line1 {
         bottom: 30px
     }
 
-    .blog-details-content .blockquote .line2 {
+    .career-details-content .blockquote .line2 {
         bottom: 30px
     }
 
-    .blog-details-content .blog-details-list ul li {
+    .career-details-content .career-details-list ul li {
         font-size: 15px;
         padding-left: 30px
     }
 
-    .blog-details-content .blog-details-list ul li i {
+    .career-details-content .career-details-list ul li i {
         width: 20px;
         height: 20px;
         line-height: 20px;
@@ -2705,31 +2705,31 @@
         top: 5px
     }
 
-    .blog-details-content .article-share-area {
+    .career-details-content .article-share-area {
         padding: 12px 10px
     }
 
-    .blog-details-content .article-share-area .article-social-icon .social-icon li {
+    .career-details-content .article-share-area .article-social-icon .social-icon li {
         margin-right: 5px
     }
 
-    .blog-details-content .article-share-area .article-social-icon .social-icon li.title {
+    .career-details-content .article-share-area .article-social-icon .social-icon li.title {
         font-size: 16px
     }
 
-    .blog-details-content .article-share-area .article-social-icon .social-icon li a {
+    .career-details-content .article-share-area .article-social-icon .social-icon li a {
         display: inline-block;
         border: none
     }
 
-    .blog-details-content .article-share-area .article-social-icon .social-icon li a i {
+    .career-details-content .article-share-area .article-social-icon .social-icon li a i {
         width: 30px;
         height: 30px;
         line-height: 30px;
         font-size: 16px
     }
 
-    .blog-details-content .article-share-area .tag a {
+    .career-details-content .article-share-area .tag a {
         padding: 5px 14px;
         font-size: 13px
     }
@@ -3699,21 +3699,21 @@
         display: inline-block
     }
 
-    .blog-card .blog-img .tag {
+    .career-card .career-img .tag {
         padding: 6px 14px;
         font-size: 12px;
         left: 10px
     }
 
-    .blog-card .content {
+    .career-card .content {
         padding-left: 10px
     }
 
-    .blog-card .content ul li {
+    .career-card .content ul li {
         font-size: 14px
     }
 
-    .blog-card .content h3 {
+    .career-card .content h3 {
         font-size: 22px
     }
 
@@ -4398,15 +4398,15 @@
         margin-left: 25px
     }
 
-    .blog-card .blog-img .tag {
+    .career-card .career-img .tag {
         left: 10px
     }
 
-    .blog-card .content {
+    .career-card .content {
         padding-left: 10px
     }
 
-    .blog-card .content h3 {
+    .career-card .content h3 {
         font-size: 22px
     }
 

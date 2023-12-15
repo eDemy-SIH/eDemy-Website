@@ -369,15 +369,15 @@
     background-color: var(--mainColor)
 }
 
-.theme-dark .blog-details-content .blockquote {
+.theme-dark .career-details-content .blockquote {
     background-color: var(--bgColor)
 }
 
-.theme-dark .blog-details-content .article-share-area {
+.theme-dark .career-details-content .article-share-area {
     background-color: var(--bgColor)
 }
 
-.theme-dark .blog-details-content .article-share-area .social-icon li a i {
+.theme-dark .career-details-content .article-share-area .social-icon li a i {
     color: var(--cardColor)
 }
 
