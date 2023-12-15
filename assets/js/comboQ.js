@@ -1,4 +1,4 @@
-// RIASEC
+// RIASEC SpremA disabA
 
 var A = ["Graphic Designer", "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Digital Marketing', 'Archaeology', 'Home Science']
 
@@ -14,9 +14,15 @@ var S = ["Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil 
 
 var SpremA = ['Artificial Intelligence & Machine Learning','Computer Science and Engineering','Doctor',"Aerospace Engineering","Electronics and Communication Engineering",'Chartered Accountant',"Air Traffic Controller",'Surgeon','International Relations','Orthopaedic','Civil Services']
 
-var disabA = []
+var disabA = {
+  "hearing" : [],
+  "visual" : [],
+  "mobility": [],
+  "cognitive" : [],
+  "speech" : [],
+}
 
-// GETELEMENTS
+// GET ELEMENTS
 
 var btn1 = document.getElementById("btn1");
 var btn2 = document.getElementById("btn2");
@@ -36,8 +42,26 @@ let val;
 // SETTING ARRAY ACCORDING TO RISHI'S OUTPUT
 
 if (parseInt(disab) != 1){
-  arr = disabA;
-  val = 2;
+  if (parseInt(disab) == 2){
+    arr = disabA["hearing"];
+    val = 2;
+  }
+  else if (parseInt(disab) == 3){
+    arr = disabA["visual"];
+    val = 2;
+  }
+  else if (parseInt(disab) == 4){
+    arr = disabA["mobility"];
+    val = 2;
+  }
+  else if (parseInt(disab) == 5){
+    arr = disabA["cognitive"];
+    val = 2;
+  }
+  else if (parseInt(disab) == 6){
+    arr = disabA["speech"];
+    val = 2;
+  }
 }
 
 else {
@@ -51,27 +75,27 @@ else {
         val = 5;
     }
 
-    if (comb == 'I'){
+    else if (comb == 'I'){
         arr = I;
         val = 4;
     }
 
-    if (comb == 'A'){
+    else if (comb == 'A'){
         arr = A;
         val = 3;
     }
 
-    if (comb == 'S'){
+    else if (comb == 'S'){
         arr = S;
         val = 3;
     }
 
-    if (comb == 'E'){
+    else if (comb == 'E'){
         arr = E;
         val = 5;
     }
 
-    if (comb == 'C'){
+    else if (comb == 'C'){
         arr = C;
         val = 3;
     }
