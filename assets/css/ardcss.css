@@ -91,6 +91,16 @@ body {
     transition: 0.2s;
 }
 
+.correct1 {
+    background: rgb(69, 235, 83);
+    transition: 0.2s;
+}
+
+.incorrect1 {
+    background: rgb(213, 39, 39);
+    transition: 0.2s;
+}
+
 #btn69 {
     cursor : pointer;
     color: black;
