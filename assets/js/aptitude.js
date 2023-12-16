@@ -422,7 +422,158 @@ const ques = [
             {text : "D. England", correct : false},
         ]
     },
+
+    {
+        question : "Which ship did the Indian Navy recently re-induct after extensive repairs and upgrades?",
+        answers : [
+            {text : "A. INS Arihant", correct : false},
+            {text : "B. INS Virat", correct : false},
+            {text : "C. INS Tarmugli", correct : true},
+            {text : "D. INS Sahyadri", correct : false},
+        ]
+    },
+  
+    {
+        question : "What weapon system does the Indian Defence Ministry's recent approval of Rs 2800 Crore aim to enhance the Indian Army's artillery capabilities?",
+        answers : [
+            {text : "A. BrahMos Missile System", correct : false},
+            {text : "B. Agni Ballistic Missile System", correct : false},
+            {text : "C. Akash Surface-to-Air Missile System", correct : false},
+            {text : "D. Pinaka Weapon System", correct : true},
+        ]
+    },
+  
+    {
+        question : "Which countries are participating in the Joint Military Exercise VINBAX-2023?",
+        answers : [
+            {text : "A. Venezuela and Nepal", correct : false},
+            {text : "B. India and Vietnam", correct : true},
+            {text : "C. Vietnam and Nepal", correct : false},
+            {text : "D. India and New Zealand", correct : false},
+        ]
+    },
+  
+    {
+        question : "Which Indian Naval Ship made its inaugural arrival at Port Lamu, Kenya, marking the first port call by any Indian Naval Ship at the newly developed port?",
+        answers : [
+            {text : "A. INS Sumedha", correct : true},
+            {text : "B. INS Vikrant", correct : false},
+            {text : "C. INS Rajput", correct : false},
+            {text : "D. INS Sagardhwani", correct : false},
+        ]
+    },
+  
+    {
+        question : "What is the name of the bi-annual exercise conducted by the Indian Navy off the Mumbai coast?",
+        answers : [
+            {text : "A. Varuna", correct : false},
+            {text : "B. Prasthan", correct : true},
+            {text : "C. Sankalp", correct : false},
+            {text : "D. Samudra Shakti", correct : false},
+        ]
+    },
+  
+    {
+        question : "What is the name of the Himalayan Mountaineering Institute team's successful expedition, leading to the hoisting of a National Flag atop Mt Rhenock?",
+        answers : [
+            {text : "A. Mission Antarctica", correct : true},
+            {text : "B. Operation Everest", correct : false},
+            {text : "C. Project Himalayas", correct : false},
+            {text : "D. Expedition Arctic", correct : false},
+        ]
+    },
+  
+    {
+        question : "Which Indian state recently introduced the 'Maha Lakshmi Scheme,' offering free bus travel for women, girls, and transgender individuals?",
+        answers : [
+            {text : "A. Telangana", correct : true},
+            {text : "B. Kerala", correct : false},
+            {text : "C. Tamil Nadu", correct : false},
+            {text : "D. Andhra Pradesh", correct : false},
+        ]
+    },
+  
+    {
+        question : "How many new airports is Uttar Pradesh set to witness in the next two years, according to the plans unveiled by Union Civil Aviation Minister Jyotiraditya Scindia?",
+        answers : [
+            {text : "A. Six", correct : false},
+            {text : "B. Seven", correct : false},
+            {text : "C. Nine", correct : true},
+            {text : "D. Five", correct : false},
+        ]
+    },
+  
+    {
+        question : "Which government department has introduced the PM-JANMAN Scheme?",
+        answers : [
+            {text : "A. Ministry of Finance", correct : false},
+            {text : "B. Ministry of Social Justice and Empowerment", correct : false},
+            {text : "C. Ministry of Tribal Affairs", correct : true},
+            {text : "D. Ministry of Rural Development", correct : false},
+        ]
+    },
+  
+    {
+        question : "Where will the 27th World Investment Conference (WIC) be hosted by Invest India?",
+        answers : [
+            {text : "A. Mumbai", correct : false},
+            {text : "B. New Delhi", correct : true},
+            {text : "C. Bangalore", correct : false},
+            {text : "D. Kolkata", correct : false},
+        ]
+    },
+  
+    {
+        question : "Which East African country is home to the first international campus established by the Indian Institute of Technology Madras (IIT Madras)?",
+        answers : [
+            {text : "A. Tanzania", correct : true},
+            {text : "B. Kenya", correct : false},
+            {text : "C. Mozambique", correct : false},
+            {text : "D. Uganda", correct : false},
+        ]
+    },
+  
+    {
+        question : "Which country signed an MoU with India to strengthen educational ties in November 2023?",
+        answers : [
+            {text : "A. UAE", correct : true},
+            {text : "B. Saudi Arabia", correct : false},
+            {text : "C. Qatar", correct : false},
+            {text : "D. Kuwait", correct : false},
+        ]
+    },
+  
+    {
+        question : "What is part of a database that holds only one type of information?",
+        answers : [
+            {text : "A. Report", correct : false},
+            {text : "B. Field", correct : true},
+            {text : "C. Record", correct : false},
+            {text : "D. File", correct : false},
+        ]
+    },
+  
+    {
+        question : "The purpose of choke in tube light is ?",
+        answers : [
+            {text : "A. To decrease the current", correct : false},
+            {text : "B. To increase the current", correct : false},
+            {text : "C. To decrease the voltage momentarily", correct : false},
+            {text : "D. To increase the voltage momentarily", correct : true},
+        ]
+    },
+  
+    {
+        question : "The words 'Satyameva Jayate' inscribed below the base plate of the emblem of India are taken from",
+        answers : [
+            {text : "A. Rigveda", correct : false},
+            {text : "B. Satpath Brahmana", correct : false},
+            {text : "C. Mundak Upanishad", correct : true},
+            {text : "D. Ramayana", correct : false},
+        ]
+    },
 ];
+
 console.log(ques.length);
 const quesele = document.getElementById("ques");
 const answerbtn = document.getElementById("ansopt");
