@@ -34,7 +34,6 @@ var disabA = {
 
 var btn1 = document.getElementById("btn1");
 var btn2 = document.getElementById("btn2");
-var or = document.getElementById("or");
 var next1 = document.getElementById("next1");
 var ques1 = document.getElementById("ques1");
 var head31 = document.getElementById("head31");
@@ -42,12 +41,9 @@ var btn3 = document.getElementById("btn3");
 
 // COMB IS RISHI'S OUTPUT AND SUBARRAY FROM RIASEC
 
-// let comb = localStorage.getItem("finalO");
-let comb = "A";
-// let marks = localStorage.getItem("marks");
-let marks = 88;
-// let disab = localStorage.getItem("disab"); // 1 -> none
-let disab = 1; // 1 -> none
+let comb = localStorage.getItem("finalO");
+let marks = localStorage.getItem("marks");
+let disab = localStorage.getItem("disab"); // 1 -> none
 let arr;
 let val;
 
@@ -325,7 +321,7 @@ function initialize(){
 function pageEnd(){
   btn1.style.display = "none";
   btn2.style.display = "none";
-  or.style.display = "none";
+  btn3.style.display = "none";
   ques1.innerHTML = "We have analysed your personality and have listed following careers for you - ";
   head31.innerHTML = "Press 'CONTINUE'";
   next1.style.display = "block";
@@ -364,12 +360,19 @@ function workRiasec(){
   }
 
   i = i + 1;
+  
+
+  if (i >= optn.length - 5)
+    i = 0;
+
+  if (optn[i][0] == optn[i+1][0] || optn[i][1] == optn[i+1][1])
+    i = i + 1;
 
   btn1.innerHTML = optn[i][0];
   btn2.innerHTML = optn[i][1];
 
   c_q = c_q + 1;
-  console.log(max);
+  console.log(u);
 }
 
 function workRiasecc(){
@@ -396,31 +399,43 @@ function workRiasecc(){
 
   i = i + 1;
 
+  if (i >= optn.length - 5)
+    i = 0;
+
+  
+  if (optn[i][0] == optn[i+1][0] || optn[i][1] == optn[i+1][1])
+    i = i + 1;
+
   btn1.innerHTML = optn[i][0];
   btn2.innerHTML = optn[i][1];
   
   c_q = c_q + 1;
-  console.log(max);
+  console.log(u);
 }
 
 var check = optn.length;
 
 function workRiaseccx(){
   
-  if (i < check - 5){
+  if (i < check - 4){
 
   i = i + 1;
+  
+  if (optn[i][0] == optn[i+1][0] || optn[i][1] == optn[i+1][1])
+    i = i + 1;
 
   btn1.innerHTML = optn[i][0];
   btn2.innerHTML = optn[i][1];
   
   c_q = c_q + 1;
-  console.log(max);
+  console.log(u);
   console.log(finalA);
   }
 
   else {
     i = 0;
+    btn1.innerHTML = optn[i][0];
+    btn2.innerHTML = optn[i][1];
   }
 }
 
