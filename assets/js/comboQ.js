@@ -262,7 +262,7 @@ var dict = {
   "Product Designer":"prod",
   "Marketing":"mark",
   "Air Traffic Controller":"atc",
-  "Aircraft Maintanence Engineer": "ame",
+  "Aircraft Maintenance Engineer": "ame",
   "Cabin Crew": "cc",
   "Flight Attendant" : "fa",
   "Pilot" : "pilot",
