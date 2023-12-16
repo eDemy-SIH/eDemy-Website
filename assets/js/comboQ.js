@@ -30,13 +30,16 @@ var or = document.getElementById("or");
 var next1 = document.getElementById("next1");
 var ques1 = document.getElementById("ques1");
 var head31 = document.getElementById("head31");
+var btn3 = document.getElementById("btn3");
 
 // COMB IS RISHI'S OUTPUT AND SUBARRAY FROM RIASEC
 
 // let comb = localStorage.getItem("finalO");
 let comb = "A";
-let marks = localStorage.getItem("marks");
-let disab = localStorage.getItem("disab"); // 1 -> none
+// let marks = localStorage.getItem("marks");
+let marks = 88;
+// let disab = localStorage.getItem("disab"); // 1 -> none
+let disab = 1; // 1 -> none
 let arr;
 let val;
 
@@ -390,6 +393,27 @@ function workRiasecc(){
   
   c_q = c_q + 1;
   console.log(max);
+}
+
+var check = optn.length;
+
+function workRiaseccx(){
+  
+  if (i < check - 5){
+
+  i = i + 1;
+
+  btn1.innerHTML = optn[i][0];
+  btn2.innerHTML = optn[i][1];
+  
+  c_q = c_q + 1;
+  console.log(max);
+  console.log(finalA);
+  }
+
+  else {
+    i = 0;
+  }
 }
 
 // CALLING FUNCTIONS
