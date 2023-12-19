@@ -78,7 +78,37 @@ var disabI = {
   
 }
 
+var disabR= {
+  "hearing" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Surgeon', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering", , "Electrical and Instrumentation Engineering", "Aircraft Maintenance Engineer"],
 
+
+  "visual" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Surgeon', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering",  "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"],
+
+
+  "mobility": ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', "Air Traffic Controller", "Aircraft Maintenance Engineer"],
+
+  "cognitive" : [ 'Geography', "Railway Services", "Air Traffic Controller", "Aircraft Maintenance Engineer"],
+
+
+  "speech" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering',  'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering", "Railway Services", "Electrical and Instrumentation Engineering"],
+  
+}
+
+var disabS = {
+  "hearing" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Surgeon', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering", , "Electrical and Instrumentation Engineering", "Aircraft Maintenance Engineer"],
+
+
+  "visual" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Surgeon', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering",  "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"],
+
+
+  "mobility": ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', "Air Traffic Controller", "Aircraft Maintenance Engineer"],
+
+  "cognitive" : [ 'Geography', "Railway Services", "Air Traffic Controller", "Aircraft Maintenance Engineer"],
+
+
+  "speech" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering',  'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering", "Railway Services", "Electrical and Instrumentation Engineering"],
+  
+}
 
 // GET ELEMENTS
 
