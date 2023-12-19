@@ -62,6 +62,24 @@ var disabE = {
   
 }
 
+var disabI = {
+  "hearing" : ["Artificial Intelligence & Machine Learning", "Ophthalmology", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Cost Accountant',  'Computer Science and Engineering', 'Surgeon', 'Orthopaedic', 'Geography', 'Doctor', 'Veterinary', "Electrical and Instrumentation Engineering"],
+
+
+  "visual" : ["Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "Writer, Editor, Copywriter", 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Geography', 'Doctor', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering"],
+
+
+  "mobility": ["Artificial Intelligence & Machine Learning", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Computer Science and Engineering', 'Orthopaedic', 'Geography', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering", "Aircraft Maintenance Engineer"],
+
+  "cognitive" : ["Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Geography', 'Veterinary'],
+
+
+  "speech" : ["Artificial Intelligence & Machine Learning", "Ophthalmology", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Computer Science and Engineering', 'Orthopaedic', 'Geography', 'Doctor', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering", "Aircraft Maintenance Engineer"],
+  
+}
+
+
+
 // GET ELEMENTS
 
 var btn1 = document.getElementById("btn1");
