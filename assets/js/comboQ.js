@@ -15,19 +15,51 @@ var S = ["Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil 
 var SpremA = ['Artificial Intelligence & Machine Learning','Computer Science and Engineering','Doctor',"Aerospace Engineering","Electronics and Communication Engineering",'Chartered Accountant',"Air Traffic Controller",'Surgeon','International Relations','Orthopaedic','Civil Services']
 
 var disabA = {
-  "hearing" : ['Project Management', 'Fashion Business Management', 'Computer Science and Engineering', 'Artificial Intelligence & Machine Learning', 'Electronics and Communication Engineering', 'Aerospace Engineering', 'Mechanical Engineering', 'Civil Engineering', 'Pathology', 'Orthopaedic', 'Ophthalmology', 'UI/UX Designer', 'Graphic Designer', 'Interior Designer', 'Jewellery Designer', 'Entrepreneurship', 'Cost Accountant', 'Counsellor', 'Teacher', 'Special Educator', 'Professor', 'Civil Services', 'Railway Services', 'Public Relations', 'Writer Editor Copywriter', 'Journalism', 'Digital Marketing', 'Product Designer', 'Marketing', 'Aircraft Maintenance Engineer', 'Archaeology', 'Home Science', 'Political Science', 'Sociology', 'International Relation'],
+  "hearing" : ["Graphic Designer", "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Digital Marketing', 'Archaeology', 'Home Science'],
 
 
-  "visual" : ['Business Administration', 'Sports Management', 'Project Management', 'Event Management', 'Fashion Business Management', 'Computer Science and Engineering', 'Artificial Intelligence & Machine Learning', 'Electronics and Communication Engineering', 'Electrical Engineering', 'Electrical and Instrumentation Engineering', 'Aerospace Engineering', 'Mechanical Engineering', 'Civil Engineering', 'Nursing', 'UI/UX Designer', 'Entrepreneurship', 'Chartered Accountant', 'Cost Accountant', 'Certified Public Accountant', 'Counsellor', 'Special Educator', 'Professor', 'Civil Services', 'Railway Services', 'Customs and Excises', 'Income Tax Service', 'Indian Economic System', 'Public Relations', 'Writer Editor Copywriter', 'Broadcasting', 'Journalism', 'Digital Marketing', 'Marketing', 'Public Administration', 'Home Science', 'Sociology', 'International Relation'],
+  "visual" : ["Fashion Business Management", "Broadcasting", "Advertisement", "Writer, Editor, Copywriter", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Archaeology', 'Home Science'],
 
 
-  "mobility": ['Business Administration', 'Sports Management', 'Project Management', 'Event Management', 'Fashion Business Management', 'Computer Science and Engineering', 'Artificial Intelligence & Machine Learning', 'Electronics and Communication Engineering', 'Electrical Engineering', 'Electrical and Instrumentation Engineering', 'Aerospace Engineering', 'Mechanical Engineering', 'Civil Engineering', 'Doctor', 'Surgeon', 'Pathology', 'Veterinary', 'Orthopedic', 'Ophthalmology', 'Nursing', 'Fashion Designer', 'UI/UX Designer', 'Graphic Designer', 'Interior Designer', 'Jewelry Designer', 'Zoology', 'Botany', 'Physics Hons.', 'Chemistry Hons.', 'Radio Jockey', 'Entrepreneurship', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Counsellor', 'Teacher', 'Special Educator', 'Professor', 'Civil Services', 'Railway Services', 'Customs And Excises', 'Income Tax Service', 'Indian Economic System', 'Mass Communication', 'Public Relations', 'Writer Editor Copywriter', 'Broadcasting', 'Journalism', 'Digital Marketing', 'Advertisement', 'Sales', 'Product Designer', 'Marketing', 'Air Traffic Controller', 'Aircraft Maintenance Engineer', 'Cabin Crew', 'Flight Attendant', 'Pilot', 'Archaeology', 'Public Administration', 'Home Science', 'Geography', 'Political Science', 'Language', 'Sociology', 'International Relation'],
+  "mobility": ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", "Radio Jockey", "Language", 'Digital Marketing', 'Home Science'],
 
 
-  "cognitive" : ['Sports Management', 'Event Management', 'Fashion Business Management', 'Civil Engineering', 'Nursing', 'Graphic Designer', 'Entrepreneurship', 'Chartered Accountant', 'Cost Accountant', 'Counsellor', 'Special Educator', 'Professor', 'Customs And Excises', 'Public Relations', 'Writer Editor Copywriter', 'Journalism', 'Digital Marketing', 'Advertisement', 'Product Designer', 'Marketing', 'Archaeology', 'Home Science', 'Sociology', 'International Relation'],
+  "cognitive" : ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Digital Marketing', 'Archaeology', 'Home Science'],
 
 
-  "speech" : ['Business Administration', 'Sports Management', 'Project Management', 'Event Management', 'Fashion Business Management', 'Computer Science and Engineering', 'Artificial Intelligence & Machine Learning', 'Electronics and Communication Engineering', 'Electrical Engineering', 'Electrical and Instrumentation Engineering', 'Aerospace Engineering', 'Mechanical Engineering', 'Civil Engineering', 'Pathology', 'Nursing', 'UI/UX Designer', 'Graphic Designer', 'Interior Designer', 'Jewelry Designer', 'Entrepreneurship', 'Cost Accountant', 'Counsellor', 'Special Educator', 'Customs and Excises', 'Income Tax Service', 'Public Relations', 'Digital Marketing', 'Archaeology', 'Home Science', 'Geography', 'Political Science', 'Language', 'Sociology', 'International Relation'],
+  "speech" : ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Digital Marketing', 'Archaeology', 'Home Science'],
+}
+
+var disabC = {
+  "hearing" : ['Customs and Excises', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Digital Marketing'],
+
+
+  "visual" : ['Chartered Market Technician', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Business Administration', 'Project Management', 'Event Management', 'Entrepreneurship', 'Sales'],
+
+
+  "mobility": ['Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Project Management', 'Event Management', 'Entrepreneurship','Marketing', 'Digital Marketing'],
+
+
+  "cognitive" : ['Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Business Administration', 'Project Management', 'Event Management', 'Entrepreneurship', 'Sales', 'Marketing', 'Digital Marketing'],
+
+
+  "speech" : ['Customs and Excises', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Entrepreneurship', 'Marketing', 'Digital Marketing'],
+}
+
+var disabE = {
+  "hearing" : ['Entrepreneurship', 'Marketing', 'Digital Marketing', 'Customs and Excises', "Fashion Designer", "Interior Designer", "Jewellery Designer", 'Indian Economic System', "Railway Services", 'Teacher', 'Political Science', 'Sports Management'],
+
+
+  "visual" : ['Business Administration', 'Event Management', 'Entrepreneurship', 'Sales', 'Indian Economic System', "Railway Services", 'Teacher', 'Public Relations', 'Political Science', 'Sports Management'],
+
+
+  "mobility": ['Entrepreneurship', 'Marketing', 'Digital Marketing', "Fashion Designer", "Interior Designer", "Jewellery Designer", 'Teacher', 'Public Relations', 'Public Administration', 'Political Science', 'International Relations'],
+
+  "cognitive" : ['Entrepreneurship', "Fashion Designer", "Interior Designer", "Jewellery Designer", 'Political Science', 'International Relations', 'Sports Management'],
+
+
+  "speech" : ['Entrepreneurship', 'Marketing', 'Digital Marketing', "Fashion Designer", "Interior Designer", "Jewellery Designer", 'Political Science','Sports Management'],
+  
 }
 
 // GET ELEMENTS
