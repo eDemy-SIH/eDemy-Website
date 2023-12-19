@@ -97,9 +97,148 @@
 </head>
 
 <body class="body">
-    <div class="fixed-cta-container"><a href="#Get-Started" class="fixed-cta migration w-inline-block">
-            <div>get started</div>
-        </a></div>
+    <div class="preloader">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="navbar-area">
+    <div class="mobile-responsive-nav">
+        <div class="container-fluid">
+            <div class="mobile-responsive-menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                        <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="desktop-nav desktop-nav-one nav-area">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" class="logo-one" alt="Logo">
+                    <img src="assets/images/logo-2.png" class="logo-two" alt="Logo">
+                </a>
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Languages
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage1()">
+                                        <a class="nav-link"> English </a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('bn')">
+                                        <a class="nav-link">Bengali</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('kn')">
+                                        <a class="nav-link">Kannada</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('hi')">
+                                        <a class="nav-link">Hindi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('pa')">
+                                        <a class="nav-link">Punjabi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('gu')">
+                                        <a class="nav-link">Gujrathi</a>
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="backtr" onclick="changeLanguage('mr')">
+                                        <a class="nav-link">Marathi</a>
+                                    </button>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                More
+                                <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="categories.html" class="nav-link">
+                                        Career Guides
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="aptitude.html" class="nav-link">
+                                        Aptitude Test
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="others-options d-flex align-items-center">
+                        <div class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <i class="" id="lightMode-icon"></i>
+                                </a>
+                            </li>
+                            <li>&nbsp;&nbsp;&nbsp;</li>
+                        </div>
+                        <!-- <div class="optional-item">
+                                    <a href="student-info.html" class="default-btn two border-radius-5">Get Started
+                                        <i class="ri-user-3-line"></i></a>
+                                </div> -->
+                        <div class="optional-item">
+                            <a href="ai-chat.html" class="default-btn border-radius-5">AI Chat
+                                <i class="ri-user-5-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="side-nav-responsive">
+        <div class="container-max">
+            <div class="dot-menu">
+                <div class="circle-inner">
+                    <div class=""><i class="" id="lightMode-icon1"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
     <div class="page-wrapper">
         <div id="How-It-works" data-w-id="30c8d968-55fe-8251-987b-0e377becbfbb" class="section black">
             <div class="container">
@@ -158,11 +297,7 @@
                                 <div class="process-image"><img
                                         src="https://assets.website-files.com/6063be93db8e103fd1540700/6063c4d4283200a684eed0d8_Webflow%20Dev.svg"
                                         loading="lazy" alt="" /></div>
-                                <div class="step-info">
-                                    <h4 class="step-heading margin-xs">Begin development</h4>
-                                    <p class="paragraph-m text-white margin-m">Begin building on Webflow...</p>
-                                    <p class="text-light-grey">If you’re happy with the price, we’ll start the work
-                                        right away, by building each page across mobile, tablet and desktop.</p>
+                                <div class="step-info" id="step-info">
                                 </div>
                             </div>
                         </div>
@@ -228,11 +363,223 @@
             </div>
         
     </div>
+    <footer class="footer-area" id="footer"></footer>
+    <script>
+        $.get("footer.html", function(data){
+            $("#footer").replaceWith(data);
+        });
+    </script>
+
+    <script src="assets/js/jquery.min.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <script src="assets/js/odometer.min.js"></script>
+
+    <script src="assets/js/jquery.appear.min.js"></script>
+
+    <script src="assets/js/meanmenu.min.js"></script>
+
+    <script src="assets/js/metismenu.min.js"></script>
+
+    <script src="assets/js/simplebar.min.js"></script>
+
+    <script src="assets/js/dropzone.min.js"></script>
+
+    <script src="assets/js/sticky-sidebar.min.js"></script>
+
+    <script src="assets/js/tweenMax.min.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/js/animate.min.html"></script>
+
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <script src="assets/js/form-validator.min.js"></script>
+
+    <script src="assets/js/contact-form-script.js"></script>
+
+    <script src="assets/js/custom.js"></script>
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6063be93db8e103fd1540700"
         type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
     <script src="https://assets.website-files.com/6063be93db8e103fd1540700/js/relume-cloneable.da88f33f6.js"
         type="text/javascript"></script>
+
+    <script>
+        async function fetchJson() {
+            try {
+                // Replace 'careers.json' with the correct path to your JSON file
+                const response = await fetch('careers.json');
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Error fetching JSON:', error);
+            }
+        }
+
+        // Call the async function and assign the result to 'careers'
+        (async () => {
+            const careers = await fetchJson();
+
+            // Handle the 'careers' variable as needed
+
+            function getQueryParam(name) {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get(name);
+            }
+
+            function getCareerDetails(careerid) {
+                // const career = careers.find(c => c.careerid === careerid);
+                // if (career) {
+                //     console.log("Found career details:", career);
+                //     return career;
+                // } else {
+                //     console.error("Career not found with careerid:", careerid);
+                //     return null; // Return null or handle the absence of a matching career
+                // }
+                return career = careers.find(c => c.careerid === careerid);
+            }
+
+
+            const careerid = getQueryParam('careerid');
+            const data = getCareerDetails(careerid.replace(/["']/g, ''));
+            console.log(data);
+            function createSkillsList() {
+                const skillsListContainer = document.getElementById('step-info');
+                const skillsList = data.skills.slice(0, 3).map((skill, index) => `<p class="text-light-grey id="qw1_${index + 1}">${skill}</p>`).join('');
+                skillsListContainer.innerHTML = `<h4 class="step-heading margin-xs">Skills You Need</h4>
+                ${skillsList}`;
+            }
+            createSkillsList()
+
+            function staticData() {
+                const descriptionContainer = document.getElementById('desc');
+                descriptionContainer.innerHTML = `${data.desc}`;
+
+                const p1_1Container = document.getElementById('p1_1');
+                p1_1Container.innerHTML = `${data.p1_1}`;
+
+                const p1_2Container = document.getElementById('p1_2');
+                p1_2Container.innerHTML = `${data.p1_2}`;
+
+                const imgContainer = document.getElementById('img');
+                imgContainer.innerHTML = `<img src=${data.img1} alt=${data.alt1}>`;
+
+                const headContainer = document.getElementById('head');
+                headContainer.innerHTML = `eDemy - ${data.title}`;
+
+                const durContainer = document.getElementById('dur');
+                durContainer.innerHTML = `
+                        <li>
+                            <i class="ri-time-line"></i> <span id="dur1">${data.duration}</span>
+                        </li>
+                        <li><a href=${data.cat_dir} id="dur2">${data.cat}</a></li>
+                        `;
+
+                const titleContainer = document.getElementById('How-It-works');
+                console.log(data);
+                titleContainer.innerHTML = `
+                <h3 id="tit1">${data.title}</h3>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href=${data.cat_dir} id="tit2">${data.cat}</a>
+                    </li>
+                </ul>`;
+            }
+            staticData()
+
+            function createProsList() {
+                const prosListContainer = document.getElementById('pros');
+                const prosList = data.pros.map((pro, index) => `<li id="qw6_${index + 1}">${pro}</li>`).join('');
+                prosListContainer.innerHTML = `<ul>${prosList}</ul>`;
+            }
+            createProsList()
+
+            function createConsList() {
+                const consListContainer = document.getElementById('cons');
+                const consList = data.cons.map((con, index) => `<li  id="qw7_${index + 1}">${con}</li>`).join('');
+                consListContainer.innerHTML = `<ul>${consList}</ul>`;
+            }
+            createConsList()
+
+            function createEducationList() {
+                const educationListContainer = document.getElementById('educationList');
+                const educationList = data.educ.map((education, index) => `<li id="qw2_${index + 1}">${education}</li>`).join('');
+                educationListContainer.innerHTML = `<ul>${educationList}</ul>`;
+            }
+            createEducationList();
+
+            function createJobOpportunitiesLeft() {
+
+                if (data.opp_l.length == 0) {
+                    const instiTitle = document.getElementById("head23");
+                    instiTitle.textContent = "";
+                    const instibar = document.getElementById("head23_bar");
+                    instibar.classList.remove("bar");
+                }
+                else {
+                    const jobOpportunitiesLeftContainer = document.getElementById('jobOpportunitiesLeft');
+                    const jobOpportunitiesLeftList = data.opp_l.map((opp, index) => `
+                    <ul>
+                        <li><i class="ri-check-line"></i><span id="qw3_${index + 1}">${opp}</span></li>
+                    </ul>
+            `).join('');
+                    jobOpportunitiesLeftContainer.innerHTML = jobOpportunitiesLeftList;
+                }
+            }
+            createJobOpportunitiesLeft();
+
+            function createInstiList() {
+                if (data.insti.length == 0) {
+                    const instiTitle = document.getElementById("head24");
+                    instiTitle.textContent = "";
+                    const instibar = document.getElementById("head24_bar");
+                    instibar.classList.remove("bar");
+                }
+                else {
+                    const instiListContainer = document.getElementById('insti');
+                    const instiListItems = data.insti.map((inst, index) => `
+                <ul>
+                <a class="pb-7" href="${inst.link}" target="_blank">
+                    <li id="qw5_${index + 1}">${inst.name}</li>
+                </a>
+                </ul>
+            `).join('');
+                    instiListContainer.innerHTML = instiListItems;
+                }
+            }
+            createInstiList();
+
+            function createJobOpportunitiesRight() {
+                const jobOpportunitiesRightContainer = document.getElementById('jobOpportunitiesRight');
+                const jobOpportunitiesRightList = data.opp_r.map((opp, index) => `
+                    <ul>
+                        <li><i class="ri-check-line"></i><span id="qw4_${index + 1}">${opp}</span></li>
+                    </ul>
+            `).join('');
+                jobOpportunitiesRightContainer.innerHTML = jobOpportunitiesRightList;
+            }
+            createJobOpportunitiesRight();
+
+
+            localStorage.setItem("sk_len", data.skills.length);
+            localStorage.setItem("pur_len", data.educ.length);
+            localStorage.setItem("oppl_len", data.opp_l.length);
+            localStorage.setItem("oppr_len", data.opp_r.length);
+            localStorage.setItem("insti_len", data.insti.length);
+            localStorage.setItem("pro_len", data.pros.length);
+            localStorage.setItem("con_len", data.pros.length);
+
+
+        })();
+    </script>
 </body>
 
 </html>
