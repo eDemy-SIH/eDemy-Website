@@ -488,9 +488,12 @@
                             <div class="step-info" id="step-info4">
                             </div>
                         </div>
-
                     </div>
                 </div>
+                <div id="upp">
+                    <iframe width="600" height="315" id="mid"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
             </div>
         </div>
 
@@ -622,6 +625,16 @@
             //     consListContainer.innerHTML = `<ul>${consList}</ul>`;
             // }
             // createConsList();
+
+            function ytlink(){
+                var upp = document.getElementById("upp");
+                upp.innerHTML = `                 
+                <iframe width="620" height="315" id="mid"
+                    src="${data.linky}">
+                </iframe> 
+                `
+            } 
+             ytlink();
 
             function createEducationList() {
                 const educationListContainer = document.getElementById('step-info2');
