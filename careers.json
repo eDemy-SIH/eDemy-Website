@@ -4,6 +4,7 @@
         "img1": "assets/images/career/career-details-doctor.jpg",
         "alt1": "Doctor Image",
         "title": "Doctor",
+        "linky" : "",
         "cat_dir": "medicine.html",
         "cat": "Medicine",
         "duration": "5 years",
