@@ -41,13 +41,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },
-    {
-        question : "I like to do puzzles - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },
+    // {
+    //     question : "I like to do puzzles - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
     {
         question : "I like to do experiments - ",
         answers : [
@@ -62,13 +62,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },
-    {
-        question : "I enjoy trying to figure out how things work - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false}, 
-        ]
-    },
+    // {
+    //     question : "I enjoy trying to figure out how things work - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false}, 
+    //     ]
+    // },
     {
         question : "I like to analyze things (problems / situations) - ",
         answers : [
@@ -90,13 +90,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },
-    {
-        question : "I am good at working independently - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },
+    // {
+    //     question : "I am good at working independently - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },
     {
         question : "I like to read about art and music - ",
         answers : [
@@ -111,13 +111,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I am a creative person - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I am a creative person - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like to play instruments or sing - ",
         answers : [
@@ -177,13 +177,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I enjoy learning about other cultures - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I enjoy learning about other cultures - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like to get into discussions about issues - ",
         answers : [
@@ -198,20 +198,20 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I am an ambitious person and I set goals for myself - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },      
-    {
-        question : "I like to try to influence or persuade people - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I am an ambitious person and I set goals for myself - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },      
+    // {
+    //     question : "I like to try to influence or persuade people - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like selling things - ",
         answers : [
@@ -219,13 +219,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I am quick to take on new responsibilities - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I am quick to take on new responsibilities - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I would like to start my own business - ",
         answers : [
@@ -247,13 +247,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I like to organize things (files, desks, offices) - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I like to organize things (files, desks, offices) - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like to have clear instructions to follow - ",
         answers : [
@@ -268,13 +268,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I pay attention to details - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I pay attention to details - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I like to do filing or typing - ",
         answers : [
@@ -282,13 +282,13 @@ const ques = [
             {text : "B. NO", correct : false},
         ]
     },    
-    {
-        question : "I am good at keeping records of my work - ",
-        answers : [
-            {text : "A. YES", correct : true},
-            {text : "B. NO", correct : false},
-        ]
-    },    
+    // {
+    //     question : "I am good at keeping records of my work - ",
+    //     answers : [
+    //         {text : "A. YES", correct : true},
+    //         {text : "B. NO", correct : false},
+    //     ]
+    // },    
     {
         question : "I would like to work in an office - ",
         answers : [
@@ -297,6 +297,7 @@ const ques = [
         ]
     },    
 ];
+
 
 var quesele = document.getElementById("ques");
 var answerbtn = document.getElementById("ansopt");
