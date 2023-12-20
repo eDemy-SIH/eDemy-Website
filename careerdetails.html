@@ -491,9 +491,7 @@
                     </div>
                 </div>
                 <div id="upp">
-                    <iframe width="600" height="315" id="mid" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                    </iframe>
-                </div>
+            </div>
             </div>
 
 
@@ -626,15 +624,17 @@
                 // }
                 // createConsList();
 
-                function ytlink() {
+                function ytlink(){
                     var upp = document.getElementById("upp");
                     upp.innerHTML = `                 
-                <iframe width="620" height="315" id="mid"
-                    src="${data.linky}">
-                </iframe> 
-                `
-                }
-                ytlink();
+                    <video width="600" height="315" controls id="mid">
+                        <source src="${data.linky}" type="video/mp4">
+                        <source src="${data.linky}" type="video/ogg">
+                      Your browser does not support the video tag.
+                      </video> 
+                    `;
+                } 
+                 ytlink();
 
                 function createEducationList() {
                     const educationListContainer = document.getElementById('step-info2');
