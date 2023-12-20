@@ -298,7 +298,7 @@
                                     </svg>
                                 </div>
                                 <div class="step-info">
-                                    <h4 class="step-heading margin-xs">Job Description</h4>
+                                    <h4 class="step-heading margin-xs" id="h1">Job Description</h4>
                                     <p id="desc" class="text-light-grey"></p>
                                 </div>
                             </div>
@@ -697,6 +697,138 @@
 
 
         })();
+    </script>
+
+    <script>
+        function changeLanguage1() {
+            location.reload()
+        }
+
+        function changeLanguage(lang) {
+
+            // Your Google Cloud Translation API key
+            const apiKey = 'AIzaSyB47ykDTJPP1QwBzSD_xiK5-BVdt6OZWyc';
+
+            // Elements to translate;
+            const head8 = document.getElementById('title');
+            const head9 = document.getElementById('titledet');
+            const head6_1 = document.getElementById('h1');
+            const head6_2 = document.getElementById('desc');
+            const head6_3 = document.getElementById('qw3_3');
+            const head6_4 = document.getElementById('qw3_4');
+            const head6_5 = document.getElementById('qw3_5');
+            const head6_6 = document.getElementById('qw3_6');
+            const head6a_1 = document.getElementById('qw4_1');
+            const head6a_2 = document.getElementById('qw4_2');
+            const head6a_3 = document.getElementById('qw4_3');
+            const head6a_4 = document.getElementById('qw4_4');
+            const head6a_5 = document.getElementById('qw4_5');
+            const head6a_6 = document.getElementById('qw4_6');
+            const head23_1 = document.getElementById('qw5_1');
+            const head23_2 = document.getElementById('qw5_2');
+            const head23_3 = document.getElementById('qw5_3');
+            const head23_4 = document.getElementById('qw5_4');
+            const head23_5 = document.getElementById('qw5_5');
+            const head23_6 = document.getElementById('qw5_6');
+            const head24_1 = document.getElementById('qw6_1');
+            const head24_2 = document.getElementById('qw6_2');
+            const head24_3 = document.getElementById('qw6_3');
+            const head24_4 = document.getElementById('qw6_4');
+            const head24_5 = document.getElementById('qw6_5');
+            const head24_6 = document.getElementById('qw6_6');
+            const head25_1 = document.getElementById('qw7_1');
+            const head25_2 = document.getElementById('qw7_2');
+            const head25_3 = document.getElementById('qw7_3');
+            const head25_4 = document.getElementById('qw7_4');
+            const head25_5 = document.getElementById('qw7_5');
+            const head25_6 = document.getElementById('qw7_6');
+
+            const head8t = head8.textContent;
+            const head9t = head9.textContent;
+            const head6_1t = head6_1.textContent;
+            const head6_2t = head6_2.textContent;
+            const head6_3t = head6_3.textContent;
+            const head6_4t = head6_4.textContent;
+            const head6_5t = head6_5.textContent;
+            const head6_6t = head6_6.textContent;
+            const head6a_1t = head6a_1.textContent;
+            const head6a_2t = head6a_2.textContent;
+            const head6a_3t = head6a_3.textContent;
+            const head6a_4t = head6a_4.textContent;
+            const head6a_5t = head6a_5.textContent;
+            const head6a_6t = head6a_6.textContent;
+            const head23_1t = head23_1.textContent;
+            const head23_2t = head23_2.textContent;
+            const head23_3t = head23_3.textContent;
+            const head23_4t = head23_4.textContent;
+            const head23_5t = head23_5.textContent;
+            const head23_6t = head23_6.textContent;
+            const head24_1t = head24_1.textContent;
+            const head24_2t = head24_2.textContent;
+            const head24_3t = head24_3.textContent;
+            const head24_4t = head24_4.textContent;
+            const head24_5t = head24_5.textContent;
+            const head24_6t = head24_6.textContent;
+            const head25_1t = head25_1.textContent;
+            const head25_2t = head25_2.textContent;
+            const head25_3t = head25_3.textContent;
+            const head25_4t = head25_4.textContent;
+            const head25_5t = head25_5.textContent;
+            const head25_6t = head25_6.textContent;
+
+            // Make API request
+            fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    q: [head8t, head9t, head6_1t, head6_2t, head6_3t, head6_4t, head6_5t, head6a_1t, head6a_2t, head6a_3t, head6a_4t, head6a_5t, head23_1t, head23_2t, head23_3t, head23_4t, head23_5t, head24_1t, head24_2t, head24_3t, head24_4t, head24_5t, head25_1t, head25_2t, head25_3t, head25_4t, head25_5t,head6_6t,head6a_6t,head23_6t,head24_6t,head25_6t],
+                    target: lang,
+                }),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    // Update content with translated text
+
+                    head8.textContent = data.data.translations[0].translatedText;
+                    head9.textContent = data.data.translations[1].translatedText;
+                    head6_1.textContent = data.data.translations[2].translatedText;
+                    head6_2.textContent = data.data.translations[3].translatedText;
+                    head6_3.textContent = data.data.translations[4].translatedText;
+                    head6_4.textContent = data.data.translations[5].translatedText;
+                    head6_5.textContent = data.data.translations[6].translatedText;
+                    head6a_1.textContent = data.data.translations[7].translatedText;
+                    head6a_2.textContent = data.data.translations[8].translatedText;
+                    head6a_3.textContent = data.data.translations[9].translatedText;
+                    head6a_4.textContent = data.data.translations[10].translatedText;
+                    head6a_5.textContent = data.data.translations[11].translatedText;
+                    head23_1.textContent = data.data.translations[12].translatedText;
+                    head23_2.textContent = data.data.translations[13].translatedText;
+                    head23_3.textContent = data.data.translations[14].translatedText;
+                    head23_4.textContent = data.data.translations[15].translatedText;
+                    head23_5.textContent = data.data.translations[16].translatedText;
+                    head24_1.textContent = data.data.translations[17].translatedText;
+                    head24_2.textContent = data.data.translations[18].translatedText;
+                    head24_3.textContent = data.data.translations[19].translatedText;
+                    head24_4.textContent = data.data.translations[20].translatedText;
+                    head24_5.textContent = data.data.translations[21].translatedText;
+                    head25_1.textContent = data.data.translations[22].translatedText;
+                    head25_2.textContent = data.data.translations[23].translatedText;
+                    head25_3.textContent = data.data.translations[24].translatedText;
+                    head25_4.textContent = data.data.translations[25].translatedText;
+                    head25_5.textContent = data.data.translations[26].translatedText;
+                    head6_6.textContent = data.data.translations[27].translatedText;
+                    head6a_6.textContent = data.data.translations[28].translatedText;
+                    head23_6.textContent = data.data.translations[29].translatedText;
+                    head24_6.textContent = data.data.translations[30].translatedText;
+                    head25_6.textContent = data.data.translations[31].translatedText;
+
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
     </script>
 </body>
 
