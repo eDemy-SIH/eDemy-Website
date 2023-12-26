@@ -12,32 +12,40 @@ var R = ['Artificial Intelligence & Machine Learning', 'Computer Science and Eng
 
 var S = ["Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil Services', 'Doctor', 'Veterinary', 'Professor', 'Nursing', 'Counsellor', 'Special Educator', 'Sociology', 'Home Science', 'Teacher', 'Public Relations', 'Cabin Crew', 'Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management']
 
-var SpremA = ['Artificial Intelligence & Machine Learning','Computer Science and Engineering','Doctor',"Aerospace Engineering","Electronics and Communication Engineering",'Chartered Accountant',"Air Traffic Controller",'Surgeon','International Relations','Orthopaedic','Civil Services']
+// S - numbers good but like to work under somebody but extrovert
+// A - artist , shy , no communication , still want to work independently
+// E - very much talkative , loves to work with team , extrovert, expressive and loves to sell
+// C - good with numbers but likes to work on business than working as a slave in office for 8 hours
+// R - Not Much Technical Don't Like To type things but loves outdoor work sometimes in a team also (K45)(K72)(K76)(Q20)(Q26)(J20)(J35)
+// I - Loves the modern world technique and doesn't fear to tackle new tech and loves to work with teams and for longer hours
+
+
+var SpremA = ['Artificial Intelligence & Machine Learning','Computer Science and Engineering','Doctor',"Aerospace Engineering","Electronics and Communication Engineering",'Chartered Accountant',"Air Traffic Controller",'Surgeon','International Relations','Civil Services']
 
 var disabA = {
-  "hearing" : ["Graphic Designer", "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Digital Marketing', 'Archaeology', 'Home Science'],
+  "hearing" : ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Home Science'],
 
 
-  "visual" : ["Fashion Business Management", "Broadcasting", "Advertisement", "Writer, Editor, Copywriter", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Archaeology', 'Home Science'],
+  "visual" : ["Broadcasting", "Advertisement", "Writer, Editor, Copywriter","Radio Jockey","Language", 'Archaeology', 'Home Science'],
 
 
-  "mobility": ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", "Radio Jockey", "Language", 'Digital Marketing', 'Home Science'],
+  "mobility": ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", "Radio Jockey", "Language",'Home Science'],
 
 
-  "cognitive" : ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Digital Marketing', 'Archaeology', 'Home Science'],
+  "cognitive" : ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Archaeology', 'Home Science'],
 
 
-  "speech" : ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Digital Marketing', 'Archaeology', 'Home Science'],
+  "speech" : ["Graphic Designer", "Fashion Designer", "Interior Designer", "Jewellery Designer", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer",'Archaeology', 'Home Science'],
 }
 
 var disabC = {
-  "hearing" : ['Customs and Excises', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Digital Marketing'],
+  "hearing" : ['Customs and Excises', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service'],
 
 
-  "visual" : ['Chartered Market Technician', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Business Administration', 'Project Management', 'Event Management', 'Entrepreneurship', 'Sales'],
+  "visual" : ['Chartered Market Technician', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Business Administration', 'Project Management', 'Event Management', 'Entrepreneurship', 'Sales','Digital Marketing'],
 
 
-  "mobility": ['Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Project Management', 'Event Management', 'Entrepreneurship','Marketing', 'Digital Marketing'],
+  "mobility": ['Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Project Management', 'Event Management', 'Entrepreneurship'],
 
 
   "cognitive" : ['Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Business Administration', 'Project Management', 'Event Management', 'Entrepreneurship', 'Sales', 'Marketing', 'Digital Marketing'],
@@ -47,34 +55,33 @@ var disabC = {
 }
 
 var disabE = {
-  "hearing" : ['Entrepreneurship', 'Marketing', 'Digital Marketing', 'Customs and Excises', "Fashion Designer", "Interior Designer", "Jewellery Designer", 'Indian Economic System', "Railway Services", 'Teacher', 'Political Science', 'Sports Management'],
+  "hearing" : ['Entrepreneurship', 'Marketing', 'Digital Marketing', 'Customs and Excises', 'Indian Economic System', "Railway Services", 'Teacher', 'Political Science', 'Sports Management'],
 
 
-  "visual" : ['Business Administration', 'Event Management', 'Entrepreneurship', 'Sales', 'Indian Economic System', "Railway Services", 'Teacher', 'Public Relations', 'Political Science', 'Sports Management'],
+  "visual" : ['Business Administration', 'Event Management', 'Entrepreneurship', 'Sales', 'Indian Economic System', 'Teacher', 'Public Relations', 'Political Science', 'Sports Management'],
 
 
-  "mobility": ['Entrepreneurship', 'Marketing', 'Digital Marketing', "Fashion Designer", "Interior Designer", "Jewellery Designer", 'Teacher', 'Public Relations', 'Public Administration', 'Political Science', 'International Relations'],
+  "mobility": ['Entrepreneurship', 'Marketing', 'Digital Marketing','Teacher', 'Public Relations', 'Public Administration', 'Political Science', 'International Relations'],
 
-  "cognitive" : ['Entrepreneurship', "Fashion Designer", "Interior Designer", "Jewellery Designer", 'Political Science', 'International Relations', 'Sports Management'],
+  "cognitive" : ['Entrepreneurship', 'Political Science', 'International Relations', 'Sports Management','Project Management', 'Event Management',],
 
-
-  "speech" : ['Entrepreneurship', 'Marketing', 'Digital Marketing', "Fashion Designer", "Interior Designer", "Jewellery Designer", 'Political Science','Sports Management'],
+  "speech" : ['Entrepreneurship', 'Marketing', 'Digital Marketing','Project Management', 'Event Management','Political Science','Sports Management'],
   
 }
 
 var disabI = {
-  "hearing" : ["Artificial Intelligence & Machine Learning", "Ophthalmology", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Cost Accountant',  'Computer Science and Engineering', 'Surgeon', 'Orthopaedic', 'Geography', 'Doctor', 'Veterinary', "Electrical and Instrumentation Engineering"],
+  "hearing" : ["Artificial Intelligence & Machine Learning", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Cost Accountant',  'Computer Science and Engineering',"Electrical and Instrumentation Engineering"],
 
 
-  "visual" : ["Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "Writer, Editor, Copywriter", 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Geography', 'Doctor', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering"],
+  "visual" : ["Physics Hons.", "Chemistry Hons.", "Writer, Editor, Copywriter", 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Geography', 'Professor',"Electrical and Instrumentation Engineering", "Teacher"],
 
 
-  "mobility": ["Artificial Intelligence & Machine Learning", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Computer Science and Engineering', 'Orthopaedic', 'Geography', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering", "Aircraft Maintenance Engineer"],
+  "mobility": ["Artificial Intelligence & Machine Learning", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Computer Science and Engineering','Professor', "Electrical and Instrumentation Engineering"],
 
-  "cognitive" : ["Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Geography', 'Veterinary'],
+  "cognitive" : ["Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', "Mechanical Engineering","Civil Engineering"],
 
 
-  "speech" : ["Artificial Intelligence & Machine Learning", "Ophthalmology", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Computer Science and Engineering', 'Orthopaedic', 'Geography', 'Doctor', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering", "Aircraft Maintenance Engineer"],
+  "speech" : ["Artificial Intelligence & Machine Learning","Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Computer Science and Engineering','Professor', "Electrical and Instrumentation Engineering", "Aircraft Maintenance Engineer"],
   
 }
 
@@ -95,20 +102,21 @@ var disabR= {
 }
 
 var disabS = {
-  "hearing" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Surgeon', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering", , "Electrical and Instrumentation Engineering", "Aircraft Maintenance Engineer"],
+  "hearing" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Mechanical Engineering", "Civil Engineering",  "Electrical and Instrumentation Engineering",],
 
 
-  "visual" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Surgeon', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering",  "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"],
+  "visual" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering","Mechanical Engineering", "Civil Engineering","Electrical and Instrumentation Engineering"],
 
 
-  "mobility": ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', "Air Traffic Controller", "Aircraft Maintenance Engineer"],
+  "mobility": ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', "Air Traffic Controller", "Aircraft Maintenance Engineer","Electrical Engineering","Electrical and Instrumentation Engineering"],
 
-  "cognitive" : [ 'Geography', "Railway Services", "Air Traffic Controller", "Aircraft Maintenance Engineer"],
+  "cognitive" : [ 'Geography','Civil Services', "Railway Services", "Air Traffic Controller", "Aircraft Maintenance Engineer"],
 
 
   "speech" : ['Artificial Intelligence & Machine Learning', 'Computer Science and Engineering',  'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering", "Railway Services", "Electrical and Instrumentation Engineering"],
   
 }
+
 
 // GET ELEMENTS
 
@@ -130,25 +138,95 @@ let val;
 // SETTING ARRAY ACCORDING TO RISHI'S OUTPUT
 
 if (parseInt(disab) != 1){
-  if (parseInt(disab) == 2){
+  if(parseInt(disab) == 2 && comb == "R"){
+    arr = disabR["hearing"];
+  }
+  if(parseInt(disab) == 2 && comb == "I"){
+    arr = disabI["hearing"];
+  }
+  if(parseInt(disab) == 2 && comb == "A"){
     arr = disabA["hearing"];
-    val = 2;
   }
-  else if (parseInt(disab) == 3){
+  if(parseInt(disab) == 2 && comb == "S"){
+    arr = disabS["hearing"];
+  }
+  if(parseInt(disab) == 2 && comb == "E"){
+    arr = disabE["hearing"];
+  }
+  if(parseInt(disab) == 2 && comb == "C"){
+    arr = disabC["hearing"];
+  }
+  if(parseInt(disab) == 3 && comb == "R"){
+    arr = disabR["visual"];
+  }
+  if(parseInt(disab) == 3 && comb == "I"){
+    arr = disabI["visual"];
+  }
+  if(parseInt(disab) == 3 && comb == "A"){
     arr = disabA["visual"];
-    val = 2;
   }
-  else if (parseInt(disab) == 4){
+  if(parseInt(disab) == 3 && comb == "S"){
+    arr = disabS["visual"];
+  }
+  if(parseInt(disab) == 3 && comb == "E"){
+    arr = disabE["visual"];
+  }
+  if(parseInt(disab) == 3 && comb == "C"){
+    arr = disabC["visual"];
+  }
+  if(parseInt(disab) == 4 && comb == "R"){
+    arr = disabR["mobility"];
+  }
+  if(parseInt(disab) == 4 && comb == "I"){
+    arr = disabI["mobility"];
+  }
+  if(parseInt(disab) == 4 && comb == "A"){
     arr = disabA["mobility"];
-    val = 2;
   }
-  else if (parseInt(disab) == 5){
+  if(parseInt(disab) == 4 && comb == "S"){
+    arr = disabS["mobility"];
+  }
+  if(parseInt(disab) == 4 && comb == "E"){
+    arr = disabE["mobility"];
+  }
+  if(parseInt(disab) == 4 && comb == "C"){
+    arr = disabC["mobility"];
+  }
+  if(parseInt(disab) == 5 && comb == "R"){
+    arr = disabR["cognitive"];
+  }
+  if(parseInt(disab) == 5 && comb == "I"){
+    arr = disabI["cognitive"];
+  }
+  if(parseInt(disab) == 5 && comb == "A"){
     arr = disabA["cognitive"];
-    val = 2;
   }
-  else if (parseInt(disab) == 6){
+  if(parseInt(disab) == 5 && comb == "S"){
+    arr = disabS["cognitive"];
+  }
+  if(parseInt(disab) == 5 && comb == "E"){
+    arr = disabE["cognitive"];
+  }
+  if(parseInt(disab) == 5 && comb == "C"){
+    arr = disabC["cognitive"];
+  }
+  if(parseInt(disab) == 6 && comb == "R"){
+    arr = disabR["speech"];
+  }
+  if(parseInt(disab) == 6 && comb == "I"){
+    arr = disabI["speech"];
+  }
+  if(parseInt(disab) == 6 && comb == "A"){
     arr = disabA["speech"];
-    val = 2;
+  }
+  if(parseInt(disab) == 6 && comb == "S"){
+    arr = disabS["speech"];
+  }
+  if(parseInt(disab) == 6 && comb == "E"){
+    arr = disabE["speech"];
+  }
+  if(parseInt(disab) == 6 && comb == "C"){
+    arr = disabC["speech"];
   }
 }
 

@@ -298,7 +298,6 @@ const ques = [
     },    
 ];
 
-
 var quesele = document.getElementById("ques");
 var answerbtn = document.getElementById("ansopt");
 var nextbt = document.getElementById("next");

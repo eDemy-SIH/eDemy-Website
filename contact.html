@@ -193,9 +193,9 @@
                 <h3 id="head1">Contact Us</h3>
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" id="head12">Home</a>
                     </li>
-                    <li>Contact Us</li>
+                    <li id="head13">Contact Us</li>
                 </ul>
             </div>
         </div>
@@ -352,10 +352,12 @@
         function changeLanguage(lang) {
 
           // Your Google Cloud Translation API key
-          const apiKey = 'AIzaSyB47ykDTJPP1QwBzSD_xiK5-BVdt6OZWyc';
+          const apiKey = 'REPLACE WITH YOUR OWN CLOUD TRANSLATION API KEY';
     
           // Elements to translate;
           const head4 = document.getElementById('head1');
+          const head42 = document.getElementById('head12');
+          const head43 = document.getElementById('head13');
           const head5 = document.getElementById('head2');
           const head6 = document.getElementById('head3');
           const head6a = document.getElementById('head6');
@@ -364,21 +366,14 @@
           const head25 = document.getElementById('head25');
           const head26 = document.getElementById('head26');
           const head27 = document.getElementById('head27');
-          const head28 = document.getElementById('head28');
-          const head29 = document.getElementById('head29');
           const head30 = document.getElementById('head30');
-          const head31 = document.getElementById('head31');
           const head32 = document.getElementById('head32');
-          const head33 = document.getElementById('head33');
-          const head34 = document.getElementById('head34');
-          const head35 = document.getElementById('head35');
-          const head36 = document.getElementById('head36');
-          const head69 = document.getElementById('head69');
-          const head70 = document.getElementById('head70');
     
           // Text to translate
 
           const head4t = head4.textContent;
+          const head42t = head42.textContent;
+          const head43t = head43.textContent;
           const head5t = head5.textContent;
           const head6t = head6.textContent;
           const head6at = head6a.textContent;
@@ -387,17 +382,8 @@
           const head25t = head25.textContent;
           const head26t = head26.textContent;
           const head27t = head27.textContent;
-          const head28t = head28.textContent;
-          const head29t = head29.textContent;
           const head30t = head30.textContent;
-          const head31t = head31.textContent;
           const head32t = head32.textContent;
-          const head33t = head33.textContent;
-          const head34t = head34.textContent;
-          const head35t = head35.textContent;
-          const head36t = head36.textContent;
-          const head69t = head69.textContent;
-          const head70t = head70.textContent;
               
           // Make API request
           fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
@@ -406,7 +392,7 @@
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-              q: [head4t,head5t,head6t,head6at,head23t,head24t,head25t,head26t,head27t,head28t,head29t,head30t,head31t,head32t,head33t,head34t,head35t,head36t,head69t,head70t],
+              q: [head4t,head5t,head6t,head6at,head23t,head24t,head25t,head26t,head27t,head30t,head32t,head43t,head42t],
               target: lang,
             }),
           })
@@ -424,17 +410,10 @@
             head25.textContent = data.data.translations[6].translatedText;
             head26.textContent = data.data.translations[7].translatedText;
             head27.textContent = data.data.translations[8].translatedText;
-            head28.textContent = data.data.translations[9].translatedText;
-            head29.textContent = data.data.translations[10].translatedText;
             head30.textContent = data.data.translations[11].translatedText;
-            head31.textContent = data.data.translations[12].translatedText;
             head32.textContent = data.data.translations[13].translatedText;
-            head33.textContent = data.data.translations[14].translatedText;
-            head34.textContent = data.data.translations[15].translatedText;
-            head35.textContent = data.data.translations[16].translatedText;
-            head36.textContent = data.data.translations[17].translatedText;
-            head69.textContent = data.data.translations[18].translatedText;
-            head70.textContent = data.data.translations[19].translatedText;
+            head42.textContent = data.data.translations[14].translatedText;
+            head43.textContent = data.data.translations[15].translatedText;
           })
           .catch(error => console.error('Error:', error));
         }
