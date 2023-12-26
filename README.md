@@ -96,8 +96,8 @@ This project would not have been possible without the efforts of the following p
 
 - Satyaki Dey &nbsp;[(@SatyakiDey75)](https://github.com/SatyakiDey75)
 - Arunava Dutta &nbsp;[(@ArunavaCoderEm)](https://github.com/ArunavaCoderEm)
-- Priyanshu Dutta &nbsp;[(@subhadeep3902)](https://github.com/priyanshudutta04)
-- Rishi Bhattasali &nbsp;[(@subhadeep3902)](https://github.com/Rishi2403)
+- Priyanshu Dutta &nbsp;[(@priyanshudutta04)](https://github.com/priyanshudutta04)
+- Rishi Bhattasali &nbsp;[(@Rishi2403)](https://github.com/Rishi2403)
 - Sonika Biswas &nbsp;[(@Sonika12Biswas)](https://github.com/Sonika12Biswas)
 
 ## License
