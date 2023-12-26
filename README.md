@@ -89,19 +89,20 @@ git clone https://github.com/eDemy-SIH/eDemy-App.git
 flutter pub get
 flutter run
 ```
-## Repositories used in this project
 
-[eDemy App](https://github.com/eDemy-SIH/eDemy-App) <br>
-[eDemy Website](https://github.com/eDemy-SIH/eDemy-Website) <br>
-[Model Server](https://github.com/eDemy-SIH/Model-Server)<br>
-[Translation API](https://github.com/eDemy-SIH/Translation-API-Server)<br>
-[Openai API](https://github.com/eDemy-SIH/OPENAI-API-Server)
+## Contributions
 
+This project would not have been possible without the efforts of the following people:
 
+- Satyaki Dey &nbsp;[(@SatyakiDey75)](https://github.com/SatyakiDey75)
+- Arunava Dutta &nbsp;[(@ArunavaCoderEm)](https://github.com/ArunavaCoderEm)
+- Priyanshu Dutta &nbsp;[(@subhadeep3902)](https://github.com/priyanshudutta04)
+- Rishi Bhattasali &nbsp;[(@subhadeep3902)](https://github.com/Rishi2403)
+- Sonika Biswas &nbsp;[(@Sonika12Biswas)](https://github.com/Sonika12Biswas)
 
 ## License
 
-[MIT License © eDemy](https://github.com/eDemy-SIH/eDemy-App/blob/main/LICENSE)
+[MIT License © eDemy](https://github.com/eDemy-SIH/eDemy-Website/blob/main/LICENSE)
 
 
 
