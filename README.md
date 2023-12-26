@@ -57,8 +57,6 @@ These subscription packages are designed to cater to varying needs and preferenc
 ![out](https://github.com/eDemy-SIH/eDemy-App/assets/121813676/ce93d024-b2f1-4cc1-be54-49490b2394e6)
 
 
-<img src="https://i.postimg.cc/L5JzVVd3/900e96d6-39c2-4075-8521-8fa5f7023b22.jpg" width="32%"> <img src="https://i.postimg.cc/Wb6Hq2np/aedb5700-55a0-4afc-bc35-a97288f3c301.jpg" width="32%">  <img src="https://i.postimg.cc/1tBQKp0X/6c36a932-95c2-4090-bc7d-fb7b735088df.jpg" width="32%"> 
-
 
 
 
@@ -73,27 +71,6 @@ git clone https://github.com/eDemy-SIH/eDemy-Website.git
 3. Go Live
 
 
-## Building from Source for Application
-
-1. If you don't have Flutter SDK installed, please visit official [Flutter](https://flutter.dev/) site.
-2. Fetch latest source code from master branch.
-
-```
-git clone https://github.com/eDemy-SIH/eDemy-App.git
-```
-
-3. Add a new project in [Firebase Console](https://console.firebase.google.com/) and under Authentication enable Email/Password and Google Sign In
-   
-4. Replace the firebase_options.dart file.
-5. 
-6. Add SHA1 and SHA256 fingerprints under project settings
-
-7. Run the app with Android Studio or VS Code. Or the command line:
-```
-flutter pub get
-flutter run
-```
-
 ## Contributions
 
 This project would not have been possible without the efforts of the following people:
@@ -103,6 +80,12 @@ This project would not have been possible without the efforts of the following p
 - Priyanshu Dutta &nbsp;[(@priyanshudutta04)](https://github.com/priyanshudutta04)
 - Rishi Bhattasali &nbsp;[(@Rishi2403)](https://github.com/Rishi2403)
 - Sonika Biswas &nbsp;[(@Sonika12Biswas)](https://github.com/Sonika12Biswas)
+
+## Repositories used in this project
+
+- [eDemy-Website](https://github.com/eDemy-SIH/eDemy-Website) <br>
+- [eDemy-App](https://github.com/eDemy-SIH/eDemy-App) <br>
+
 
 ## License
 
