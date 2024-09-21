@@ -773,7 +773,7 @@ const generatePDF = async (name) => {
 
   var file = new File(
     [pdfBytes],
-    "eDemy Test Report.pdf",
+    "eDvance Test Report.pdf",
     {
       type: "application/pdf;charset=utf-8",
     }

@@ -1,10 +1,10 @@
-# eDemy - Career Counselling
+# eDvance - Career Counselling
 
 India's Best AI Powered Career Counseling Platform
 
 ## Visit our Website
 
-<a href="https://edemy-32175.vercel.app/" target="_blank" style="text-decoration: none !important;">Click Here</a> to visit our Website.
+<a href="https://eDvance-32175.vercel.app/" target="_blank" style="text-decoration: none !important;">Click Here</a> to visit our Website.
 
 ## How does our software work ?
 
@@ -22,11 +22,11 @@ In our software, we offer several free features, including an AI chat, multiling
 
 We currently offer three subscription packages:
 
-* eDemy Silver Plan: Users receive no counselor session, but they get 30 minutes of counseling and can download 5 reports for ₹399. This plan has a time limit of 1 month.
+* eDvance Silver Plan: Users receive no counselor session, but they get 30 minutes of counseling and can download 5 reports for ₹399. This plan has a time limit of 1 month.
 
-* eDemy Gold Plan: Users receive 1 counselor session of 30 minutes and can download 7 reports for ₹499. This plan has no time limit.
+* eDvance Gold Plan: Users receive 1 counselor session of 30 minutes and can download 7 reports for ₹499. This plan has no time limit.
 
-* eDemy Platinum Plan: Users receive 5 counselor sessions of 30 minutes each and can download 10 reports for ₹999. This plan also has no time limit.
+* eDvance Platinum Plan: Users receive 5 counselor sessions of 30 minutes each and can download 10 reports for ₹999. This plan also has no time limit.
 
 These subscription packages are designed to cater to varying needs and preferences, providing users with a range of options to enhance their experience and receive personalized guidance.
 ## Tech Stack
@@ -65,7 +65,7 @@ These subscription packages are designed to cater to varying needs and preferenc
 2. Fetch latest source code from master branch.
 
 ```
-git clone https://github.com/eDemy-SIH/eDemy-Website.git
+git clone https://github.com/eDvance-SIH/eDvance-Website.git
 ```
 3. Go Live
 
@@ -82,13 +82,13 @@ This project would not have been possible without the efforts of the following p
 
 ## Repositories used in this project
 
-- [eDemy-Website](https://github.com/eDemy-SIH/eDemy-Website) <br>
-- [eDemy-App](https://github.com/eDemy-SIH/eDemy-App) <br>
+- [eDvance-Website](https://github.com/eDvance-SIH/eDvance-Website) <br>
+- [eDvance-App](https://github.com/eDvance-SIH/eDvance-App) <br>
 
 
 ## License
 
-[MIT License © eDemy](https://github.com/eDemy-SIH/eDemy-Website/blob/main/LICENSE)
+[MIT License © eDvance](https://github.com/eDvance-SIH/eDvance-Website/blob/main/LICENSE)
 
 
 
